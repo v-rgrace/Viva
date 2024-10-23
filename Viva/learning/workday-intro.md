@@ -53,7 +53,7 @@ You need the following permissions and scenarios in place to complete the Workda
 - Workday Web Service Endpoint & RaaS reports are available for Viva Learning integration with no inhibition by any network or firewall policies
 
 
-### User mapping: 
+### User mapping
 User mapping between Workday and Viva Learning should exist before configuration.
  
 The default user mapping is determined by the "username" field in Workday user RaaS Report and the UPN alias in the Microsoft Entra (formerly Azure Active Directory) system. For proper mapping or mapping to work, the username field needs an email alias and the UPN should have an email address. 
