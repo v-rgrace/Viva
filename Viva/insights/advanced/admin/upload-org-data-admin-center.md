@@ -14,7 +14,7 @@ audience: Admin
 
 # Upload and maintain data through the Microsoft 365 admin center
 
-Organizational data uploads must now be done in the Microsoft 365 admin center, not the Viva Insights Advanced Analytics app or Analyst Workbench.  
+Organizational data uploads must now be done in the Microsoft 365 admin center, *not* the Viva Insights Advanced Analytics app or Analyst Workbench.  
 
 This new platform centralizes organizational data uploads across all Viva apps, making it easier and faster to re-use your organizational data across multiple Viva apps and Microsoft 365 applications without needing to upload data for each app separately.
 
@@ -30,7 +30,7 @@ This new platform centralizes organizational data uploads across all Viva apps, 
 Global admins must now work with your organization’s data source admin to prepare organizational data using the .csv template in the Microsoft 365 admin center.
 
 1. First, update the template with your organizational data using the attribute name headers as specified in the template. This means that the attribute names in the data file must be prefixed with Microsoft_*attribute-name*, such as Microsoft_*Organization*. Please take note of the expected attribute names to prevent data upload errors.
-2. Follow the Organizational data in Microsoft 365 wizard to complete data upload. Then, you can:
+2. Follow the Organizational data in Microsoft 365 wizard to complete your data upload. Then you can:
     1. View the data upload progress.
     1. Download data validation error logs to help you correct your data if needed.
     1. Check the organizational data import history.
