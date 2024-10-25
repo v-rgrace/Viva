@@ -18,7 +18,6 @@ ms.collection:
   - m365solution-scenario
   - m365solution-spintranet
   - m365initiative-viva-connections  F
-  - Tier1
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:

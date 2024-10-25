@@ -16,7 +16,7 @@ ms.collection:
 - M365initiative-viva
 - m365solution-overview
 - highpri
-- tier1
+- magic-ai-copilot
 search.appverid:
 - MET150
 description: "Use organizational data in the Microsoft Copilot Dashboard"

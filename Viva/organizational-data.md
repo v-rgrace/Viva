@@ -16,7 +16,6 @@ ms.collection:
 - M365initiative-viva
 - m365solution-overview
 - highpri
-- tier1
 search.appverid:
 - MET150
 description: "Import Organizational Data in Microsoft Viva and Microsoft 365"

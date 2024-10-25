@@ -18,7 +18,6 @@ ms.collection:
   - m365initiative-viva-connections
   - intro-get-started
   - highpri
-  - Tier1
 ms.custom: intro-get-started
 search.appverid:
 - SPO160

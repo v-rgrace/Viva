@@ -16,7 +16,6 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-amplify
   - highpri
-  - Tier1
   - essentials-navigation
   - essentials-overview
 ms.localizationpriority: medium
