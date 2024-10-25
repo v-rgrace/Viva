@@ -13,7 +13,6 @@ ms.service: viva-insights
 ms.collection:
   - M365-analytics
   - viva-insights
-  - Tier1
 manager: helayne
 audience: Admin
 ---

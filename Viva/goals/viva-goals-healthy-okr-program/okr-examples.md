@@ -14,7 +14,6 @@ ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
   - highpri
-  - Tier1
   - vg-bestpractice
 search.appverid:
 - MET150
