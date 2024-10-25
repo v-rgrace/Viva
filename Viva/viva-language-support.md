@@ -13,7 +13,6 @@ ms.service: viva-suite
 ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
-  - Tier1
 search.appverid:
 - MET150
 

@@ -10,6 +10,7 @@ keywords: comment summarization, natural language queries
 ms.collection: 
  - m365initiative-viva
  - selfserve
+ - magic-ai-copilot
 search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint

@@ -13,7 +13,6 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-amplify
   - highpri
-  - Tier1
   - essentials-privacy
   - essentials-security
   - essentials-compliance
