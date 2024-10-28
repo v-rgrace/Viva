@@ -1,5 +1,5 @@
 ---
-title: Send Viva Insights data to Viva Glint (public preview)
+title: Send Viva Insights data to Viva Glint 
 description: Viva Glint admins can import behavioral data from Viva Insights to supplement their Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,17 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/28/2024
+ms.date: 11/15/2024
 ---
 
-# Send Viva Insights data into Viva Glint (public preview)
-
-The following procedure requires these roles: 
-- **Microsoft 365 Global Administrator** to consent to share Viva Insights data with Viva Glint. 
-- **Viva Glint Administrator** to set up the integration and add the relevant metrics from Viva Insights.
-
->[!IMPORTANT]
->This feature is currently available to public preview customers only. Features described here are subject to change.
+# Send Viva Insights data into Viva Glint 
 
 Glint customers can import behavioral data from Microsoft Viva Insights to supplement their Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
@@ -32,21 +25,22 @@ Glint customers can import behavioral data from Microsoft Viva Insights to suppl
 -	Filter employee sentiment by ways of working
 -	Control who can access Viva Insights data
 
+The following procedure requires these roles: 
+
+- **Microsoft 365 Global Administrator** to consent to share Viva Insights data with Viva Glint. 
+- **Viva Glint Administrator** to set up the integration and add the relevant metrics from Viva Insights.
+
 To use this integration:
 -	Your organization purchased a Viva Insights tenant
 -	Your organization purchased Premium Viva Insights licenses
-
-Select **Learn more** in the platform to get more information about the integration.
-
-:::image type="content" source="../../media/glint/setup/glintsights-learn-more.png" alt-text="Screenshot of the banner announcing the new Viva Glint and Viva Insights integration.":::
 
 This article discusses how to import survey results – employee-level survey responses, question/item text, question/item labels, categories, survey names, rating scales, and survey closed date – from Viva Glint into Viva Insights. 
 
 ## Integration workflow 
 
-1. The **Microsoft 365 Global Administrator** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
+1. The **Microsoft 365 Global Administrator** consents to share Viva Insights data with Viva Glint. [Learn how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
 
-2. The **Viva Glint Administrator** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
+2. The **Viva Glint Administrator** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more](/viva/glint/setup/insights-to-glint).
 
 ## To resync the data to pick up the Microsoft Entra ID changes: 
 
@@ -68,17 +62,22 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 ## Set up the Viva Insights integration 
 
 1.	From your Glint admin dashboard, select the **Configuration** symbol and then **Viva Insights** from the **Microsoft Viva Integrations** section.
-
-    :::image type="content" source="../../media/glint/setup/glintsights-integration-new.png" alt-text="Screenshot of the card to access the Viva Glint and Viva Insights integration from the admin dashboard.":::
-
 2.	Select the **Set up integration** button in the **Import Viva Insights** data section.
 3.	Review the window that pops up and then select **Get Started.**
 
     :::image type="content" source="../../media/glint/setup/import-insights-popup-window.png" alt-text="Screenshot of the Get Started importing Viva Insights data into Glint window.":::
 
+## Understand confidentiality thresholds for the integration to understand what data can be sent
+
+For both Viva Insights and Viva Glint, the defaults are five (5). For most customers that set up this integration it should work as expected. 
+
+**If you have changed your threshold,** for Glint to receive Insights data and display results , the confidentiality thresholds of both products are considered. We compare the largest threshold set, and that is the threshold enforced when showing any data for a survey. 
+
+**If you have a program that has a confidentiality threshold of less than five and would like to use this integration, reach out to your account team. This may be possible.**
+
 ## Add behavioral attributes from Viva Insights
 
-In Step 1 of 2, decide which behavioral attributes to import into Glint. Attributes are numerically split into four different ranges, defined by Glint. Ranges can be customized after setup. Glint will also respect Viva Insights confidentiality thresholds on Glint reports and dashboards.
+In Step 1 of 2, decide which behavioral attributes to import into Glint. Attributes are numerically split into four different ranges, defined by Glint. Ranges can be customized after setup. Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
 
 1.	Select **Add** next to an attribute to continue. You must select at least one attribute to continue.
 
@@ -94,7 +93,8 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
     :::image type="content" source="../../media/glint/setup/glintsights-added-2.png" alt-text="Screenshot of the Added confirmation." lightbox= "../../media/glint/setup/glintsights-added-2.png":::
 
-5.	Continue adding attributes until you have everything you need. 
+5.	Continue adding attributes until you have everything you need.
+   
 6.	**Select Programs.**
 
       :::image type="content" source="../../media/glint/setup/glintsights-select-programs-2.png" alt-text="Screenshot of the Select Programs button."lightbox= "../../media/glint/setup/glintsights-added-2.png":::
