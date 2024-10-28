@@ -104,7 +104,7 @@ For learning management systems that don't include 3P content providers
 
 **Admin experience**
 
-- Manage multiple connectors for LMS and each 3P content providers.
+- Manage multiple connectors for LMS and each 3P content provider.
 - Manually update the 3P content that is part of learning paths, collections, and other structured learning when the connectors for 3P content are updated, deleted, enabled, or disabled.
 
 **Learning experience**

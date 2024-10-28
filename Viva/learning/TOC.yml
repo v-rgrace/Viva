@@ -51,8 +51,16 @@
               href: sharepoint-faq.md
         - name: Workday
           items:
-            - name: Workday
-              href: workday-integration.md
+            - name: Into to Workday
+              href: workday-intro.md
+            - name: Create an integration system user (ISU)
+              href: workday-create-ISU.md
+            - name: Create RaaS reports 
+              href: workday-create-raas-report.md
+            - name: Generate connection parameters
+              href: workday-generate-connection-parameters.md
+            - name: Configure Workday on Viva Learning 
+              href: workday-configure-on-vl.md
             - name: Workday FAQs
               href: workday-integration-faqs.md
         - name: Cornerstone OnDemand
