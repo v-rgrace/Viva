@@ -118,7 +118,7 @@ Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overvie
 
 ## Next: Enable and set up global navigation
 
-Once you’ve set a communication site as a SharePoint home site, you'll be able to [enable and set up global navigation in the SharePoint app bar](sharepoint-app-bar.md). Global navigation can be set up while you're designing your SharePoint home site but isn't required for Viva Connections. Users accessing Viva Connections on the Teams app can select the organizations logo on the Teams app rail to open the global navigation menu. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home#import-sharepoint-links) of Viva Connections.
+Once you’ve set a communication site as a SharePoint home site, you'll be able to [enable and set up global navigation in the SharePoint app bar](sharepoint-app-bar.md). Global navigation can be set up while you're designing your SharePoint home site but isn't required for Viva Connections. Users accessing Viva Connections on the Teams app can select the organizations logo on the Teams app rail to open the global navigation menu. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Viva Connections.
 
 ## Learn more
 
