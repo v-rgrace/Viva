@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/20/2024
+ms.date: 10/28/2024
 ---
 
 # Review employee data with Viva Glint checklists
@@ -28,6 +28,7 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |File name    |There aren't special characters (like @ or %) in the name.       |
 |File format    |The file is .xlsx (one sheet with no password or formulas) or .csv (comma delimited and UTF-8 encoded).  |
 |File encryption    |If you opt for PGP encryption, the file extension reflects the encryption (for example: filename.csv.pgp).       |
+|File sensitivity label - .xlsx files   |Some Microsoft Excel sensitivity labels cause upload errors. "Confidential" and "Highly Confidential" labels cause an immediate upload error. Change the label to "General" to upload data. [Learn more](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9). |
 
 > [!CAUTION] 
 > Ensure that .csv files are UTF-8 encoded and _**NOT** UTF-8 with BOM encoded_. UTF-8 with BOM encoding results in upload errors.
@@ -43,9 +44,9 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Blank columns and rows  | There aren't any columns or rows with data removed that still show in the file (remove).     |
 |Manager hierarchy fields  | There's a Manager ID field (along with Employee ID) to create a manager hierarchy.     |
 |Hierarchy fields  | There are attributes for each reporting hierarchy (for example: Region, Country, and City).     |
-|Derived attributes | Attributes that Viva Glint derives (Age Group and Tenure) aren't included in the file. [Learn more](https://go.microsoft.com/fwlink/?linkid=2272183).    |
-|Time zone  | Time zone is included as a column in the file. [Learn more](https://go.microsoft.com/fwlink/?linkid=2272525).    |
-|Language codes |  Survey and/or dashboard language columns are included as columns in the file. [Learn more](https://go.microsoft.com/fwlink/?linkid=2272182).    |
+|Derived attributes | Attributes that Viva Glint derives (Age Group and Tenure) aren't included in the file. [Learn more](send-employee-attributes.md#derived-attributes).    |
+|Time zone  | Time zone is included as a column in the file. [Learn more](attribute-fundamentals.md#time-zones).    |
+|Language codes |  Survey and/or dashboard language columns are included as columns in the file. [Learn more](attribute-fundamentals.md#languages).    |
 
 ## Review attribute value level items
 
@@ -61,8 +62,8 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |Inactive employees  | Inactive users are only included if they're 1) termed, 2) on leave, or 3) are needed to complete a manager hierarchy.      |
 |Manager ID  | All users **except the CEO** have a Manager ID value populated.      |
 |Manager ID  | Users don't report to their own employee ID or create reporting loops with other users.     |
-|Time zone  | Time zone values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for correct time zone values.     |
-|Language codes | Survey and/or dashboard language values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/en-us/download/details.aspx?id=105533) for correct language values.      |
+|Time zone  | Time zone values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct time zone values.     |
+|Language codes | Survey and/or dashboard language values are populated correctly for all users. See the [Employee Attribute Template](https://www.microsoft.com/download/details.aspx?id=105533) for correct language values.      |
 |Consistency | Values have a consistent spelling and naming convention. For example, department value of 'Sales,' 'SALES,' and 'sales' all appear as different values in reporting.      |
 
 ## Next step
