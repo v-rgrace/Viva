@@ -44,7 +44,7 @@ This article discusses how to import survey results – employee-level survey re
 
 ## To resync the data to pick up the Microsoft Entra ID changes: 
 
-If you see discrepancies between Glint active users and you Microsoft Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
+If you see discrepancies between Glint active users and you Microsoft Entra IDs in MAC, remedy by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the integration overview page.
 
 - In manage integration: delete all attributes and remove all programs. 
 - Re-add the attributes and program to re-import Viva Insights data for all survey cycles. 
@@ -71,7 +71,7 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 
 For both Viva Insights and Viva Glint, the defaults are five (5). For most customers that set up this integration it should work as expected. 
 
-**If you have changed your threshold,** for Glint to receive Insights data and display results , the confidentiality thresholds of both products are considered. We compare the largest threshold set, and that is the threshold enforced when showing any data for a survey. 
+**If you have changed your threshold,** for Glint to receive Insights data and display results, the confidentiality thresholds of both products are considered. We compare the largest threshold set, and that is the threshold enforced when showing any data for a survey. 
 
 **If you have a program that has a confidentiality threshold of less than five and would like to use this integration, reach out to your account team. This may be possible.**
 
@@ -120,16 +120,16 @@ Add a Viva Insights metric as an employee attribute. Assign roles for the attrib
 
 |Default metric name |Default metric description| Bucket 1|Bucket 2| Bucket 3|Bucket 4|Unit|
 |---------|---------|---------|----|-----|--------|--------|
-|Email hours|Number of hours a person spent sending and receiving emails|0 to less than 3|3 to less than 6|6 to less than 8|8 or more|Hour|
-|Call hours|Number of hours a person spent in scheduled and unscheduled Teams calls with at least one other person, during and outside of working hours|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
-|After-hours collaboration hours|Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
+|Email hours|Number of hours that a person spent sending and receiving emails|0 to less than 3|3 to less than 6|6 to less than 8|8 or more|Hour|
+|Call hours|Number of hours that a person spent in scheduled and unscheduled Teams calls with at least one other person, during and outside of working hours|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
+|After-hours collaboration hours|Number of hours that a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of overlapping times (for example, calls during a meeting), outside of working hours|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
 |Multitasking hours|Number of hours a person spent sending or reading emails or chats during a meeting or Teams call|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
-|Collaboration hours|Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person. These hours are either internal or external. They are determined after deduplication of time due to overlapping activities. 
-|Uninterrupted hours|Sum of block one hour or longer where a person didn't attend a meeting, read or send emails, read or send Teams chats, or initiate or receive Teams calls. In other words, uninterrupted hours is the sum of blocks of time, one hour or longer, for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
+|Collaboration hours|Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person. These hours are either internal or external. They're determined after deduplication of time due to overlapping activities. 
+|Uninterrupted hours|Sum of block one hour or longer where a person didn't attend a meeting, read or send emails, read or send Teams chats, or initiate or receive Teams calls. In other words, uninterrupted hours are the sum of blocks of time, one hour or longer, for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
 |Meeting hours|Number of hours a person spent in meetings with at least one other person, during and outside of working hours.|0 to less than 6| 60 to less than 12|10 to less than 15|15 or more|Hour|
 |Meeting hours with Manager 1:1|Number of meeting hours involving only the person and their manager|0 to less than 0.01|0.01 to less than 0.25|0.25 to less than 0.5|0.5 or more|Hour|
 |Meeting hours with Skip Level Manager|Number of meeting hours a person attended where their manager's manager also attended the meeting|0 to less than 0.01|0.01 to less than 0.5|0.5 to less than 1| 1 or more|Hour|
-|Internal network size|Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks|0 to less than 15|15 to less than 30|30 to less than 45|45 or more|Count|
+|Internal network size|Number of people within the organization with whom a person had a reciprocal interaction in the past four weeks|0 to less than 15|15 to less than 30|30 to less than 45|45 or more|Count|
 
 ## Import data
 
@@ -174,7 +174,7 @@ To add or delete attributes, check or uncheck any roles or filters. Select **Sav
 
 ### Customize attribute ranges
 
-To view numeric data in heatmaps, filters, and more, the data must be placed into ranges. Default ranges are defined by Glint, but you can configure your own range. 
+To view numeric data in heatmaps, filters, and more, the data must be placed into ranges. Glint defines default ranges, but you can configure your own ranges. 
 
 All data ranges are the same across the entire company.
 
@@ -188,7 +188,7 @@ All data ranges are the same across the entire company.
 
 ## Delete an imported attribute
 
-By deleting an attribute, Glint deletes all previously imported attribute data, and this data is not included in future Glint program cycles. Changes may take a few hours to show on Glint reports. Select **Delete** in the window that opens.
+By deleting an attribute, Glint deletes all previously imported attribute data, and this data isn't included in future Glint program cycles. Changes may take a few hours to show on Glint reports. Select **Delete** in the window that opens.
 
 :::image type="content" source="../../media/glint/setup/glintsights-delete-attribute.png" alt-text="Screenshot of a Delete Attribute window.":::
 
