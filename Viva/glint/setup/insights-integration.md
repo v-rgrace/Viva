@@ -40,7 +40,7 @@ This consent screen displays when you begin this integration. **Agree to terms**
 
 :::image type="content" source="../../media/glint/setup/insights-new-authorization.png" alt-text="Screenshot of the authorization agreement." lightbox="../../media/glint/setup/insights-new-authorization.png":::
 
-Data that can be sent:
+**Data that can be sent:**
 
 - Data from recurring or ad-hoc surveys with [confidentiality thresholds](/viva/glint/setup/manage-confidentiality-thresholds) is equal to or above the Viva Glint default of five respondents.
 - Rating item scores, but no comments.
