@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/08/2024
+ms.date: 10/28/2024
 ---
 
 # Send Viva Insights data into Viva Glint (public preview)
@@ -25,9 +25,7 @@ The following procedure requires these roles:
 
 >[!IMPORTANT]
 >This feature is currently available to public preview customers only. Features described here are subject to change.
->
->Also, please be advised of a current limitation in the Glint admin UI: *All* Viva Insights purchased license counts are showing instead of only the applied/deployed license counts.
->
+
 Glint customers can import behavioral data from Microsoft Viva Insights to supplement their Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
 -	Explore employee sentiment relative to behaviors
@@ -183,7 +181,7 @@ All data ranges are the same across the entire company.
 1.	Adjust the range in the **Max** column.
 2.	Select **Save**.
 
-:::image type="content" source="../../media/glint/setup/glintsights-customize-ranges.png" alt-text="Screenshot of the Customize Ranges window.":::
+    :::image type="content" source="../../media/glint/setup/glintsights-customize-ranges.png" alt-text="Screenshot of the Customize Ranges window.":::
 
 > [!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds, in addition to Glint’s threshold. Customizing default ranges may result in ranges with employees less than these thresholds and for this reason, results don’t appear in any reports or filters.
