@@ -66,11 +66,13 @@ To prepare your exported custom access file for import to Advanced Configuration
    > To prevent upload errors, for attributes based on data uploaded to Glint make sure that column labels match your attribute setup exactly.
  
 3. Edit values in the population column. The first population that a user has access to should be changed from a 1 to a 0, with each new population increasing in number.
+   
    |Population value |Becomes...   |
    |:----------|:-----------|
    |1    | 0 |
    |2    | 1 |
    |3    | 2 |
+   
 5. To grant custom access for:
    - **Survey results**:
       - Populate the survey uuid column with the survey programs unique ID that's included in the access export file.
@@ -91,11 +93,11 @@ To prepare your exported custom access file for import to Advanced Configuration
 
 An HR business partner, user@contoso.com, oversees European Sales and Marketing teams for Contoso. To grant this user access to the right cut of data to view survey results, a Viva Glint Admin would fill in an access file with their location attribute Region = Europe and their hierarchy Team Level 1 = Marketing and Sales.
 
-:::image type="content" source="../../media/glint/setup/custom-access-export-survey2.png" alt-text="Screenshot of a custom access export for a user with customized survey results access.":::
+:::image type="content" source="../../media/glint/setup/custom-access-export-survey3.png" alt-text="Screenshot of a custom access export for a user with customized survey results access.":::
 
 To apply the same custom access for creating Focus Areas, update the access type column for this user to "GOAL."
 
-:::image type="content" source="../../media/glint/setup/custom-access-export-focus-area2.png" alt-text="Screenshot of a custom access export for a user with customized focus area access.":::
+:::image type="content" source="../../media/glint/setup/custom-access-export-focus-area3.png" alt-text="Screenshot of a custom access export for a user with customized focus area access.":::
 
 > [!IMPORTANT]
 > Save your edited file as **.csv with a comma separator and UTF-8 encoding**.
