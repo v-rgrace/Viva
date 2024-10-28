@@ -1,5 +1,5 @@
 ---
-title: Integrate Viva Glint and Viva Insights to maximize data insight (public preview)
+title: Integrate Viva Glint and Viva Insights to maximize data insight 
 description: Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into their business to better understand their people’s full work experience. 
 ms.author: v-zachminers
 author: zachminers
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 11/18/2024
 ---
 
-# Integrate Viva Glint and Viva Insights to maximize data insight (preview)
+# Integrate Viva Glint and Viva Insights to maximize data insight 
 
 Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into the rhythm of their business to better understand their people’s full work experience. Integrate your Viva Glint employee survey scores (how employees feel) with your Viva Insights data (how people work) to identify your teams’ opportunities and strengths. 
 
