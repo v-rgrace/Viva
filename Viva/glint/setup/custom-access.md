@@ -43,7 +43,7 @@ The custom data access export includes the following information. Modify or add 
 |Column  |Description   |
 |:----------|:-----------|
 |user email     | Populated with users' email addresses.       |
-|population     | Enter 1 for the first population. Each new population increases in number for each user. |
+|population     | The first population shows as 1. Each new population increases in number for each user. |
 |access type   | <ul><li>The survey uuid of the program that users have customized access for, or</li> <li>"GOAL" when exporting Focus Area access for users.</li> </ul>      |
 |other attributes    | Other columns in the export are based on your organization's attributes and values that are used to grant custom access. To grant new access, add new columns and values. |
 
@@ -65,31 +65,39 @@ To prepare your exported custom access file for import to Advanced Configuration
    > [!NOTE]
    > To prevent upload errors, for attributes based on data uploaded to Glint make sure that column labels match your attribute setup exactly.
  
-3. To grant custom access for:
+3. Edit values in the population column. The first population that a user has access to should be changed from a 1 to a 0, with each new population increasing in number.
+   
+   |Population value |Becomes...   |
+   |:----------|:-----------|
+   |1    | 0 |
+   |2    | 1 |
+   |3    | 2 |
+   
+5. To grant custom access for:
    - **Survey results**:
       - Populate the survey uuid column with the survey programs unique ID that's included in the access export file.
    - **Focus Areas**:
       - Populate the survey uuid column with "GOAL."
    - **Admin permissions**:
       - Populate the survey uuid column with "ADMIN."
-4. To grant custom access to: 
+6. To grant custom access to: 
    - **Another manager's team that exists in current employee data**:
       - Include an attribute column labeled: Manager Level 1 and list the Employee ID of the manager that another user should have access to. The manager levels automatically calculate based on the manager ID added to the Manager Level 1 column.
    - **Another manager's team that doesn't exist in current employee data**:
       - Include columns for all Manager Level fields populated with manager IDs to build the full manager hierarchy path. To get all levels in this past hierarchy path for an old manager team, [export users from the survey cycle](/viva/glint/setup/glint-data-apps#export_users_from_survey_cycle) and copy Manager Level fields and the manager IDs in them.
    - **A level in a non-Manager hierarchy**:
       - Include all levels above the level the user should have access to. Example: To grant access to Location Hierarchy Level 3 = Dublin, include columns for Region, Country, and City.
-5. Save your file in .csv format with a comma separator and UTF-8 encoding.
+7. Save your file in .csv format with a comma separator and UTF-8 encoding.
 
 ### Example
 
 An HR business partner, user@contoso.com, oversees European Sales and Marketing teams for Contoso. To grant this user access to the right cut of data to view survey results, a Viva Glint Admin would fill in an access file with their location attribute Region = Europe and their hierarchy Team Level 1 = Marketing and Sales.
 
-:::image type="content" source="../../media/glint/setup/custom-access-export-survey2.png" alt-text="Screenshot of a custom access export for a user with customized survey results access.":::
+:::image type="content" source="../../media/glint/setup/custom-access-export-survey3.png" alt-text="Screenshot of a custom access export for a user with customized survey results access.":::
 
 To apply the same custom access for creating Focus Areas, update the access type column for this user to "GOAL."
 
-:::image type="content" source="../../media/glint/setup/custom-access-export-focus-area2.png" alt-text="Screenshot of a custom access export for a user with customized focus area access.":::
+:::image type="content" source="../../media/glint/setup/custom-access-export-focus-area3.png" alt-text="Screenshot of a custom access export for a user with customized focus area access.":::
 
 > [!IMPORTANT]
 > Save your edited file as **.csv with a comma separator and UTF-8 encoding**.
