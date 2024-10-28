@@ -48,7 +48,7 @@ For one or multiple survey cycles, export a snapshot of employee data as they we
 
 When a survey closes, Manager Hierarchy information that displays in reporting isn't updated with usual employee data uploads. To update data in reporting, use the Retroactive Pulse Update Data App to apply new values.
 
-If your update doesn't involve Manager Hierarchy, use the [Retroactive Upload](https://go.microsoft.com/fwlink/?linkid=2247341) feature instead.
+If your update doesn't involve Manager Hierarchy, use the [Retroactive Upload](advanced-config-uploads.md) feature instead.
 
 > [!CAUTION]
 > - Do not perform a retroactive update while a Viva Glint survey is live.
@@ -114,7 +114,7 @@ Use these steps when manager reporting lines need to be corrected for a closed s
 1. Confirm Manager Hierarchy changes in your **Dashboard** and **Reports**.
 1. If the user data updates made by the correction file loaded for this update should be reset to current attribute values, load the data exported in Step 1 to the Glint People page.
    1. For example, if Manager corrections apply to survey data in the past, but Manager IDs now different for employees, load data exported in Step 1 to restore current information.
-3. Optionally, [delete the Distribution List](https://go.microsoft.com/fwlink/?linkid=2281078) created to target users for the update.
+3. Optionally, [delete the Distribution List](/viva/glint/setup/set-up-distribution-lists.md#delete-distribution-lists) created to target users for the update.
 
 > [!NOTE]
 > Depending on the number of Manager ID updates and users involved, it may take up to an hour to see changes reflected in reporting.
