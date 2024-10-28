@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/17/2024
+ms.date: 10/28/2024
 ---
 
 # Use Advanced Configuration Uploads
@@ -80,9 +80,14 @@ When a survey closes, employee attributes that display in reporting aren't updat
 ### To perform a Retroactive User Updates upload:
 
 > [!CAUTION]
-> Do not perform a retroactive update while a Viva Glint survey is live.
+> - Do not perform a retroactive update while a Viva Glint survey is live.
+> - Deleted user data can't be retroactively updated.
 
 1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the surveys that need to be updated. [Learn more](glint-data-apps.md).
+
+   > [!NOTE]
+   > Keep this export of original survey cycle data in case any retroactive updates need to be reverted.
+
 1. Prepare an update file with the EXPORT_USERS_FROM_SURVEY_CYCLE file from Step 1.
    1. To preserve special characters and formatting, always open files by [importing data from .csv](https://go.microsoft.com/fwlink/?linkid=2247414) in Microsoft Excel.
    1. Delete all columns except for First Name, Last Name, Email, Employee ID, Status, and the attributes that need to be retroactively updated (for example, Department).
