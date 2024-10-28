@@ -510,6 +510,8 @@ items:
     items:
       - name: Data File Uploads
         items:
+           - name: Handle data file upload warnings and errors
+             href: /viva/troubleshoot/glint/data-file-upload/data-file-upload-warnings-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
            - name: Resolve upload errors related to attributes
              href: /viva/troubleshoot/glint/data-file-upload/fix-upload-attributes-errors?toc=/viva/glint/toc.json&bc=/viva/breadcrumb/toc.json
            - name: Resolve upload errors related to derived attributes
