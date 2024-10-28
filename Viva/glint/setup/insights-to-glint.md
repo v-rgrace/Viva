@@ -181,7 +181,7 @@ All data ranges are the same across the entire company.
 1.	Adjust the range in the **Max** column.
 2.	Select **Save**.
 
-:::image type="content" source="../../media/glint/setup/glintsights-customize-ranges.png" alt-text="Screenshot of the Customize Ranges window.":::
+    :::image type="content" source="../../media/glint/setup/glintsights-customize-ranges.png" alt-text="Screenshot of the Customize Ranges window.":::
 
 > [!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds, in addition to Glint’s threshold. Customizing default ranges may result in ranges with employees less than these thresholds and for this reason, results don’t appear in any reports or filters.
