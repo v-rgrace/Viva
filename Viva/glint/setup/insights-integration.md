@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/09/2024
+ms.date: 10/28/2024
 ---
 
 # Send Viva Glint survey results to Viva Insights (public preview)
@@ -33,11 +33,6 @@ This article discusses how to import survey results – employee-level survey re
 1. The Viva Insights admin sets up a new import in the advanced insights app. 
 1. The Viva Insights admin contacts the Viva Glint admin to share Viva Glint survey data, and the Viva Glint admin selects specific survey programs and sends the data to Viva Insights.
 1. Viva Insights validates and processes the data so it’s ready for use. 
-
->[!IMPORTANT]
->Please be advised of a current limitation in the Glint admin UI: **All** Viva Insights purchased license counts are showing instead of only the applied/deployed license counts. Expect this bug to be fixed by the end of September 2024.  
-
-Counts are in this UI on the Glint admin integration config landing page
 
 ## What data can be sent to Viva Insights?
 
