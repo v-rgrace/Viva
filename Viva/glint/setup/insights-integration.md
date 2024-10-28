@@ -1,5 +1,5 @@
 ---
-title: Send Viva Glint survey results to Viva Insights (public preview)
+title: Send Viva Glint survey results to Viva Insights 
 description: Connect sentiments about how people work with sentiments about how people feel by sending Viva Glint survey feedback to Viva Insights Power BI.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,30 +14,22 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/09/2024
+ms.date: 11/18/2024
 ---
 
-# Send Viva Glint survey results to Viva Insights (public preview)
-
->[!IMPORTANT]
-> This feature is available to public preview customers only. Features described here are subject to change.
+# Send Viva Glint survey results to Viva Insights 
 
 HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel–Glint-along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
 
-*Applies to: Viva Glint admin, Viva Insights admin* 
+*Applies to: Viva Glint administrator, Viva Insights administrator* 
 
-This article discusses how to import survey results – employee-level survey responses, question/item text, question/item labels, categories, survey names, rating scales, and survey closed date – from Viva Glint into Viva Insights. 
+This article discusses how to import survey results – employee-level survey responses, question/item text, question/item labels, categories, survey names, rating scales, and survey closed date – from Glint into Insights. 
 
 ## Workflow 
 
 1. The Viva Insights admin sets up a new import in the advanced insights app. 
-1. The Viva Insights admin contacts the Viva Glint admin to share Viva Glint survey data, and the Viva Glint admin selects specific survey programs and sends the data to Viva Insights.
+1. The Viva Insights admin contacts the Viva Glint admin to share Viva Glint survey data. The Viva Glint admin selects specific survey programs and sends the data to Viva Insights.
 1. Viva Insights validates and processes the data so it’s ready for use. 
-
->[!IMPORTANT]
->Please be advised of a current limitation in the Glint admin UI: **All** Viva Insights purchased license counts are showing instead of only the applied/deployed license counts. Expect this bug to be fixed by the end of September 2024.  
-
-Counts are in this UI on the Glint admin integration config landing page
 
 ## What data can be sent to Viva Insights?
 
