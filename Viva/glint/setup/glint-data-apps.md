@@ -51,7 +51,8 @@ When a survey closes, Manager Hierarchy information that displays in reporting i
 If your update doesn't involve Manager Hierarchy, use the [Retroactive Upload](https://go.microsoft.com/fwlink/?linkid=2247341) feature instead.
 
 > [!CAUTION]
-> Do not perform a retroactive update while a Viva Glint survey is live.
+> - Do not perform a retroactive update while a Viva Glint survey is live.
+> - Deleted user data can't be retroactively updated.
 
 ### To perform a retroactive update to Manager Hierarchy:
 
@@ -59,6 +60,10 @@ Use these steps when manager reporting lines need to be corrected for a closed s
 
 1. Export current employee data from the Glint People page to preserve employees and Manager IDs in their current state. When the retroactive update is complete, you'll reload this data to reset users to their current information.
 1. Export survey cycle data with the EXPORT_USERS_FROM_SURVEY_CYCLE Data App for the survey needs to be updated.
+
+   > [!NOTE]
+   > Keep this export of original survey cycle data in case any retroactive updates need to be reverted.
+      
 1. Prepare an update file with the EXPORT_USERS_FROM_SURVEY_CYCLE file from Step 2.
 
    > [!IMPORTANT]
