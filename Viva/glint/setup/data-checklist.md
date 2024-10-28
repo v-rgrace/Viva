@@ -28,7 +28,7 @@ Confirm that your employee data file, attributes, and attribute values align wit
 |File name    |There aren't special characters (like @ or %) in the name.       |
 |File format    |The file is .xlsx (one sheet with no password or formulas) or .csv (comma delimited and UTF-8 encoded).  |
 |File encryption    |If you opt for PGP encryption, the file extension reflects the encryption (for example: filename.csv.pgp).       |
-|File sensitivity label - .xlsx files   |Some Microsoft Excel sensitivity labels cause upload errors. "Confidential" and "Highly Confidential" labels cause an immediate upload error. Change the label to "General" to upload data. [Learn more](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9). |
+|File sensitivity label - .xlsx files   | "Confidential" and "Highly Confidential" Microsoft Excel sensitivity labels cause an immediate upload error. Change the label to "General" to upload data. [Learn more about applying new sensitivity labels](https://support.microsoft.com/office/apply-sensitivity-labels-to-your-files-and-email-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9). |
 
 > [!CAUTION] 
 > Ensure that .csv files are UTF-8 encoded and _**NOT** UTF-8 with BOM encoded_. UTF-8 with BOM encoding results in upload errors.
