@@ -19,7 +19,7 @@ ms.date: 11/18/2024
 
 # Integrate Viva Glint and Viva Insights to maximize data insight (preview)
 
-Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into the rhythm of their business to better understand their people’s full work experience. Integrating your Viva Glint employee survey scores (how employees feel) with your Viva Insights data (how people work) helps identify your teams’ opportunities and strengths to meet organizational goals. 
+Organizational leaders, HR analysts, and other stakeholders can bring Microsoft Viva Glint and Microsoft Viva Insights together into the rhythm of their business to better understand their people’s full work experience. Integrate your Viva Glint employee survey scores (how employees feel) with your Viva Insights data (how people work) to identify your teams’ opportunities and strengths. 
 
 To send data from Viva Glint surveys to Viva Insights, the survey data must meet [Glint’s confidentiality thresholds](/viva/glint/setup/manage-confidentiality-thresholds). All languages supported by Glint for question labels and question texts are sent to Insights.
 
@@ -29,7 +29,7 @@ To send data from Viva Glint surveys to Viva Insights, the survey data must meet
 
 - **As a leader**, look across teams to see how different behaviors impact engagement levels and different engagement drivers. Use the Glint Heatmap report to see how different Viva Insights metrics- like collaboration hours or network size - impact engagement. See which teams are doing well for engagement and which teams might be struggling. Filter further in the employee comments by specific behaviors to understand what employees are saying about their experience. With this knowledge, work with specific teams in areas to improve productivity.  
 
-- **As an HR analyst**, understand how your recent Viva Glint engagement survey relates to collaboration data from Viva Insights. Use the Glint with Viva Insights PowerBI template to see how engagement scores relate to behavior. Use the Overview tab in the PowerBI template to quickly highlight which behaviors have a strong relationship to different engagement drivers. Explore these relationships by looking at specific Glint survey items and compare them to different behavioral metrics and teams.
+- **As an HR analyst**, understand how your recent Viva Glint engagement survey relates to collaboration data from Viva Insights. Use the Glint with Viva Insights PowerBI template to see how engagement scores relate to behavior. To quickly highlight which behaviors have a strong relationship to different engagement drivers, use the Overview tab in the PowerBI template. Explore these relationships by looking at specific Glint survey items and compare them to different behavioral metrics and teams.
 
 ## Prerequisites to the integration
 
@@ -65,4 +65,4 @@ To ensure that employee records between Viva Glint and Viva Insights are matched
 
 Audience: For HR leadership, HR business partners, people analytics specialists and others who analyze larger groups of employee data in your organization. 
 
-[The Viva Glint + Viva Insights Playbook](https://adoption.microsoft.com/viva/glint/) outlines strategic guidance for combining sentiment and work patterns data and illustrative examples of how these can provide insight value for your organization. Use this playbook to understand how to interpret combined Viva Insights and Viva Glint data to unlock deeper insights into your people's experiences. 
+[The Viva Glint + Viva Insights Playbook](https://adoption.microsoft.com/viva/glint/) outlines strategic guidance for combining sentiment and work patterns data and illustrative examples of how this information provides insight value. Use this playbook to understand how to interpret combined Viva Insights and Viva Glint data to unlock deeper insights into your people's experiences. 
