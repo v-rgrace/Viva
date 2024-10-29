@@ -25,11 +25,6 @@ Glint customers can import behavioral data from Microsoft Viva Insights to suppl
 -	Filter employee sentiment by ways of working
 -	Control who can access Viva Insights data
 
-The following procedure requires these roles: 
-
-- **Microsoft 365 Global Administrator** to consent to share Viva Insights data with Viva Glint. 
-- **Viva Glint Administrator** to set up the integration and add the relevant metrics from Viva Insights.
-
 To use this integration:
 -	Your organization purchased a Viva Insights tenant
 -	Your organization purchased Premium Viva Insights licenses
@@ -44,10 +39,10 @@ This article discusses how to import survey results – employee-level survey re
 
 ## To resync the data to pick up the Microsoft Entra ID changes: 
 
-If you see discrepancies between Glint active users and you Microsoft Entra IDs in MAC, remedy by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the integration overview page.
+If you see discrepancies between Glint active users and your Microsoft Entra IDs in MAC, remedy by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the integration overview page.
 
 - In manage integration: delete all attributes and remove all programs. 
-- Re-add the attributes and program to re-import Viva Insights data for all survey cycles. 
+- Readd the attributes and program to reimport Viva Insights data for all survey cycles. 
 
 In the future, expect this resync to happen automatically.
 
@@ -101,6 +96,9 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
 >[!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
+
+>[!NOTE]
+> When a **new** survey cycle ends, it takes 24-48 hours to receive data from Viva Inights. Expect some delay in the data reflecting in the platform.
 
 ## Viva Insights metrics
 
