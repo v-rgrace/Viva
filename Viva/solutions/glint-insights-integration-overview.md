@@ -74,4 +74,4 @@ Audience: For HR leadership, HR business partners, people analytics specialists 
 
 [The Viva Glint + Viva Insights Playbook](https://adoption.microsoft.com/viva/glint/) outlines strategic guidance for combining sentiment and work patterns data and illustrative examples of how these can provide insight value for your organization. Use this playbook to understand how to interpret combined Viva Insights and Viva Glint data to unlock deeper insights into your people's experiences. Drive meaningful action to support improved employee engagement. **Note: you'll need to scroll down on the Adoption page to view the playbook.**
 
-:::image type="content" source="../../media/glint/setup/adoption-playbook-insights.png" alt-text="Screenshot of the Viva Glint + Viva Insights playbook on the Micrsofot Adoption site.":::
+:::image type="content" source="../../Viva/media/glint/setup/adoption-playbook-insights.png" alt-text="Screenshot of the Viva Glint + Viva Insights playbook on the Microsoft Adoption site.":::
