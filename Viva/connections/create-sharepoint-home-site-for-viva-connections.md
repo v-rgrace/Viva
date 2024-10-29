@@ -39,7 +39,7 @@ Don’t have time to create a SharePoint home site from scratch? Consider using 
 
 The web parts used here pair well with SharePoint home sites, however web parts can be swapped or left out. Decide what is best for your organization and adjust the layout as needed.
 
-The guidance here will help you design the SharePoint home site and customize web parts, but you'll need to provide your own content.
+The guidance here will help you design the SharePoint home site and customize web parts, but you need to provide your own content.
 
 A SharePoint home site needs site navigation that is organized well, highlights popular resources and portals, and is relevant to the entire organization. This design guidance doesn't specifically talk about how to design site navigation. Get more guidance on [how to think about links in SharePoint home site navigation](/sharepoint/information-architecture-models-examples) and [in the global navigation](sharepoint-app-bar.md).
 
@@ -118,7 +118,7 @@ Use the [SharePoint Framework](/sharepoint/dev/spfx/sharepoint-framework-overvie
 
 ## Next: Enable and set up global navigation
 
-Once you’ve set a communication site as a SharePoint home site, you'll be able to [enable and set up global navigation in the SharePoint app bar](sharepoint-app-bar.md). Global navigation can be set up while you're designing your SharePoint home site and is a requirement for Viva Connections. Resources highlighted in the global navigation [will appear in the “Resources” tab in the Viva Connections mobile app](viva-connections-overview.md).
+Once you’ve set a communication site as a SharePoint home site, you'll be able to [enable and set up global navigation in the SharePoint app bar](sharepoint-app-bar.md). Global navigation can be set up while you're designing your SharePoint home site but isn't required for Viva Connections. Users accessing Viva Connections on the Teams app can select the organizations logo on the Teams app rail to open the global navigation menu. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Viva Connections.
 
 ## Learn more
 
