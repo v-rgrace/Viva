@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/23/2024
+ms.date: 10/28/2024
 ---
 
 # Set up Secure File Transfer Protocol (SFTP) in Viva Glint
@@ -25,7 +25,7 @@ Use Microsoft Viva Glint [Secure File Transfer Protocol (SFTP)](sftp-data-automa
 - Specify public IP addresses to connect (optional)
 - Select users that receive data upload notification emails
 - Set up PGP encryption (optional)
-- View credentials to access your SFTP account
+- View credentials and select a port number to access your SFTP account
 
 Your IT team may need to add an IP exception or add hosts and ports to an allowlist to connect to SFTP. [Learn more](allowed-list.md). 
 
@@ -46,7 +46,7 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
 |**SFTP IP Addresses**     |Optional       |<ul><li>**Leave this field blank to allow any account to connect.**</li><li>Specify public IP addresses to limit accounts that can connect.</li><li>Contact your IT team, HR information system (HRIS) vendor, or use [online tools](https://ifconfig.io/) to determine your public IP addresses.</li><li>This field supports subnets, or ranges of IP addresses. Enter ranges (for example: 1.1.1.0/24) rather than individual IP addresses in each field, if needed.</li></ul>     |
 |**Notify People**     |Required       |<ul><li>Search for and add users that should receive file upload notification emails.</li><li>Users must be active and exist in Viva Glint.</li></ul>       |
 |**PGP Encryption**     |Optional       |<ul><li>Switch toggle to **On** to enable file encryption and reveal Glint's public PGP key to encrypt employee data files.</li><li>When this setting is enabled, SFTP accepts files with and without encryption.</li></ul>      |
-|**SFTP Credentials**     |Required       |<ul><li>Use the credentials shown in the platform to connect to SFTP. Allow at least one hour after entering public SSH keys and optional IP addresses before testing your connection.</li><br><br><li>**File Protocol**: _SFTP_</li><li>**Port**: Select 22 or 1122</li> <li>**Host Name**: _Varies based on region (US or EU) and selected port_</li> <li>**Username:** _Company ID_</li> <li>**Password:** _Not applicable, use your private SSH key file_</li></ul>        |
+|**SFTP Credentials**     |Required       |After selecting a port number (22 or 1122), copy credentials shown in the platform to connect to SFTP. Your host name changes based on your region (US or EU) and selected port. Allow at least one hour after entering public SSH keys and optional IP addresses before testing your connection.<br><br><ul><li>**File Protocol**: _SFTP_</li><li>**Port**: Select 22 or 1122</li> <li>**Host Name**: _Varies based on region (US or EU) and selected port. Copy from the platform for the correct host name._</li> <li>**Username:** _Company ID_</li> <li>**Password:** _Not applicable, use your private SSH key file_</li></ul>        |
 
 > [!IMPORTANT]
 > Private IP ranges aren't internet routable and don't allow SFTP connection. Don't include private IP addresses, which fall in these ranges:
