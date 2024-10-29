@@ -51,7 +51,7 @@
               href: sharepoint-faq.md
         - name: Workday
           items:
-            - name: Into to Workday
+            - name: Overview of Workday
               href: workday-intro.md
             - name: Create an integration system user (ISU)
               href: workday-create-ISU.md
