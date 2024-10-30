@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/18/2024
+ms.date: 10/30/2024
 ---
 
 # Use the Manager Concierge dashboard in Viva Glint 
@@ -35,7 +35,7 @@ Step 2 - Interpret results: Using the **View Interpretation Guide**, managers se
 
 Step 3 - Discuss with your team: Using the **Download Presentation Kit** and results from Team Summary or the Reports tab, managers can customize a slide deck to share with their team.  
 
-Step 4 - Commit to next steps: Using **Choose a Focus Area**, managers [choose a Focus Area](https://www.microsoft.com) and then provide communications to drive sustained action. 
+Step 4 - Commit to next steps: Using **Choose a Focus Area**, managers [choose a Focus Area](/viva/glint/people-science/people-science-explains-focus-areas) and then provide communications to drive sustained action. 
 
 ## View Manager Concierge with Team Conversations 
 
