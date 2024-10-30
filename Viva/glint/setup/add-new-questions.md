@@ -103,7 +103,7 @@ Use the ellipses next to a survey item to display the option to edit or delete t
 
 1. Select the **+** button on the Questions page.
 2. Select **Add Section Section** to reveal the corresponding slider window.
-3. Provide a title and descriptive text for the section section in the boxes provided.
+3. Provide a title and descriptive text for the section in the boxes provided.
 4. Select **Save Changes.** Now the Survey Section appears as a row beneath your survey items, with brackets calling it out.
 
 :::image type="content" source="../../media/glint/setup/add-survey-section.png" alt-text="Screenshot of a Survey Section row.":::
@@ -116,7 +116,7 @@ Use the ellipses next to a survey item to display the option to edit or delete t
 
 Use the ellipses next to a survey item to display the option to edit, target a new item directly for this section, or to delete the Survey Section.
 
-:::image type="content" source="../../media/glint/setup/section-add-question.png" alt-text="Screenshot of a the ellipses dropdown menu next to Survey Section.":::
+:::image type="content" source="../../media/glint/setup/section-add-question.png" alt-text="Screenshot of the ellipses dropdown menu next to Survey Section.":::
 
 ##### Target a question for a Survey Section
 
