@@ -43,7 +43,7 @@ The first two steps work as they do in *Manager Concierge without Team Conversat
 
 Step 3 - Once the survey closes, the hyperlink switches from **Download Presentation Kit** to **Launch Team Conversation**. Follow on-screen guidance and [Managers Using Team Conversations](/viva/glint/reports/managers-sharing-team-conversations). This link remains available even after the conversation is marked as complete. The kit can continue to be customized. 
 
-Step 4 - Select **Choose a Focus Area** based on recommendations provided by the platform and insights from team discussion. See [Learn to create a Focus Area report](/viva/glint/setup/focus-areas-managers-creating). 
+Step 4 - Select **Choose a Focus Area** based on recommendations provided by the platform and insights from team discussion. See [Create a Focus Area report](/viva/glint/setup/focus-areas-managers-creating). 
 
 ## View Manager Concierge in Live or Completed cycles 
 
