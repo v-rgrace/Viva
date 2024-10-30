@@ -15,7 +15,7 @@ ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
 ms.custom: CELA-approved
-ms.date: 08/27/2024
+ms.date: 10/30/2024
 ---
 
 # Why Viva Glint surveys are confidential but not anonymous
