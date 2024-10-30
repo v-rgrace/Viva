@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/12/2024
+ms.date: 11/16/2024
 ---
 
 # How managers use Microsoft 365 Copilot in Viva Glint 
