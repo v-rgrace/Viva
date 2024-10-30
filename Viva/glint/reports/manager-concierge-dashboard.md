@@ -35,15 +35,15 @@ Step 2 - Interpret results: Using the **View Interpretation Guide**, managers se
 
 Step 3 - Discuss with your team: Using the **Download Presentation Kit** and results from Team Summary or the Reports tab, managers can customize a slide deck to share with their team.  
 
-Step 4 - Commit to next steps: Using **Choose a Focus Area**, managers [choose a Focus Area](/viva/glint/people-science/people-science-explains-focus-areas) and then provide communications to drive sustained action. 
+Step 4 - Commit to next steps: Use [**Choose a Focus Area**](/viva/glint/setup/focus-areas-managers-creating), and then provide communications to drive sustained action. 
 
 ## View Manager Concierge with Team Conversations 
 
 The first two steps work as they do in *Manager Concierge without Team Conversations.* 
 
-Step 3 - Once the survey closes, the hyperlink switches from **Download Presentation Kit** to **Launch Team Conversation**. Follow on-screen guidance and [Managers Using Team Conversations](https://go.microsoft.com/fwlink/?linkid=2286203). This link remains available even after the conversation is marked as complete. The kit can continue to be customized. 
+Step 3 - Once the survey closes, the hyperlink switches from **Download Presentation Kit** to **Launch Team Conversation**. Follow on-screen guidance and [Managers Using Team Conversations](/viva/glint/reports/managers-sharing-team-conversations). This link remains available even after the conversation is marked as complete. The kit can continue to be customized. 
 
-Step 4 - Select **Choose a Focus Area** based on recommendations provided by the platform and insights from team discussion. For more information, see [Learn to create a Focus Area report](https://go.microsoft.com/fwlink/?linkid=2286833). 
+Step 4 - Select **Choose a Focus Area** based on recommendations provided by the platform and insights from team discussion. See [Learn to create a Focus Area report](/viva/glint/setup/focus-areas-managers-creating). 
 
 ## View Manager Concierge in Live or Completed cycles 
 
