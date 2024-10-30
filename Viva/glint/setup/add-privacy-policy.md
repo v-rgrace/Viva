@@ -15,7 +15,8 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.custom: CELA-approved
+ms.date: 10/30/2024
 ---
 
 # Privacy policies in Microsoft Viva Glint
