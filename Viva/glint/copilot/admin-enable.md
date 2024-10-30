@@ -1,5 +1,5 @@
 ---
-title: Administrator enablement for Microsoft 365 Copilot in Viva Glint (preview)
+title: Administrator enablement for Microsoft 365 Copilot in Viva Glint 
 description: Administrators enable Microsoft 365 Copilot in Viva Glint. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -19,7 +19,7 @@ ms.localizationpriority: high
 ms.date: 09/12/2024
 ---
 
-# Administrator enablement for Microsoft 365 Copilot in Viva Glint (preview)
+# Administrator enablement for Microsoft 365 Copilot in Viva Glint 
 
 Prerequisites to enabling Microsoft 365 Copilot in Viva Glint:
 - You have at least one Recurring or Ad hoc survey administered or closed on the Viva Glint platform
@@ -29,8 +29,8 @@ Admins enable Copilot in Viva Glint. Microsoft privacy policies prohibit Copilot
 
 Assign yourself and others using Copilot in Viva Glint to a new User Role. Create the new User Role with access to the Comments Report enabled. Add that User Role to the survey [**Reporting** page](https://go.microsoft.com/fwlink/?linkid=2285645) in **Program Summary**.
 
->[!IMPORTANT]
->Users without access to the Comment Report can't access Copilot in Viva Glint.
+> [!IMPORTANT]
+> Users without access to the Comment Report can't access Copilot in Viva Glint.
 
 ## Grant Comment Report permission
 
