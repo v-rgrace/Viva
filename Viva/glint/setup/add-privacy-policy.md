@@ -48,7 +48,7 @@ Follow this procedure:
 1. From the admin dashboard, navigate to **General Settings** and then **Company Information**.
 2. Add the link to your company's privacy policy URL in the bar in the **Company Privacy Policy** section.
 
-Your company's privacy policy link will now be embedded on Glint's top navigation menu bar, survey header, and survey introduction page. If you haven't provided a correct link, an error message directs you to enter a valid URL.
+    Your company's privacy policy link will now be embedded on Glint's top navigation menu bar, survey header, and survey introduction page. If you haven't provided a correct link, an error message directs you to enter a valid URL.
 
 ### User access to your organization's privacy policy
 
