@@ -116,14 +116,14 @@ Use the ellipses next to a survey item to display the option to edit or delete t
 
 Use the ellipses next to a survey item to display the option to edit, target a new item directly for this section, or to delete the Survey Section.
 
-:::image type="content" source="../../media/glint/setup/section-add-question.png" alt-text="Screenshot of a the ellipses dropdown menu next to Survey Section.
+:::image type="content" source="../../media/glint/setup/section-add-question.png" alt-text="Screenshot of a the ellipses dropdown menu next to Survey Section.":::
 
 ##### Target a question for a Survey Section
 
 1. Select **Add Question.** The **Question Library** slider panel opens.
 2. **Choose a new item.** In this image, *Culture/5-point scale* is chosen:
 
-:::image type="content" source="../../media/glint/setup/section-question-added.png" alt-text="Screenshot which shows a new item added under a Survey Section.
+:::image type="content" source="../../media/glint/setup/section-question-added.png" alt-text="Screenshot which shows a new item added under a Survey Section.":::
 
 3. The new survey item shows under the Survey Section row.
 
