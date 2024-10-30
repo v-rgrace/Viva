@@ -16,13 +16,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/20/2024
+ms.date: 11/16/2024
 ---
 
-# Introduction to Microsoft 365 Copilot in Viva Glint (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
+# Introduction to Microsoft 365 Copilot in Viva Glint
 
 HR users and leaders of large organizations spend a lot of valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. 
 Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
@@ -51,12 +48,9 @@ Yes! As with all Viva Glint features, we post as soon as new features are availa
 
 ## Languages supported by Microsoft 365 Copilot in Viva Glint
 
-Copilot in Viva Glint comment summarization is available in all 27 languages supported by Microsoft Copilot in Viva. The admin still needs to interact with the program in English.
+Copilot in Viva Glint comment summarization is available in all languages supported by Microsoft Copilot (https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8). The admin still needs to interact with the program in English.
 
 For the best feedback, encourage your employees to leave comments in their native language.
-
-
-[Microsoft 365 Copilot currently supports 27 languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8)
 
 ## How can my organization use Microsoft 365 Copilot in Viva Glint?
 
@@ -111,8 +105,8 @@ Use our best practices to maximize the benefits from Copilot in Viva Glint. Use 
 
 ## More Resources
 
-- [**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
-- [**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)
+- [**Learn how managers can use Copilot in Viva Glint**](/viva/glint/setup/copilot-managers)
+- [**Find answers to technical FAQs**](/viva/glint/setup/copilot-faqs)
 - [**Copilot for Microsoft 365**](https://adoption.microsoft.com/copilot/)
 
 
