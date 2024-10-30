@@ -36,7 +36,9 @@ Always-On surveys provide specific information about a topic, whether it be prog
 - How confident are employees in our new product strategy?
 - What are the most outstanding actions people have seen their colleagues do this month to help improve our company?
 
+## Take action
 
+The actions depend on the type of Always-On survey. The link between employee input to visible actions shows that your company appreciates and uses feedback. Similar to broader, scheduled surveys, it’s recommended to choose one or two action areas which will have the largest area of impact. This sets up the team for success.
 
 
 
