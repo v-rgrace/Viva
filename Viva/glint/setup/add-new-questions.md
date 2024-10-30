@@ -1,5 +1,5 @@
 ---
-title:  Add new survey items, sections, and section breaks to a Viva Glint program
+title:  Add survey items, sections, and section breaks to a Viva Glint program
 description: Viva Glint admins can add rating questions, multiple choice questions, open-ended questions, or section breaks to a prepopulated template or to a blank survey template.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,31 +14,34 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/29/2024
+ms.date: 10/30/2024
 ---
 
-# Add new survey items, sections, and section breaks to a Viva Glint program
+# Add survey items, sections, and section breaks to a Viva Glint program
 
-From the **Questions** page in **Program Summary**, select the **+ symbol** at the lower right side of the window to reveal menu options for adding items to your survey. Choices are shown in the large red box in this image:
+From the **Questions** page in **Program Summary**, select the **+** symbol to reveal menu options for adding items, sections, or section breaks to your survey. 
 
 :::image type="content" source="../../media/glint/setup/add-dropdown-menu.png" alt-text="Screenshot of process to add items to a Glint program.":::
 
- ## Add a new question to your survey
+ ## Add a new item to your survey
 
- There are three (3) types of questions which can be added to a survey:
+> [!NOTE]
+> The phrase "survey item" refers to any question or statement added to a survey for a respondent to answer. 
+
+There are three types of questions which can be added to a survey:
  - Rating
  - Multiple Choice
  - Open-ended
 
-**Setup for all three types of questions is the same.*** After the **+** symbol has been selected and you've selected the type of question to add, a slider window opens.
+Select what item to add, and the slider window opens.
 
 :::image type="content" source="../../media/glint/setup/add-question-from-library.png" alt-text="Screenshot of Question Library slider window.":::
 
-In the **Question Library** slider window, there is the option to select a survey item from the Viva Glint Question Library or to create your own survey item.
+In the **Question Library** window, you can select a survey item from the Glint Question Library or create your own survey item.
 
-### Add a question from the Glint Question Library
+## Add a question from the Glint Question Library
 
-The Viva Glint Question Library has over 400 validated items for you to choose from.
+The Viva Glint Question Library has over 400 validated survey items for you to choose from.
 
 1. Use the **Sources** dropdown menu to filter the question selection to **Custom** or **Viva Glint** questions.
 1. Use the **Type** dropdown menu to filter for Rating, Multiple Choice, or Open-ended questions.
@@ -50,16 +53,14 @@ The Viva Glint Question Library has over 400 validated items for you to choose f
       
    :::image type="content" source="../../media/glint/setup/add-questions-with-filters.png" alt-text="Screenshot of More Filters slider window.":::
    
-1. Select your new item from the new list and then press the **+** symbol. You will see a small "Question Added" banner display on the **Questions** page.
+1. Select your item from the new list and then press the **+** symbol. A "Question Added" banner displays briefly on the **Questions** page.
 
 ### Create a new question
 
 Select the **+ Create** button. A **Create Question** window opens.
    
-:::image type="content" source="../../media/glint/setup/create-own-question.png" alt-text="Screenshot of Create Question slider window.":::
-
->[!CAUTION]
->Your organization may have policies governing appropriate survey questions for employees. Ensure you have consulted any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Viva Glint standard questions are validated and usually come with benchmarks and action plans. 
+> [!CAUTION]
+> Your organization may have policies governing appropriate survey questions for employees. Ensure you have consulted any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Glint standard questions are validated and typically come with benchmarks and action plans. 
 
 For your new item, complete the following fields:
 1. Select a **Language** from languages prepopulated in the dropdown menu
@@ -75,13 +76,32 @@ For your new item, complete the following fields:
 1. Choose a **Suggested Action Template** - Use the dropdown menu to attach this survey item to a previously configured Suggested Action Template to help you manager act on feedback
 1. Select **Save and Add**.
 
-## Differentiate between a *section break* and a *survey section*
+## Differentiate between a section *break* and a survey *section*
 
->[!TIP]
-> - Section break: User scrolls and new items continue to be shown without any header. For surveys that intend to cover more than one topic, give survey takers notice that the topic is switching (for example, from Engagement to Benefits) and add a Section Break.
-> - Survey section: A persistent header with multiple items tied to it, which remains at the top of the screen as the user responds.
+Understand the vocabulary:
+ - **Section break:** User scrolls and new items continue to be shown without any header. For surveys that intend to cover more than one topic, give survey takers notice that the topic is switching (for example, from Engagement to Benefits) and add a Section Break.
+- **Survey section:** A persistent header with multiple items tied to it, which remains at the top of the screen as the user responds.
 
-:::image type="content" source="../../media/glint/setup/section-break.png" alt-text="Screenshot of Add Section Break and Add Survey Section dropdown menu.":::
+### Add a Section Break
+
+1. Select the **+** button on the Questions page.
+2. Select **Add Section Break** to reveal the corresponding slider window.
+3. Provide a title and descriptive text for the section break in the boxes provided.
+4. Select **Save Changes.**
+
+apply...
+
+### Add a Survey Section
+
+1. Select the **+** button on the Questions page.
+2. Select **Add Section Section** to reveal the corresponding slider window.
+3. Provide a title and descriptive text for the section section in the boxes provided.
+4. Select **Save Changes.**
+
+apply.....
+
+
+
 
 
 
