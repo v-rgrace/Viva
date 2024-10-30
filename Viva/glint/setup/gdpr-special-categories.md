@@ -16,7 +16,8 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.custom: CELA-approved
+ms.date: 10/30/2024
 ---
 
 # Security and compliance for data usage
@@ -108,7 +109,7 @@ Some countries require employers to consult with employee representatives or see
 
 ## More resources
 
-- [Privacy policy requirement of every Microsoft Viva Glint program](https://go.microsoft.com/fwlink/?linkid=2238336)
-- [How Viva Glint helps protect confidentiality and privacy](https://go.microsoft.com/fwlink/?linkid=2238614) 
-- [Raw data requests and handling](https://go.microsoft.com/fwlink/?linkid=2230875) 
-- [Why surveys are confidential rather than anonymous](https://go.microsoft.com/fwlink/?linkid=2238615)
+- [Privacy policy requirement of every Microsoft Viva Glint program](/viva/glint/setup/add-privacy-policy)
+- [How Viva Glint helps protect confidentiality and privacy](/viva/glint/setup/viva-glint-survey-privacy) 
+- [Raw data requests and handling](/viva/glint/setup/employee-raw-data-export) 
+- [Why surveys are confidential rather than anonymous](/viva/glint/setup/employee-raw-data-export)
