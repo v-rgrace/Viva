@@ -42,7 +42,7 @@ When several users need customized data access to their Viva Glint Dashboards, u
 1. Save your file in .csv format with a comma separator and UTF-8 encoding.
 1. In the **Advanced Configuration** menu, select **Uploads**.
    1. **Upload Type:** Select **MANAGERS_UPLOAD** from the dropdown list.
-   1. **Apply To:** For the survey and cycle dropdown menus, make no selection. This applies to retroactive uploads only and not to custom access uploads.
+   1. **Apply To:** For the survey and cycle dropdown menus, make no selection. These selections apply to retroactive uploads only and not to custom access uploads.
    2. **Incremental:**
       1. Switch on this toggle to append access to users in your file.
       1. Switch off this toggle to overwrite all access for users in your file. Users not included in the file aren't impacted.
@@ -68,7 +68,7 @@ When several users need customized data access to their Viva Glint Dashboards, u
 
 ## Perform Retroactive User Updates
 
-When a survey closes, employee attributes that display in reporting aren't updated by regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and doesn't touch current employee information.
+When a survey closes, employee attributes that display in reporting don't update with regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and doesn't touch current employee information.
 
 > [!NOTE]
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](glint-data-apps.md).
