@@ -33,11 +33,11 @@ There are three types of questions which can be added to a survey:
  - Multiple Choice
  - Open-ended
 
-Select what item to add, and the slider window opens.
+Select which item to add, and the slider window opens.
 
 :::image type="content" source="../../media/glint/setup/add-question-from-library.png" alt-text="Screenshot of Question Library slider window.":::
 
-In the **Question Library** window, you can select a survey item from the Glint Question Library or create your own survey item.
+In the **Question Library** window, select a survey item from the Glint Question Library or create your own survey item.
 
 ## Add a question from the Glint Question Library
 
@@ -60,7 +60,7 @@ The Viva Glint Question Library has over 400 validated survey items for you to c
 Select the **+ Create** button. A **Create Question** window opens.
    
 > [!CAUTION]
-> Your organization may have policies governing appropriate survey questions for employees. Ensure you have consulted any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Glint standard questions are validated and typically come with benchmarks and action plans. 
+> Your organization may have policies governing appropriate survey items for employees. Ensure you have consulted any such policies before proceeding. Rather than create a new item, search the Question Library for existing questions that could be reused or repurposed. Glint standard questions are validated and typically come with benchmarks and action plans. 
 
 For your new item, complete the following fields:
 1. Select a **Language** from languages prepopulated in the dropdown menu
@@ -79,29 +79,53 @@ For your new item, complete the following fields:
 ## Differentiate between a section *break* and a survey *section*
 
 Understand the vocabulary:
- - **Section break:** User scrolls and new items continue to be shown without any header. For surveys that intend to cover more than one topic, give survey takers notice that the topic is switching (for example, from Engagement to Benefits) and add a Section Break.
-- **Survey section:** A persistent header with multiple items tied to it, which remains at the top of the screen as the user responds.
+ - **Section break:** User scrolls and new items are shown *without any header.* For surveys that cover more than one topic, the appearance of a Section Break gives notice that the topic is switching.
+- **Survey section:** A *persistent header* with multiple items tied to it, which remains at the top of the screen as the user responds.
 
-### Add a Section Break
+### Add a Section Break 
 
 1. Select the **+** button on the Questions page.
 2. Select **Add Section Break** to reveal the corresponding slider window.
 3. Provide a title and descriptive text for the section break in the boxes provided.
-4. Select **Save Changes.**
+4. Select **Save Changes.** Now the Section Break title appears as a row beneath your survey items, with a quotation mark calling it out.
 
-apply...
+:::image type="content" source="../../media/glint/setup/add-section-break.png" alt-text="Screenshot of a Section Break row.":::
+
+5. Move the row by dragging it into place where you want it to alert survey takers of a new section.
+
+:::image type="content" source="../../media/glint/setup/section-break-moved.png" alt-text="Screenshot of a Section Break row moved between chosen survey item sections.":::
+
+#### More actions for Section Breaks
+
+Use the ellipses next to a survey item to display the option to edit or delete the Section Break.
 
 ### Add a Survey Section
 
 1. Select the **+** button on the Questions page.
 2. Select **Add Section Section** to reveal the corresponding slider window.
 3. Provide a title and descriptive text for the section section in the boxes provided.
-4. Select **Save Changes.**
+4. Select **Save Changes.** Now the Survey Section appears as a row beneath your survey items, with brackets calling it out.
 
-apply.....
+:::image type="content" source="../../media/glint/setup/add-survey-section.png" alt-text="Screenshot of a Survey Section row.":::
 
+5. Move the row by dragging it into place where you want it to display for survey takers.
 
+:::image type="content" source="../../media/glint/setup/section-moved.png" alt-text="Screenshot of a Survey Section row moved before chosen survey item sections.":::
 
+#### More actions for Survey Sections
+
+Use the ellipses next to a survey item to display the option to edit, target a new item directly for this section, or to delete the Survey Section.
+
+:::image type="content" source="../../media/glint/setup/section-add-question.png" alt-text="Screenshot of a the ellipses dropdown menu next to Survey Section.
+
+##### Target a question for a Survey Section
+
+1. Select **Add Question.** The **Question Library** slider panel opens.
+2. **Choose a new item.** In this image, *Culture/5-point scale* is chosen:
+
+:::image type="content" source="../../media/glint/setup/section-question-added.png" alt-text="Screenshot which shows a new item added under a Survey Section.
+
+3. The new survey item shows under the Survey Section row.
 
 
 
