@@ -3,7 +3,7 @@ title: Use Advanced Configuration Uploads
 description: For highly trained users, Microsoft Viva Glint the Advanced Configuration Uploads option allows you to perform custom data access uploads for users in bulk and complex data updates.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: advanced configuration, uploads, retroactive update, bulk custom access
@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/28/2024
+ms.date: 10/29/2024
 ---
 
 # Use Advanced Configuration Uploads
@@ -41,10 +41,12 @@ When several users need customized data access to their Viva Glint Dashboards, u
 1. Prepare a file using the [custom data access export in User Roles](custom-access.md).
 1. Save your file in .csv format with a comma separator and UTF-8 encoding.
 1. In the **Advanced Configuration** menu, select **Uploads**.
-1. In the **Choose job type** dropdown list, select **MANAGERS_UPLOAD**.
-1. **Incremental:**
-   1. Switch on this toggle to append access to users in your file.
-   1. Switch off this toggle to overwrite all access for users in your file. Users not included in the file aren't impacted.
+   1. **Upload Type:** Select **MANAGERS_UPLOAD** from the dropdown list.
+   1. **Apply To:** For the survey and cycle dropdown menus, make no selection. These selections apply to retroactive uploads only and not to custom access uploads.
+   2. **Incremental:**
+      1. Switch on this toggle to append access to users in your file.
+      1. Switch off this toggle to overwrite all access for users in your file. Users not included in the file aren't impacted.
+   2. **Use exact case from the file for the First/Last name:** Ignore, this setting doesn't apply to custom access uploads.
 1. Drag and drop your .csv file or browse to choose it in the **Drag and drop to upload** section.
 1. In the **Upload Job Details** page that appears, confirm that the **Uploaded Lines Summary** matches the changes in your uploaded file.
 1. Select **Apply Upload to Database** to upload new values to and kick off a process to refresh reporting data.
@@ -66,7 +68,7 @@ When several users need customized data access to their Viva Glint Dashboards, u
 
 ## Perform Retroactive User Updates
 
-When a survey closes, employee attributes that display in reporting aren't updated by regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and doesn't touch current employee information.
+When a survey closes, employee attributes that display in reporting don't update with regular employee data uploads. To update data in reporting in a closed survey, use the Retroactive User Updates option to apply new values. This option applies new data to past versions of user data and doesn't touch current employee information.
 
 > [!NOTE]
 > To retroactively update a Manager Hierarchy, always use the RETROACTIVE_PULSE_UPDATE Data App and not the Retroactive User Updates option. [Learn more](glint-data-apps.md).
