@@ -77,8 +77,8 @@ Team action depends on the type of Always-On survey. The link between employee i
 3. Select **+ New Program.**
 4. Select the **Blank Always-On template card.** Select **Create Program.**
 
-:::image type="content" source="../../media/glint/setup/always-on-card.png" alt-text="Screenshot of the Always-On Feedback template card.":::
+:::image type="content" source="../../media/glint/setup/always-on-card-2.png" alt-text="Screenshot of the Always-On Feedback template card.":::
 
-5. Now follow the steps to set up the five pages within [**Program Summary**](/viva/glint/setup/program-summary-overview).
+5. Now title your survey and follow the steps to set up the five pages within [**Program Summary**](/viva/glint/setup/program-summary-overview).
 
-
+:::image type="content" source="../../media/glint/setup/always-on-setup.png" alt-text="Screenshot of the Always-On survey setup in Program Summary." lightbox="../../media/glint/setup/always-on-setup.png":::
