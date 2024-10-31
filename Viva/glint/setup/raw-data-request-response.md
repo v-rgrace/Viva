@@ -1,6 +1,6 @@
 ---
 title: Responding to Data Subject Requests (DSRs) in Microsoft Viva Glint
-description: 
+description: Viva Glint admins can use in-product admin functionality to respond to DSRs from Viva Glint survey participants.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -22,7 +22,7 @@ ms.date: 10/31/2024
 
 # Responding to Data Subject Requests (DSRs) in Microsoft Viva Glint
 
-Viva Glint admins, designated by your Microsoft 365 Global Admin, can use in-product admin functionality to respond to DSRs from Viva Glint survey participants. Read more about DSRs.
+Viva Glint admins, designated by your Microsoft 365 Global Admin, can use in-product admin functionality to respond to DSRs from Viva Glint survey participants. [Read more about DSRs](https://learn.microsoft.com/viva/glint/setup/gdpr-special-categories).
 
 > [!NOTE]
 > Raw survey response export doesn't need to be enabled to fulfill DSRs. Admins can send a survey taker’s raw survey responses directly to the survey taker without accessing or viewing this data.
