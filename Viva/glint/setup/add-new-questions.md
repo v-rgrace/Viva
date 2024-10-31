@@ -110,7 +110,7 @@ Use the ellipses next to a survey item to display the option to edit or delete t
 
 5. Move the row by dragging it into place where you want it to display for survey takers.
 
-:::image type="content" source="../../media/glint/setup/section-moved-2.png" alt-text="Screenshot of a Survey Section row moved before chosen survey item sections.":::
+:::image type="content" source="../../media/glint/setup/section-break-moved-2.png" alt-text="Screenshot of a Survey Section row moved before chosen survey item sections.":::
 
 #### More actions for Survey Sections
 
