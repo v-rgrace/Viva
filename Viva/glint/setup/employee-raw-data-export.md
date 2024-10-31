@@ -26,13 +26,6 @@ In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey re
 > [!NOTE]
 > "Raw survey responses export" can also be referred to as "Raw data export."
 
-## Acting on Data Subject Requests (DSRs) from data subjects 
-
-Viva Glint admins, who are assigned by your Microsoft 365 Global admin, are in control of your organization’s data. This role – Data Controller – can act on Data Subject Rights requests from Viva Glint survey takers. [Read more about DSR obligations.](/../../viva/glint/setup/gdpr-special-categories)
-
->[!NOTE]
-> Raw survey response export doesn't need to be enabled to fulfill these requests. Admins can send raw survey responses directly to the survey taker without gaining access and viewing this data.
-
 ## Does enabling raw survey response export make survey takers identifiable in reporting?
 
 Export of raw survey responses is only available to your organization through admin controls. Viva Glint admins should consult with their privacy, HR, and legal teams. 
