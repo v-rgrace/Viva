@@ -19,10 +19,10 @@ items:
             href: setup/privacy-360-feedback.md
       - name: Raw data export
         href: setup/employee-raw-data-export.md
-           - name: Extreme circumstances
-             href: setup/raw-data-extreme-circumstances.md
-           - name: Responding to Data Subject Requests (DSRs)
-             href: setup/raw-data-request-response.md
+          - name: Extreme circumstances
+            href: setup/raw-data-extreme-circumstances.md
+          - name: Responding to Data Subject Requests (DSRs)
+            href: setup/raw-data-request-response.md
   - name: Connect and learn
     items:   
       - name: Viva Glint resources
