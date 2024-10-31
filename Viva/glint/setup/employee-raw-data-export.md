@@ -125,7 +125,7 @@ The fields included in your Viva Glint raw survey response exports vary based on
 |ItemText3  |Full text of survey item. |Numeric response value.|
 
 >[!NOTE]
-> - The export option is only be available to admins.
+> - The export option is only available to admins.
 > -	The export option is only enabled for a survey cycle if the raw survey response export was enabled for the selected survey program before the survey went live.
 
 >[!CAUTION]
