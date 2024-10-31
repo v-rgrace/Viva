@@ -1,6 +1,6 @@
 ---
 title: Request identification of a Microsoft Viva Glint survey taker in Extreme Circumstances
-description: 
+description: If your organization determines that Extreme Circumstances exist, you can identify a survey taker even if export of raw survey responses has been disabled.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
