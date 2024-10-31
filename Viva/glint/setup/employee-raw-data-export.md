@@ -80,26 +80,29 @@ By default export of raw survey responses is enabled for each new Viva Glint sur
 
 ## Export raw survey responses
 
-If export is enabled for a survey program, you can export raw survey response by using the following procedure.
-Export raw survey responses for Recurring and Ad Hoc surveys
-1.	Go to Configuration and select Survey Programs.
-2.	Select your survey program and go to the Completed cycles tab.
-3.	On the row with the appropriate cycle, select the ellipses (three dots) and then Export Raw Survey Responses.
+If export is enabled for a survey program, you can export raw survey response by using the following procedures:
+
+### Export raw survey responses for Recurring and Ad Hoc surveys
+
+1.	Go to the **Configuration** page and select **Survey Programs.**
+2.	Select your survey program and go to the **Completed cycles** tab.
+3.	On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
 4.	In the export pane that appears:
-a.	Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
-b.	Select attributes that you want to include in the Attributes section.
-c.	After making all selections, select Export.
-5.	Your .csv file downloads to your device. Larger files can take more time to generate; you receive an email when your file is ready to download.
-Export raw survey responses for Lifecycle and Always-On surveys
-1.	Go to Configuration and select Survey Programs.
-2.	Select your survey program and then the Actions menu.
-3.	Choose Export Raw Survey Responses.
-4.	In the export pane:
-a.	Select a Start Date and End Date in the Date Range section.
-b.	Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
-c.	Select attributes that you want to include in the Attributes section.
-d.	After you make all selections, select Export.
-5.	The .csv file downloads to your device. Larger files can take more time to generate; you will receive an email when your file is ready to download.
+- Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
+- Select attributes to include.
+- After making all selections, select **Export.**
+5.	Your .csv file downloads to your device. Larger files can take more time to generate. You receive an email when your file is ready to download.
+
+### Export raw survey responses for Lifecycle and Always-On surveys
+
+1.	Go to the **Configuration** page and select **Survey Programs.**
+2.	Select your survey program and then the **Actions** menu.
+3.	Choose **Export Raw Survey Responses.** In the export pane:
+- Select a Start Date and End Date in the Date Range section.
+- Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
+- Select attributes to include.
+- After you make all selections, select **Export.**
+5.	The .csv file downloads to your device. Larger files can take more time to generate. You receive an email when your file is ready to download.
 
 ## Raw survey response file layout
 
