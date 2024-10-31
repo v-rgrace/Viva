@@ -37,7 +37,7 @@ Your organization is solely responsible for determining whether Extreme Circumst
 
 To request disclosure in Extreme Circumstances, the Viva Glint Admin must submit a support ticket through the Microsoft 365 Admin Center, including “extreme circumstance” as a subject. For detailed instructions on submitting a support ticket, see [Get support for Viva Glint](/viva/troubleshoot/glint/contact-support/get-support-viva-glint).
 
-When a support agent reveives the ticket, they acknowledge the request and request customer attestation that Extreme Circumstances exist. 
+When a support agent receives the ticket, they acknowledge the request and request customer attestation that Extreme Circumstances exist. 
 
 In order for the support agent to fulfill the request, provide the following information:
 - Customer UUID
