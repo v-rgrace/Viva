@@ -1,6 +1,6 @@
 ---
 title: Request identification of a Microsoft Viva Glint survey taker in Extreme Circumstances
-description: If your organization determines that Extreme Circumstances exist, you can identify a survey taker even if export of raw survey responses has been disabled.
+description: If your organization determines that Extreme Circumstances exist, you can identify a survey taker even if export of raw survey responses is disabled.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -31,7 +31,7 @@ Extreme Circumstances exist if your organization determines that disclosure of a
 - situations involving potential threats to the physical safety of a person
 - to otherwise comply with the law
 
-Your organization is solely responsible for determining whether Extreme Circumstances exist. Microsoft does not independently evaluate Extreme Circumstances disclosure requests. If your organization attests that Extreme Circumstances exist, Microsoft will provide the requested identity of the survey taker.
+Your organization is solely responsible for determining whether Extreme Circumstances exist. Microsoft does not independently evaluate Extreme Circumstances disclosure requests. If your organization attests that Extreme Circumstances exist, Microsoft provides the requested identity of the survey taker.
 
 ## How to request identity disclosure in Extreme Circumstances 
 
