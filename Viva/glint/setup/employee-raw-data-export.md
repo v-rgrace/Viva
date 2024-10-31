@@ -29,7 +29,7 @@ In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey re
 
 ## Who has access to raw survey responses?
 
-By default, Viva Glint’s in-product reporting does not include raw survey responses and is reported in the aggregate. However, your organization may choose to make some surveys “identifiable,” meaning survey responses are directly linked to the survey taker. If a survey is identifiable, survey takers are informed before taking the survey. Learn more about (Viva Glint confidentiality and reporting)[viva-glint-survey-privacy.md).
+By default, Viva Glint’s in-product reporting does not include raw survey responses and is reported in the aggregate. However, your organization may choose to make some surveys “identifiable,” meaning survey responses are directly linked to the survey taker. If a survey is identifiable, survey takers are informed before taking the survey. Learn more about [Viva Glint confidentiality and reporting](viva-glint-survey-privacy.md).
 
 While raw survey responses are not included in Viva Glint default reporting, Viva Glint Admins can export them unless export is disabled. Even when export of raw survey responses has been disabled, your organization may still access raw survey responses if it determines that certain Extreme Circumstance exist. Learn more about the [Extreme Circumstances exception](#exception-for-extreme-circumstances).
 
