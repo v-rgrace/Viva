@@ -22,8 +22,6 @@ ms.date: 10/31/2024
 
 # Access Viva Glint raw survey responses
 
-## What are raw survey responses?
-
 In Microsoft Viva Glint, "raw survey responses" refers to unaggregated survey responses that are directly tied to a survey taker. 
 > [!NOTE]
 > "Raw survey responses export" can also be referred to as "Raw data export."
