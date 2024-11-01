@@ -27,6 +27,9 @@ Academies are set up and managed on the admin tab in Viva Learning under **Manag
 
 Creating and editing academies involves managing featured sets and learning paths. 
 
+>[!NOTE]
+> Do you have Microsoft 365 Copilot? Check out the [Microsoft Copilot Academy](academy-copilot.md) to learn how to help your users learn and use Microsoft 365 Copilot.
+
 ## Prerequisites 
 
 You need a **premium license** for Viva Learning or Viva Suite to create and manage academies.
@@ -107,31 +110,4 @@ Configure the academy by selecting the featured set and learning paths.
    ![Image of an academy after it has been enabled](/viva/media/learning/academy-6.png)
 
 2. Select the **Copy Academy** link icon next to **Enable Academy** to copy and share the Academy deep link url.
-
-
-## Microsoft Copilot Academy 
-
-Microsoft Copilot Academy helps develop user skills associated with Copilot usage. This experience provides structured educational content within Viva Learning to help users learn about, discover, and use Copilot effectively.  
-
-### Prerequisites for Microsoft Copilot Academy
-
-Users need a Microsoft 365 Copilot license to access Microsoft Copilot Academy:
-
-### Configure Microsoft Copilot Academy
-
-Microsoft Copilot Academy is enabled by default and discoverable on the **Academies** menu for users with a Microsoft 365 Copilot license.  
-
-Admins can disable Microsoft Copilot Academy on the **Admin** tab in Viva Learning under the **Manage academies** section. 
-
-#### Language support 
-
-Microsoft Copilot Academy is currently only supported in English with a planned expansion to other languages. 
-
-### Create your own custom academy
-
-You can create a new Academy tailored to your needs by using learning objects from the Copilot Academy. This approach allows you to maintain the essence of the Copilot Academy while also incorporating your organization's unique requirements. Here’s how: 
-
-- **Create learning paths**: Start by creating learning paths that mirror the learning paths available in the Copilot Academy. This step forms the foundation of your custom academy. 
-
-- **Add to your new academy**: Once your learning paths are set, you can seamlessly integrate them into your new academy for a personalized learning experience. 
 
