@@ -67,4 +67,4 @@ You can use the learning objects in the Copilot Academy to create a new academy 
 Start by creating learning paths that mirror the ones available in the Copilot Academy. This step forms the foundation of your custom academy.
 
 > [!NOTE]
-> Users need a Viva Learning premium license to create an academy or a learning path.
+> Your users need a Viva Learning premium license to view a custom academy. You also need a premium license to create a custom academy or a learning path.
