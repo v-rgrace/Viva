@@ -21,14 +21,14 @@ description: A guide to creating and managing academies within Viva Learning.
 
 Use Viva Learning academy to curate pages for selected learners to develop business-critical capabilities through a facilitated learning experience. 
 
-The academy goes beyond technical and functional skills and focuses on the business capabilities a company needs to thrive. You can curate an academy by using a group of Learning paths focused on specific learning objectives. 
+The academy goes beyond technical and functional skills and focuses on the business capabilities a company needs to thrive. You can curate an academy by using a group of learning paths focused on specific learning objectives. 
 
 Academies are set up and managed on the admin tab in Viva Learning under **Manage Academies**. 
 
 Creating and editing academies involves managing featured sets and learning paths. 
 
 >[!NOTE]
-> Do you have Microsoft 365 Copilot? Check out the [Microsoft Copilot Academy](academy-copilot.md) to learn how to help your users learn and use Microsoft 365 Copilot.
+> Do you have Microsoft 365 Copilot? Check out [Microsoft Copilot Academy](academy-copilot.md) to learn how to help your users learn and use Microsoft 365 Copilot.
 
 ## Prerequisites 
 
