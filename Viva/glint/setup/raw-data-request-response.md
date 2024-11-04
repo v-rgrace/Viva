@@ -78,6 +78,4 @@ As a Viva Glint Admin, you can update employees' current data or past data tied 
 - To update **current employee data**, [choose an approved upload method](choose-upload-method.md) to transfer updated data to Glint.
 - To update **past employee data tied to a closed survey cycle**:
   - Use the [Retroactive User Updates upload option](advanced-config-uploads.md#perform-retroactive-user-updates) for non-manager hierarchy information.
-  - Use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md#retroactive-pulse-update) to correct manager hierarchy information.
-
-
+  - Use the [RETROACTIVE_PULSE_UPDATE Data App](glint-data-apps.md#retroactive_pulse_update) to correct manager hierarchy information.
