@@ -16,13 +16,11 @@ audience: Admin
 
 # View and customize your general settings
 
-*Applies to: Insights Administrator, Insights Analyst*
-
 There are a few **General settings** you can configure to customize your Viva Insights experience.
 
 You can access them in the [advanced insights app](https://analysis.insights.cloud.microsoft/). On the left, under **Settings**, select **General**.  
 
-### Analyst notification emails 
+## Analyst notification emails 
 
 *Applies to: Insights Analyst*
 
@@ -43,12 +41,3 @@ The analyst query notification email is on by default. To unsubscribe:
 4. Select **Save**. You can also access these preferences by selecting **Unsubscribe** at the bottom of the email.
 
 [Learn more about how to set up custom queries](../../advanced/analyst/person-query-overview.md).
-
-### Admin digest email
-
->[!Important]
->We've paused the digest email, which is typically sent twice a month. All the content from digest emails is still available within the [Viva Insights app in Teams or on the web.](https://support.microsoft.com/topic/viva-insights-app-in-teams-and-on-the-web-f07f80a1-177d-4541-9185-31493b74fc0f) You can continue to explore and analyze your data insights seamlessly. To learn more about this change, refer to the [Digest email pause.](/Viva/insights/personal/reference/digest-pause).
- 
-*Applies to: Insights admin*
-
-Here, you can subscribe or unsubscribe to the emails that help you stay on top of your organization’s collaboration activities.
