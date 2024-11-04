@@ -43,8 +43,6 @@ Admins can configure the Export Raw Survey Responses control at any time during 
 - If your organization leaves Viva Glint, you aren't able to take these raw survey responses with you.
 - You aren't able to (and Microsoft isn't able to facilitate) transfer of these raw survey responses to a third party, such as an alternative survey platform or data analytics consultant.  
 
-
-
 ## Exception for Extreme Circumstances
 
 Even if you have disabled export of raw survey responses, you can still identify a survey taker if your organization determines that Extreme Circumstances exist. 
@@ -96,21 +94,22 @@ If export is enabled for a survey program, you can export raw survey response by
 1.	Go to the **Configuration** page and select **Survey Programs.**
 2.	Select your survey program and go to the **Completed cycles** tab.
 3.	On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
-4.	In the export pane that appears:
-- Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
-- Select attributes to include.
-- After making all selections, select **Export.**
+1. In the export pane that appears:
+   1. Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
+   1. Select attributes to include.
+   2. After making all selections, select **Export.**
 5.	Your .csv file downloads to your device. Larger files can take more time to generate. You receive an email when your file is ready to download.
 
 ### Export raw survey responses for Employee Lifecycle and Always-On surveys
 
 1.	Go to the **Configuration** page and select **Survey Programs.**
 2.	Select your survey program and then the **Actions** menu.
-3.	Choose **Export Raw Survey Responses.** In the export pane:
-- Select a Start Date and End Date in the Date Range section.
-- Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
-- Select attributes to include.
-- After you make all selections, select **Export.**
+3.	Choose **Export Raw Survey Responses.**
+1. In the export pane that appears:
+   1. Select a Start Date and End Date in the Date Range section.
+   2. Choose whether to include Comments, Survey Sent Date, and Use question's description instead of UUID in the Export Options section.
+   1. Select attributes to include.
+   2. After making all selections, select **Export.**
 5.	The .csv file downloads to your device. Larger files can take more time to generate. You receive an email when your file is ready to download.
 
 ## Raw survey response file layout
