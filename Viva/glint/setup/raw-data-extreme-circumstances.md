@@ -36,7 +36,7 @@ Your organization is solely responsible for determining whether Extreme Circumst
 
 ## How to request identity disclosure in Extreme Circumstances 
 
-To request disclosure of a survey taker's identity in Extreme Circumstances, the Viva Glint Admin must submit a support ticket through the Microsoft 365 Admin Center, including “Extreme Circumstance” as the Title. For detailed instructions on submitting a support ticket, see [Get support for Viva Glint](/viva/troubleshoot/glint/contact-support/get-support-viva-glint).
+To request disclosure of a survey taker's identity in Extreme Circumstances, the Viva Glint Administrator must submit a support ticket through the Microsoft 365 Admin Center, including “Extreme Circumstance” as the Title. For detailed instructions on submitting a support ticket, see [Get support for Viva Glint](/viva/troubleshoot/glint/contact-support/get-support-viva-glint).
 
 When a support agent receives the ticket, they will acknowledge the request and request customer attestation that Extreme Circumstances exist. 
 
