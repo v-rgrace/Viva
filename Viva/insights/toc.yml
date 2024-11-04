@@ -16,6 +16,8 @@ items:
           href: advanced/setup-maint/environment-requirements.md  
         - name: Service description for personal insights
           href: personal/overview/mya-service-description.md
+        - name: Data residency for advanced insights, managers, and leaders
+          href: advanced/setup-maint/data-residency.md
       - name: Setup
         items:
         - name: Setup home
@@ -48,8 +50,6 @@ items:
               href: advanced/setup-maint/upload-data.md 
             - name: About roles in Viva Insights
               href: advanced/setup-maint/user-roles.md
-            - name: Transferring from Workplace Analytics
-              href: advanced/setup-maint/transferring-from-wpa.md 
             - name: Activity report
               href: personal/overview/activity-report.md             
       - name: Support
@@ -78,6 +78,8 @@ items:
         items:
         - name: Introduction to advanced insights
           href: advanced/introduction-to-advanced-insights.md
+        - name: Video learning courses 
+          href: advanced/video-learning-courses.md
         - name: Admin
           items:
           - name: Organizational data overview

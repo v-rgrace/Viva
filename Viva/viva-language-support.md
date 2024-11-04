@@ -1,5 +1,5 @@
 ---
-ms.date: 07/18/2023
+ms.date: 09/19/2024
 title: "Microsoft Viva language support"
 ms.reviewer: 
 ms.author: elizapo
@@ -13,7 +13,6 @@ ms.service: viva-suite
 ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
-  - Tier1
 search.appverid:
 - MET150
 
@@ -21,7 +20,7 @@ description: "Learn about language support in Microsoft Viva"
 ---
 # Microsoft Viva language support
   
-The Microsoft Viva user interface is supported in several languages depending on the module. This article details which languages are currently supported in  the different Viva modules.
+The Microsoft Viva user interface is supported in several languages depending on the module. This article details which languages are currently supported in the different Viva modules.
 
 
 ## Viva Amplify
@@ -47,17 +46,11 @@ Learn more about [language support for Viva Goals](/viva/goals/viva-goals-langua
 
 ## Viva Insights 
 
-<!--**Teams app + Personal**-->
-
 Personal insights in Viva Insights are available in most of the [same languages as Microsoft 365](https://support.microsoft.com/office/what-languages-is-office-available-in-26d30382-9fba-45dd-bf55-02ab03e2a7ec).
 
 Briefing emails aren't supported in all languages listed above. See which languages are supported in [Briefing languages](/viva/insights/personal/briefing/be-languages).
 
 [Learn more about language support for Viva Insights](/viva/insights/personal/overview/plans-environments#language-support).
-
-<!--**Advanced**
-
-[Learn more about language support and guidelines for Advanced insights](/viva/insights/overview/supported-languages).-->
 
 ## Viva Learning
 Viva Learning adapts to your organization's Microsoft 365 language preferences. This means that you'll have Viva Learning in the same language that you have Microsoft Teams. However, Viva Learning doesn't currently support right-to-left languages.

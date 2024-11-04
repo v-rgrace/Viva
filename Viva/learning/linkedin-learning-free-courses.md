@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: high
 description: See what LinkedIn Learning courses are available on Viva Learning without a premium LinkedIn subscription.
 ---

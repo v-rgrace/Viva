@@ -16,7 +16,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/10/2024
+ms.date: 10/02/2024
 ---
 
 # Access Viva Glint raw survey responses
@@ -75,19 +75,24 @@ To ensure customers meet their Data Subject Rights (DSR) obligations, Viva Glint
 
 ## Use the People feature to export responses
 
-As the admin, you can export raw survey responses from an individual's profile in the **People** feature within the **Employee** section of your admin dashboard. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS)) file. Admins can export a survey taker's user attributes and raw survey responses and send this data - without viewing it - directly to the survey taker.
+As the Viva Glint Admin, you can export a survey taker's user attributes and raw survey responses and send this data - without viewing it - directly to the survey taker. Attributes are populated from the data sent to Viva Glint in your Human Resources Information System (HRIS) file.
 
 ### Procedure to export user data:
 
-1. Search for the user in the *Search People* label.
-1. On the user page, select **Send User Data** from the *Actions* dropdown menu.
-1. In the **Send User Data** slider, all attributes from your HRIS file are preselected.
-   1. Select **Clear All** and then select the attributes you want to export, or 
-   1. Exclude attributes from the export by deselecting them.
-1.	Along with user attributes, in the slider window, there's the option to include raw survey responses. Enable this feature to include the user's responses to current surveys. Data can't be extracted during a live survey.
-1.	Select **Send**. The data is sent to the employee email address on file. Check that the email address is correct before selecting Send.
-1.	A banner appears, indicating the export has sent successfully.
-1.	The employee receives an email with their Viva Glint data attached in a .csv file.
+1. From the admin dashboard, select the **Configuration** symbol, then in **Employees** choose **People**.
+2. Search for the user in the **Search People** field.
+1. On the user's profile, select **Send User Data** from the **Actions** dropdown menu.
+1. In the **Send User Data** slider:
+   1. Enter an email address in the **User's Personal Email Address** field if data should be sent to a personal email. If not, enter the user's work email address.
+   1. There's the option to **Include raw survey responses**. Select this option to include the user's responses surveys. Data can't be extracted during a live survey.
+   2. In the **Send User Data** slider, all attributes from your HRIS file are preselected.
+      1. Select **Clear All** and then select the attributes you want to export, or
+      1. Exclude attributes from the export by deselecting them.
+1.	Select **Send**. A "**User data export sent successfully**" message appears.
+2.	Send the encrypted, compressed file of the user's data that downloads to your device to the requesting employee.
+1.	The employee receives an email with a password to decrypt their compressed folder.
+
+:::image type="content" source="../../media/glint/setup/dsr-email.png" alt-text="Screenshot of the email that a user receives after their data has been exported from Glint, including a password to access their compressed, encrypted file.":::
 
 >[!TIP]
 > For more information on how to support a request to delete data, visit [Delete user data from Viva Glint.](/../../viva/glint/setup/delete-user-data)
@@ -103,25 +108,25 @@ As the admin, you can export raw survey responses from an individual's profile i
 
 For closed surveys where raw survey responses were enabled, admins can export raw survey responses from Viva Glint. 
 
-### Export raw response data for Recurring and Ad Hoc surveys:
+### Export raw response data for Recurring and Ad Hoc surveys
 
 1. Go to **configuration** and select **Survey Programs.**
 2. Select your survey program and go to the **Completed** cycles tab.
 3. On the row with the appropriate cycle, select the ellipses (three dots) and then **Export Raw Survey Responses.**
 4. In the export pane that appears:
-   1. Choose whether to include **Comments** and the **Survey Sent Date** in the **Export Options** section.
-   2. Select attributes that you want to include in the *Attributes* section.
+   1. Choose whether to include **Comments**, **Survey Sent Date**, and **Use question's description instead of UUID** in the **Export Options** section.
+   2. Select attributes that you want to include in the **Attributes** section.
    3. After making all selections, select **Export**.
 5. Your .csv file downloads to your device. Larger files can take more time to generate; you receive an email when your file is ready to download.
 
-### Export raw response data for Lifecycle and Always-On surveys:
+### Export raw response data for Lifecycle and Always-On surveys
 
-1. Go to **configuration** and select **Survey Programs.**
+1. Go to **Configuration** and select **Survey Programs.**
 2. Select your survey program and then the **Actions** menu.
 3. Choose **Export Raw Survey Responses.**
 4. In the export pane:
    1. Select a Start Date and End Date in the **Date Range** section.
-   2. Choose whether to include **Comments** and the **Survey Sent Date** in the *Export Options* section.
+   2. Choose whether to include **Comments**, **Survey Sent Date**, and **Use question's description instead of UUID** in the **Export Options** section.
    3. Select attributes that you want to include in the **Attributes** section.
    4. After you make all selections, select **Export**.
 5. The .csv file downloads to your device. Larger files can take more time to generate; you receive an email when your file is ready to download.
@@ -140,8 +145,8 @@ The fields included in your Viva Glint raw survey response exports vary based on
 |ItemText3  |Full text of survey item. |Numeric response value.|
 
 >[!NOTE]
-> - The export option will only be available to admins.
-> -	The export option will only be enabled for a survey cycle if the raw survey response export was enabled for the selected survey program before the survey went live.
+> - The export option is only be available to admins.
+> -	The export option is only enabled for a survey cycle if the raw survey response export was enabled for the selected survey program before the survey went live.
 
 >[!CAUTION]
 > Once a survey is live, the choice to enable or disable raw survey response export can't be changed for that survey.

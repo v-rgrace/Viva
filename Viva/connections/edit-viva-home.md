@@ -17,7 +17,6 @@ ms.collection:
   - M365-collaboration
   - m365initiative-viva-connections
   - highpri
-  - Tier1
 search.appverid:
 - SPO160
 - MET150

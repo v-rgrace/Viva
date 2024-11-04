@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/30/2024
+ms.date: 09/18/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: medium
 description: An introduction to managing your organization's skills library. 
 ---
@@ -21,6 +20,8 @@ description: An introduction to managing your organization's skills library.
 
 You can manage your skills library by adding and deleting skills from the default skills library. You can import, export, and delete skills from your custom skill library. You can also control whether skills are available for users.
 
+> [!NOTE]
+> Skills in Viva is currently available only for private preview customers. The features described here are subject to change.
 
 ## Manage where skills are available and skills suggestions
 

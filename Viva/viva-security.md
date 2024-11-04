@@ -8,7 +8,7 @@ ms.date: 5/08/2024
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: concept-article
+ms.topic: solution-overview
 ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom:
@@ -16,7 +16,6 @@ ms.collection:
 - M365initiative-viva
 - m365solution-overview
 - highpri
-- tier1
 - essentials-security
 search.appverid:
 - MET150

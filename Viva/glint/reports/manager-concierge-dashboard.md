@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.date: 10/30/2024
 ---
 
 # Use the Manager Concierge dashboard in Viva Glint 
@@ -35,19 +35,19 @@ Step 2 - Interpret results: Using the **View Interpretation Guide**, managers se
 
 Step 3 - Discuss with your team: Using the **Download Presentation Kit** and results from Team Summary or the Reports tab, managers can customize a slide deck to share with their team.  
 
-Step 4 - Commit to next steps: Using **Choose a Focus Area**, managers [choose a Focus Area](https://www.microsoft.com) and then provide communications to drive sustained action. 
+Step 4 - Commit to next steps: Use [**Choose a Focus Area**](/viva/glint/setup/focus-areas-managers-creating), and then provide communications to drive sustained action. 
 
 ## View Manager Concierge with Team Conversations 
 
-The first two steps work as the do in *Manager Concierge without Team Conversations.* 
+The first two steps work as they do in *Manager Concierge without Team Conversations.* 
 
-Step 3 - Once the survey closes, the hyperlink switches from **Download Presentation Kit** to **Launch Team Conversation**. Follow on-screen guidance and [Managers Using Team Conversations](https://www.microsoft.com). This link remains available even after the conversation is marked as complete and the kit can continue to be customized. 
+Step 3 - Once the survey closes, the hyperlink switches from **Download Presentation Kit** to **Launch Team Conversation**. Follow on-screen guidance and [Managers Using Team Conversations](/viva/glint/reports/managers-sharing-team-conversations). This link remains available even after the conversation is marked as complete. The kit can continue to be customized. 
 
-Step 4 - Select **Choose a Focus Area** based on recommendations provided by the platform and insights from team discussion. For more information, see [Learn to create a Focus Area report](https://www.microsoft.com). 
+Step 4 - Select **Choose a Focus Area** based on recommendations provided by the platform and insights from team discussion. See [Create a Focus Area report](/viva/glint/setup/focus-areas-managers-creating). 
 
 ## View Manager Concierge in Live or Completed cycles 
 
-This table shows the Manager Concierge view for Live and Completed Cycles, with and without Team Conversations: 
+This table shows the Manager Concierge view for Live and Completed Cycles, both with and without Team Conversations: 
 
 |**Step #** |**Live cycle without Team Conversations enabled**|**Completed cycle without Team Conversations enabled** |**Live cycle with Team Conversations enabled**|**Completed cycle with Team Conversations enabled – note that checkmarks will appear to replace the step # once the task is completed** |
 |------------|-------|-------|-------|-------|

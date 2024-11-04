@@ -18,7 +18,6 @@ ms.collection:
   - m365solution-scenario
   - m365solution-spintranet
   - m365initiative-viva-connections  F
-  - Tier1
 ms.custom:
 - seo-marvel-apr2020
 search.appverid:
@@ -34,9 +33,10 @@ A SharePoint home site provides a customized landing experience that reflects th
 
 > [!NOTE]
 >
-> - A SharePoint home site is not required the Viva Connections desktop, mobile, or tablet experience. [Learn more about Viva Connections experience](set-up-admin-center.md), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/access-and-use-the-viva-connections-app-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b).
+> - A SharePoint home site is not required for the Viva Connections desktop, mobile, or tablet experience. [Learn more about Viva Connections experience](set-up-admin-center.md), [how to customize it](edit-viva-home.md), how to choose the default landing experience, and [how to onboard new users](https://support.microsoft.com/office/access-and-use-the-viva-connections-app-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b).
 > - The ability to set a home site has moved from the SharePoint Admin Center (SPAC) to the Viva Connections admin center.
-> - You must have an Enterprise (E) or Frontline (F) license type to create a Viva Connections experience. Users with a basic Microsoft 365 subscription (E license) are limited to creating one experience. Users are required to have a Microsoft Viva suite or Viva Communications and Communities license in order to create two or more experiences (up to 50). See [Microsoft Viva plans and pricing](https://www.microsoft.com/microsoft-viva/pricing) for more info.
+> - You must have an Enterprise (E), Frontline (F), or Academic (A) license type to create a Viva Connections experience.
+> - Users with a Microsoft 365 subscription (E, F, or A license) are limited to creating and using one experience. If you want to create or use two or more experiences (up to 50), then every user in your tenant must have a Microsoft Viva Suite or Viva Communications and Communities license. See [Microsoft Viva plans and pricing]( https://www.microsoft.com/microsoft-viva/pricing) for more info.
 > - Viva Connections does not have any requirements to get started.
 > - You must have SharePoint admin permissions to access the Microsoft 365 admin center.
 If you’ve already created the communication site and are ready to specify it as your home site now, learn how to [set up Viva Connections in the Microsoft 365 admin center](set-up-admin-center.md).
@@ -99,7 +99,7 @@ Before you get started planning and building your SharePoint home site, review b
 
 ## Summary of how to get a SharePoint home site for your organization
 
-Since SharePoint home sites are the gateway to your intranet, you’ll want to prioritize content and resources that are relevant to most employees. Work with business owners and stakeholders to organize and align the flow of information and the navigational design. Then, use the [Page diagnostics for SharePoint tool](/microsoft-365/Enterprise/page-diagnostics-for-spo) to ensure to best viewing experience. Next, [set your SharePoint communication site as a home site](/SharePoint/home-site) in the SharePoint admin center. Finally, use the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to plan the launch of your new site and make the site discoverable by adding links to key entry-points in the Microsoft 365 experience.
+Since SharePoint home sites are the gateway to your intranet, you want to prioritize content and resources that are relevant to most employees. Work with business owners and stakeholders to organize and align the flow of information and the navigational design. Then, use the [Page diagnostics for SharePoint tool](/microsoft-365/Enterprise/page-diagnostics-for-spo) to ensure to best viewing experience. Next, [set your SharePoint communication site as a home site](/SharePoint/home-site) in the SharePoint admin center. Finally, use the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to plan the launch of your new site and make the site discoverable by adding links to key entry-points in the Microsoft 365 experience.
 
 Before you get started planning your SharePoint home site, [hear from the Microsoft product team on how to think](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758) about and approach the design of your organization’s SharePoint home site.
 
@@ -110,7 +110,7 @@ Before you get started planning your SharePoint home site, [hear from the Micros
 
 ### Plan your SharePoint home site
 
-A great SharePoint home site starts with a plan. Because your SharePoint home site is essentially the gateway to your intranet, you'll want to collaborate with other business owners such as human resources, leadership teams, and even your legal team to ensure the most important and universal resources are accessible for everyone in the organization.
+A great SharePoint home site starts with a plan. Because your SharePoint home site is essentially the gateway to your intranet, you want to collaborate with other business owners such as human resources, leadership teams, and even your legal team to ensure the most important and universal resources are accessible for everyone in the organization.
 
 |  Icon                 | Action        | Get started          |
 | :------------------: | :------------------: |:----------------|
@@ -150,7 +150,7 @@ After you've set your SharePoint home site, it’s time to plan the launch and m
 | ![Screenshot of a magnify glass](../media/connections/icon-launch-search.png)   | **Improve discoverability**| Next, make sure people in your organization can easily find the SharePoint home site through a few different entry points in the Microsoft 365 experience. Add a link to the SharePoint home site in the Microsoft app launcher (sometimes called the waffle) and on the SharePoint start page. Learn more about how to [add a custom tile to the app launcher](/microsoft-365/admin/manage/customize-the-app-launcher) and how to [add a featured link to the SharePoint start page](/sharepoint/change-links-list-on-sharepoint-home-page).|
 | ![Screenshot of a mega phone](../media/connections/icon-launch-engage.png)   | **Engage your audience** | Then, let your organization know about the new SharePoint home site resource, and other new elements like global navigation. Consider multiple communication options like a SharePoint news post that can also be shared in email and in Microsoft Teams. Learn more about how to [create and post SharePoint news](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7) and [share it in an email](https://support.microsoft.com/office/use-the-news-web-part-on-a-sharepoint-page-c2dcee50-f5d7-434b-8cb9-a7feefd9f165#bkmk_send).|
 | ![Screenshot of a usage report](../media/connections/icon-launch-manage.png)   | **Manage and maintain your SharePoint home site** | Finally, when the site is healthy, launched, and being used by the organization, monitor site usage and maintain the site. Site maintenance should include making sure site content is relevant, there aren’t any broken links, and that the site stays healthy and performant. Learn how to [view usage data and analytics](https://support.microsoft.com/office/view-usage-data-for-your-sharepoint-site-2fa8ddc2-c4b3-4268-8d26-a772dc55779e) for your site and how to [maintain your site over time](https://support.microsoft.com/office/manage-your-sharepoint-communication-site-21761aac-f7f7-4499-b0ca-cf283477c32f).|
-| ![Screenshot of a globe and monitor](../media/connections/icon-launch-viva.png)   | **Integrate the SharePoint home site into Microsoft Teams using Viva Connections** | Expand the reach of the SharePoint home site and help meet users where they're already working by making it easy to access and share content all in one place. After you have a SharePoint home site and the global navigation enabled and customized in the SharePoint app bar, you’ve met the requirements to [integrate the SharePoint home site into Microsoft Teams](/viva/connections/add-viva-connections-app) using Viva Connections. Learn more about the [Viva Connections end-user experience](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b).|
+| ![Screenshot of a globe and monitor](../media/connections/icon-launch-viva.png)   | **(Optional) Integrate the SharePoint home site into Microsoft Teams using Viva Connections** | Expand the reach of the SharePoint home site and help meet users where they're already working by making it easy to access and share content all in one place. After you have a SharePoint home site and the global navigation enabled and customized in the SharePoint app bar, you can [integrate the SharePoint home site into Microsoft Teams](/viva/connections/add-viva-connections-app) using Viva Connections. Learn more about the [Viva Connections end-user experience](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b).|
 
 ## SharePoint home site FAQs
 

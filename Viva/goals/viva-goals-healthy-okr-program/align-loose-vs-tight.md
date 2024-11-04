@@ -2,9 +2,9 @@
 ms.date: 02/08/2023
 title: "Tight vs loose alignment"
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -14,7 +14,6 @@ ms.localizationpriority: medium
 ms.collection:
   - M365initiative-viva
   - highpri
-  - Tier1
   - vg-bestpractice
 search.appverid:
 - MET150

@@ -16,7 +16,6 @@ ms.collection:
   - M365-collaboration
   - m365initiative-viva-connections
   - highpri
-  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -36,6 +35,7 @@ The dashboard consists of cards that engage viewers with existing Microsoft Team
 - [Use the Card designer to create your own interactive dashboard cards](#design-your-own-card-with-the-card-designer).
 - [Add the Approvals card](#add-the-approvals-card).
 - [Add an Assigned tasks card](#add-the-assigned-tasks-card).
+- [Add an Assignments card](#add-the-assignments-card).
 - [Add the Events card](#add-the-events-card).
 - [Add the News card](#add-the-news-card).
 - [Add the OneDrive card](#add-the-onedrive-card).
@@ -116,14 +116,16 @@ If your organization has a [SharePoint home site](home-site-plan.md), you can se
 |[Card designer](#design-your-own-card-with-the-card-designer) | ![Illustration of the card designer icon.](../media/connections/create-dashboard/card-designer-card-icon.png) | Create your own cards or use quick views for a more interactive experience utilizing the [adaptive cards framework.](/adaptive-cards/templating/)|
 |[Approvals](#add-the-approvals-card) | ![Illustration of the approvals card icon.](../media/connections/approvals-card-icon.png) | Use [Approvals](/power-automate/get-started-approvals) to approve vacation requests, documents, and expense reports. |
 |[Assigned Tasks](#add-the-assigned-tasks-card) | ![Illustration of the assigned tasks card icon.](../media/connections/assigned-tasks-card-icon.png) |   Use [Tasks](/microsoftteams/manage-planner-app) to manage your team's work, assign tasks, and track tasks. |
-|[Events card](#add-the-events-card)    | ![Illustration of the Events card icon.](../media/connections/events-card-icon-no-border.png) |   View and join upcoming events within your organization. |
-|[News card](#add-the-news-card)    | ![Illustration of the News card icon.](../media/connections/news-card-icon-no-border.png) |   Promote news from various sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
-|[OneDrive card](#add-the-onedrive-card)    | ![Illustration of the OneDrive card icon.](../media/connections/create-dashboard/onedrive-card-icon-no-border.png) |   View and access recent, shared, and favorite files from your OneDrive account. |
-|[People card](#add-the-people-card)    | ![Illustration of the People card icon.](../media/connections/people-card-icon-no-border.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization. |
-|[Quick links card](#add-the-quick-links-card)    | ![Illustration of the Quick links card icon.](../media/connections/create-dashboard/quick-links-card-icon-nb.png) |   Provide list of relevant links or files to users selected by admins. |
+|[Assignments](#add-the-assignments-card) | ![Illustration of the Assignments card icon.](../media/connections/create-dashboard/assignments-card-icon-no-border.png) | Display a summary of upcoming and past due assignments for students. |
+|[Courses](#add-the-courses-card) | ![Illustration of the Courses card icon.](../media/connections/create-dashboard/courses-card-icon-no-border.png) | Display a summary of courses a student is enrolled in. |
+|[Events](#add-the-events-card)    | ![Illustration of the Events card icon.](../media/connections/events-card-icon-no-border.png) |   View and join upcoming events within your organization. |
+|[News](#add-the-news-card)    | ![Illustration of the News card icon.](../media/connections/news-card-icon-no-border.png) |   Promote news from various sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
+|[OneDrive](#add-the-onedrive-card)    | ![Illustration of the OneDrive card icon.](../media/connections/create-dashboard/onedrive-card-icon-no-border.png) |   View and access recent, shared, and favorite files from your OneDrive account. |
+|[People](#add-the-people-card)    | ![Illustration of the People card icon.](../media/connections/people-card-icon-no-border.png) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization. |
+|[Quick links](#add-the-quick-links-card)    | ![Illustration of the Quick links card icon.](../media/connections/create-dashboard/quick-links-card-icon-nb.png) |   Provide list of relevant links or files to users selected by admins. |
 |[Shifts](#add-a-shifts-card)     |![Illustration of the shifts card icon.](../media/connections/shifts-card-icon.png) | Display information about the next or current shift from the Shifts app in Teams. |
-|[Stream playlist card](#add-a-stream-playlist-card)    | ![Illustration of the Stream play list card icon.](../media/connections/create-dashboard/stream-playlist-card-icon-nb.png) |   Display a list of videos to users that can be viewed in Microsoft Stream. |
-|[Teams app card](#add-a-teams-app-card) | ![Illustration of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author. |
+|[Stream playlist](#add-a-stream-playlist-card)    | ![Illustration of the Stream play list card icon.](../media/connections/create-dashboard/stream-playlist-card-icon-nb.png) |   Display a list of videos to users that can be viewed in Microsoft Stream. |
+|[Teams app](#add-a-teams-app-card) | ![Illustration of the Teams app icon.](../media/connections/teams-app-icon.png) |   Use to open a Teams personal app or bot specified by the dashboard author. |
 |[Partner cards](#add-a-partner-card-or-microsoft-app) | Varies |    Use cards that integrate [partner services.](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
 |[Topics](#add-a-topics-card)    | :::image type="icon" source="../media/knowledge-management/viva-topics-cards-toolbox.png"::: |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
 |[Viva Learning](#add-a-viva-learning-card)    | ![Illustration of the Viva Learning card icon.](../media/connections/create-dashboard/viva-learning-card-icon-2.png) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences. |
@@ -179,7 +181,7 @@ The card designer has a set of card view templates that can be used to easily cr
 7. Under **Card icon** select one of the following options:
 
    - **Custom image**: Select **custom image** then **Change** to upload your own image or select an existing image from your site or from an online source (for example, web search, OneDrive, Site).
-   - **Library**: Select an icon from a preexisting list of available icons.
+   - **Library**: Select an icon from a pre-existing list of available icons.
    For example, select **Library** then **Change** to choose a new icon.
 
    > [!NOTE]
@@ -353,6 +355,59 @@ The Assigned tasks card allows users to create and view tasks from the card or o
 4. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
 
 For more information on using the Planner app, see the articles on how to [Manage the Planner app for your organization in Microsoft Teams](/microsoftteams/manage-planner-app#overview-of-planner) and [Getting started with Planner in Teams](https://support.microsoft.com/office/7a5e58f1-2cee-41b0-a41d-55d512c4a59c), or see the [blog post](https://techcommunity.microsoft.com/t5/planner-blog/create-planner-tasks-from-the-viva-connections-assigned-tasks/ba-p/4206587) announcing the Assigned tasks card.
+
+## Add the Assignments card
+
+The Assignments card displays a summary of upcoming and past due assignments. Students can select the card to view more details on their assignment list and open them in Microsoft Teams.
+
+> [!NOTE]
+>
+> The Assignments card is only available to Education tenants.
+
+![Screenshot of an Assignments card.](/viva/media/connections/create-dashboard/assignments-card-demo.png)
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2. Select **Assignments** from the dashboard toolbox.
+
+   ![Screenshot showing the Assignments card in the dashboard toolbox.](/viva/media/connections/create-dashboard/assignments-card-icon-border.png)
+
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+4. Enter a **Title** for the assignments card.
+
+5. To change the card image, select **Change**, then select an image or upload your own.
+
+6. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+   ![Screenshot showing the assignments property pane.](/viva/media/connections/create-dashboard/assignments-card-properties.png)
+
+## Add the Courses card
+
+The Courses card displays a summary of courses a student is enrolled in. Students can select the card to view their course list and open them in Microsoft Teams.
+
+> [!NOTE]
+>
+> The Courses card is only available to Education tenants.
+
+![Screenshot of the Courses card.](/viva/media/connections/create-dashboard/courses-card-demo.png)
+
+1. While in edit mode, select **+ Add a card** from the dashboard.
+
+2. Select **Courses** from the dashboard toolbox.
+
+   ![Screenshot showing the Courses card in the dashboard toolbox.](/viva/media/connections/create-dashboard/courses-card-icon-border.png)
+
+3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
+
+4. Enter a **Title** for the assignments card.
+
+5. To change the card image, select **Change**, then select an image or upload your own.
+
+6. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](#apply-audience-targeting-to-cards).
+
+   ![Screenshot showing the courses property pane.](/viva/media/connections/create-dashboard/courses-card-properties.png)
+
 
 ## Add the Events card
 
@@ -542,6 +597,10 @@ The Shifts card shows users information about their next or current shift from t
 ## Add a Stream playlist card
 
 The Stream playlist card displays a list of videos to users that can be viewed in Microsoft Stream by selecting an existing playlist from a SharePoint site. For more information, see the article on [creating a playlist from SharePoint](/stream/streamnew/stream-playlists-new-creation#create-a-playlist-from-sharepoint).
+
+> [!NOTE]
+>
+> The Stream playlist card is currently rolling out and will be fully available by early September 2024.
 
 :::image type="content" source="../media/connections/create-dashboard/stream-playlist-demo.png" alt-text="Screenshot showing the Stream playlist card in action.":::
 
@@ -800,11 +859,10 @@ After creating or editing cards on the dashboard, make sure you preview the expe
 
    ![Screenshot showing the audience targeting icon.](../media/connections/preview-dashboard.png)
 
-3. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you'll see a disabled **Audience targeting** label).
+2. Open the **Select audiences to preview as** drop-down list. (if no cards are audience targeted, you'll see a disabled **Audience targeting** label).
 
    :::image type="content" alt-text="This screenshot shows the audience targeting group label." source="../media/connections/preview-audiences.png":::
-
-4. Search for and select a group. Once added, the group is selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to deselect it.
+3. Search for and select a group. Once added, the group is selected by default. You can select the group again in the **Select audiences to preview as** drop-down list to deselect it.
 
    ![Screenshot showing the audience targeting panel in preview mode.](../media/connections/preview-dash-full-page.png)
 

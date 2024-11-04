@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 05/30/2024
+ms.date: 09/18/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: medium
 description: An introduction to Skills in Viva. 
 ---
@@ -25,6 +24,9 @@ It uses data from Microsoft 365 profiles and the [Microsoft Graph](/graph/overvi
 
 
 If you’d like to learn more or apply for the Skills in Viva preview, contact your Microsoft representative. 
+
+> [!NOTE]
+> Skills in Viva is currently available only for private preview customers. The features described here are subject to change.
 
 ## Prerequisites 
 
@@ -52,8 +54,7 @@ The following roles and permissions are required to set up Skills in Viva. Revie
 See [Set up Skills in Viva](skills-get-started.md) and [Manage your skills library](manage-skills-library.md) for information about how Skills data is shared and managed.
 
 > [!NOTE]
-> When individual users confirm skills in their skills experience available at [Skills in Viva](https://skills.cloud.microsoft), those skills will be visible to people in your organization when they use upcoming skills-related experiences in Microsoft 365, such as the [profile card](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) and other Microsoft Viva products. 
-
+> When individual users confirm skills in their skills experience available at [Skills in Viva](https://skills.cloud.microsoft), those skills will be visible to people in your organization by default. Users can manage which skills will be seen across the various skills-related experiences in Microsoft 365, such as the [profile card](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501), other Microsoft Viva products, and other connected applications, by toggling the visibility and/or learned/learning options for each skill.
 
 ### Next steps
 

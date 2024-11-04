@@ -8,7 +8,7 @@ ms.date: 09/05/2024
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: solution-overview
 ms.service: viva-suite
 ms.localizationpriority: medium
 ms.custom:
@@ -16,7 +16,6 @@ ms.collection:
 - M365initiative-viva
 - m365solution-overview
 - highpri
-- tier1
 search.appverid:
 - MET150
 description: "Control who can access features in Microsoft Viva"

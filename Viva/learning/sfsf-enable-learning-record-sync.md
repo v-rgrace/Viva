@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/24/2023
+ms.date: 09/30/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: medium
 description: Enable learning record synch in SAP SuccessFactors for Microsoft Viva Learning.
 ---

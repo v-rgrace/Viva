@@ -13,7 +13,6 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - highpri
-  - Tier1
 ms.localizationpriority: medium
 description: FAQs and error codes in SharePoint.
 ---
