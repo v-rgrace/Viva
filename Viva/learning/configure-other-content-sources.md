@@ -4,7 +4,7 @@ ms.author: chucked
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/30/2023
+ms.date: 11/04/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -19,11 +19,11 @@ description: Learn how to configure other content providers as a learning conten
 
 # Add other content providers for Microsoft Viva Learning
 
-A growing set of learning content providers is available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
+A growing set of learning content providers is available through Viva Learning. This set can change at any time as more providers join or change their status with the program.
 
 Some learning sources are enabled by default and available without a Viva Suite or Viva Learning license. These learning sources include:
 
-- LinkedIn Learning selects 125 courses or full LinkedIn Learning course catalog with a LinkedIn Learning Enterprise subscription
+- [Global skilling initiative (GSI) courses](https://opportunity.linkedin.com/skills-for-in-demand-jobs) from LinkedIn Learning or the full LinkedIn Learning course catalog with a LinkedIn Learning Enterprise subscription.
 - Microsoft Learn
 - Microsoft 365 Training
 
@@ -104,4 +104,4 @@ The step-by-step content ingestion process is described below.
 
 Once you've added a content provider as a content source, content from the provider flows to Viva Learning and become visible to end users.
 
-Once a user chooses to play a course in Viva Learning, they are directed to the content provider's webpage. They need to enter the sign-in credentials on the provider's sign-in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).
+Once a user chooses to play a course in Viva Learning, they're directed to the content provider's webpage. They need to enter the sign-in credentials on the provider's sign-in page. [Learn more about how to consume content with Viva Learning](https://support.microsoft.com/office/01bfed12-c327-41e0-a68f-7fa527dcc98a).
