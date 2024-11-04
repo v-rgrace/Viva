@@ -51,11 +51,11 @@ Existing **Microsoft 365 admins**, **knowledge admins**, and **knowledge manager
 
 1. Select **Save**.
 
-   ![Image of the Set up an academy popup within Manage academies. It requires an academy name, description, logo and user group access information](/viva/media/learning/academy-1.png)
+   ![Screenshot of the Set up an academy popup within Manage academies. It requires an academy name, description, logo and user group access information](/viva/media/learning/academy-1.png)
 
 You now see your newly created academy for configuration.
 
-![Image of the options for the newly created academy, with options to enable academy, add a featured set, and add learning path](/viva/media/learning/academy-2.png)
+![Screenshot of the options for the newly created academy, with options to enable academy, add a featured set, and add learning path](/viva/media/learning/academy-2.png)
 
 ## Configure academy
 
@@ -78,7 +78,7 @@ Configure the academy by selecting the featured set and learning paths.
    >- You can only add individual learning objects to a featured set, not entire learning paths. 
    >- You can add a maximum of six learning objectsto one featured set. 
 
-   ![Image of the new featured set screen with fields to add title, find courses, and a list of your featured queue.](/viva/media/learning/academy-3.png)
+   ![Screenshot of the new featured set screen with fields to add title, find courses, and a list of your featured queue.](/viva/media/learning/academy-3.png)
 
 7. Select **Activate** on the draft featured set.
 
@@ -97,7 +97,7 @@ Configure the academy by selecting the featured set and learning paths.
 
 1. Navigate to **Manage Academies** to select the Academy and select **Configure**. 
 
-   ![Image of a configured academy where you can add a learning path](/viva/media/learning/academy-5.png)
+   ![Screenshot of a configured academy where you can add a learning path](/viva/media/learning/academy-5.png)
 
 1. Select **Add** to find the learning paths you want to include and **Add** them. You can reorder the list by clicking and dragging the content.
 
@@ -107,7 +107,7 @@ Configure the academy by selecting the featured set and learning paths.
 
 1. Toggle the **Enable Academy** switch to enable the Academy to the learner group.
 
-   ![Image of an academy after it has been enabled](/viva/media/learning/academy-6.png)
+   ![Screenshot of an academy after it has been enabled](/viva/media/learning/academy-6.png)
 
 2. Select the **Copy Academy** link icon next to **Enable Academy** to copy and share the Academy deep link url.
 
