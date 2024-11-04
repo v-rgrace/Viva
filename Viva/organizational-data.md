@@ -188,7 +188,7 @@ To update or delete an end user's organizational data, create and upload a new .
 Review the following information to understand how organizational data is used, stored, and deleted.
 
 ### How Organizational Data in Microsoft 365 works with Viva Insights
-The data uploaded here is also used in Viva Insights and is mapped to these Viva Insights reserved fields:
+The data uploaded here's also used in Viva Insights and is mapped to these Viva Insights reserved fields:
 
 - PersonId
 - ManagerId
@@ -217,7 +217,7 @@ The organizational data you upload may be used by Viva, Microsoft 365 services, 
 
 In the Microsoft 365 User Profile, Microsoft Entra data is given precedence over Organizational Data in Microsoft 365 by default. When a service queries a Microsoft 365 User Profile, if there's both organizational data *and* Microsoft Entra data for a single attribute, the Microsoft Entra value is returned. For example, a given end user has "Software Engineer" as the jobTitle property in Microsoft Entra ID. The global admin for your organization uses the Organizational Data in Microsoft 365 feature to upload a value of "Senior Software Engineer" for the **Microsoft_JobTitle** attribute for that same end user. After the upload, both values are stored in the end user's Microsoft 365 User Profile. When an experience like [Profile cards in Microsoft 365](https://support.microsoft.com/office/profile-cards-in-microsoft-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501) queries the Microsoft 365 User Profile to get the **jobTitle** property for that end user, "Software Engineer" is returned (instead of "Senior Software Engineer").
 
-If, however, there is no data for an attribute in Entra ID, the corresponding organizational data value is used. So, in the previous example, if there's no value ofr **jobTitle** in Entra ID, the Profile card in Microsoft 365 uses "Senior Software Engineer" from Organizational Data in Microsoft 365.
+If, however, there's no data for an attribute in Entra ID, the corresponding organizational data value is used. So, in the previous example, if there's no value for **jobTitle** in Entra ID, the Profile card in Microsoft 365 uses "Senior Software Engineer" from Organizational Data in Microsoft 365.
 
 If you prefer to use the value from your organizational data in the Microsoft 365 User Profile, contact Microsoft by sending a request to orgdatainm365support@microsoft.com. Include the subject line, "Request to give organizational data precedence over Microsoft Entra data in Microsoft 365 User Profile for Tenant [Name] [Tenant ID]." It can take up to four days for this change to take effect. 
 
