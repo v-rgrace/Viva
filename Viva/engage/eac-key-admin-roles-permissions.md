@@ -3,10 +3,10 @@ title: "Manage admin roles in Viva Engage"
 description: "Learn about admin roles and permissions in Viva Engage and how to assign them."
 ms.reviewer: ethli
 ai-usage: ai-assisted
-ms.author: v-bvrana
-author: Starshine89
+ms.author: donnabouldin
+author: donnabouldin
 manager: elizapo
-ms.date: 05/20/2024
+ms.date: 11/05/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -110,6 +110,6 @@ Some admins have more permissions than others and can assign Viva Engage roles t
 
 |Function |Details |
 |--------|-----------------|
-|**Permissions** |Community admins only have permissions in their communities:<ul><li>[Add and remove members](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) and community admins.</li><li>Manage conversations, including marking best answers, removing posts,closing posts to replies, pin posts and deleting conversations.</li><li>Move conversations into community.</li><li>Mark community as official or restricted.</li><li>Post in restricted communities</li><li>[Create and manage community campaigns and view campaign analytics](https://support.microsoft.com/en-us/topic/create-a-campaign-for-your-viva-engage-community-002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8)</li><li>Manage settings, such as [customizing the community appearance](https://support.microsoft.com/en-us/office/customize-a-viva-engage-community-d74a23a1-c3aa-4b5f-abf7-61b912138609) and changing the default post type.</li><li>[Send announcements](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248).</li></ul>
+|**Permissions** |Community admins only have permissions in their communities:<ul><li>[Add and remove members](/viva/engage/manage-viva-engage-users/add-block-or-remove-users) and community admins</li><li>Manage conversations, including marking best answers, removing posts, closing posts to replies, pin posts and deleting conversations</li><li>Move conversations into community</li><li>Mark community as official or restricted</li><li>Post in restricted communities</li><li>[Create and manage community campaigns and view campaign analytics](https://support.microsoft.com/en-us/topic/create-a-campaign-for-your-viva-engage-community-002003fe-8d8d-42c2-9b7c-6aa2e1d9fef8)</li><li>Manage settings, such as [customizing the community appearance](https://support.microsoft.com/en-us/office/customize-a-viva-engage-community-d74a23a1-c3aa-4b5f-abf7-61b912138609) and changing the default post type</li><li>[Send announcements](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248)</li></ul>
  |**Who can assign**|Engage admins can assign community admins. Additionally, any Engage user who creates a community is automatically assigned the community admin role. Community admins can assign up to 100 other community admins.<br>**Note:** Network admins and verified admins can prevent Engage users from creating communities. In this case, they must assign the initial community admin who performs all community admin tasks. |
 |**How to assign**|On the community page, select **Settings** icon > **Manage Members and Admins**. Choose a user and select either **Make Admin** or **Revoke Admin**.|
