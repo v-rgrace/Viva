@@ -145,12 +145,11 @@ Admins can make Glint Lifecycle and Always-On surveys identifiable during [progr
 >[!IMPORTANT]
 > - The minimum threshold for an ad hoc or recurring program is three (3).
 > - The minimum threshold for an Employee Lifecyce or always-on survey is one (1).
-> - For all survey types, Viva Glint Admins can only adjust survey-level reporting thresholds **before** a survey program launches its first survey and can't change thresholds once a survey program collects response data.
 
 ### Lower thresholds for identifiable surveys
 
 > [!IMPORTANT]
-> Admins need to make these edits **before** a survey launches.
+> For all survey types, Viva Glint Admins can only adjust survey-level reporting thresholds **before** a survey program launches its first survey and can't change thresholds once a survey program collects response data.
 
 1. In **Program Summary**, go to **Program Setup**.
 2. Toggle **Confidential Responses** to **No.**
