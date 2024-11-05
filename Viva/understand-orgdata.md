@@ -28,7 +28,7 @@ When you upload a .csv file, you need to include at least one required attribute
 
 You can also include the following optional attributes. (The value in parentheses is the corresponding property name in the [Microsoft 365 User Profile](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true#relationships) schema.).
 
-See [Attribute reference](orgdata-attributes.md) for more details about the specific attributes, and [orgdata-attributes.mdAttribute to property mapping](#attribute-to-property-mapping) for information on how the Organizational Data in Microsoft 365 attributes map to Microsoft 365 User Profile data.
+See [Attribute reference](orgdata-attributes.md) for more details about the specific attributes, and [Attribute to property mapping](orgdata-attributes.md#attribute-to-property-mapping) for information on how the Organizational Data in Microsoft 365 attributes map to Microsoft 365 User Profile data.
 
 - Names 
    - **Microsoft_FirstName** (first) 
@@ -104,10 +104,10 @@ If you later want to switch back to the default behavior (where Microsoft Entra 
 
 To ensure that the data in the Microsoft 365 User Profile remains up to date and accurate, we recommend that you upload refreshed organizational data regularly (for example, weekly). This prevents the data in the user profile from becoming stale when compared to the data in your organization's human capital management systems.
 
-Ensure that the data you upload matches attribute names and descriptions listed in the [Attribute reference](#attribute-reference). Also avoid uploading [sensitive personal data](https://commission.europa.eu/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
+Ensure that the data you upload matches attribute names and descriptions listed in the [Attribute reference](orgdata-attributes.md). Also avoid uploading [sensitive personal data](https://commission.europa.eu/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
 
 ## Data deletion
-See [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data) for information about deleting user data. As soon as the update is processed, the associated user data is overwritten with blank fields, meaning their data is effectively deleted immediately.
+See [Update or make other changes to organizational data](import-orgdata.md#step-4---update-or-make-other-changes-to-your-data) for information about deleting user data. As soon as the update is processed, the associated user data is overwritten with blank fields, meaning their data is effectively deleted immediately.
 
 When a tenant is removed from Microsoft 365, all tenant data is purged within 30 days.
 
@@ -123,5 +123,5 @@ A *Data Subject Request* or DSR is a formal request by a data subject (an end us
 Use the following information to fulfill DSRs from end users:
 
 - Access and Export – An end user can access and export organizational data uploaded by a global admin and stored in the Microsoft 365 User Profile by using the data export function in the profile card. See [Export data from your profile card](https://support.microsoft.com/office/export-data-from-your-profile-card-d809f83f-c077-4a95-9b6c-4f093305163d). 
-- Edit – see [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data). 
-- Delete – see [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data) and [Data deletion](#data-deletion). 
+- Edit – see [Update or make other changes to organizational data](import-orgdata.md#step-4---update-or-make-other-changes-to-your-data). 
+- Delete – see [Update or make other changes to organizational data](import-orgdata.md#step-4---update-or-make-other-changes-to-your-data) and [Data deletion](#data-deletion). 
