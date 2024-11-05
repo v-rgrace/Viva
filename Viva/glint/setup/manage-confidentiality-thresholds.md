@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/27/2024
+ms.date: 11/05/2024
 ---
 
 # Manage Viva Glint confidentiality thresholds
@@ -123,7 +123,7 @@ To edit threshold values:
 If your Viva Glint survey programs will have different levels of confidentiality, select threshold values at the survey level from the Advanced Configuration Surveys page.
 
 > [!IMPORTANT]
-> - Survey-level reporting thresholds can only be adjusted before a survey is live and enabled.
+> - Viva Glint Admins can only adjust survey-level reporting thresholds **before** a survey program launches its first survey and can't change thresholds once a survey program collects response data.
 > - When survey-level reporting thresholds are in place, they override settings at the overall level.
 
 To edit threshold values:
@@ -145,6 +145,7 @@ Admins can make Glint Lifecycle and Always-On surveys identifiable during [progr
 >[!IMPORTANT]
 > - The minimum threshold for an ad hoc or recurring program is three (3).
 > - The minimum threshold for an Employee Lifecyce or always-on survey is one (1).
+> - Viva Glint Admins can only adjust survey-level reporting thresholds **before** a survey program launches its first survey and can't change thresholds once a survey program collects response data.
 
 ### Lower thresholds for identifiable surveys
 
