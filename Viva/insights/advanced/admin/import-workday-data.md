@@ -173,7 +173,6 @@ The following table shows how Workday fields correspond to Viva Insights fields.
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID` and `responseData.worker.workerData.workerID`|	ManagerId
 |`responseData.worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`| Organization
 | Date of upload | EffectiveDate |
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|EffectiveDate
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`| LevelDesignation
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Layer
