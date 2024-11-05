@@ -383,10 +383,10 @@ items:
         items:
           - name: Review surveys before launch
             href: setup/survey-qa.md    
-          - name: Preview and enable surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
+          - name: Preview, enable, and prepare to launch surveys
+            href: setup/preview-manage-enable-engage-programs.md   
           - name: Duplicate, delete, and disable surveys 
             href: setup/delete-survey-data.md
       - name: Edit live surveys or reopen closed surveys
