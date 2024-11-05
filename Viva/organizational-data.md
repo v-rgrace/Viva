@@ -33,6 +33,6 @@ Use the following information to understand, prepare, and import your organizati
 - [What data's available and how is it used](understand-orgdata.md)
 - [Import the data](import-orgdata.md)
 - [Attribute reference](orgdata-attributes.md)
--
+
 > [!NOTE]
 > Do you have Microsoft 365 Copilot? Check out [Use organizational data in the Microsoft Copilot dashboard](organizational-data-copilot.md) for important information about configuring and accessing the organizational data.
