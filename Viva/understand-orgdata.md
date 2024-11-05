@@ -24,11 +24,11 @@ description: "Understand what makes up your organizational data and how it's use
 
 Review the following information to understand how organizational data is used, stored, and deleted.
 
-When you upload a .csv file, you need to include at least one required attribute, **Microsoft_PersonEmail**, for each employee. Based on specific requirements for applications that use this data (for example, the Copilot Dashboard), you might need to upload additional fields. To learn how to set up and structure an organizational data .csv file, see [Prepare and import your organizational data](#prepare-and-import-your-organizational-data).
+When you upload a .csv file, you need to include at least one required attribute, **Microsoft_PersonEmail**, for each employee. Based on specific requirements for applications that use this data (for example, the Copilot Dashboard), you might need to upload additional fields. To learn how to set up and structure an organizational data .csv file, see [Prepare and import your organizational data](import-orgdata.md).
 
 You can also include the following optional attributes. (The value in parentheses is the corresponding property name in the [Microsoft 365 User Profile](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true#relationships) schema.).
 
-See [Attribute reference](#attribute-reference) for more details about the specific attributes, and [Attribute to property mapping](#attribute-to-property-mapping) for information on how the Organizational Data in Microsoft 365 attributes map to Microsoft 365 User Profile data.
+See [Attribute reference](orgdata-attributes.md) for more details about the specific attributes, and [orgdata-attributes.mdAttribute to property mapping](#attribute-to-property-mapping) for information on how the Organizational Data in Microsoft 365 attributes map to Microsoft 365 User Profile data.
 
 - Names 
    - **Microsoft_FirstName** (first) 
@@ -125,4 +125,3 @@ Use the following information to fulfill DSRs from end users:
 - Access and Export – An end user can access and export organizational data uploaded by a global admin and stored in the Microsoft 365 User Profile by using the data export function in the profile card. See [Export data from your profile card](https://support.microsoft.com/office/export-data-from-your-profile-card-d809f83f-c077-4a95-9b6c-4f093305163d). 
 - Edit – see [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data). 
 - Delete – see [Update or make other changes to organizational data](#step-4---update-or-make-other-changes-to-your-data) and [Data deletion](#data-deletion). 
-

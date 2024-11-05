@@ -61,7 +61,7 @@ Emp6@contoso.com,Mgr3@contoso.com,Support,Sales,9,New York
 
 ```
 
-For more information about attributes, see the [Attribute reference](#attribute-reference).
+For more information about attributes, see the [Attribute reference](orgdata-attributes.md).
 
 ## Step 3 - Import your organizational data for the first time 
 After you create a .csv file with your data, the next step is to import the data, either from your local computer (for Viva Insights-licensed customers) or from a SharePoint site.
