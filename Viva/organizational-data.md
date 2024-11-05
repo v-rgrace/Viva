@@ -30,8 +30,9 @@ Microsoft 365 User Profile Data comes from two main sources: either Microsoft En
 
 Use the following information to understand, prepare, and import your organizational data:
 
+
+- [Prepare and import your organizational data](import-orgdata.md)
 - [What data's available and how is it used](understand-orgdata.md)
-- [Import the data](import-orgdata.md)
 - [Attribute reference](orgdata-attributes.md)
 
 > [!NOTE]
