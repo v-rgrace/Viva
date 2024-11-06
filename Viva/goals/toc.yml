@@ -65,11 +65,6 @@ items:
       href: managing-team-members.md
     - name: Approval Workflow
       href: approval-workflows.md  
-  
-  - name: Copilot in Viva Goals
-    items:
-    - name: Introduction to Copilot in Viva Goals
-      href: copilot-intro.md
 
   - name: Create and edit teams
     items:
@@ -222,6 +217,11 @@ items:
     href: define-your-team.md
   - name: Determine your rollout plan
     href: determine-your-rollout-plan.md
+  
+- name: Copilot in Viva Goals
+  items:
+  - name: Introduction to Copilot in Viva Goals
+    href: copilot-intro.md
        
 - name: Discover goal-setting best practices with Viva Goals
   items:
