@@ -246,7 +246,7 @@ These metrics provide insights about how employees are using Copilot for Sales w
 
 | Metric | Description | Date from when the data is available and the customers can view |
 |----|----|----|
-| Total Copilot for Sales enabled days | The number of days the user had at least one premium service plan for Copilot for Sales enabled. |  |
+| Total Copilot for Sales enabled days | The number of days the user had at least one premium service plan for Copilot for Sales enabled. | 2/21/2024  |
 | Total Copilot for Sales active days  | The number of days the user actively used Copilot for Sales at least once in Microsoft Teams or Outlook. | 2/21/2024 |
 | Days of active Copilot for Sales usage in Teams  | The number of days the user actively used Copilot for Sales in Teams. | 2/21/2024 |
 | Days of active Copilot for Sales usage in Outlook   | The number of days the user actively used Copilot for Sales in Outlook. | 2/21/2024 |

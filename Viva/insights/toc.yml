@@ -221,7 +221,9 @@ items:
         - name: Microsoft 365 Copilot adoption report
           href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
         - name: Microsoft 365 Copilot impact report
-          href: advanced/analyst/templates/microsoft-365-copilot-impact.md   
+          href: advanced/analyst/templates/microsoft-365-copilot-impact.md
+        - name: Copilot for Sales adoption report
+          href: advanced/analyst/templates/copilot-for-sales-adoption.md   
       - name: Troubleshoot
         items:
         - name: Resolve Viva Insights errors 
