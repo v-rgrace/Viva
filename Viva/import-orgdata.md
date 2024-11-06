@@ -24,7 +24,7 @@ description: "Prepare and import your organizational data"
 
 You can import employee information from non-Microsoft systems into Microsoft 365 for use in user profiles and in different Microsoft 365 apps, like Viva Insights. This information, called *organizational data*, is used together with information from Microsoft Entra ID (formerly Azure Active Directory). (For specifics on how the two sets of information work together, including which data takes precedence, see [Data usage](orgdata-data-usage.md#data-usage).)
 
-To import your data, you populate a .csv template with the attributes (or information) about your users that you want to include and then upload the file through the Microsoft 365 admin console. Here are the steps to get started:
+To import your data, you populate a .csv template with the attributes (or information) about your users that you want to include and then upload the file through the Microsoft 365 admin center. Here are the steps to get started:
 
 1. [Download a .csv template](#step-1---download-a-csv-template)
 1. [Structure the organizational data](#step-2---structure-the-organizational-data)
