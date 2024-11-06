@@ -45,19 +45,19 @@ A SharePoint home site needs site navigation that is organized well, highlights 
 
 |Image of the SharePoint home site  |Web parts key  |
 |:---------|:---------|
-|:::image type="content" source="../media/connections/create-sharepoint-home-site-for-viva-connections/home-site-overview-1.png" alt-text="Screenshot that shows SharePoint home site" lightbox="../media/connections/vc-home-site-design.png" border="false":::    |<ol><li>Hero web part</li><li>World clock web part</li><li>Weather web part</li><li>Dashboard web part</li><li>Image web part</li><li>File viewer web part</li><li>Events web part</li><li>Quick Links web part</li><li>Quick Links web part</li><li>News web part</li><li>Quick Links web part</li><li>Call to action web part</li></ol>|
+|:::image type="content" source="../media/connections/create-sharepoint-home-site-for-viva-connections/home-site-overview-1.png" alt-text="Screenshot that shows SharePoint home site." lightbox="../media/connections/vc-home-site-design.png" border="false":::    |<ol><li>Hero web part</li><li>World clock web part</li><li>Weather web part</li><li>Dashboard web part</li><li>Image web part</li><li>File viewer web part</li><li>Events web part</li><li>Quick Links web part</li><li>Quick Links web part</li><li>News web part</li><li>Quick Links web part</li><li>Call to action web part</li></ol>|
 
 ## Summary of the site structure
 
 This SharePoint home site design uses a vertical section and a combination of one and two column sections. After [creating your communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb), start by [laying out the sections](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) before adding web parts.  
 
-:::image type="content" source="../media/connections/create-sharepoint-home-site-for-viva-connections/home-site-overview-2.png" alt-text="Screenshot that shows SharePoint home site design" border="false" lightbox="../media/connections/create-sharepoint-home-site-for-viva-connections/home-site-overview-2.png" :::
+:::image type="content" source="../media/connections/create-sharepoint-home-site-for-viva-connections/home-site-overview-2.png" alt-text="Screenshot that shows SharePoint home site design." border="false" lightbox="../media/connections/create-sharepoint-home-site-for-viva-connections/home-site-overview-2.png" :::
 
 ## Build the site
 
 Start with a [modern SharePoint communication site](https://support.microsoft.com/office/create-a-communication-site-in-sharepoint-7fb44b20-a72f-4d2c-9173-fc8f59ba50eb). Next, [start adding sections](https://support.microsoft.com/office/add-sections-and-columns-on-a-sharepoint-modern-page-fc491eb4-f733-4825-8fe2-e1ed80bd0899) following the diagram in the site sections summary. Then, add and edit web parts. The guidance for customizing web parts can be applied when you are in edit mode for each web part.
 
-:::image type="content" source="../media/connections/create-sharepoint-home-site-for-viva-connections/build-site-overview-1.png" alt-text="Screenshot that shows Build SharePoint home site top section" border="false" lightbox="../media/connections/create-sharepoint-home-site-for-viva-connections/build-site-overview-1.png" :::
+:::image type="content" source="../media/connections/create-sharepoint-home-site-for-viva-connections/build-site-overview-1.png" alt-text="Screenshot that shows Build SharePoint home site top section." border="false" lightbox="../media/connections/create-sharepoint-home-site-for-viva-connections/build-site-overview-1.png" :::
 
 |Number  |Web part  |Customization guidance  |
 |---------|---------|---------|
@@ -68,7 +68,7 @@ Start with a [modern SharePoint communication site](https://support.microsoft.co
 | 5 | [Image web part](https://support.microsoft.com/office/a63b335b-ad0a-4954-a65d-33c6af68beb2) |Toggle **Add text over image** to **On**.|
 | 6 | [File and Media web part](https://support.microsoft.com/office/use-the-file-and-media-web-part-e53a9602-e7b3-4fff-9126-de2f18d1900c) | No settings guidance. |
 
-:::image type="content" source="../media/connections/create-sharepoint-home-site-for-viva-connections/build-site-overview-2.png" alt-text="Screenshot that shows Build SharePoint home site middle section" border="false" lightbox="../media/connections/create-sharepoint-home-site-for-viva-connections/build-site-overview-2.png" :::
+:::image type="content" source="../media/connections/create-sharepoint-home-site-for-viva-connections/build-site-overview-2.png" alt-text="Screenshot that shows Build SharePoint home site middle section." border="false" lightbox="../media/connections/create-sharepoint-home-site-for-viva-connections/build-site-overview-2.png" :::
 
 | Number| Web part|Customization guidance|
 |---|---|---|
