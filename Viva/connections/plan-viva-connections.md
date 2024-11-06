@@ -48,7 +48,7 @@ Viva Connections is composed of three main parts – the dashboard, the feed, an
 >
 | Desktop              | Mobile              |
 | :------------------- |:------------------- |
-| ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/plan-viva-connections/vc3-at-a-glance-desktop-sm.png)|![Image of the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard-small.png)|
+| [![Screenshot that shows the Viva Connections landing experience in the desktop app.](../media/connections/plan-viva-connections/vc3-at-a-glance-desktop-sm.png)](../media/connections/plan-viva-connections/vc3-at-a-glance-desktop-sm.png#lightbox)|[![Screenshot that shows the Viva Connections landing experience in the mobile app.](../media/connections/mobile-dashboard-small.png)](../media/connections/mobile-dashboard-small.png#lightbox)|
 |- Your organization’s instance of Viva Connections [will appear as an icon](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) in the Teams app bar. <br> - When the icon is selected, users will see the default landing experience. <br> - When the icon is selected twice, the global navigation panel displays. <br> - [Use web parts like the News, Viva Engage, File and Media, and Highlighted Content web parts](use-web-parts-in-sharepoint.md) to provide users with a steady stream of content from a variety of sources.<br> - Add the [Dashboard web part](use-dashboard-web-part-on-home-site.md) to make it easy to complete tasks | - Your organization’s instance of Viva Connections will appear as an icon in the Teams mobile app bar. <br> - Once selected, users can pivot from the dashboard to the feed to resources.|
 >
 
@@ -68,7 +68,7 @@ A Viva Connections experience doesn’t require a [SharePoint home site](home-si
 
 A SharePoint home site is the front door to your organization’s intranet and a gateway to other popular portals that are relevant to the entire organization. Your SharePoint home site will also be the landing experience for Viva Connections in the Microsoft Teams desktop app.
 
-   ![Image of the Viva Connections landing experience in the desktop app.](../media/connections/plan-viva-connections/vc3-at-a-glance-desktop-sm.png)
+   ![Screenshot that shows the Viva Connections landing experience in the desktop app.](../media/connections/plan-viva-connections/vc3-at-a-glance-desktop-sm.png)
 
 Start small by identifying a handful of resources and functions that the SharePoint home site can serve. Consider using a [customizable site template when creating a new SharePoint communication site called the Organization Home template](https://support.microsoft.com/office/3e5b98fd-c829-4b26-8367-f94291d9812e) to quickly get your SharePoint home site up and running. Optionally, turn your SharePoint home site into a [SharePoint hub site](/sharepoint/planning-hub-sites) to add an extra layer of navigation and increase the search scope.
 
@@ -211,7 +211,7 @@ Resources are the navigational links to portals and other popular destination. R
 >
 | Desktop             | Mobile                 |
 | ------------------ | ------------------ |
-| ![Image of global navigation in the desktop app.](../media/connections/plan-viva-connections/vc3-resources-overview-short.png)| ![Image of global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)|
+| ![Screenshot that shows global navigation in the desktop app.](../media/connections/plan-viva-connections/vc3-resources-overview-short.png)| ![Screenshot that shows global navigation in the mobile apps.](../media/connections/mobile-resources-small.png)|
 >
 For organizations with SharePoint home sites, consider how links in the global navigation complement resources highlighted on the SharePoint home site. Depending on the content you want to make available in the global navigation, you can [design your SharePoint home site navigation and global navigation in three different ways](/viva/connections/sharepoint-app-bar#see-all-the-different-ways-you-can-set-up-global-navigation).
 
