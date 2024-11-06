@@ -22,7 +22,7 @@ description: "Understand what makes up your organizational data and how it's use
 ---
 # Understand how organizational data is used and retained in Microsoft 365
 
-You can use [organizational data](organizational-data.md) (data from your organization's Microsoft Entra ID instance or from another data source, like your HR system) as input for your users' [Microsoft 365 User Profiles](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true) and to power certain capabilities in Microsoft 365 applications, including Microsoft Viva.
+You can use [organizational data](organizational-data.md) together with data from your organization's Microsoft Entra ID instance as input for your users' [Microsoft 365 User Profiles](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true) and to power certain capabilities in Microsoft 365 applications, including Microsoft Viva.
 
 Review the following information to understand how organizational data is used, stored, and deleted.
 
