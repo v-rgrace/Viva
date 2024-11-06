@@ -519,7 +519,7 @@ To add the Viva Pulse card to your dashboard:
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-4. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard.md#apply-audience-targeting-to-cards).
+4. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](create-dashboard.md#apply-audience-targeting-to-cards).
 
       :::image type="content" source="../media/connections/create-dashboard/pulse-card-properties.png" alt-text="Screenshot of the Viva Pulse card properties.":::
 

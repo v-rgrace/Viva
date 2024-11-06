@@ -36,7 +36,7 @@ Quick view is a powerful tool that enables the card designer to create cards tha
 
 ## Edit the dashboard
 
-You need member or owner level permissions to access the card designer from the dashboard card toolbox. See the article on [creating a Viva Connections dashboard and adding cards](create-dashboard.md#edit-the-dashboard-in-microsoft-teams) for information on getting started.
+You need member or owner level permissions to access the card designer from the dashboard card toolbox. See the article on [creating a Viva Connections dashboard and adding cards](create-dashboard.md#edit-the-dashboard-from-microsoft-teams) for information on getting started.
 
 ## Use a card template
 
@@ -92,8 +92,8 @@ The card designer has a set of card view templates that can be used to easily cr
 
       :::image type="content" source="../media/connections/use-card-designer/card-designer-adding-image.png" alt-text="Screenshot showing options under the card content category in the properties pane.":::
 
-    > [!NOTE]
-    >
+> [!NOTE]
+>
 > - Image recommendations for cards in the dashboard: medium cards should be 300x150 to 400x200 with 2:1 aspect ratio and large cards 300x300 to 400x400 with 1:1 aspect ratio to prevent stretching in the mobile app.
 > - Image URLS in card properties must be an absolute URL for the link to work in the mobile app.
 
@@ -103,14 +103,9 @@ The card designer has a set of card view templates that can be used to easily cr
 >
 > The card action cannot be disabled.
 
-   - **Show the quick view**: Select to use JSON code to create a more interactive dashboard card. If selected, the **Save** button changes to **Next**, which leads to more settings for customizing your quick view card. For steps on using quick view, refer to [add a quick view to a card](#add-a-quick-view-to-a-card).
-
-> [!NOTE]
->
-> One quick view is available for each card, which can be opened as the card action, or by using a button.
-
-   - **Go to a link**: Enter a URL to direct users to.
-   - **Go to teams app**: the user is directed to the specified teams app by the URL provided (admins can also use the appID to direct users to the appropriate Teams app). For more information, see [Deep link to an application](/microsoftteams/platform/concepts/build-and-test/deep-link-application?tabs=teamsjs-v2#configure-deep-link-manually-using-your-app-id).
+- **Show the quick view**: Select to use JSON code to create a more interactive dashboard card. If selected, the **Save** button changes to **Next**, which leads to more settings for customizing your quick view card. One quick view is available for each card, which can be opened as the card action, or by using a button. For steps on using quick view, refer to [add a quick view to a card](#add-a-quick-view-to-a-card).
+- **Go to a link**: Enter a URL to direct users to.
+- **Go to teams app**: the user is directed to the specified teams app by the URL provided (admins can also use the appID to direct users to the appropriate Teams app). For more information, see [Deep link to an application](/microsoftteams/platform/concepts/build-and-test/deep-link-application?tabs=teamsjs-v2#configure-deep-link-manually-using-your-app-id).
 
     For example, selecting **Go to a link** from the dropdown displays a field for entering the link.
 
