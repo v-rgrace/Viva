@@ -12,7 +12,10 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Import business data with Azure blob import
+# Import business data with Azure blob import (preview)
+
+>[!IMPORTANT]
+> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
 Uploading business data into Viva Insights helps you understand how Copilot usage influences the business outcomes that matter most to your organization. Business outcomes might include productivity metrics at both the task and job levels, such as the number of emails sent by your sales team or the number of closed deals. Please refer to our separate documentation on the Copilot Business Outcome report to learn more. 
  
