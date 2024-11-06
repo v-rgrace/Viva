@@ -1,5 +1,5 @@
 ---
-title: "Understand what makes up your organizational data and how it's used and retained in Microsoft 365"
+title: "Understand how organizational data is used and retained in Microsoft 365"
 ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
