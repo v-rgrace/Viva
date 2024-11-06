@@ -1,5 +1,5 @@
 ---
-title: "Prepare and import your organizational data"
+title: "Import your organizational data"
 ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
