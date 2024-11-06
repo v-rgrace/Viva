@@ -236,7 +236,7 @@ Business data likely has different data sources, and might update on different s
 
 ### 4. Prepare business data file and send to blob store
 
-**Applies to: Source system admin**
+*Applies to: Source system admin*
 
 #### Task 1 - Prepare your data 
 
