@@ -24,11 +24,11 @@ description: "Add dynamic cards to the Viva Connections dashboard to help users 
 
 # Available dashboard cards in Viva Connections
 
-The Viva Connections dashboard uses dynamic cards that can be [targeted to specific users](create-dashboard.md#apply-audience-targeting-to-cards) to help them perform tasks like clock in for a shift, access training materials or links to department resources, look up contact information, manage assigned tasks, and more. If your organization has a specific task in mind, you can also use the [card designer](#use-card-designer.md) to quickly build "custom" cards using a template, without the need for custom code.
+The Viva Connections dashboard uses dynamic cards that can be [targeted to specific users](create-dashboard.md#apply-audience-targeting-to-cards) to help them perform tasks like clock in for a shift, access training materials or links to department resources, look up contact information, manage assigned tasks, and more. If your organization has a specific task in mind, you can also use the [card designer](use-card-designer.md) to quickly build "custom" cards using a template, without the need for custom code.
 
 ## Edit the dashboard
 
-You need member or owner level permissions to access the card designer from the dashboard card toolbox. See the article on [creating a Viva Connections dashboard and adding cards](create-dashboard.md#edit-the-dashboard) for information on getting started.
+You need member or owner level permissions to access the card designer from the dashboard card toolbox. See the article on [creating a Viva Connections dashboard and adding cards](create-dashboard.md#edit-the-dashboard-from-microsoft-teams) for information on getting started.
 
 ## Available dashboard cards
 
@@ -46,7 +46,7 @@ You need member or owner level permissions to access the card designer from the 
 | [![Screenshot of the Quick links card icon with a link to more information.](../media/connections/create-dashboard/quick-links-card-icon-nb.png)](#add-the-quick-links-card) |   Provide list of relevant links or files to users selected by admins. |
 | [![Screenshot of the shifts card icon with a link to more information.](../media/connections/shifts-card-icon.png)](#add-the-shifts-card) | Display information about the next or current shift from the Shifts app in Teams. |
 | [![Screenshot of the Stream play list card icon with a link to more information.](../media/connections/create-dashboard/stream-playlist-card-icon-nb.png)](#add-the-stream-playlist-card) |   Display a list of videos to users that can be viewed in Microsoft Stream. |
-| [![Screenshot of the Teams app icon with a link to more information.](../media/connections/teams-app-icon.png)](#add-a-teams-app-card) |   Use to open a Teams personal app or bot specified by the dashboard author. |
+| [![Screenshot of the Teams app icon with a link to more information.](../media/connections/teams-app-icon.png)](#add-the-teams-app-card) |   Use to open a Teams personal app or bot specified by the dashboard author. |
 | [Varies](#add-a-partner-card-or-microsoft-app) | Use cards that integrate [partner services.](https://cloudpartners.transform.microsoft.com/resources/viva-app-integration)     |
 | [![Screenshot of the Viva Topics Contribute icon and Topics Discover icon with a link to more information](../media/knowledge-management/viva-topics-cards-toolbox.png)](#add-the-viva-topics-card) |  Use Topics cards to encourage knowledge discoverability, engagement, and sharing. |
 | [![Screenshot of the Viva Learning card icon with a link to more information.](../media/connections/create-dashboard/viva-learning-card-icon-2.png)](#add-the-viva-learning-card) |  Provide a link to the Viva Learning app that can be targeted to show to certain audiences. |
@@ -457,7 +457,7 @@ A Microsoft app card allows you to create a card that links to Microsoft apps (F
 
 4. When you **Republish**, the card appears on your dashboard.
 
-### Add the Topics card
+### Add the Viva Topics card
 
 Topics has two different cards. The **Topics Contribute card** can be used to reach people who are known knowledge managers and are already engaged with topics and knowledge areas. Topics and knowledge areas are dynamically displayed in the card based on the viewers interests, current projects, and expertise. The **Topics Discover card** can be used to view topics and knowledge areas for people who could be interested in learning more or contributing to a topic.
 
@@ -519,7 +519,7 @@ To add the Viva Pulse card to your dashboard:
 
 3. In the property pane on the right, choose your card size from the **Card size** drop-down list.
 
-4. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboardcreate-dashboard.md#apply-audience-targeting-to-cards).
+4. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](/viva/connections/create-dashboard.md#apply-audience-targeting-to-cards).
 
       :::image type="content" source="../media/connections/create-dashboard/pulse-card-properties.png" alt-text="Screenshot of the Viva Pulse card properties.":::
 

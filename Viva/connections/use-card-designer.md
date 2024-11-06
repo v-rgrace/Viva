@@ -36,7 +36,7 @@ Quick view is a powerful tool that enables the card designer to create cards tha
 
 ## Edit the dashboard
 
-You need member or owner level permissions to access the card designer from the dashboard card toolbox. See the article on [creating a Viva Connections dashboard and adding cards](create-dashboard.md#edit-the-dashboard) for information on getting started.
+You need member or owner level permissions to access the card designer from the dashboard card toolbox. See the article on [creating a Viva Connections dashboard and adding cards](create-dashboard.md#edit-the-dashboard-in-microsoft-teams) for information on getting started.
 
 ## Use a card template
 
@@ -99,18 +99,18 @@ The card designer has a set of card view templates that can be used to easily cr
 
 11. Under card action, select an action to be performed when a user selects the card. Depending on the action selected, more fields appear to customize the action.
 
-    > [!NOTE]
-    >
+> [!NOTE]
+>
 > The card action cannot be disabled.
 
-    - **Show the quick view**: Select to use JSON code to create a more interactive dashboard card. If selected, the **Save** button changes to **Next**, which leads to more settings for customizing your quick view card. For steps on using quick view, refer to [add a quick view to a card](#add-a-quick-view-to-a-card).
+   - **Show the quick view**: Select to use JSON code to create a more interactive dashboard card. If selected, the **Save** button changes to **Next**, which leads to more settings for customizing your quick view card. For steps on using quick view, refer to [add a quick view to a card](#add-a-quick-view-to-a-card).
 
-    > [!NOTE]
+> [!NOTE]
 >
 > One quick view is available for each card, which can be opened as the card action, or by using a button.
 
-    - **Go to a link**: Enter a URL to direct users to.
-    - **Go to teams app**: the user is directed to the specified teams app by the URL provided (admins can also use the appID to direct users to the appropriate Teams app). For more information, see [Deep link to an application](/microsoftteams/platform/concepts/build-and-test/deep-link-application?tabs=teamsjs-v2#configure-deep-link-manually-using-your-app-id).
+   - **Go to a link**: Enter a URL to direct users to.
+   - **Go to teams app**: the user is directed to the specified teams app by the URL provided (admins can also use the appID to direct users to the appropriate Teams app). For more information, see [Deep link to an application](/microsoftteams/platform/concepts/build-and-test/deep-link-application?tabs=teamsjs-v2#configure-deep-link-manually-using-your-app-id).
 
     For example, selecting **Go to a link** from the dropdown displays a field for entering the link.
 
@@ -118,13 +118,13 @@ The card designer has a set of card view templates that can be used to easily cr
 
 13. Buttons can be toggled on and off (where available). If enabled, the same values found under card action can be selected for the **Primary** and **Secondary** buttons.
 
-    > [!NOTE]
+> [!NOTE]
 >
 > When using a medium sized card, only one button can be enabled using the heading or description template. The image template will disable the use of buttons when medium size is selected.
 
-    For this example, the **Primary button** is set to direct users to the same link as the card action. The **Secondary button** is disabled.
+   For this example, the **Primary button** is set to direct users to the same link as the card action. The **Secondary button** is disabled.
 
-    :::image type="content" source="../media/connections/use-card-designer/card-designer-set-card-actions.png" alt-text="Screenshot showing options under the actions category in the properties pane.":::
+   :::image type="content" source="../media/connections/use-card-designer/card-designer-set-card-actions.png" alt-text="Screenshot showing options under the actions category in the properties pane.":::
 
 14. Under **Audiences to target** enter one or more groups to target so only those audiences specified see the card in the dashboard. For more information, see [audience targeting in Viva Connections](use-audience-targeting-in-viva-connections.md).
 
