@@ -23,7 +23,7 @@ The Microsoft Viva Glint 360 feedback program and process give insight into a ma
 
 ## 360 feedback process
 
-The Viva Glint 360 Feedback process gives employees insight into their strengths and opportunities from various viewpoints. Rather than relying solely on the perspective of an immediate supervisor or manager, 360s invite multiple perspectives. 
+The Viva Glint 360 Feedback process give employees insight into their strengths and opportunities from various viewpoints. Rather than relying solely on the perspective of an immediate supervisor or manager, 360s invite multiple perspectives. 
 
 360s are also known as multi-rater feedback, multisource feedback, or multisource assessments. 
 
