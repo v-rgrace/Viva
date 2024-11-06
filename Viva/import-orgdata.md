@@ -20,9 +20,11 @@ search.appverid:
 - MET150
 description: "Prepare and import your organizational data"
 ---
-# Prepare and import your organizational data 
+# Import your organizational data 
 
-Before you upload organizational data, you need to do the following:
+Microsoft 365 User Profile Data comes from two main sources: either Microsoft Entra ID (formerly Azure Active Directory), which is the default setting, or from Organizational Data in Microsoft 365, which you upload manually (as a .csv file). 
+
+Use the following information to import your organizational data manually:
 
 1. [Download a .csv template](#step-1---download-a-csv-template)
 1. [Structure the organizational data](#step-2---structure-the-organizational-data)
