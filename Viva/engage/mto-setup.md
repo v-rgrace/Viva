@@ -2,8 +2,8 @@
 title: "Set up Viva Engage for a multitenant organization"
 description: "How to set up Viva Engage for a multitenant organization."
 ms.reviewer: ahosford
-ms.author: v-bvrana
-author: Starshine89
+ms.author: donnabouldin
+author: donnabouldin
 manager: elizapo
 ms.date: 09/26/2024
 audience: Admin
@@ -122,7 +122,7 @@ On the hub tenant, enable audiences and specify the leaders whose storyline post
 
 *For the Engage admin*
 
-Only pre-existing communities on the hub tenant can be enabled for cross-tenant engagement. Once enabled, the community becomes private. Learn more about [Multitenant communities in Viva Engage](https://support.microsoft.com/en-us/topic/multitenant-communities-in-viva-engage-51462784-c566-44d0-a2cd-4d59dfc55fff).
+Only pre-existing communities on the hub tenant can be enabled for cross-tenant engagement. Once enabled, the community becomes private.
 
 |Task description|Instructions|
 |----------------|----------------|
