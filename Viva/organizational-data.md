@@ -25,7 +25,7 @@ description: "Import Organizational Data in Microsoft Viva and Microsoft 365"
 
 Use the following information to understand, import, and manage your organizational data:
 
-- [Understand what organizational data is and where it comes from](#what-user-information-makes-up-your-organizational-data)
+- [Understand what organizational data is](#what-user-information-makes-up-your-organizational-data)
 - [Import your organizational data](import-orgdata.md)
 - [Understand how organizational data is retained and managed](orgdata-data-usage.md)
 - [Attribute reference](orgdata-attributes.md)
@@ -84,28 +84,4 @@ See [Attribute reference](orgdata-attributes.md) for more details about the spec
 >
 > - Three name related attributes (**Microsoft_FirstName**, **Microsoft_LastName**, and **Microsoft_DisplayName**) are treated as a group in the Microsoft 365 User Profile, so if any one of them has a value in the input .csv file, the other two also need to have values. Otherwise, the specified value isn't stored in the Microsoft 365 User Profile.
 
-
-## How organizational data works with Viva Insights
-The data uploaded as part of Organizational Data in Microsoft 365 is also used in Viva Insights and is mapped to these Viva Insights reserved fields:
-
-- PersonId
-- ManagerId
-- Organization
-- LevelDesignation
-- FunctionType
-- Layer
-- Location
-
-The following data is uploaded from the Organizational Data feature but isn't available for use in Viva Insights:
-- Microsoft_DisplayName
-- Microsoft_FirstName
-- Microsoft_LastName
-- Microsoft_SecondaryJobTitle
-- Microsoft_UserSkillNames
-
-These attributes are available to use as custom attributes in Viva Insights.
-- Microsoft_JobTitle
-- Microsoft_City
-- Microsoft_CountryOrRegion
-- Microsoft_PostalCode
-- Microsoft_PostOfficeBox
+Now that you understand what organizational data is and where it comes from, you're ready to [import your organizational data into Microsoft 365](import-orgdata.md).

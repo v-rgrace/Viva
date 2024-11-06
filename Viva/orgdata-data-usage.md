@@ -42,6 +42,32 @@ To ensure that the data in the Microsoft 365 User Profile remains up to date and
 
 Ensure that the data you upload matches attribute names and descriptions listed in the [Attribute reference](orgdata-attributes.md). Also avoid uploading [sensitive personal data](https://commission.europa.eu/law/law-topic/data-protection/reform/rules-business-and-organisations/legal-grounds-processing-data/sensitive-data/what-personal-data-considered-sensitive_en).
 
+
+## How organizational data works with Viva Insights
+The data uploaded as part of Organizational Data in Microsoft 365 is also used in Viva Insights and is mapped to these Viva Insights reserved fields:
+
+- PersonId
+- ManagerId
+- Organization
+- LevelDesignation
+- FunctionType
+- Layer
+- Location
+
+The following data is uploaded from the Organizational Data feature but isn't available for use in Viva Insights:
+- Microsoft_DisplayName
+- Microsoft_FirstName
+- Microsoft_LastName
+- Microsoft_SecondaryJobTitle
+- Microsoft_UserSkillNames
+
+These attributes are available to use as custom attributes in Viva Insights.
+- Microsoft_JobTitle
+- Microsoft_City
+- Microsoft_CountryOrRegion
+- Microsoft_PostalCode
+- Microsoft_PostOfficeBox
+
 ## Data deletion
 See [Update or make other changes to organizational data](import-orgdata.md#step-4---update-or-make-other-changes-to-your-data) for information about deleting user data. As soon as the update is processed, the associated user data is overwritten with blank fields, meaning their data is effectively deleted immediately.
 
