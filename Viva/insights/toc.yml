@@ -90,6 +90,8 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Import business data with Azure blob import
+            href: advanced/admin/import-business-data-azure.md
           - name: Export Viva Insights data using MGDC
             href: advanced/admin/dynamic-metric-load.md
           - name: Integrate Viva Glint and Viva Insights data
@@ -221,7 +223,9 @@ items:
         - name: Microsoft 365 Copilot adoption report
           href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
         - name: Microsoft 365 Copilot impact report
-          href: advanced/analyst/templates/microsoft-365-copilot-impact.md   
+          href: advanced/analyst/templates/microsoft-365-copilot-impact.md
+        - name: Import business data with Azure blob import
+          href: advanced/admin/import-business-data-azure.md   
         - name: Copilot Business Outcome report
           href: advanced/analyst/templates/copilot-business-outcome.md   
       - name: Troubleshoot
