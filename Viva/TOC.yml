@@ -18,7 +18,7 @@ items:
       - name: Import your organizational Data
         href: import-orgdata.md
       - name: Understand how organizational data is handled
-        href: understand-orgdata.md  
+        href: orgdata-data-usage.md  
       - name: Use organizational data in the Copilot dashboard
         href: organizational-data-copilot.md
       - name: Organizational data attribute reference
