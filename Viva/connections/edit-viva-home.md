@@ -25,7 +25,7 @@ description: "Learn how to customize and edit the Viva Connections home experien
 
 # Customize and edit the Viva Connections experience
 
-The new [Viva Connections](viva-connections-overview.md) desktop design serves as a new experience that centers essential job tasks, personalized content, easy access to other Viva experiences, and better aligns with the mobile experience. [Learn more about the new Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419).
+The new [Viva Connections](viva-connections-overview.md) desktop design serves as a new experience that centers essential job tasks, personalized content, easy access to other Viva experiences, and better aligns with the mobile experience. [Learn more about the new Viva Connections desktop experience](https://techcommunity.microsoft.com/blog/viva_connections_blog/more-options-coming-soon-for-the-viva-connections-desktop-experience/3644419).
 
 Elements of the new Viva Connections experience can be customized to fit your organization’s brand and the needs of your end users. Learn more about how to customize the banner, Dashboard content, and navigational links in Resources. Then, learn how to influence content in the Feed. Finally, learn how to manage access and permissions.
 
@@ -341,7 +341,7 @@ The [Viva Connections dashboard](create-dashboard.md#edit-the-dashboard) provide
 
 ### Learn more about adding partner cards and creating custom cards
 
-In addition to the core set of dashboard cards, cards from partner solutions can be added to the card toolbox from the SharePoint store. [Learn more about partner cards](https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/explore-and-deploy-sharepoint-framework-solutions-from-partners/ba-p/2645289) and [how to request them](create-dashboard.md#add-a-microsoft-app-as-a-card-on-the-dashboard). Additionally, customers can create custom cards for the Viva Connections dashboard by using the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview) to create Adaptive Card Extensions (ACEs). Learn more about this framework and view the [ACE solution gallery](https://appsource.microsoft.com/product/office/WA200003929).
+In addition to the core set of dashboard cards, cards from partner solutions can be added to the card toolbox from the SharePoint store. [Learn more about partner cards](https://techcommunity.microsoft.com/blog/spblog/explore-and-deploy-sharepoint-framework-solutions-from-partners-in-sharepoint-mi/2645289) and [how to request them](create-dashboard.md#add-a-microsoft-app-as-a-card-on-the-dashboard). Additionally, customers can create custom cards for the Viva Connections dashboard by using the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview) to create Adaptive Card Extensions (ACEs). Learn more about this framework and view the [ACE solution gallery](https://appsource.microsoft.com/product/office/WA200003929).
 
 ### Preview the dashboard before sharing with others
 
@@ -545,7 +545,7 @@ Once finished customizing your Viva Connections experience, follow the steps to 
 
 ## Learn more
 
-[More options coming soon for the Viva Connections desktop experience](https://techcommunity.microsoft.com/t5/microsoft-viva-blog/more-options-coming-soon-for-the-viva-connections-desktop/ba-p/3644419)
+[More options coming soon for the Viva Connections desktop experience](https://techcommunity.microsoft.com/blog/viva_connections_blog/more-options-coming-soon-for-the-viva-connections-desktop-experience/3644419)
 
 [Overview: Viva Connections](viva-connections-overview.md)
 

@@ -108,9 +108,6 @@ Before you get started planning and building your SharePoint home site, review b
 
 Since SharePoint home sites are the gateway to your intranet, you want to prioritize content and resources that are relevant to most users. Work with business owners and stakeholders to organize and align the flow of information and the navigational design. Then, use the [Page diagnostics for SharePoint tool](/microsoft-365/Enterprise/page-diagnostics-for-spo) to ensure to best viewing experience. Next, [set your SharePoint communication site as a home site](/SharePoint/home-site) in the SharePoint admin center. Finally, use the [Portal launch scheduler](/microsoft-365/enterprise/portallaunchscheduler) to plan the launch of your new site and make the site discoverable by adding links to key entry-points in the Microsoft 365 experience.
 
-Before you get started planning your SharePoint home site, [hear from the Microsoft product team on how to think](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758) about and approach the design of your organization’s SharePoint home site.
-
-
 | Plan                  | Build                | Launch and manage          |
 | :------------------- | :------------------- |:----------------|
 | - Align objectives with partners and business owners <br> - Organize priority content <br> - Design way finding for the SharePoint home site and global navigation <br> - Think about branding <br> - Use audience targeting on navigational links, news, and web parts| - Upload and organize site assets and content like files and logos (64x64px). <br> - Customize the site to align with the rest of the intranet <br> - Apply audience targeting <br> - Turn on a content approval flow <br> - Use PowerShell to turn the SharePoint comm site into a home site <br> - Swap the root site location with the SharePoint home site <br> - Measure site health and performance <br> - Test on all devices| - Share the site with your organization <br> - Use the Portal launch scheduler to release the new site in phases <br> - Make the SharePoint home site discoverable <br> - Announce the launch of the SharePoint home site using various communication channels <br> - Monitor site usage and analytics |
@@ -170,8 +167,6 @@ Integration between the SharePoint home site and [SharePoint start page](https:/
 Watch for updates in the [Microsoft 365 roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=SharePoint).
 
 ## Resources
-
-**Watch:** [Build and launch a SharePoint Home Site: Tips and Tricks From The Product Team](https://techcommunity.microsoft.com/t5/video-hub/build-and-launch-a-sharepoint-home-site-tips-and-tricks-from-the/m-p/1696758)
 
 [Planning your SharePoint hub sites](/sharepoint/planning-hub-sites)
 

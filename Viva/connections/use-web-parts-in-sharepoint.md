@@ -37,7 +37,7 @@ For more information on how content is displayed, see the section in this articl
 
 ## Display news posts with the News web part
 
-Keep users in the loop and engage your audience with important or interesting stories by using the [News web part](https://support.microsoft.com/c2dcee50-f5d7-434b-8cb9-a7feefd9f165) on your page or site to display a collection of news posts from various SharePoint sources.
+Keep users in the loop and engage your audience with important or interesting stories by using the [News web part](https://support.microsoft.com/office/c2dcee50-f5d7-434b-8cb9-a7feefd9f165) on your page or site to display a collection of news posts from various SharePoint sources.
 
 Create eye-catching posts like announcements, organizational news, people news, status updates, and more that can include graphics and rich formatting. [Boost news posts](https://support.microsoft.com/office/46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) so it appears in a prominent position to be seen by your organization. You can also customize the web part to change the layout, order of appearance, or target posts to specific audiences.
 
