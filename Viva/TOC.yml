@@ -15,7 +15,7 @@ items:
     - name: Use Organizational Data in Microsoft 365
       href: organizational-data.md  
       items:
-      - name: Import your organizational Data
+      - name: Import your organizational data
         href: import-orgdata.md
       - name: Understand how organizational data is handled
         href: orgdata-data-usage.md  
