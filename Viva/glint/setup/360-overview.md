@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/08/2024
+ms.date: 11/06/2024
 ---
 
 # Viva Glint 360 feedback program overview 
@@ -29,7 +29,7 @@ The Viva Glint 360 Feedback process gives employees insight into their strengths
 
 **Research shows that 85% of people struggle with self-awareness - even though 95% of people believe they are self-aware.** The goal of a 360 is to increase self-awareness about key strengths, uncertainties, and the impact a leader has on others. Results identify opportunities to improve. 360s are a foundational step to professional growth and meaningful change. A 360 isn't a performance evaluation but is focused on a participant’s development. 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1nzWM]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=bddd87f8-8f2f-4931-a998-3020882fb05c]
 
 ## 360 feedback program 
 
