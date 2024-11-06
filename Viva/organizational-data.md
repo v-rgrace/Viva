@@ -27,7 +27,7 @@ Use the following information to understand, import, and manage your organizatio
 
 - [Understand what organizational data is and where it comes from](#what-user-information-makes-up-your-organizational-data)
 - [Import your organizational data](import-orgdata.md)
-- [Understand how organizational data is retained and managed](understand-orgdata.md)
+- [Understand how organizational data is retained and managed](orgdata-data-usage.md)
 - [Attribute reference](orgdata-attributes.md)
 
 > [!NOTE]
@@ -40,7 +40,7 @@ The Microsoft 365 User Profile is, essentially, a collection of attributes that 
 Microsoft 365 User Profile Data comes from two main sources: either Microsoft Entra ID (formerly Azure Active Directory), which is the default setting, or from Organizational Data in Microsoft 365, which you upload manually (as a .csv file). 
 
 >[!IMPORTANT]
-> In the Microsoft 365 User Profile, Microsoft Entra data takes precedence over Organizational Data in Microsoft 365. When a service queries a Microsoft 365 User Profile, if there is both organizational data and Microsoft Entra data for a single attribute, the Microsoft Entra value is used. Learn how to customize the data precedence for your tenant in [Data usage](#data-usage).
+> In the Microsoft 365 User Profile, Microsoft Entra data takes precedence over Organizational Data in Microsoft 365. When a service queries a Microsoft 365 User Profile, if there is both organizational data and Microsoft Entra data for a single attribute, the Microsoft Entra value is used. Learn how to customize the data precedence for your tenant in [Data usage](orgdata-data-usage.md#data-usage).
 
 There's one required attribute for Organizational Data in Microsoft 365: **Microsoft_PersonEmail**, which associates the organizational data with a specific person. Other applications that use organizational data, like the Microsoft Copilot Dashboard, may have additional data requirements, so be sure to check. To learn how to import organizational data, see [Prepare and import your organizational data](import-orgdata.md).
 
