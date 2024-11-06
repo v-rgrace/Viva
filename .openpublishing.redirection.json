@@ -2202,9 +2202,24 @@
     "redirect_document_id": false
   },
   {
-    "source_path":"viva/connections/overview-viva-connections-education.md",
+    "source_path": "viva/connections/overview-viva-connections-education.md",
     "redirect_url": "/viva/connections/viva-connections-overview",
     "redirect_document_id": false 
-  }      
+  },
+  {
+    "source_path": "viva/connections/use-feed-web-part-for-viva-connections.md",
+    "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/connections/feed-web-part-video-news-link-retirement.md",
+    "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/connections/video-news-links.md",
+    "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
+    "redirect_document_id": false
+  }
   ]
 }
