@@ -38,7 +38,7 @@ ms.date: 11/16/2024
 
 **A:** No.  Copilot in Viva Glint doesn’t process or store any personal data. Copilot in Viva Glint doesn’t know which employee submitted a survey response or comment.   
 
-**Q: ## Does Microoft 365 Copilot in Viva Glint save or store data used in summaries?**
+**Q: Does Microsoft 365 Copilot in Viva Glint save or store data used in summaries?**
 
 Yes. Copilot in Viva Glint saves and stores comments summarization. It follows the security and compliance for data usage practices in place for Viva Glint so the saved data isn't traceable to a respondent. Copilot in Viva Glint saves only the metadata for each API call, such as the date and time of each prompt. The meta log is only baccessed by Glint developers. 
 
@@ -54,7 +54,7 @@ Yes. Copilot in Viva Glint saves and stores comments summarization. It follows t
 
 **A:** If a manager’s name is included in the comments, it's possible their name could appear in a Copilot in Viva Glint summary. Customers can redact or quarantine comments in Glint, so Copilot can't use redacted comments for summarization. [Flag Sensitive comments in Viva Glint | Microsoft Learn] (/viva/glint/setup/glint-sensitive-comments)
 
-**Q:How is bias mitigated?**
+**Q: How is bias mitigated?**
 
 **A:** Copilot is tested with realistic dummy data and human subject matter experts to evaluate the accuracy and relevance of the Copilot responses. Evaluation results are used in an improvement feedback loop to update the LLM instructions to improve the accuracy and relevance of the results and to mitigate any detected biases.   
 
