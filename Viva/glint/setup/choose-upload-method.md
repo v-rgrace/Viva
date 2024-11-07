@@ -1,6 +1,6 @@
 ---
 title: Choose a data upload method
-description: Learn how Viva Glint provides the most relevant results reporting when employee attributes are uploaded on a regular cadence.
+description: Microsoft Viva Glint offers two methods to add your employee data to the platform.
 ms.author: aweixelman
 author: AliciaWeixelman
 manager: melissabarry
