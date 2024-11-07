@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/16/2024
+ms.date: 11/07/2024
 ---
 
 # Set up attributes in Viva Glint
@@ -35,12 +35,12 @@ To set up your attributes in Viva Glint, your uploaded file must contain a final
 2. In **Employees,** select **People**.
 3. Choose **Get Started** to begin the four-step process.
 
-:::image type="content" source="../../media/glint/setup/glint-get-started.png" alt-text="Screenshot of the Get Started button to set up attributes on the People page.":::
-
-Follow the onscreen guidance for the following actions.
-
 > [!CAUTION]
 > The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
+
+Learn more about how to set up attributes in Viva Glint:  
+
+> [!VIDEO bb2646bc-ce4a-407d-8400-ec43bc5514de]
 
 ## 1. Upload dataset
 
