@@ -53,7 +53,7 @@ ms.date: 11/16/2024
  
 <br>**Q: What operational factors and settings allow for effective and responsible use of Microsoft 365 Copilot in Viva Glint?**
 
-**A:** Viva Glint admins can enable or disable Copilot in Viva Glint for any role, in any survey program. Copilot in Viva Glint launches as ‘disabled’ or ‘off’ for all users by default.
+**A:** Viva Glint admins can enable or disable Copilot in Viva Glint for any role, in any survey program. Copilot in Viva Glint launches as *disabled* or *off* for all users by default.
 
 <br>**Q: Is Glint Copilot proprietary in how it works or is it similar to Microsoft Copilot?**
 
@@ -73,10 +73,6 @@ ms.date: 11/16/2024
 <br>**Q: Can customers participate in multiple private previews, such as Viva Glint and Viva Insights integration, and Microsoft 365 Copilot in Viva Glint?**
 
 **A:** Yes, customers can enroll in multiple private previews by joining the Viva Customer Connection Program (VCCP), a prerequisite for any Viva private preview.
-
-<br>**Q: Is there a cut-off date for the Microsoft 365 Copilot in Viva Glint private preview?**
-
-**A:** The private preview ends with the public launch on June 29, 2024. Existing private preview customers can continue their private preview interviews after the June 29 public launch.
  
 <br>**Q: Does Microsoft 365 Copilot in Viva Glint work retroactively on past surveys, including those migrated from LinkedIn Glint?**
 
@@ -112,7 +108,7 @@ ms.date: 11/16/2024
 
 <br>**Q: Does Microsoft 365 Copilot in Viva Glint have the ability to look across multiple surveys or just one at time?**
 
-**A:** One at a time for now. Additionally, Ad hoc and Recurring survey programs only, but we are looking to add the feature to employee lifecycle and always-on programs in the future.
+**A:** One at a time, for now. Additionally, Copilot in Viva Glint only reads Ad hoc and Recurring survey programs, but we are looking to add the feature to employee lifecycle and always-on programs in the future.
 
 <br>**Q: Can Microsoft 365 Copilot in Viva Glint generate a PowerPoint from the results?**
 
@@ -120,7 +116,7 @@ ms.date: 11/16/2024
  
 <br>**Q: Can Microsoft 365 Copilot in Viva Glint recognize when some groups (based on attributes) have more of a negative or positive reactions to a certain question? Can it determine cultural bias or language/translation problems?**
 
-**A:** Currently, Copilot in Viva Glint can’t detect potential biases between survey comments left in different languages, as English is currently the only language available.
+**A:** Currently, Copilot in Viva Glint can’t detect potential biases between survey comments left in different languages. English is currently the only language available.
 
 <br>**Q: Is there a given bank of emotions that Copilot uses to describe sentiment?**
 
