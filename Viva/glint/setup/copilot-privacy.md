@@ -62,8 +62,6 @@ Yes. Copilot in Viva Glint saves and stores comments summarization. It follows t
 
 **A:** **Security and Privacy** - We know that customers are tempted to use AI tools like the publicly available ChatGPT - or even their own company’s AI - to analyze survey comments. ChatGPT doesn't follow confidentiality thresholds the customers have set in Glint. Copilot in Viva Glint strictly follows Microsoft’s and Glint’s privacy, security, and confidentiality protection for customers’ data.  
 
-**Accuracy and Relevance** - Copilot is tested with realistic mock data and human subject matter experts to evaluate the accuracy and relevance of the Copilot responses. Evaluation results are used in an improvement feedback loop to update the LLM instructions to improve the accuracy and relevance of the results.   
-
 ## Data processing  
 
 **Q: What customer data does Copilot in Viva Glint process?**
@@ -72,28 +70,32 @@ Yes. Copilot in Viva Glint saves and stores comments summarization. It follows t
 
 Copilot in Viva Glint processes only HR attribute values and survey comments that the user has permissions to view on their Glint dashboard. 
 
-**Q: How is data transferred between Viva Glint and Microsoft 365 Copilot?**
+<br>**Q: How is data transferred between Microsoft Copilot in Viva Glint and Microsoft 365 Copilot?**
 
-**A:** opilot in Viva Glint uses Microsoft 365 Substrate LLM to process customer data. Microsoft 365 Substrate LLM follows Microsoft’s security and privacy standards.  
-
+**A:** Copilot in Viva Glint uses Microsoft 365 LLM technology to process customer data. Microsoft 365 LLM technology follows Microsoft’s security and privacy standards.  
 Furthermore, data is not transferred between US and EU servers.  
 
+<br>**Q: Does Microsoft 365 Copilot in Viva Glint share data with other Microsoft 365 Copilots?**
 
+**A:** No. Copilot in Viva Glint does not share data with any other Microsoft 365 Copilot applications.
 
+<br>**Q: Can Microsoft 365 Copilot in Viva Glint access customer data from the M365 Graph?**
 
-## What does Copilot in Viva Glint use to generate its responses?
+**A:** No. Copilot in Viva Glint doesn't have access to customer data with any other Microsoft 365 Graph.  
 
-Copilot in Viva Glint filters and summarizes comments by accessing customer-uploaded employee attributes from your organization’s Human Resources Information System (HRIS) file. 
+<br>**Q: Does Microsoft 365 Copilot in Viva Glint surface information from the public internet?**
 
+**A:** No. Copilot in Viva Glint doesn’t access the public internet to generate responses. 
 
+<br>**Q:Can conclusions be drawn about individual employees based on the summaries or displays in Microsoft 365 Copilot in Viva Glint?**
 
-## How does Copilot in Viva Glint integrate with other Viva apps?
+**A:** Since Copilot in Viva Glint only summarizes comments that the user is authorized to see in Glint, no additional insights about individual employees can be inferred beyond what is stated in those comments. 
 
-Copilot in Viva Glint is confined to Viva Glint, and its functionality is distinct from other Microsoft 365 Copilots. Copilot in Viva Glint doesn’t interact with Microsoft 365 Copilot, Microsoft Graph, or any other Microsoft 365 services. 
+## Integration with other Microsoft Viva applications
 
-Copilot in Viva Glint can interact with other non-Copilot integrations your organization enables for Viva Glint.
+<br>**Q: How does Copilot in Viva Glint integrate with other Viva apps?**
 
-
+**A:** Copilot in Viva Glint is confined to Viva Glint, and its functionality is distinct from other Microsoft 365 Copilots. It doesn’t interact with Microsoft 365 Copilot, Microsoft Graph, or any other Microsoft 365 services. Copilot in Viva Glint can interact with other non-Copilot integrations your organization enables for Viva Glint.
 
 ## More information
 
