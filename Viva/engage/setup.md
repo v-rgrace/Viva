@@ -3,7 +3,7 @@ ms.date: 05/17/2024
 title: "Set up Viva Engage"
 description: "Guidance for setting up licensing and installation of Viva Engage for an organization."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin
