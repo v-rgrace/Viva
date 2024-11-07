@@ -2,8 +2,8 @@
 title: "Identify leaders and manage audiences in Viva Engage"
 description: "Leadership identification and audience management enable organizations to designate leaders, configure their audience and connect leaders with the entire organization."
 ms.reviewer: ethli
-ms.author: v-bvrana
-author: Starshine89
+ms.author: donnabouldin
+author: donnabouldin
 manager: elizapo
 ms.date: 11/01/2023
 audience: Admin
@@ -20,7 +20,7 @@ search.appverid:
 ---
 
 
-# Identify leaders and manage audiences in Viva Engage
+# Identify leaders
 
 Leaders naturally want to share visions, updates, and perspectives to build culture, manage change, and drive engagement with the people they lead. Viva Engage empowers leaders to connect more effectively with their employees.
 
@@ -81,6 +81,13 @@ After a leader is identified, the next step is to manage the leader’s audience
 1. To define a leader’s audience, add individual users or groups, such as security, distribution, or Microsoft 365 groups. When you add a group, *changes to the group’s membership, including nested members, automatically update the audience* within 24 hours.
 
     Customers frequently use a distribution list to communicate with an audience by email. You can add these lists to the leader’s audience in Viva Engage for continuous communication.
+
+## Track changes to leaders and audiences in your organization
+To track changes to leaders and their audiences over the past 30 days, use the activity log available on the **Manage Leaders** page. The log details who made each change, when it occurred, the impacted leader, and, if applicable, the impacted audience. Logged events include:
+
+- Adding or removing leaders
+- Adding, editing, or removing a leader's audience
+
 
 ## Set leader delegates and delegate managers
 
