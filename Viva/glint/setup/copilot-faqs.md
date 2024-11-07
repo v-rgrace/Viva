@@ -1,6 +1,6 @@
 ---
-title:  Microsoft 365 Copilot in Viva Glint-FAQs (preview)
-description: Scan the most commonly asked questions about the comments summarization tool in Microsoft Viva Glint.
+title:  Microsoft 365 Copilot in Viva Glint-FAQs 
+description: Scan commonly asked questions about the comments summarization tool in Microsoft Viva Glint.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -16,10 +16,11 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/31/2024
+ms.custom: CELA-aapproved
+ms.date: 11/16/2024
 ---
 
-# Microsoft Copilot in Viva Glint-FAQs (preview)
+# Microsoft Copilot in Viva Glint-FAQs 
 
 > [!NOTE]
 > This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
@@ -84,10 +85,6 @@ ms.date: 10/31/2024
 <br>**Q: Does Microsoft 365 Copilot in Viva Glint pull from the program level or generic settings for confidentiality thresholds?**
 
 **A:** Copilot in Viva Glint aligns with the threshold configured on the dashboard or report being viewed.
- 
-<br>**Q: What data controls are in place?**
-
-**A:** Copilot in Viva Glint has access to Viva Glint survey data only. Each user only sees survey data they’re granted access to by their Viva Glint admin. Viva Glint admins can control which roles use Copilot in Viva Glint and for which survey programs.
 
 <br>**Q: Can the end user see variables in summarization, based on the user's question or prompt?**
 
@@ -113,14 +110,13 @@ ms.date: 10/31/2024
 
 **A:** Currently, no.
 
-<br>**Q: Does Microsoft 365 Copilot in Viva Glint have the ability to look across multiple surveys or just 
-one at time?**
+<br>**Q: Does Microsoft 365 Copilot in Viva Glint have the ability to look across multiple surveys or just one at time?**
 
 **A:** One at a time for now. Additionally, Ad hoc and Recurring survey programs only, but we are looking to add the feature to employee lifecycle and always-on programs in the future.
 
 <br>**Q: Can Microsoft 365 Copilot in Viva Glint generate a PowerPoint from the results?**
 
-**A:** Not yet, but it’s another feature we would like to explore.
+**A:** Not yet, but it’s another feature we'd like to explore.
  
 <br>**Q: Can Microsoft 365 Copilot in Viva Glint recognize when some groups (based on attributes) have more of a negative or positive reactions to a certain question? Can it determine cultural bias or language/translation problems?**
 
