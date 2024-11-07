@@ -155,15 +155,15 @@ Review a summary of all selections made in attribute setup and use the **Go Back
 
    :::image type="content" source="../../media/glint/setup/setup-step5-choose-import.png" alt-text="Screenshot of step 5 to confirm attribute and data import options.":::
 
-- Option 1 - Save attributes and import employee data – Recommended if the employee data in your file is complete and finalized (doesn't contain test or partial data).
+    - Option 1 - Save attributes and import employee data – Recommended if the employee data in your file is complete and finalized (doesn't contain test or partial data).
 
-     > [!CAUTION]
-     > Employee data can't be deleted. This option performs a full employee upload, which applies any changes in the file and marks anyone not in the file as an inactive employee.
+      > [!CAUTION]
+      > Employee data can't be deleted. This option performs a full employee upload, which applies any changes in the file and marks anyone not in the file as an inactive employee.
 
-- Option 2 - Save attributes and discard employee data – Recommended to set up attributes based on your header row and then import finalized employee data later.
+   - Option 2 - Save attributes and discard employee data – Recommended to set up attributes based on your header row and then import finalized employee data later.
 
-     > [!TIP]
-     > Viva Glint recommends the **Save attributes and discard employee data** option for initial setup. This allows you to set up and map your attributes in the system and complete your first data import as a separate task.
+      > [!TIP]
+      > Viva Glint recommends the **Save attributes and discard employee data** option for initial setup. This allows you to set up and map your attributes in the system and complete your first data import as a separate task.
 
 2. Select **Save**.
 
