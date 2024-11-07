@@ -3,7 +3,7 @@ title: "AI Summarization in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/16/2024
