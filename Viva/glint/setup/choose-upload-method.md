@@ -3,7 +3,7 @@ title: Choose a data upload method
 description: Learn how Viva Glint provides the most relevant results reporting when employee attributes are uploaded on a regular cadence.
 ms.author: aweixelman
 author: AliciaWeixelman
-manager: skaradzic
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
 keywords: upload attributes, manual upload, SFTP, upload method, People page upload
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/23/2024
+ms.date: 11/07/2024
 ---
 
 # Choose a data upload method
@@ -26,6 +26,10 @@ Upload employee data directly in the Viva Glint platform on the People page. The
    
 1. [Automatically import employee data with Viva Glint SFTP](https://go.microsoft.com/fwlink/?linkid=2247429)
 Use Viva Glint Secure File Transfer Protocol (SFTP) to establish regular imports of employee data. An automated data feed enables you to keep your HRIS data in sync with Viva Glint.
+
+Learn more about how each upload type works:  
+
+> [!VIDEO 02effcf9-fd5b-4150-8d24-d4eeb0f10ca9]
 
 ## Related resources
 
