@@ -3,7 +3,7 @@ ms.date: 09/19/2024
 title: "Plan your Viva Engage launch strategy"
 description: "Create a strong and clear strategy to galvanize participation in Viva Engage."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin

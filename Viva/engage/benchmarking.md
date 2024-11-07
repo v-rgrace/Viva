@@ -4,7 +4,7 @@ description: "Benchmarks reveal how your Viva Engage metrics perform compared to
 ROBOTS: NOINDEX, NOFOLLOW
 ms.date: 5/17/2024
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin
