@@ -70,7 +70,9 @@ To upload your business dataset in a .csv file, follow these steps:
 
 4. Select **Add Dataset**. If this is your first upload, you'll be taken directly to step 5.
 
-5. For easy access to this data, enter a "name" and "type" for this dataset. For example, you could be upload two different datasets from your sales team on customer satisfaction and account retention. You can assign the type "Sales" to these datasets and name them "CSAT" and "Account." Analysts can discover this data by searching for their name and type. The dataset name should not contain spaces. 
+5. For incremental uploads and easy access to this data, enter a "name" and "type" for this dataset. For example, you could upload two different datasets from your sales team on customer satisfaction and account retention. You can assign the type "Sales" to these datasets and name them "CSAT" and "Account." Analysts can discover this data by searching for their name and type while setting up queries. The dataset name and type shouldn't contain spaces. 
+
+6. You can assign any unique type for dataset "type" except these system reserved types: "Survey," "CRM," "Person," "Signal," "AnalystUploadedData," "UserSkills," "HeirarchicalSkills," "RelatedSkills," "SkillsLibrary," "ManagerHierarchy," "Learning," "InteractiveExplorationPersonOutput," or "None." 
 
 6. Select **Next**.
 
