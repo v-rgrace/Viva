@@ -31,8 +31,6 @@ items:
       href: vg-privacy-and-security.md 
     - name: OKR program analytics
       href: viva-goals-analytics.md
-    - name: Copilot in Viva Goals
-      href: copilot-intro.md
     
 - name: Setup
   items: 
@@ -219,6 +217,11 @@ items:
     href: define-your-team.md
   - name: Determine your rollout plan
     href: determine-your-rollout-plan.md
+  
+- name: Copilot in Viva Goals
+  items:
+  - name: Introduction to Copilot in Viva Goals
+    href: copilot-intro.md
        
 - name: Discover goal-setting best practices with Viva Goals
   items:

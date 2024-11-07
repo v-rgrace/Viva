@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/29/2024
+ms.date: 10/31/2024
 ---
 
 # Microsoft Copilot in Viva Glint-FAQs (preview)
@@ -149,7 +149,10 @@ one at time?**
 
 <br>**Q: What languages does Microsoft 365 Copilot in Viva Glint support for comment summarization?**
 
-**A:** Copilot in Viva Glint comment summarization is available in all 27 languages supported by Microsoft Copilot in Viva. The admin still needs to interact with the program in English. To obtain the best feedback possible, encourage your employees to leave comments in their native language. [Microsoft 365 Copilot currently supports 27 languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8)
+**A:** Copilot in Viva Glint comment summarization is available in most languages supported by Microsoft 365 Copilot. The admin still needs to interact with the program in English. To obtain the best feedback possible, encourage your employees to leave comments in their native language. [Microsoft 365 Copilot supports these languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8)
+
+> [!NOTE]
+> Not all languages supported by Microsoft 365 Copilot are available for Viva Glint. Support for all these languages is on the roadmap. Your platform informs you of available languages.
 
  
 
