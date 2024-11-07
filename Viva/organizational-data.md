@@ -21,7 +21,7 @@ search.appverid:
 description: "Import Organizational Data in Microsoft Viva and Microsoft 365"
 ---
 # Use your organizational data in Microsoft 365 and Microsoft Viva
-*Organizational data* is employee data that describe the users in your organization - their name, location, job role. You can import this information into Microsoft 365 and Microsoft Viva through a feature called **Organizational Data in Microsoft 365**. This data adds to and updates existing information from Microsoft Entra ID to provide more information in experiences like Viva Insights. You can also use your organizational data to refresh and extend the information in your users' [Microsoft 365 User Profiles](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true) with additional information that currently resides in an external system (for example, your HR system).
+*Organizational data* is employee data that describes the users in your organization - their name, location, job role. You can import this information into Microsoft 365 and Microsoft Viva through a feature called **Organizational Data in Microsoft 365**. This data adds to and updates existing information from Microsoft Entra ID to provide more information in experiences like Viva Insights. You can also use your organizational data to refresh and extend the information in your users' [Microsoft 365 User Profiles](/graph/api/resources/profile?view=graph-rest-beta&preserve-view=true) with additional information that currently resides in an external system (for example, your HR system).
 
 Use the following information to understand, import, and manage your organizational data:
 

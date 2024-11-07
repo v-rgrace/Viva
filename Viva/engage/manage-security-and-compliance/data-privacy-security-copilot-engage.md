@@ -2,7 +2,7 @@
 title: "Data, Privacy, and Security for Microsoft 365 Copilot for Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/16/2024
