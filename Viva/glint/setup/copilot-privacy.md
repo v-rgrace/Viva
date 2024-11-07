@@ -1,5 +1,5 @@
 ---
-title: Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint (preview)
+title: Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint 
 description: Microsoft 365 Copilot in Viva Glint summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -16,30 +16,76 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/12/2024
+ms.custom: CELA-approved
+ms.date: 11/16/2024
 ---
 
-# Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint (preview)
+# Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint
 
-> [!NOTE]
-> This feature is available to preview customers only, beginning on June 29, 2024. Features described here are subject to change.
+[Copilot in Viva Glint](https://learn.microsoft.com/en-us/viva/glint/copilot/copilot-admin-intro) summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. This article covers how data privacy and security is handled for Copilot in Viva Glint.
 
-## What is Microsoft 365 Copilot in Viva Glint?
+## Foundations, security, and compliance
 
-[Copilot in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2274070) summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. This article covers how data privacy and security is handled for Copilot in Viva Glint.
+**Q: How does Microsoft 365 Copilot in Viva Glint work in the backend?**
 
-## How does this work in the backend?
+**A:** Copilot in Viva Glint uses Large Language Model (LLM) technology, which allows users to perform language-based tasks by entering prompts in natural languages. Microsoft uses these LLMs to match users’ prompts to a set of metrics and stories. A story is a product-defined group of calculations, which is based on metrics, aggregations, and other variables.
 
-Copilot in Viva Glint uses Large Language Model (LLM) technology, which allows users to perform language-based tasks by entering prompts in natural languages. Microsoft uses these LLMs to match users’ prompts to a set of metrics and stories. A story is a product-defined group of calculations, which is based on metrics, aggregations, and other variables.
-Copilot in Viva Glint doesn’t use customer data to train the LLM.
+**Q: Does Microsoft 365 Copilot in Viva Glint use customer data to train?**
+
+**A:** No. Copilot in Viva Glint doesn’t use customer data to train any models.  Instead, Copilot in Viva Glint employs generically trained LLM models and supplies the necessary grounding data and context for each request. For this reason, each user's Copilot responses are generated only from their accessible data and current survey results. Subsequently, users can only access information they have permission to view in Glint, such as dashboards, reports, or exports. 
+
+**Q: Does Microsoft 365 Copilot in Viva Glint store any personal data?**
+
+**A:** No.  Copilot in Viva Glint doesn’t process or store any personal data. Copilot in Viva Glint doesn’t know which employee submitted a survey response or comment.   
+
+**Q: ## Does Microoft 365 Copilot in Viva Glint save or store data used in summaries?**
+
+Yes. Copilot in Viva Glint saves and stores comments summarization. It follows the security and compliance for data usage practices in place for Viva Glint so the saved data isn't traceable to a respondent. Copilot in Viva Glint saves only the metadata for each API call, such as the date and time of each prompt. The meta log can only be accessed by Glint developers. 
+
+**Q: How does Copilot in Viva Insights comply with GDPR and other privacy regulations?**
+
+**A:** See [GDPR and Generative AI: A Guide for Public Sector Organizations](https://wwps.microsoft.com/blog/GDPR-GenAI) and [Read our publicly shared privacy policy](/../../viva/glint/setup/viva-glint-privacy).
+
+**Q: Can conclusions be drawn about individual employees based on the summaries or displays in Microsoft 365 Copilot in Viva Glint?**
+
+**A:** Since Copilot only summarizes comments that the user is already authorized to see in Glint, no additional insights about individual employees can be inferred beyond what is stated in those comments. 
+
+**Q: If employees name a manager within their comments, can that manager's name be displayed in the Microsoft 365 Copilot in Viva Glint response?**
+
+**A:** If a manager’s name is included in the comments, it's possible their name could appear in a Copilot in Viva Glint summary. Customers can redact or quarantine comments in Glint, so Copilot can't use redacted comments for summarization. [Flag Sensitive comments in Viva Glint | Microsoft Learn] (/viva/glint/setup/glint-sensitive-comments)
+
+**Q:How is bias mitigated?**
+
+**A:** Copilot is tested with realistic dummy data and human subject matter experts to evaluate the accuracy and relevance of the Copilot responses. Evaluation results are used in an improvement feedback loop to update the LLM instructions to improve the accuracy and relevance of the results and to mitigate any detected biases.   
+
+**Q: How is Microsoft 365 Copilot better than ChatGPT when it comes to summarizing comments?**
+
+**A:** **Security and Privacy** - We know that customers are tempted to use AI tools like the publicly available ChatGPT - or even their own company’s AI - to analyze survey comments. ChatGPT doesn't follow confidentiality thresholds the customers have set in Glint. Copilot in Viva Glint strictly follows Microsoft’s and Glint’s privacy, security, and confidentiality protection for customers’ data.  
+
+**Accuracy and Relevance** - Copilot is tested with realistic mock data and human subject matter experts to evaluate the accuracy and relevance of the Copilot responses. Evaluation results are used in an improvement feedback loop to update the LLM instructions to improve the accuracy and relevance of the results.   
+
+## Data processing  
+
+**Q: What customer data does Copilot in Viva Glint process?**
+
+**A:** Copilot in Viva Glint filters and summarizes comments by accessing customer-uploaded employee attributes from your organization’s Human Resources Information System (HRIS) file. 
+
+Copilot in Viva Glint processes only HR attribute values and survey comments that the user has permissions to view on their Glint dashboard. 
+
+**Q: How is data transferred between Viva Glint and Microsoft 365 Copilot?**
+
+**A:** opilot in Viva Glint uses Microsoft 365 Substrate LLM to process customer data. Microsoft 365 Substrate LLM follows Microsoft’s security and privacy standards.  
+
+Furthermore, data is not transferred between US and EU servers.  
+
+
+
 
 ## What does Copilot in Viva Glint use to generate its responses?
 
 Copilot in Viva Glint filters and summarizes comments by accessing customer-uploaded employee attributes from your organization’s Human Resources Information System (HRIS) file. 
 
-## Does Copilot in Viva Glint save or store any of the data it uses in summaries?
 
-Copilot in Viva Glint doesn’t store any end user’s prompts. It follows the security and compliance for data usage practices in place for Viva Glint.  Copilot in Viva Glint saves only the metadata for each API call, such as the date and time of each prompt. The meta log can only be accessed by Glint developers. 
 
 ## How does Copilot in Viva Glint integrate with other Viva apps?
 
@@ -47,11 +93,7 @@ Copilot in Viva Glint is confined to Viva Glint, and its functionality is distin
 
 Copilot in Viva Glint can interact with other non-Copilot integrations your organization enables for Viva Glint.
 
-## How does Copilot in Viva Insights comply with GDPR and other privacy regulations? 
 
-Copilot in Viva Glint follows the same privacy practices employed by Viva Glint. For details, see [Delete user data from Viva Glint](/../../viva/glint/setup/delete-user-data) and [Understand how privacy works in Microsoft Viva](/../../viva/viva-privacy).
- - See also [GDPR and Generative AI: A Guide for Public Sector Organizations](https://wwps.microsoft.com/blog/GDPR-GenAI). 
- - [Read our publicly shared privacy policy](/../../viva/glint/setup/viva-glint-privacy).
 
 ## More information
 
