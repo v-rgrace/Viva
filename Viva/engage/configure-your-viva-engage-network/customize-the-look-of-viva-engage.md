@@ -2,7 +2,7 @@
 title: "Customize the look of your Viva Engage network"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 10/27/2023

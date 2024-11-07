@@ -2,7 +2,7 @@
 title: "Set up Answers in Viva"
 description: "Overview and setup of Answers in Viva, including licensing, technical requirements, and data management."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 01/17/2024

@@ -2,7 +2,7 @@
 title: "Overview of security and compliance in Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89 
 manager: elizapo
 ms.date: 09/26/2024
