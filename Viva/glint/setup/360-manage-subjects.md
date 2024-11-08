@@ -79,5 +79,5 @@ In the subject ellipses menu:
    > [!IMPORTANT]
    > The role of coach is optional and the 360 program can proceed without it.
     
-   :::image type="content" source="../../media/glint/setup/360-edit-add-coach.png" lightbox="../../media/glint/setup/360-edit-add-coach2.png" alt-text="Screenshot of the ellipses section dropdown next to a subject's name for adding a coach.":::
+   :::image type="content" source="../../media/glint/setup/360-edit-add-coach2.png" alt-text="Screenshot of the ellipses section dropdown next to a subject's name for adding a coach.":::
 
