@@ -74,14 +74,14 @@ To access profile skills and shared skills added through Skills in Viva for an i
 
 4. In the **Response preview** pane, you see a detailed response that includes skill names with information about each skill, as shown here.  
 
-For example, the skill shown in the response pane is “Product Management” and the display name under the heading “createdBy” (which indicates the skill source) is the user profile application (UPA). The reference to UPA means this skill is one added to the selected user’s Microsoft 365 profile outside of the current preview experience.
+    For example, the skill shown in the response pane is “Product Management” and the display name under the heading “createdBy” (which indicates the skill source) is the user profile application (UPA). The reference to UPA means this skill is one added to the selected user’s Microsoft 365 profile outside of the current preview experience.
 
-You can save this list of skills by copying it and then pasting it into the document of your choice.
+    You can save this list of skills by copying it and then pasting it into the document of your choice.
  
-> [!NOTE]
-> If you receive an error when running this query, confirm that you're logged into your corporate user account on this website. You should see your profile image on the toolbar at the top of the screen (shown in the following screenshot as a blue circle). If you don't, click the image placeholder to log in and then try to run the query again.
+    > [!NOTE]
+    > If you receive an error when running this query, confirm that you're logged into your corporate user account on this website. You should see your profile image on the toolbar at the top of the screen (shown in the following screenshot as a blue circle). If you don't, click the image placeholder to log in and then try to run the query again.
 
-:::image type="content" source="../media/skills/user-profile-application.png" lightbox="../media/skills/user-profile-application.png" alt-text="A screenshot of the Skills in Viva query view with a pic of a logged in user.":::
+    :::image type="content" source="../media/skills/user-profile-application.png" lightbox="../media/skills/user-profile-application.png" alt-text="A screenshot of the Skills in Viva query view with a pic of a logged in user.":::
 
 ### Next steps
 
