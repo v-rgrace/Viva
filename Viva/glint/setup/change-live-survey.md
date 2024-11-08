@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 07/08/2024
+ms.date: 11/15/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -62,6 +62,56 @@ Use the following information to edit a live survey. The information is broken o
 | Question text | The phrasing of a question needs to be edited. |Survey item rephrasing propagates to future programs only. A live program is not affected by any edit.|
 | Adding or removing a question/item | You want to add a new question/item or remove a question/item from a live survey. | A question/item *can't* be added or removed from a live survey except in an *Always-On*, Onboarding, or Exit pulse program. |
 | Question/item order | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
+
+### Admin process for editing a question during a live survey
+
+There are three entry points for editing a question:
+-	From the Question Library on your admin dashboard (doesn't require survey to go into unapproved state)
+-	From the *Survey Programs, Live* section
+-	From the *Survey Programs, Upcoming* section
+
+**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
+If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is made automatically when your edits are saved.
+
+### Inform survey takers of a live edit
+
+> [!IMPORTANT]
+> All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live. They must also understand that if they retake a survey, their original answers are replaced.
+
+**Enabling Survey Resubmission ensures that Entra ID and survey takers invited to take the survey through a personalized email, receive platform-generated email notification of a change in the survey.** This notification is required to meet Microsoft privacy policies and allows the survey taker to retake the survey if they choose to.
+
+**If your organization uses attribute-based access, you are responsible to notify participants about any change and provide instructions on how to do so. Survey retake access:**
+-	Survey takers can use the link from their original survey invitation email 
+-	Use this guidance to resend survey invites
+
+For participants who haven't started the survey, the survey is automatically updated with the new version of all questions and no notification is generated or required.
+
+#### Confirm edits 
+
+Review your edits to make sure your employees receive appropriate notice. 
+ 
+1. Review the **Confirm your changes** window that opens.
+
+:::image type="content" source="../../media/glint/setup/xxxxxxx" lightbox="../../media/glint/setup/xxxx" alt-text="Screenshot of the confirmation dialog box for editing live survey questions.":::
+
+>[!IMPORTANT]
+> - If your organization uses Entra ID or personalized links for survey access, participants who have started or already completed the survey will be notified in email.
+> -  If your organization uses attribute-based survey access, notify participants about these changes and ask them to retake the survey, if needed. 
+
+2. If everything is as expected, select **Confirm.**
+
+3. A one-time notification confirms that your question is updated.
+
+## Question edits considerations 
+For question edits during draft, scheduled, or live status, always consider:
+
+| **Topic** | **Scenario** | **Considerations** |
+| --- | --- | --- |
+| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text are featured immediately and *only* on surveys that haven't started. |
+| Question text | The phrasing of a question needs to be edited. | [Use this guide](https://go.microsoft.com/fwlink/?linkid=2230918). Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
+| Adding or removing a question/item | You want to add a new question/item or remove a question/item from a live survey. | A question/item *can't* be added or removed from a live survey except in an *Always-On*, Onboarding, or Exit pulse program. |
+| Question/item order | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
+
 
 ## Reporting
 
