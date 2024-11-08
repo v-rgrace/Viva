@@ -126,13 +126,11 @@ If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is ma
 > [!IMPORTANT]
 > All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live. They must also understand that if they retake a survey, their original answers are replaced.
 
-**Enabling Survey Resubmission ensures that Entra ID and survey takers invited to take the survey through a personalized email, receive platform-generated email notification of a change in the survey.** This notification is required to meet Microsoft privacy policies and allows the survey taker to retake the survey if they choose to.
-
 **If your organization uses attribute-based access, you are responsible to notify participants about any change and provide instructions on how to do so. Survey retake access:**
 -	Survey takers can use the link from their original survey invitation email 
 -	Use this guidance to resend survey invites
 
-For participants who haven't started the survey, the survey is automatically updated with the new version of all questions and no notification is generated or required.
+For participants who haven't started the survey, the survey is automatically updated with the new version of all questions and no notification is required.
 
 #### Confirm edits 
 
@@ -140,11 +138,10 @@ Review your edits to make sure your employees receive appropriate notice.
  
 1. Review the **Confirm your changes** window that opens.
 
-:::image type="content" source="../../media/glint/setup/xxxxxxx" lightbox="../../media/glint/setup/xxxx" alt-text="Screenshot of the confirmation dialog box for editing live survey questions.":::
+:::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions."lightbox="../../media/glint/setup/confirm-changes-dialog-box.png:::
 
->[!IMPORTANT]
-> - If your organization uses Entra ID or personalized links for survey access, participants who have started or already completed the survey will be notified in email.
-> -  If your organization uses attribute-based survey access, notify participants about these changes and ask them to retake the survey, if needed. 
+> [!IMPORTANT]
+>  Notify participants about these changes and ask them to retake the survey, if needed. 
 
 2. If everything is as expected, select **Confirm.**
 
