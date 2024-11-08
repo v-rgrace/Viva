@@ -2,7 +2,7 @@
 title: "Use eDiscovery for Viva Engage content"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/26/2024
