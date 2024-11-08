@@ -13,7 +13,6 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
   - essentials-manage
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium

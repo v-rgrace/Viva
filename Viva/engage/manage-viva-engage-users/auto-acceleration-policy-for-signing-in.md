@@ -2,7 +2,7 @@
 title: "Improve Microsoft 365 sign-in for Viva Engage with auto-acceleration policy"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/24/2024

@@ -13,7 +13,6 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - highpri
-  - Tier1
 ms.localizationpriority: medium
 description: Learn how to configure learning management systems as a learning content source for Microsoft Viva Learning.
 ---

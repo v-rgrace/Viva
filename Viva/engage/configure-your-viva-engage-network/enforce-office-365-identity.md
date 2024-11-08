@@ -3,7 +3,7 @@ title: "Enforce Microsoft 365 identity for Viva Engage users"
 description: "When you enforce Microsoft 365 identity in Viva Engage, all Viva Engage users use their Microsoft 365 credentials to sign in to Viva Engage."
 f1.keywords:
 - CSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 11/10/2023

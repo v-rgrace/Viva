@@ -1,6 +1,6 @@
 ---
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 05/07/2024
+ms.date: 10/29/2024
 title: Import organizational data from Workday
 description: Learn how to set up a connection and import your data from Workday to the Viva Insights advanced insights app
 author: zachminers
@@ -22,7 +22,7 @@ Your organizational data can appear in the Microsoft Viva Insights’ advanced i
 
 * Through Microsoft Entra ID, which is the default source
 * Through a .csv file that you as an Insights Administrator upload
-* Through a data import that you, your source system admin, and your Microsoft 365 IT admin set up
+* Through an API-based import that you, your source system admin, and your Microsoft 365 admin set up
 * Through a connection between Workday and Viva Insights
 
 This article talks about the fourth option: importing data through a Workday connection.
@@ -32,59 +32,128 @@ This article talks about the fourth option: importing data through a Workday con
 Before you can set up a connection between Workday and Viva Insights, you'll need the following information about your Workday environment from your Workday admin:
 
 * Tenant name
+* Subdomain
 * Username
-* Password
+* ClientID
+* Complete steps within Workday described in later section
 
 ## For the first import
 
 If this isn’t the first time you’re importing data from Workday, jump to [For all imports](#for-all-imports).
 
-### Set up your Workday connection
+### 1. Set up your Workday connection
 
 *Applies to: Insights Administrator*
 
 1. In the advanced insights app's admin experience, go to either the **Data hub** or the **Organizational data** page.
     1. On the **Data hub** page, select **Start** under **Data source > Workday**.
     2. On the **Organizational data** page's **Data connection** tab, select **Manage data sources**. Then, select **Start** under **Workday**. 
-1. Enter a name for your connection.
-1. Under **Set up Workday connection**:
-    1. Enter the Workday tenant name, username, and password.
-    1. Select how frequently you want Workday to send data to Viva Insights: weekly or monthly.
-1. Select the box under **Authorization status** to allow Workday to start sending data to Viva Insights.
-1. Read the acknowledgment note and select **Accept**.
+2. Under **Set up Workday connection**:
+    1. Enter a name for your connection.
+    2. The Authorization type is pre-selected to be **OAuth with client credential**.
+    3. Contact your Workday admin to complete the steps in Workday described below.
+    4. Under **Import organizational data from Workday**, select **Download certificate**. A x509 certificate file will download called "publicKey.pem." Open the file in a text editor and copy its contents. Share this with the Workday admin.
+    5. Enter the Workday **Tenant name**, **subdomain**, and **ClientID** provided by the Workday admin.
+    6. For **username**, enter the name of the ISU created by the Workday admin.
+    7. Select how frequently you want Workday to send data to Viva Insights: weekly or monthly.
+    8. Read the acknowledgment note and select **Accept**.
+
+### 2. Steps within Workday
+
+*Applies to: Workday admin*
+
+1. Open Workday. Search for "Create Integration System User" and select it. This is a system user not associated with a real person.
+
+    :::image type="content" source="../images/org-data-workday-01.png" alt-text="Screenshot of the search field for Create Integration System user.":::
+
+2. Under **Create Integration System User**, fill out each field, then select **OK**.  
+
+    :::image type="content" source="../images/org-data-workday-02.png" alt-text="Screenshot of the page to Create Integration System User.":::
+
+3. Create a security group. In Workday, search for “Create Security Group” and select it.
+
+4. Select **Integration System Security Group (Unconstrained)**.
+
+    :::image type="content" source="../images/org-data-workday-03.png" alt-text="Screenshot of the page to create a security group.":::
+
+5. Add the Integration System User to this group.
+
+6. Search for "Maintain security group" and select **Maintain Permissions for Security Group**.
+
+    :::image type="content" source="../images/org-data-workday-04.png" alt-text="Screenshot of the page to maintain permissions for the security group.":::
+
+7. Next to **Operation**, select **Maintain**. Next to **Source Security Group**, select your created security group.
+
+    :::image type="content" source="../images/org-data-workday-05.png" alt-text="Screenshot of the page to select your created security group.":::
+
+8. Select the "+" icon to add a new **Domain Security Policy Permission**.
+    1. Leave the **Selected** checkbox selected.
+    2. Next to **View/Modify Access**, select **Get Only**. 
+    3. For **Domain Security Policy**:  
+        1. Add **Worker Data: Public Worker Reports**
+        2. Add **Worker Data: Organization Information**
+        3. Add **Worker Data: Private Work Email Integration**
+        4. Add **Worker Data: Current Staffing Information**
+
+        :::image type="content" source="../images/org-data-workday-06.png" alt-text="Screenshot of the page to add domain security policies.":::
+
+9. Search for "Activate Pending Security Policy Changes" and select it.
+
+10. Add a descriptive comment about the change and select **OK**.
+
+11. Select **Confirm**, then select **OK**. You now have a new system user with the proper permissions they need to get worker data.
+
+### 3. Register an API Client
+
+1. Search for "Register API Client" and select it.
+
+    :::image type="content" source="../images/org-data-workday-08.png" alt-text="Screenshot of the page to search for an API client.":::
+
+2. Fill out the following fields: 
+    1. Give the client an appropriate name, such as "VivaConnectorClient."  
+    2. For the client grant type, select **Jwt Bearer Grant**.
+    3. For **x509 certificate**:  
+        1. Select **Create x509 Public Key**.
+        2. Give the certificate an appropriate name, such as "VivaX509Certificate."
+        3. Paste the contents of the publicKey.pem file shared by the Insights admin from the earlier step.
+        4. Select **OK**.
+        5. Ensure this certificate is selected for the field **x509 Certificate**.
+    4. For **Integration System User**, enter the user you created earlier.
+    5. Leave the access token type as "Bearer."
+    6. Under **Scope (Functional Areas)**, search for and select "Staffing" and "Contact Information."  
+    7. Leave **Include Workday Owned Scope** cleared.  
+    8. Select the default values for the remaining fields.
+
+3. Select **OK**.
+
+    :::image type="content" source="../images/org-data-workday-09.png" alt-text="Screenshot of the API client.":::
+
+4. A few new fields should populate below **Restricted to IP Ranges**. Save the following information and share them with the Insights admin to enter in Viva Insights:
+    1. "ClientID"
+    2. The first segment of the Workday REST API Endpoint, between "https://" and "workday.com." This is your Workday subdomain name.
+    3. The last segment of the Workday REST API Endpoint. This is your Workday Tenant Name.
+
 
 ## For subsequent imports
 
-If you’ve already set up your connection and imported a first set of data to Workday, follow these steps to update or replace your existing data:
+If you’ve already set up your connection and imported a first set of data to Workday, follow these steps to edit your connection:
 
-1.	In the advanced insights app's admin experience, go to either the **Data hub** or the **Organizational data** page.
-    1. On the **Data hub** page, select **Start** under **Data source > Workday**.
-    2. On the **Organizational data** page's **Data connection** tab, select **Manage data** sources. Then, select **Manage** under **Workday**.
-2.	Select one option:
-    * **Edit authorization or update refresh schedule**. With this option, you can:
-        * Allow or stop allowing Workday to send data to Viva Insights.
-        * Change the data refresh schedule.
-    * **Replace data**. With this option, you can:
-        * Overwrite all your existing organizational data with new data from Workday.
-        * Remove certain fields by importing data from Workday with fewer fields.
-        >[!Caution] 
-        >**Replace data** permanently overwrites your existing data.
-3.	Select **Next**.
+In the advanced insights app's admin experience, go to either the **Data hub** or the **Organizational data** page.
 
-### Edit authorization or update refresh schedule
+1. On the **Data hub** page, select **Start** under **Data source > Workday**.
 
-If you chose **Edit authorization or update refresh schedule**, you’ll arrive at the **Edit Workday connector** page.
+2. On the **Organizational data** page's **Data connection** tab, select **Manage data** sources. Then, select **Manage** under **Workday**.
 
-1.	Enter your workday credentials: tenant name, username, and password.
-2.	If you want to turn on or off Workday’s ability to send data to Viva Insights, select or deselect the checkbox.
-3.	If you want to update how often Workday data goes to Viva Insights, use the dropdown menu beneath **Update refresh schedule**.
-4.	Read the acknowledgment note and select **Accept**.
+You’ll arrive at the **Edit Workday connection** page.
 
-### Replace data
+1. Enter your workday credentials: tenant name; subdomain; username; and ClientID.
 
-If you chose **Replace data**, a popup warning will appear: “Replacing data overwrites all previously ingested data. If your new import is missing any data fields, auto-refresh queries that use those missing fields will be disabled.” If you want to proceed, select **Confirm**.
+2. If you want to turn on or off Workday’s ability to send data to Viva Insights, select or clear the **Enabled** checkbox.
 
-After you select **Confirm**, a new full refresh of your Workday data will start.
+3. If you want to update how often Workday data goes to Viva Insights, use the dropdown menu beneath **Refresh schedule**.
+
+4. Read the acknowledgment note and select **Accept**.
+
 
 ## For all imports
 
@@ -104,7 +173,6 @@ The following table shows how Workday fields correspond to Viva Insights fields.
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.managerAsOfLastDetectedManagerChangeReference.ID` and `responseData.worker.workerData.workerID`|	ManagerId
 |`responseData.worker.workerData.organizationData.workerOrganizationData.organizationData.organizationName`| Organization
 | Date of upload | EffectiveDate |
-|`responseData.worker.workerData.employmentData.workerJobData.positionData.effectiveDate`|EffectiveDate
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`| LevelDesignation
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.jobFamilyReference.ID`|FunctionType
 |`responseData.worker.workerData.employmentData.workerJobData.positionData.jobProfileSummaryData.managementLevelReference.ID`|Layer
@@ -155,6 +223,10 @@ If processing fails, you’ll find a “Processing failed” status in the **Imp
 If data validation fails, you'll see a "Validation failed" status in the **Import history** table. For validation to succeed, the Workday admin needs to correct errors and push the data to Viva Insights again. Under **Actions**, select the download icon to download an error log. Send this log to the Workday admin so they know what to correct before sending the data again. 
 
 The data source admin might find the following section helpful to fix data errors in their export file.
+
+### Suspended state
+
+If you see a "Suspended" status in the **Import history** table or when you select **Manage data sources**, this means your authorization credentials have expired. You’ll need to update your credentials and reconnect the data source.
 
 #### Guidelines for correcting errors in data
 

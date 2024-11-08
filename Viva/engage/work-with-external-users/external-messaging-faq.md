@@ -2,7 +2,7 @@
 title: "External messaging in Viva Engage - Frequently asked questions"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 7/11/2023

@@ -14,7 +14,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: medium
 description: Learn which languages are supported for Viva Learning in Microsoft Teams.
 ---

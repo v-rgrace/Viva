@@ -14,7 +14,6 @@ ms.localizationpriority: high
 ms.collection:
   - Strat_SP_modern
   - m365initiative-viva-connections
-  - Tier1
 search.appverid:
 - SPO160
 - MET150
@@ -116,7 +115,6 @@ The Feed experience displays SharePoint news posted from:
 
 - [Organizational news sites](/sharepoint/organization-news-site),
 - Sites you frequent and follow,
-- [Videos hosted on SharePoint](video-news-links.md),
 - Viva Engage posts in the [All-company group](/viva/engage/manage-viva-engage-groups/all-company-community),
 - Viva Engage posts in communities you follow, and
 - [Boosted SharePoint news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83).

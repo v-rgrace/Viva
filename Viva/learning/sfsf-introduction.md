@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 09/30/2024
+ms.date: 11/04/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: medium
 description: An introduction to adding SAP SuccessFactors as a learning content source for Microsoft Viva Learning.
 ---
@@ -26,10 +25,16 @@ This article describes the workflow of this process and links to topics outlinin
 
 ## Prerequisites 
 
-Admins need the following permissions: 
+As an admin, you need the following permissions: 
 
 - Access to Viva Learning admin.
 - Access to Learning Administration in the SAP SuccessFactors portal.
+
+Additionally, the following conditions need to be met: 
+
+- Learning content is part of one or more catalogs.
+- The learning content is active in SuccessFactors. 
+- The catalog is in an active state. 
 
 ## Workflow 
 
@@ -87,7 +92,7 @@ You can bring programs or learning paths from SAP SuccessFactors into Viva Learn
 
 If you’re setting up SuccessFactors integration for your tenant for the first time, programs are automatically ingested along with other content.
 
-If you’ve already integrated SuccessFactors and want to bring in programs, you need to request the SuccessFactors support team to regenerate the full sync package for your tenants. Viva Learning ingests the programs for your tenant once the package becomes available in your SuccessFactors folder path.
+If you already integrated SuccessFactors and want to bring in programs, you need to request the SuccessFactors support team to regenerate the full sync package for your tenants. Viva Learning ingests the programs for your tenant once the package becomes available in your SuccessFactors folder path.
 
 For thumbnail support, images hosted or uploaded in SuccessFactors as part of the "Image" property on items won't be available as part of the SuccessFactors data extract package and hence Viva Learning won't be able to display those images on content. The best practice to get images from SuccessFactors is to provide a publicly accessible URL in "Image URL:" property for content in SuccessFactors, so that users are able to view these images in Viva Learning.
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 9/30/2024
+ms.date: 10/22/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -19,7 +19,7 @@ audience: user
 # Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 
 >[!Note]
->The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active [Exchange Online, E3, or E5 license](../advanced/setup-maint/environment-requirements.md#microsoft-365-plans). Neither a paid Viva Insights license nor a Microsoft 365 Copilot license is required to view the dashboard. The analyzed population in the Copilot Dashboard includes every employee who has an assigned Copilot license. However, for tenants with more than 50 Copilot licenses or tenants with more than 10 Viva Insights licenses, the dashboard includes full capabilities with metrics and advanced filters. [Learn more about which features are available based on your tenant’s assigned license](#feature-availability-based-on-licenses). 
+>The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active Exchange Online account. Neither a paid Viva Insights license nor a Microsoft 365 Copilot license is required to view the dashboard. The analyzed population in the Copilot Dashboard includes every employee who has an assigned Copilot license. However, for tenants with more than 50 Copilot licenses or tenants with more than 10 Viva Insights licenses, the dashboard includes full capabilities with metrics and advanced filters. [Learn more about which features are available based on your tenant’s assigned license](#feature-availability-based-on-licenses). 
 
 Microsoft 365 Copilot works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
@@ -27,7 +27,7 @@ The Microsoft Copilot Dashboard in Viva Insights helps organizations maximize th
 
 The dashboard covers the following categories of metrics: Readiness, adoption, impact, and sentiment. Metrics are aggregated at the tenant level or user level, depending on the licenses your tenant has. [See the table below for more information](#feature-availability-based-on-licenses).
 
-:::image type="content" source="images/copilot-dash-readiness-ga-02.png" alt-text="Screenshot that shows the Copilot Dashboard.":::
+:::image type="content" source="images/copilot-dash-readiness-ga-03.png" alt-text="Screenshot that shows the Copilot Dashboard.":::
 
 >[!Note]
 >The Microsoft Copilot Dashboard is currently not available for national/regional cloud deployments including but not limited to Microsoft’s U.S. Government clouds and Office 365 operated by 21Vianet.
@@ -65,7 +65,7 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 
 If you have access to the dashboard, you can also delegate access to the dashboard to other people in your company. [Learn how](../org-team-insights/delegate-access.md). 
 
-## How access to the Copilot dashboard is determined
+## How access to the Copilot Dashboard is determined
 
 For customers who use Microsoft Entra ID (formerly known as Azure Active Directory) to manage user profile data like organization or manager data, the Copilot Dashboard is automatically available to a limited number of users. Access is based on Microsoft Entra ID Data, specifically the manager hierarchy attribute. Microsoft 366 Global Administrators can disable access at any time.  
 
@@ -81,13 +81,13 @@ For those qualifying tenants, only users who meet all of the following criteria 
 * Users who are assigned the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference#global-administrator) also have access to the Microsoft Copilot Dashboard
 
     >[!Note]
-    >If you are a Privileged Identity Management (PIM) enabled tenant, the Global Admins might not have access to the Copilot dashboard. If you want to give Global Admins access to the Copilot dashboard, add them explicitly using [these steps](../advanced/admin/manage-settings-copilot-dashboard.md#manage-access-for-individual-users).
+    >If you are a Privileged Identity Management (PIM) enabled tenant, the Global Admins might not have access to the Copilot Dashboard. If you want to give Global Admins access to the Copilot Dashboard, add them explicitly using [these steps](../advanced/admin/manage-settings-copilot-dashboard.md#manage-access-for-individual-users).
 
 The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they are not added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
 
 Global admins can also enable or disable automatic access to the dashboard using PowerShell. If you’re a Microsoft 365 global admin, [learn more about how to manage access to the dashboard](../advanced/admin/manage-settings-copilot-dashboard.md).
 
-## Manage settings for the Copilot dashboard
+## Manage settings for the Copilot Dashboard
 
 As a Microsoft 365 global admin or Viva Insights admin, you can configure several features of the Microsoft Copilot Dashboard. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md).
 
@@ -96,7 +96,9 @@ As a Microsoft 365 global admin or Viva Insights admin, you can configure severa
 ### Readiness
 
 >[!Note]
->Readiness data in the dashboard represents data over the previous 28 days. There’s a four-day data delay from the current date. For example, if you viewed the data on Wednesday, March 20, 2024, the dashboard represents activity between Saturday, February 17 and Friday, March 15. 
+>Readiness data in the dashboard represents data over the previous 28 days. There’s a four-day data delay from the current date. For example, if you viewed the data on Wednesday, March 20, 2024, the dashboard represents activity between Saturday, February 17 and Friday, March 15.
+>
+> The tenant-level number of "Copilot licenses assigned" and "Active Copilot users" includes disabled mailboxes. [Learn more about disabled mailboxes](/exchange/recipients/disconnected-mailboxes/connect-disabled-mailboxes). The group-level number of "Copilot licenses assigned" and "Active Copilot users," however, *doesn't* include disabled mailboxes.
 
 The information in this tab helps you assess your organization’s overall readiness for Copilot. The tab does not provide a comprehensive summary of all readiness and eligibility requirements. For a full set of requirements see this page: [Microsoft 365 Copilot requirements](/microsoft-365-copilot/microsoft-365-copilot-requirements).
 
@@ -109,7 +111,7 @@ The metrics in this section summarize your organization’s progress towards act
 | Total Microsoft 365 licenses  | Number of prerequisite Microsoft 365 and Office 365 licenses purchased by your company. | Users must be assigned a prerequisite Microsoft 365 or Office 365 license in order to be assigned a Copilot for Microsoft 365 license. [See the full list here](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#available-plan). <br> </br> This metric represents a license count, not a user count, so the value shown here may be smaller or larger than your total employee count. The metric includes Microsoft 365 E3 and E5 Extra Features licenses in addition to standard Office 365 and Microsoft 365 licenses. |
 | Total Copilot licenses  | Number of Copilot for Microsoft 365 licenses purchased by your company. | This number might be smaller than the “Copilot licenses assigned” figure below because it's limited to Copilot for Microsoft 365 licenses, whereas the metric below might include users enabled for [Copilot for Microsoft 365 service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#service-plans-for-copilot-for-microsoft-365) via other license types, like Copilot for Sales. |
 | Copilot licenses assigned  | Number of employees in your company who have been assigned a Copilot license. | This number might be larger than the number above, because this metric might include users enabled for [Copilot for Microsoft 365 service plans](/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot#service-plans-for-copilot-for-microsoft-365) via other license types, like Copilot for Sales. <br> </br>  This definition is consistent with the "assigned licenses" metric in the [Copilot Readiness report](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage#interpret-the-readiness-section-in-copilot-for-microsoft-365-report) in the Microsoft 365 Admin Center. |
-| Active Copilot users  | Number of employees in your company who have completed at least one Copilot action over the previous 28 days. | A user is considered active if they performed an intentional action for an AI-powered capability in Copilot within Microsoft Teams, Copilot with Graph-grounded chat, Outlook, Word, Excel, PowerPoint, OneNote, or Loop. This is consistent with the definition used in [Usage reports](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) in the Microsoft 365 Admin Center. <br> </br> This number may exceed the number above because it counts all active users over the past 28 days, including users who have had their license removed after completing an action in Copilot, whereas the metric above is a snapshot of employees currently licensed to use Copilot. |
+| Active Copilot users  | Number of employees in your company who have completed at least one Copilot action over the previous 28 days. | A user is considered active if they performed an intentional action for an AI-powered capability in Copilot within Microsoft Teams, Business Chat (work), Outlook, Word, Excel, PowerPoint, OneNote, or Loop. This is consistent with the definition used in [Usage reports](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage) in the Microsoft 365 Admin Center. <br> </br> This number may exceed the number above because it counts all active users over the past 28 days, including users who have had their license removed after completing an action in Copilot, whereas the metric above is a snapshot of employees currently licensed to use Copilot. |
 
 #### How Copilot can transform your work
 
@@ -144,6 +146,8 @@ All metrics on this page represent aggregations over the past 28 days with a typ
 
 >[!Note]
 >Adoption and impact data underneath the filter represent the four complete weeks that ended on the last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the last Saturday would be March 16, and the dashboard would represent activity between Sunday, February 18 and Saturday, March 16.
+>
+>On the the adoption page, the group-level number of "Copilot licenses assigned" and "Active Copilot users" doesn't include disabled mailboxes. [Learn more about disabled mailboxes](/exchange/recipients/disconnected-mailboxes/connect-disabled-mailboxes).
 
 ##### Select the filters for your analysis in the dashboard
 
@@ -151,7 +155,7 @@ All metrics on this page represent aggregations over the past 28 days with a typ
 
 At the top left of the adoption and impact page, next to **Scope**, select the dropdown to choose between viewing insights for individual teams within your entire company, or teams just within your group. You can also filter by team by selecting **View by** above the various metric reports.
 
-By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The Copilot dashboard can get organizational data in one of three ways:
+By default, the **Scope** and **Organization** filters are determined by your [Microsoft Entra ID](../advanced/admin/org-data-overview.md). The Copilot Dashboard can get organizational data in one of three ways:
 
 * Through Microsoft Entra ID, which is the default setting
 * Through an [organizational data file in Microsoft 365 that your Global admin uploads](/viva/organizational-data)
@@ -160,7 +164,7 @@ By default, the **Scope** and **Organization** filters are determined by your [M
 >[!Note]
 >If you upload an organizational data file, upload data for every employee in the company. Or, if your Insights admin has limited access to organizational data, upload data for every employee in your analysis, as well as managers in the hierarchy between those being analyzed, and the top-level leader in the company. This ensures that the **Scope** filter accurately reflects the hierarchy.
 >
->If you upload an organizational data file, this permanently changes the source of the Copilot dashboard data from Microsoft Entra ID to the data file. To keep your organizational data current, you must regularly upload .csv files. To revert back to Microsoft Entra ID as the source, [file a support ticket with us](/microsoft-365/admin/get-help-support).
+>If you upload an organizational data file, this permanently changes the source of the Copilot Dashboard data from Microsoft Entra ID to the data file. To keep your organizational data current, you must regularly upload .csv files. To revert back to Microsoft Entra ID as the source, [file a support ticket with us](/microsoft-365/admin/get-help-support).
 
 >[!Note]
 >If your Global admin and Viva Insights admin *both* upload organizational data, the dashboard will merge the uploads and prioritize the more recent data.
@@ -183,7 +187,7 @@ If you find the default data is inaccurate, your admin can  upload updated organ
 :::image type="content" source="images/copilot-dash-scope-ga-02.png" alt-text="Screenshot that shows the scope filter options.":::
 
 >[!Note]
->The hierarchy displayed under “Your company” is based on the user who’s logged in to view the Copilot dashboard. To view the full list of dropdowns under “Your company,” you need to report directly or indirectly to the CEO.
+>The hierarchy displayed under “Your company” is based on the user who’s logged in to view the Copilot Dashboard. To view the full list of dropdowns under “Your company,” you need to report directly or indirectly to the CEO.
 
 The **Organization** filter corresponds to the Microsoft Entra ID data source field named "Department." If your Insights or Global admin uploads a .csv file with an organizational data attribute of "Organization," it will replace the Microsoft Entra ID data source.
 
@@ -252,6 +256,7 @@ Group totals reflect all users based on the filtered group, including groups tha
 |  Excel analysis actions taken using Copilot |  The number of times users analyzed data to show insights as charts, PivotTable objects, summaries, trends, or outliers in Excel using Copilot. |
 | Excel formatting actions taken using Copilot | The number of times users highlighted, sorted, and filtered tables in Excel using Copilot. |
 | Business Chat (work) queries submitted | Number of Business Chat (work) queries submitted by users. |
+| Business Chat (work) prompts submitted in Teams | The number of Business Chat (work) queries submitted by users through Teams, formerly called Copilot Chat (work). |
 | Chat conversation summaries created by Copilot | The number of times users summarized chats and channel conversations in Teams using Copilot. |
 | Chat message drafts composed using Copilot | The number of chat and channel message drafts created in Teams using Copilot. |
 | Chat conversations summarized by Copilot | The number of chats and channel conversations summarized by Copilot. |
@@ -313,7 +318,7 @@ This is an estimate of the value of Copilot’s impact over the given time perio
 * This feature is on by default. Your Global admin can use Viva feature access management to disable this feature for the entire tenant. [Learn more](/viva/feature-access-management).
 
 >[!Note]
->For the time being, if you want to change the hourly rate or currency, you’ll need to do this every time you reopen the Copilot dashboard, because the updates won’t be saved. 
+>For the time being, if you want to change the hourly rate or currency, you’ll need to do this every time you reopen the Copilot Dashboard, because the updates won’t be saved. 
 
 ##### Details on the "Copilot assisted hours" metric
  
@@ -503,23 +508,23 @@ No. However, if you’d like to upload more recent data for additional employees
 
 ### Setup and licenses
 
-**Q1. How does data in the Copilot dashboard compare to usage reports in the admin center?**
-Both the Microsoft Copilot dashboard and the admin center usage reports leverage the same underlying data set, but they're intended for different audiences. The Copilot dashboard is intended for organizational leaders and technology decision makers, while the admin center report is intended for IT admins. Also, differences in each report’s prerequisites and time periods might cause data discrepancies.
+**Q1. How does data in the Copilot Dashboard compare to usage reports in the admin center?**
+Both the Microsoft Copilot Dashboard and the admin center usage reports leverage the same underlying data set, but they're intended for different audiences. The Copilot Dashboard is intended for organizational leaders and technology decision makers, while the admin center report is intended for IT admins. Also, differences in each report’s prerequisites and time periods might cause data discrepancies.
 
 Differences in the data are often caused by at least one of the following:
 
-* The time frame for which the analysis is being applied may be different. Refer to the time frame provided on each report’s dashboard. The Copilot dashboard represents data over the previous 28 days. The admin center, however, uses a rolling window for its reports, for the last 7, 30, 90, or 180 days. There might also be differences in data delays. The admin center report is produced within 72 hours, while the Copilot dashboard might have an additional delay of one to two days.
-* Data in the Copilot dashboard is aggregated to meet a minimum privacy threshold.
+* The time frame for which the analysis is being applied may be different. Refer to the time frame provided on each report’s dashboard. The Copilot Dashboard represents data over the previous 28 days. The admin center, however, uses a rolling window for its reports, for the last 7, 30, 90, or 180 days. There might also be differences in data delays. The admin center report is produced within 72 hours, while the Copilot Dashboard might have an additional delay of one to two days.
+* Data in the Copilot Dashboard is aggregated to meet a minimum privacy threshold.
 
 **Q2. Where can users access the Microsoft Copilot Dashboard?**
 Employees can view the dashboard in the Viva Insights Teams or web app.
 
-**Q3. How long after enablement can users access the Copilot dashboard?**
+**Q3. How long after enablement can users access the Copilot Dashboard?**
 Users can access the dashboard less than 24 hours after being enabled.
 
 **Q4. Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level, or group-level insights?**
 
-No, a Viva Insights subscription is not required to access Copilot dashboard. Your ability to view tenant-level or group-level insights depends on the number of assigned Copilot licenses within your tenants. [Learn more here](#feature-availability-based-on-licenses). 
+No, a Viva Insights subscription is not required to access Copilot Dashboard. Your ability to view tenant-level or group-level insights depends on the number of assigned Copilot licenses within your tenants. [Learn more here](#feature-availability-based-on-licenses). 
 
 **Q5. In the Sentiment section I don’t see any survey responses. Why?** 
 
@@ -540,11 +545,11 @@ Any employee who has been assigned a Copilot license, including the following se
 * Business Chat (work)
 * Intelligent Search
 
-**Q7. After I assign new Viva Insights licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
-To start data processing, you'll need to assign at least 10 licenses. Once you do that, the process could take up to a week. [Learn how to assign licenses](../advanced/setup-maint/assign-licenses.md#assign-licenses).
+**Q7. After I assign new Viva Insights or Copilot licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
+To start data processing, you'll need to assign at least 10 Viva Insights licenses or at least 50 Copilot licenses. Once you do that, the process could take up to a week.
 
-**Q8. After the dashboard is turned on with the data, if I subsequently assign *new* Viva Insights licenses, how long will it take for the new data to reflect in the dashboard?**
-Once you assign a new license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
+**Q8. After the dashboard is turned on with the data, if I subsequently assign *new* Copilot licenses, how long will it take for the new data to reflect in the dashboard?**
+Once you assign a new Copilot license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
 
 **Q9. If I assign new Copilot licenses to people, when will I see their data in the dashboard?**
 Once you assign a new Copilot license to your employees, it will take up to one week to update and include the employees with the new assigned license.
@@ -575,7 +580,7 @@ In this scenario, your Entra data is not reliable, or it does not accurately ref
 ### Metrics
 
 **Q1. Which apps are the Business Chat (work) metrics based on?**
-Business Chat (work) metrics are based on use of Copilot with Graph-ground chat across all apps where the capability is available including Teams, Windows, Microsoft365.com, and more. All prompts submitted via Copilot with Graph-grounded chat are counted towards Business Chat (work) usage in the Copilot Dashboard, in alignment with the [Copilot Usage report in the Microsoft 365 Admin Center](/microsoft-365/admin/activity-reports/microsoft-365-copilot-usage). Business Chat (work) metrics do *not* include usage of [Microsoft Copilot with commercial data protection](/copilot/manage), which is made available to users with an eligible Microsoft 365 license and does not require a Copilot for Microsoft 365 license. In certain product environments such as Copilot in the Edge browser, users enabled for Copilot for Microsoft 365 may see a “work/web” toggle. The “work” toggle is a feature of Copilot with Graph-grounded chat usage and thus usage of this feature is accounted for in the Copilot Dashboard. The "web” toggle, however, is a feature of Copilot with commercial data protection and use of this feature is not yet accounted for in the Copilot Dashboard.
+Business Chat (work) metrics are based on use of Business Chat (work), formerly called Copilot Chat (work), across all apps where the capability is available including Teams, Windows, Microsoft365.com, and more. Business Chat (work) metrics do *not* include usage of [Microsoft Copilot with enterprise data protection](/copilot/manage), which is made available to users with an eligible Microsoft 365 license and does not require a Copilot for Microsoft 365 license. In certain product environments such as Copilot in the Edge browser, users enabled for Copilot for Microsoft 365 may see a “work/web” toggle. The “work” toggle is a feature of Business Chat (work) usage and thus usage of this feature is accounted for in the Copilot Dashboard. The "web” toggle, however, is a feature of Copilot with enterprise data protection and use of this feature is not yet accounted for in the Copilot Dashboard.
 
 **Q2. Within the Copilot metrics tab of the comparison between groups table, why does the % difference not show what I'm expecting to see?**  
 The values under the first two columns (Group 1 & Group 2) are calculated using the sum. To compare groups of different sizes, the percentage difference is calculated using the per user per month average.
@@ -588,6 +593,8 @@ There are two reasons for this:
 
 2. The app total refers to the total number of unique users who are active on *any* Copilot feature for that app, and the list of features below the app might not include every feature.
 
-## Related topic
+## Related topics
 
-[Manage settings for the Copilot dashboard](../advanced/admin/manage-settings-copilot-dashboard.md)
+[Manage settings for the Copilot Dashboard](../advanced/admin/manage-settings-copilot-dashboard.md)
+
+[Delegate access to the Copilot Dashboard](../org-team-insights/delegate-access.md)

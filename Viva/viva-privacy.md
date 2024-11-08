@@ -16,7 +16,6 @@ ms.collection:
 - M365initiative-viva
 - m365solution-overview
 - highpri
-- tier1
 - essentials-privacy
 search.appverid:
 - MET150

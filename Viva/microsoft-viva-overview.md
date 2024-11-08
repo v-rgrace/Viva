@@ -15,7 +15,6 @@ ms.custom: intro-overview
 ms.collection:
   - M365-collaboration
   - M365initiative-viva
-  - Tier1
   - essentials-overview
 search.appverid:
 - MET150

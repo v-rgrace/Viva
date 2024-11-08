@@ -15,7 +15,6 @@ ms.localizationpriority: high
 ms.collection:
   - Strat_SP_modern
   - M365-collaboration
-  - Tier1
 search.appverid:
 - SPO160
 - MET150
