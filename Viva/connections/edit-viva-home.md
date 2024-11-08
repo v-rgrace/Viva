@@ -131,12 +131,12 @@ Apply **Audience targeting** so this card is filtered to specific roles, regions
 
 | Dashboard cards | How to use the card | Default card by audience|
 | :------------------------| :-------------------| :----------------------|
-| [Approvals](create-dashboard.md#add-the-approvals-card) | Request time off, approve expense reports, and sign documents.  | Frontline worker        |
-| [Assigned tasks](create-dashboard.md#add-the-assigned-tasks-card)  | Review and complete daily tasks assigned by your manager or team. | Frontline worker and Information worker    |
-| [Shifts](create-dashboard.md#add-a-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and break times. | Frontline worker       |
-| [News](create-dashboard.md#add-the-news-card) | View the most important news from inside your organization. Use [Boosted news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to get news posts from organizational news sites to display in this card.  | Frontline worker and Information worker         |
-| [Viva Learning](create-dashboard.md#add-a-viva-learning-card) | View recommended and required training courses. | Information worker            |
-| [Topics](create-dashboard.md#add-a-topics-card)    | Share and contribute to your organization’s knowledge base. | Information worker          |
+| [Approvals](available-dashboard-cards.md#add-the-approvals-card) | Request time off, approve expense reports, and sign documents.  | Frontline worker        |
+| [Assigned tasks](available-dashboard-cards.md#add-the-assigned-tasks-card)  | Review and complete daily tasks assigned by your manager or team. | Frontline worker and Information worker    |
+| [Shifts](available-dashboard-cards.md#add-the-shifts-card) | Clock-in and clock-out of shifts and view upcoming shifts and break times. | Frontline worker       |
+| [News](available-dashboard-cards.md#add-the-news-card) | View the most important news from inside your organization. Use [Boosted news](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83) to get news posts from organizational news sites to display in this card.  | Frontline worker and Information worker         |
+| [Viva Learning](available-dashboard-cards.md#add-the-viva-learning-card) | View recommended and required training courses. | Information worker            |
+| [Viva Topics](available-dashboard-cards.md#add-the-viva-topics-card)    | Share and contribute to your organization’s knowledge base. | Information worker          |
 
 ### Summary of customizable elements
 
@@ -332,7 +332,7 @@ To apply a SharePoint or custom theme:
 
 ## Customize the dashboard
 
-The [Viva Connections dashboard](create-dashboard.md#edit-the-dashboard) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the dashboard are also automatically applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
+The [Viva Connections dashboard](create-dashboard.md#edit-the-dashboard-from-microsoft-teams) provides fast and easy access to information and job-related tasks. Add and edit cards that help users quickly access the tools and resources they use in their day-to-day role. Cards on the dashboard can be targeted to users based on specific roles, regions, and interests. Edits (including audience targeting settings) made to cards on the dashboard are also automatically applied to the [Dashboard web part](use-dashboard-web-part-on-home-site.md) and [the mobile experience](viva-connections-overview.md#the-viva-connections-mobile-experience).
 
 > [!NOTE]
 >
@@ -341,7 +341,7 @@ The [Viva Connections dashboard](create-dashboard.md#edit-the-dashboard) provide
 
 ### Learn more about adding partner cards and creating custom cards
 
-In addition to the core set of dashboard cards, cards from partner solutions can be added to the card toolbox from the SharePoint store. [Learn more about partner cards](https://techcommunity.microsoft.com/blog/spblog/explore-and-deploy-sharepoint-framework-solutions-from-partners-in-sharepoint-mi/2645289) and [how to request them](create-dashboard.md#add-a-microsoft-app-as-a-card-on-the-dashboard). Additionally, customers can create custom cards for the Viva Connections dashboard by using the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview) to create Adaptive Card Extensions (ACEs). Learn more about this framework and view the [ACE solution gallery](https://appsource.microsoft.com/product/office/WA200003929).
+In addition to the core set of dashboard cards, cards from partner solutions can be added to the card toolbox from the SharePoint store. [Learn more about partner cards](https://techcommunity.microsoft.com/blog/spblog/explore-and-deploy-sharepoint-framework-solutions-from-partners-in-sharepoint-mi/2645289) and [how to request them](available-dashboard-cards.md#add-a-partner-card-or-microsoft-app). Additionally, customers can create custom cards for the Viva Connections dashboard by using the [SharePoint Framework (SPFx)](/sharepoint/dev/spfx/sharepoint-framework-overview) to create Adaptive Card Extensions (ACEs). Learn more about this framework and view the [ACE solution gallery](https://appsource.microsoft.com/product/office/WA200003929).
 
 ### Preview the dashboard before sharing with others
 
