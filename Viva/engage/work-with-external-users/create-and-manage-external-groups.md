@@ -2,7 +2,7 @@
 title: "Work with external groups in Viva Engage networks not aligned to Native Mode"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 01/30/2024

@@ -2,7 +2,7 @@
 title: "Manage Viva Engage security settings"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 8/10/2023

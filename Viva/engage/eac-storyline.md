@@ -2,7 +2,7 @@
 title: "Manage and set up storyline in Viva Engage"
 description: "Storyline empowers everyone within your organization to connect and contribute, while enabling your leaders to reach and engage employees."
 ms.reviewer: john.bacus
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 9/11/2024
