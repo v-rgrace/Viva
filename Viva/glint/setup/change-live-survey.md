@@ -138,7 +138,7 @@ Review your edits to make sure your employees receive appropriate notice.
  
 1. Review the **Confirm your changes** window that opens.
 
-:::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions."lightbox="../../media/glint/setup/confirm-changes-dialog-box.png:::
+:::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions."lightbox="../../media/glint/setup/confirm-changes-dialog-box.png":::
 
 > [!IMPORTANT]
 >  Notify participants about these changes and ask them to retake the survey, if needed. 
