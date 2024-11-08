@@ -14,24 +14,24 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 04/16/2024
+ms.date: 11/08/2024
 ---
 
 # Preview pre-launch demo data in Viva Glint reporting
 
-How do your employee attributes and potential survey responses look in Microsoft Viva Glint reporting? Previewing demo data enables admins to familiarize themselves with the Viva Glint dashboard. Previewing reporting also enables an understanding of how data file attributes appear in reporting scenarios. 
+How do your employee attributes and potential survey responses look in Microsoft Viva Glint reporting? Previewing demo data enables Viva Glint Administrators to familiarize themselves with the Viva Glint dashboard. Previewing reporting also enables an understanding of how data file attributes appear in reporting scenarios. 
 
-Demo surveys are available for engagement surveys only.
+Demo surveys are available for Recurring and Ad-Hoc survey types only.
 
->[!IMPORTANT]
->Demo dashboards last for seven days only. Regenerate it to see it after seven days.
+> [!IMPORTANT]
+> Demo dashboards last for seven days only. Follow report preview steps again to regenerate preview reports.
 
->[!CAUTION]
+> [!CAUTION]
 > Demo preview generation is limited to 3 times/day/program/user. Report generation requests queue up in the order that they’re requested across all surveys and users.
 
 ## Previewing demo data reports
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > To ensure no unintended notifications are sent, Nudges or Team Conversations must be temporarily disabled before proceeding.
 
 1. From the Viva Glint admin dashboard, select the **Configuration symbol** and then **Survey Programs.**
@@ -40,37 +40,36 @@ Demo surveys are available for engagement surveys only.
    
 2. Select the survey in which to preview reporting. A new page opens.
 
-3. In the *Upcoming and Live* tab, select **Preview** from the vertical ellipses dropdown menu. A *Survey Preview* dialog box opens.
+3. In the **Upcoming and Live** tab, select **Preview** from the ellipses dropdown menu. A **Survey Preview** dialog opens.
 
    :::image type="content" source="../../media/glint/setup/preview-dropdown.png" alt-text="Screenshot of the preview dropdown menu within the ellipses next to a survey cycle.":::
  
-4. Select **Generate Report Preview** to view a one-time, randomized data survey report. An email lets you know when the report is available; the report may take up to 24 hours to generate. Once generated, your report remains visible for seven days.
+4. Select **Generate Report Preview** to view a one-time, preview based on your employee data and randomized responses. An email lets you know when the report is available; the report may take up to 24 hours to generate. Once generated, your report remains visible for seven days.
    
    :::image type="content" source="../../media/glint/setup/generate-report-preview.png" alt-text="Screenshot of the *Survey Preview for Engagement* dialog box from which to select **Generate Report Preview**.":::
 
    :::image type="content" source="../../media/glint/setup/report-preview-generated.png" alt-text="Screenshot of the *Report Preview Generated* dialog box.":::
 
 >[!NOTE]
-> Until you receive your email, ensure that your survey program remains in an **Approved** status. Your report will not generate successfully if your survey program is not **Approved**.
+> Until you receive your email, ensure that your survey program remains in an **Approved** status. Your report doesn't generate successfully if your survey program is not **Approved**.
 
->[!TIP]
->To make changes to your survey once you have previewed how the reporting will appear, select **Edit** from the vertical ellipses next to the program.
+> [!TIP]
+> To make changes to your survey once you have previewed reports, select **Edit** from the ellipses next to the program.
 
 ## Can I generate a new demo data report preview after editing a survey?
 
-To *replace* a generated report, preview with newly uploaded employee attributes. , a dialog box tells you that a report preview was previously generated. To replace this demo report with a new version, select **Generate Report Preview**. The seven-day report visibility starts over with the generation of the new report.
+To **replace** a generated report, preview with newly uploaded employee attributes. A dialog tells you that a report preview was previously generated. To replace this demo report with a new version, select **Generate Report Preview**. The seven-day report visibility starts over with the generation of the new report.
 
 ## How long does a preview take to generate?
 
-Generally, preview reports for surveys with ~25 questions and <5Kk employees generate almost immediately.
-Surveys with ~15 questions and > 200K employees may take as long as 3.5 hours to generate.
+Generally, preview reports for surveys with ~25 questions and 5,000 employees or fewer generate almost immediately. Surveys with several questions and for organizations with more than 50,000 users can take up to 24 hours to generate.
 
-## How do I see my demo report?
+## How do I see my demo report after it's generated?
 
 **From your Viva Glint dashboard:**
 
-1. Select **Reports.**
-2. Choose **Demo Data for Engagement**.
+1. If Select **Reports.**
+2. Choose **Demo Data for `<survey name>`**.
 3. Select the report to review.
 
 :::image type="content" source="../../media/glint/setup/demo-data-for-engagement.png" alt-text="Screenshot of the *Reports* tab and Demo Data for Engagement.":::
