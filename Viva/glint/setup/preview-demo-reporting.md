@@ -72,9 +72,9 @@ Generally, preview reports for surveys with ~25 questions and 5,000 employees or
 2. Choose **Demo Data for `<survey name>`**.
 3. Select the report to review.
 
-:::image type="content" source="../../media/glint/setup/demo-data-for-engagement.png" alt-text="Screenshot of the *Reports* tab and Demo Data for Engagement.":::
+   :::image type="content" source="../../media/glint/setup/demo-data-for-engagement.png" alt-text="Screenshot of the *Reports* tab and Demo Data for Engagement.":::
 
-:::image type="content" source="../../media/glint/setup/demo-data-expiration.png" alt-text="Screenshot of a demo data report with the expiration date posted at the top.":::
+   :::image type="content" source="../../media/glint/setup/demo-data-expiration.png" alt-text="Screenshot of a demo data report with the expiration date posted at the top.":::
 
 **Your demo report is also viewable from the program listing on your admin dashboard.** It shows in the list of your programs with the name of the program preceeded by "Demo Data." To leave that program - and remove the demo banner from the top of your screen - use **Switch Program.**
 
