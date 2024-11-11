@@ -220,8 +220,6 @@ items:
     items:
       - name: Introduction to Microsoft 365 Copilot in Viva Glint (preview) 
         href: copilot/copilot-admin-intro.md
-      - name: Administrator deployment and setup for Microsoft 365 Copilot in Viva Glint (preview)
-        href: ../copilot/deployment-permissions.md
       - name: Administrator enablement for Copilot in Viva Glint (preview)
         href: copilot/admin-enable.md
       - name: Microsoft 365 Copilot data, privacy, and security
