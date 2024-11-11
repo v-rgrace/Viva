@@ -478,7 +478,7 @@ items:
             href: reports/manager-concierge-dashboard.md
           - name: The Team Summary dashboard
             items:
-              - name: Eanble and manage the Team Summary dashboard
+              - name: Enable and manage the Team Summary dashboard
                 href: reports/team-summary-enable-manage.md
               - name: Use the Team Summary dashboard
                 href: reports/managers-use-team-summary-dashboard.md
