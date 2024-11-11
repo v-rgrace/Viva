@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/15/2024
+ms.date: 11/18/2024
 ---
 
 # Send Viva Glint survey results to Viva Insights 
@@ -128,4 +128,3 @@ After sending data to Viva Insights, you can continue to manage your integration
 
    :::image type="content" source="../../media/glint/setup/send-data.png" alt-text="Screenshot of how to remove programs." lightbox="../../media/glint/setup/send-data.png":::
 
-[**Connect to Viva Insights using the Power BI Connector**](/../viva/insights/advanced/analyst/power-bi-connector)
