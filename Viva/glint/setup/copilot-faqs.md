@@ -53,7 +53,7 @@ ms.date: 11/16/2024
  
 <br>**Q: What operational factors and settings allow for effective and responsible use of Microsoft 365 Copilot in Viva Glint?**
 
-**A:** Viva Glint admins can enable or disable Copilot in Viva Glint for any role, in any survey program. Copilot in Viva Glint launches as *disabled* or *off* for all users by default.
+**A:** Viva Glint admins can enable or disable Copilot in Viva Glint for any role, in any survey program. Copilot in Viva Glint launches as **disabled** or **off** for all users by default.
 
 <br>**Q: Is Glint Copilot proprietary in how it works or is it similar to Microsoft Copilot?**
 
@@ -108,7 +108,7 @@ ms.date: 11/16/2024
 
 <br>**Q: Does Microsoft 365 Copilot in Viva Glint have the ability to look across multiple surveys or just one at time?**
 
-**A:** One at a time, for now. Additionally, Copilot in Viva Glint only reads Ad hoc and Recurring survey programs, but we are looking to add the feature to employee lifecycle and always-on programs in the future.
+**A:** One at a time, for now. Additionally, Copilot in Viva Glint only reads Ad hoc and Recurring survey programs, but we're looking to add the feature to employee lifecycle and always-on programs in the future.
 
 <br>**Q: Can Microsoft 365 Copilot in Viva Glint generate a PowerPoint from the results?**
 
