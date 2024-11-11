@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/15/2024
+ms.date: 11/18/2024
 ---
 
 # Send Viva Insights data into Viva Glint 
@@ -80,7 +80,7 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
 2.	In the window that opens, select at least one **role** to add to this attribute. Roles are prepopulated from your User Roles configured earlier.
 
-3.	In the **role row**, select if that role should have access to information about this attribute in their **report filters**, **report sections**, or **comment filters**. Roles without these permissions are greyed out and unavailable to select.
+3.	In the **role row**, select if that role should have access to information about this attribute in their **report filters**, **report sections**, or **comment filters**. 
 
     :::image type="content" source="../../media/glint/setup/glintsights-add-slidey.png" alt-text="Screenshot of the Select roles for this attribute window.":::
 
