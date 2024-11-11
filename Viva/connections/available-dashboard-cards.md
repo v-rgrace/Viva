@@ -32,6 +32,8 @@ You need member or owner level permissions to access the card designer from the 
 
 ## Available dashboard cards
 
+Select a dashboard icon for more information.
+
 |Toolbox icon   | Description  |
 |:-------------:|:--------------|
 | [![Screenshot of the card designer icon with a link to an article for more information.](../media/connections/use-card-designer/card-designer-card-icon.png)](use-card-designer.md) | Create your own cards or use quick views for a more interactive experience utilizing the [adaptive cards framework.](/adaptive-cards/templating/)|
