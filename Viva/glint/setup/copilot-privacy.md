@@ -32,7 +32,7 @@ ms.date: 11/16/2024
 
 **Q: Does Microsoft 365 Copilot in Viva Glint use customer data to train?**
 
-**A:** No. Copilot in Viva Glint doesn’t use customer data to train any models.  Instead, Copilot in Viva Glint employs generically trained LLM models and supplies the necessary grounding data and context for each request. For this reason, each user's Copilot responses are generated only from their accessible data and current survey results. Users can only access information they have permission to view in Glint, such as dashboards, reports, or exports. 
+**A:** No. Copilot in Viva Glint doesn’t use customer data to train any models. Instead, Copilot in Viva Glint employs generically trained LLM models and supplies the necessary grounding data and context for each request. For this reason, each user's Copilot responses are generated only from their accessible data and current survey results. Users can only access information they have permission to view in Glint, such as dashboards, reports, or exports. 
 
 **Q: Does Microsoft 365 Copilot in Viva Glint store any personal data?**
 
@@ -40,7 +40,7 @@ ms.date: 11/16/2024
 
 **Q: Does Microsoft 365 Copilot in Viva Glint save or store data used in summaries?**
 
-Yes. Copilot in Viva Glint saves and stores comments summarization. It follows the security and compliance for data usage practices in place for Viva Glint so the saved data isn't traceable to a respondent. Copilot in Viva Glint saves only the metadata for each API call, such as the date and time of each prompt. The meta log is only baccessed by Glint developers. 
+Yes. Copilot in Viva Glint saves and stores comments summarization. It follows the security and compliance for data usage practices in place for Viva Glint so the saved data isn't traceable to a respondent. Copilot in Viva Glint saves only the metadata for each API call, such as the date and time of each prompt. The meta log is only accessed by Glint developers. 
 
 **Q: How does Copilot in Viva Insights comply with GDPR and other privacy regulations?**
 
@@ -77,7 +77,7 @@ Furthermore, data isn't transferred between US and EU servers. 
 
 <br>**Q: Does Microsoft 365 Copilot in Viva Glint share data with other Microsoft 365 Copilots?**
 
-**A:** No. Copilot in Viva Glint does not share data with any other Microsoft 365 Copilot applications.
+**A:** No. Copilot in Viva Glint doesn't share data with any other Microsoft 365 Copilot applications.
 
 <br>**Q: Can Microsoft 365 Copilot in Viva Glint access customer data from the M365 Graph?**
 
