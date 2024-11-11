@@ -368,6 +368,8 @@ items:
             href: setup/360-email-templates.md
           - name: 360 FAQs
             href: setup/360-faqs.md
+      - name: Always-On Feedback surveys
+        href: setup/always-on-surveys.md
       - name: Set up Team Conversations
         href: reports/team-conversations-administrator-setup.md
         items:
@@ -381,10 +383,10 @@ items:
         items:
           - name: Review surveys before launch
             href: setup/survey-qa.md    
-          - name: Preview and enable surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
+          - name: Preview, enable, and prepare to launch surveys
+            href: setup/preview-manage-enable-engage-programs.md   
           - name: Duplicate, delete, and disable surveys 
             href: setup/delete-survey-data.md
       - name: Edit live surveys or reopen closed surveys

@@ -1,5 +1,5 @@
 ---
-title: Set up Viva Glint for a multitenant organization (preview)
+title: Set up Viva Glint for a multitenant organization
 description: Multitenant organization (MTO) is a Microsoft 365 feature that enables you to form a tenant group within your organization.
 ms.author: aweixelman
 author: AliciaWeixelman
