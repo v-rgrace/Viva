@@ -1,5 +1,5 @@
 ---
-ms.date: 08/6/2024
+ms.date: 11/18/2024
 title: Import business data with Azure blob import
 description: Learn how to import business data into Viva Insights through an Azure blob import.
 author: zachminers
@@ -334,11 +334,11 @@ Here are a few import-specific errors you might encounter if your files aren't f
 
 If you see a “Suspended” status in the **Import history** table or when you select **Manage data sources**, this means your authorization credentials have expired, or access has been revoked. You’ll need to update your credentials and reconnect the data source.
 
-## Manage data source and make changes
+## Add new data and manage datasets
 
 *Applies to: Insights admin*
 
-After you've set up your data import, use the steps below to make changes like setting a new blob store URL, or turning off automated imports. 
+After you've set up your data import, use the steps below to add new data to an existing dataset, create a new dataset, turn off automated imports, and more.
 
 1. On the **Business data** page, select **Manage data sources**. 
 
@@ -349,6 +349,8 @@ After you've set up your data import, use the steps below to make changes like s
     * To delete a dataset, next to the dataset you’d like to delete, select the trash can icon. 
 
     * To make changes to an existing dataset, select the settings icon.
+
+    * To add new data to an existing dataset, select the plus icon next to the dataset.
 
 On the next page, you can edit the connection name, the blob SAS URL, or the blob URL. If you update the SAS URL or URI, the new location will be used for future data refreshes. 
 
