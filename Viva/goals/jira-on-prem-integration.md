@@ -2,9 +2,9 @@
 ms.date: 02/21/2024
 title: Jira Server and Data Center integration for Viva Goals
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -104,6 +104,10 @@ To manually sync the progress of all the goals integrated with a specific Jira s
 
 You can find more about the latest Jira Server version updates [here](https://www.atlassian.com/migration/assess/journey-to-cloud).
 
+### Supported versions
+
+The Jira plugin app Microsoft Viva Goals for Jira currently supports up to Jira version 10.1.2. If you're planning to upgrade your Jira version, raise a compatibility request with Jira or reach out to Microsoft for support.
+
 ## Frequently asked questions
 
 ### What should I do if I'm getting an invalid credentials error despite using the correct credentials?
@@ -125,3 +129,11 @@ Check your service account permissions.
 > 1. Enter "io.ally" as the package name and TRACE as the logging level.
 > 1. Restart the Jira nodes.
 > 1. Grep the logs using the following string: `tail –f log/atlassian-jira.log | grep "io\.ally"`
+
+### Why is the Jira plugin unable to validate credentials after resetting the password of the Jira service account?
+
+Follow these steps when you're resetting your password to avoid this issue:
+
+1. Disconnect the connection in the Jira plugin app.
+1. Reset the password.
+1. In the Jira plugin app, establish the connection again. This will resume the Jira plugin connection and automatic sync to Viva Goals.
