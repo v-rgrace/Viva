@@ -1,5 +1,5 @@
 ---
-title: Introduction to Microsoft 365 Copilot in Viva Glint (preview)
+title: Introduction to Microsoft 365 Copilot in Viva Glint 
 description: Copilot in Viva Glint enables leaders and HR to understand and act on employee feedback by quickly summarizing large quantities of comments. 
 ms.author: JudithWeiner
 author: JudyWeiner
