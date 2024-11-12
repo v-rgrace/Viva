@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/16/2024
+ms.date: 11/07/2024
 ---
 
 # Set up attributes in Viva Glint
@@ -35,12 +35,12 @@ To set up your attributes in Viva Glint, your uploaded file must contain a final
 2. In **Employees,** select **People**.
 3. Choose **Get Started** to begin the four-step process.
 
-:::image type="content" source="../../media/glint/setup/glint-get-started.png" alt-text="Screenshot of the Get Started button to set up attributes on the People page.":::
-
-Follow the onscreen guidance for the following actions.
-
 > [!CAUTION]
 > The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
+
+Learn more about how to set up attributes in Viva Glint:  
+
+> [!VIDEO bb2646bc-ce4a-407d-8400-ec43bc5514de]
 
 ## 1. Upload dataset
 
@@ -153,17 +153,17 @@ Review a summary of all selections made in attribute setup and use the **Go Back
 
 1. Choose between the following two options:
 
-:::image type="content" source="../../media/glint/setup/setup-step5-choose-import.png" alt-text="Screenshot of step 5 to confirm attribute and data import options.":::
+   :::image type="content" source="../../media/glint/setup/setup-step5-choose-import.png" alt-text="Screenshot of step 5 to confirm attribute and data import options.":::
 
-- Option 1 - Save attributes and import employee data – Recommended if the employee data in your file is complete and finalized (doesn't contain test or partial data).
+    - Option 1 - Save attributes and import employee data – Recommended if the employee data in your file is complete and finalized (doesn't contain test or partial data).
 
-     > [!CAUTION]
-     > Employee data can't be deleted. This option performs a full employee upload, which applies any changes in the file and marks anyone not in the file as an inactive employee.
+      > [!CAUTION]
+      > Employee data can't be deleted. This option performs a full employee upload, which applies any changes in the file and marks anyone not in the file as an inactive employee.
 
-- Option 2 - Save attributes and discard employee data – Recommended to set up attributes based on your header row and then import finalized employee data later.
+   - Option 2 - Save attributes and discard employee data – Recommended to set up attributes based on your header row and then import finalized employee data later.
 
-     > [!TIP]
-     > Viva Glint recommends the **Save attributes and discard employee data** option for initial setup. This allows you to set up and map your attributes in the system and complete your first data import as a separate task.
+      > [!TIP]
+      > Viva Glint recommends the **Save attributes and discard employee data** option for initial setup. This allows you to set up and map your attributes in the system and complete your first data import as a separate task.
 
 2. Select **Save**.
 

@@ -2,7 +2,7 @@
 title: "Organize a Viva Engage live event"
 description: "Learn what's needed for group admins to host live video events for Viva Engage users."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 10/17/2023
