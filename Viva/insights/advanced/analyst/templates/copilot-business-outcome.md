@@ -1,5 +1,5 @@
 ---
-ms.date: 11/15/2024
+ms.date: 11/18/2024
 title: Copilot Business Outcome report
 description: Learn how to use the Microsoft 365 Copilot Business Outcome Power BI template to understand how Copilot usage impacts business results at your company.
 author: zachminers
@@ -161,30 +161,30 @@ The **Copilot business outcome** report includes the following report pages to
 
 ### Copilot business outcome summary  
 
-This page provides an initial overview of business outcome scores for employees who use Copilot for Microsoft 365 more or less frequently. Microsoft WorkLab studies show consistent usage of AI is associated with higher feelings of productivity, work enjoyment, and meeting relief.   
+This page provides an initial overview of business outcome scores for employees who use Copilot for Microsoft 365 more or less frequently. [This Microsoft WorkLab article](https://go.microsoft.com/fwlink/?linkid=2297171) shows how the use of Copilot is already affecting business goals across different functions at Microsoft.  
 
-* The card on the left summarizes the difference in average business outcome scores for employees grouped by their average monthly Copilot usage frequency. The usage frequency value counts the average number of days per month Copilot was used at least once.
+* The card on the left summarizes the difference in average business outcome scores for employees grouped by their average monthly Copilot usage intensity. Usage intensity is based on the average number of Copilot actions taken per user per month.
 
     > [!IMPORTANT]
     > These differences have not been evaluated for statistical significance. Also, Copilot usage is unlikely to be the only variable responsible for any metric differences shown in this report, especially at the beginning of your organization’s AI transformation. Differences between groups and business conditions, including role responsibilities and seasonality, might influence business outcome scores. Additionally, the amount of time it takes for AI to impact any given metric will vary.
 
-* The card on the right summarizes the top Copilot features used by employees with favorable business outcomes to get their work done. The definition of “favorable” can be customized on the query setup page.
+* The card on the right summarizes the top Copilot features used by employees with favorable business outcomes to get their work done. The definition of “favorable” can be customized on the query setup page.  You can get here through the **Settings** menu.
 
 ### Identify how Copilot usage influences a specific business outcome  
 
 This page allows you to focus on a particular business outcome and explore the influences of Copilot usage patterns.
 
-* After selecting the business outcome of interest, the analysis on the left side identifies how Copilot usage behaviors may influence the business outcome. It uses a Power BI visual called “Key Influencers”, which analyzes your data, ranks the Copilot factors that matter, and displays them as odds. Although this Al visualization uses regression models, always keep in mind the factors beyond Copilot usage that may influence the business outcome that are omitted from these predictive models.  identifies how Copilot usage behaviors may influence the business outcome. It uses a Power BI visual called “Key Influencers”, which analyzes your data, ranks the Copilot factors that matter, and displays them as odds. Although this Al visualization uses regression models, always keep in mind the factors beyond Copilot usage that may influence the business outcome that are omitted from these predictive models.
+* After selecting the business outcome of interest, the analysis on the left identifies how different Copilot usage behaviors might increase the likelihood of favorable business outcomes. Research shows that Copilot usage intensity, number of different Copilot features used, and the consistency of Copilot usage are all factors that tend to contribute to higher productivity and work enjoyment. This card ranks the top Copilot usage behaviors that increase the likelihood of favorable business outcomes. It analyzes the users in the top quartile for the respective Copilot usage behavior and shows how much more likely users in this group are to achieve favorable outcomes for the business outcome selected. When interpretating the results, keep in mind the factors beyond Copilot usage that might influence the business outcome that are omitted from these predictive models.
 
-* The right side of this page provides a breakdown of a key Copilot usage behavior metric (identified on the left), across teams or functions. This chart may inform what teams or functions you want to focus your adoption efforts on by going after those with the lowest Copilot usage (in terms of frequency, breadth, or consistency of use). Use the “Group by” slicer to select the HR attribute to use for this breakout. For example, if this report includes sales function-specific business outcome metrics such as “win rate” or “deals closed,” consider breaking out the information by different sales teams. If the business outcome metric is a more generic metric that could apply to different organizations or functions, consider breaking out the information by organization, team, function, or job family.
+* The right side of this page provides a breakdown of inactive Copilot users across teams or functions. This chart might inform which teams or functions you want to focus your adoption efforts on by going after those with the lowest Copilot usage. Use the “Group by” slicer to select the HR attribute to use for this breakout. For example, if this report includes sales function-specific business outcome metrics such as “win rate” or “deals closed,” consider breaking out the information by different sales teams. If the business outcome metric is a more generic metric that could apply to different organizations or functions, consider breaking out the information by organization, team, function, or job family.
 
 ### How Copilot helps employees with favorable business outcomes get their work done
 
-This section highlights how employees with favorable business outcomes use Copilot in their individual work as well as their work with others. Research from Microsoft’s Work Trend Index ([AI at Work Is Here. Now Comes the Hard Part](https://www.microsoft.com/en-us/worklab/work-trend-index/ai-at-work-is-here-now-comes-the-hard-part)) shows regular experimentation with AI as the most significant predictor of “power users,” which is defined as users familiar with generative AI who use it at least several times a week and report saving more than 30 minutes a day with it.
+This section highlights how employees with favorable business outcomes use Copilot to get their work done.
 
-* After specifying the business outcome of interest, this page will use the definition of “favorable business outcome,” as defined by the user during query setup. The left side highlights the top Copilot features used by employees with favorable business outcomes for the selected business outcome. The metric displayed in the bar chart shows the percent net additional usage of the respective Copilot feature by those with favorable business outcomes compared to other employees.
+* After specifying the business outcome of interest, this page uses the definition of "favorable business outcome" as defined by the user during query setup. The left side highlights the top Copilot features used by employees with favorable business outcomes for the selected business outcome. The metric displayed in the bar chart shows the average of the total monthly actions taken per Copilot feature by all employees with favorable business outcomes.
 
-* The insight on the right side explores how employees with favorable business outcomes are using Copilot to help them collaborate with colleagues. The table shows the percentage of meetings summarized by Copilot (out of the total number of meetings for the employees in this group), and the percentage of emails sent with Copilot assistance (out of the total number of emails sent).
+* The insight on the right side takes the top Copilot action taken and shows the monthly average actions taken per person per month broken out by group. It also shows the month over month change. 
 
 ### Opportunities to boost Copilot assisted value  
 
@@ -192,7 +192,7 @@ This page helps you identify opportunities to boost Copilot’s potential assist
 
 * The chart on the left shows the difference in average Copilot assisted hours or value for employees in the low and high Copilot usage groups. The definitions for these categories can be customized in the Settings menu.
 
-* The chart on the right shows the potential additional Copilot assisted hours and value that can be gained when boosting Copilot adoption among employees with inactive or low Copilot usage. The numbers are broken out by team. This insight takes the number of inactive or low Copilot usage and multiplies this number by the difference in average Copilot assisted hours/value between the inactive or low Copilot usage group and the high Copilot usage group.
+* The chart on the right shows the potential additional Copilot assisted hours and value that can be gained when boosting Copilot adoption among employees with inactive or low Copilot usage. The numbers are broken out by group. This insight takes the number of inactive or low Copilot usage and multiplies this number by the difference in average Copilot assisted hours/value between the inactive or low Copilot usage group and the high Copilot usage group.
 
 The Copilot assisted hours metric should be viewed as a general estimate, based on the most relevant Copilot usage data and research currently available. The underlying calculation methodology will evolve over time as new information becomes available.
 
