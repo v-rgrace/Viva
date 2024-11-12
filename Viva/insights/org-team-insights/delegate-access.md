@@ -1,5 +1,5 @@
 ---
-ms.date: 09/12/2024
+ms.date: 11/11/2024
 title: Delegate access to organizational insights and Copilot Dashboard
 description: Learn how to delegate access to organization insights and Copilot Dashboard in Viva Insights.
 author: zachminers
@@ -24,7 +24,7 @@ There are no changes to the metrics, aggregation, or filtering tools available t
 >[!Note]
 >To view and delegate access to organizational insights, you need a Viva Insights subscription and must be assigned the Group Manager role. [Learn more about roles and access for organizational insights](org-insights.md#subscriptions-roles-and-access).
 >
->To view and delegate access to the Copilot dashboard, you need to have access to the dashboard, but neither the Group Manager role nor a Viva Insights subscription is required. [Learn more about how access to the Copilot dashboard is determined](copilot-dashboard.md#how-access-to-the-copilot-dashboard-is-determined).
+>To view and delegate access to the Copilot Dashboard, you need to have access to the dashboard, but neither the Group Manager role nor a Viva Insights subscription is required. [Learn more about how access to the Copilot Dashboard is determined](copilot-dashboard.md#how-access-to-the-copilot-dashboard-is-determined).
 
 Here are a few other things to note:
 
@@ -56,7 +56,7 @@ This method not only allows you to assign delegates but add and remove delegates
 
 ### Organizational insights & Copilot Dashboard:  
 
-*Applies to: People with access to organizational insights or Copilot dashboard*
+*Applies to: People with access to organizational insights or Copilot Dashboard*
 
 1. In the Viva Insights app, select the ellipses (…) at the top right.
 2. Select **Settings.**
@@ -82,14 +82,11 @@ Whenever a delegate has been added, they'll be notified in Teams Chat of their c
 :::image type="content" source="images/delegate-access-3.png" alt-text="Screenshot showing whose insights you're viewing.":::
 
 >[!Note]
->The View Copilot Dashboard banner is only accessible from the Copilot dashboard and can’t be viewed anywhere else in the Viva app.
+>The View Copilot Dashboard banner is only accessible from the Copilot Dashboard and can’t be viewed anywhere else in the Viva app.
 
 ## Remove access to delegate Copilot Dashboard with Powershell
 
 [Learn more about using policies to control access to features in Viva](/viva/feature-access-management).
-
->[!Important]
->Policies to disable delegation for Copilot dashboard can only be applied for the entire tenant level at this time.
 
 You can set a policy to disable delegation for Copilot Dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user or group-level policy. No users can delegate access to Copilot Dashboard until you remove or update the policy. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
@@ -123,4 +120,4 @@ Admins can use audit logs to identify which users have access to Viva Insights t
 ### Related topics
 
 - [Learn more about organization insights](org-insights.md)
-- [Learn more about the Copilot dashboard](copilot-dashboard.md)
+- [Learn more about the Copilot Dashboard](copilot-dashboard.md)

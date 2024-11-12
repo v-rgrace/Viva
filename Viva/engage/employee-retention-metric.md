@@ -2,7 +2,7 @@
 title: "Measure employee retention with Viva Engage"
 description: "Admins and leaders can track employee retention across the organization with Viva Engage analytics."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/20/2024

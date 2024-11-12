@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/20/2024
+ms.date: 10/31/2024
 ---
 
 # Microsoft Copilot in Viva Glint-FAQs (preview)
@@ -53,6 +53,10 @@ ms.date: 09/20/2024
 <br>**Q: What operational factors and settings allow for effective and responsible use of Microsoft 365 Copilot in Viva Glint?**
 
 **A:** Viva Glint admins can enable or disable Copilot in Viva Glint for any role, in any survey program. Copilot in Viva Glint launches as ‘disabled’ or ‘off’ for all users by default.
+
+<br>**Q: Is Glint Copilot proprietary in how it works or is it similar to Microsoft Copilot?**
+
+**A:** Yes, Glint Copilot is proprietary in how it works.
 
 ## Current capabilities
 
@@ -92,7 +96,15 @@ ms.date: 09/20/2024
 <br>**Q: If I ask Microsoft 365 Copilot in Viva Glint for key topics, does it use the same topic model as Viva Glint today? If not, what did you train on?**
 
 **A:** For now, we only tap into the items, not the topics from the NLP. Copilot pulls topics from its own semantic matching system that is similar to the NLP already available in Viva Glint but not exactly the same. 
+
+<br>**Q: How is random sampling determined? Is it inclusive of demographic data segmentation or is it stratified to be representative of the larger population?**
+
+**A:** We perform stratified sampling by topics. The sample contains comments for different topics in the same ratio as the population. We don't sample by demographic data.
   
+<br>**Q: What influences how Copilot describes demographics (e.g. ethnicity)?**
+
+**A:** Copilot in Viva Glint uses the same demographic filters as available in Reporting in Viva Glint.
+
 <br>**Q: How does Microsoft 365 Copilot in Viva Glint identify teams?** 
 
 **A:** Team identification is based on the manager hierarchy within your data file.
@@ -114,6 +126,10 @@ one at time?**
 
 **A:** Currently, Copilot in Viva Glint can’t detect potential biases between survey comments left in different languages, as English is currently the only language available.
 
+<br>**Q: Is there a given bank of emotions that Copilot uses to describe sentiment?**
+
+**A:** No.
+
 ## Copilot roadmap
 
 <br>**Q: Are new features planned for Microsoft 365 Copilot in Viva Glint?**
@@ -133,7 +149,10 @@ one at time?**
 
 <br>**Q: What languages does Microsoft 365 Copilot in Viva Glint support for comment summarization?**
 
-**A:** Copilot in Viva Glint comment summarization is available in all 27 languages supported by Microsoft Copilot in Viva. The admin still needs to interact with the program in English. To obtain the best feedback possible, encourage your employees to leave comments in their native language. [Microsoft 365 Copilot currently supports 27 languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8)
+**A:** Copilot in Viva Glint comment summarization is available in most languages supported by Microsoft 365 Copilot. The admin still needs to interact with the program in English. To obtain the best feedback possible, encourage your employees to leave comments in their native language. [Microsoft 365 Copilot supports these languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8)
+
+> [!NOTE]
+> Not all languages supported by Microsoft 365 Copilot are available for Viva Glint. Support for all these languages is on the roadmap. Your platform informs you of available languages.
 
  
 

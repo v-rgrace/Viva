@@ -2,7 +2,7 @@
 title: "Create and manage an external network in Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 01/10/2024
