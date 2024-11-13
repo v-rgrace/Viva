@@ -164,7 +164,7 @@ The articles in this section range from practical guides on how to get started w
 
 **Glossary**
 
-View this report's metric definitions.
+View this report's [metric definitions](..//..//reference/metrics.md#copilot-for-sales-metrics).
 
 ## Power BI tips, FAQs, and troubleshooting
 
