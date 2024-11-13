@@ -3,7 +3,7 @@ ms.date: 09/24/2024
 title: "Manage Viva Engage Core user licenses in Microsoft 365"
 description: "Viva Engage is moving toward a licensing model that licenses individual users versus entire Microsoft 365 subscriptions. "
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin

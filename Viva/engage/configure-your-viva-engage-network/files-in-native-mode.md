@@ -3,7 +3,7 @@ title: "Files in Native Mode"
 description: "How to prepare your Viva Engage network for Native Mode for Microsoft 365."
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 10/28/2023

@@ -2,7 +2,7 @@
 title: "Viva Engage Admin center overview"
 description: "Viva Engage recreates the employee experience by connecting people across the company, wherever and whenever they work, ensuring employees are included, engaged, and empowered."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 05/21/2024
