@@ -1,5 +1,5 @@
 ---
-ms.date: 02/02/2024
+ms.date: 11/08/2024
 title: "Create and edit a Viva Connections dashboard"
 ms.reviewer: evanatkin
 ms.author: evanatkin
