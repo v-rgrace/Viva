@@ -2,7 +2,7 @@
 title: "Set up official campaigns in Viva Engage"
 description: "Campaigns in Engage are an interactive way to drive engagement and build company culture."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/26/2024

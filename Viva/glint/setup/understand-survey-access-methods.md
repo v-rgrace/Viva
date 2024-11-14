@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/18/2024
+ms.date: 11/13/2024
 ---
 
 # Viva Glint survey access methods
@@ -54,7 +54,10 @@ Use this guidance to enable survey invite links that require authentication with
 
 ## Personalized survey link
 
-Survey emails contain a personalized survey link that is tied to each participant and shouldn't be forwarded. When users select this personalized link, they access an active survey with no authentication. To enable this access method:
+> [!CAUTION] 
+> A personalized link requires no authentication and is unique to each survey and user. When a survey taker forwards an email that includes a personalized link, any user can access and complete their survey. Standard Glint email invite text cautions survey takers to **not forward email invites** to prevent other users completing a survey on their behalf.
+
+Survey emails contain a personalized survey link that is tied to each participant and **shouldn't be forwarded**. When users select this personalized link, they access an active survey with no authentication. To enable this access method:
 
 1. From the admin dashboard, select the **Configuration** symbol, then in **Service Configuration**, choose **General Settings**.
 3. In the **All Settings** menu, select **Engage Survey Details**.
