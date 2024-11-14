@@ -3,7 +3,7 @@ title: "Microsoft 365 Copilot adoption community in Viva Engage"
 f1.keywords:
 - NOCSH
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/16/2024

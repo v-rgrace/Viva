@@ -2,7 +2,7 @@
 title: "Configure your Viva Engage network"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 05/24/2024
