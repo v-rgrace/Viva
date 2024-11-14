@@ -63,22 +63,20 @@ Sometimes changing a live survey may be beneficial.
 - **Language** - from languages prepopulated in the dropdown menu
 - **Question Type** - rating, multiple choice, open-ended
 - **Reporting Label** - for easy identification of your item
-- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. 
-  
-   >[!IMPORTANT]
-   > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequentlly affect the accuracy of the benchmark tied to the item.
-
+- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequentlly affect the accuracy of the benchmark tied to the item.
 - **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item.
-- **Comment Placeholder Text** - **Leave your comments here** appears by default, but this text can be customized.
-- **Rating Scale** - five (5) or seven (7) points
-- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree
+- **Comment Placeholder Text**
+- **Leave your comments here** appears by default, but this text can be customized.**Rating Scale** - five (5) or seven (7) points
+-Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree
 - Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
 - Decide whether this item can be an **Optional Question** - Toggle to **Yes** or **No.**
 - **Suggested Action Template** - Use the dropdown menu to attach this item to a previously configured Suggested Action Template to help managers act on feedback.
 
 Select **Save Changes** when editing is complete.
 
-Use the following information to edit a live survey. The information is broken out across ***Program Summary*** setup pages.
+## Use the following information to edit live surveys 
+
+The information is broken out across **Program Summary** setup pages.
 
 ## Program Setup
 
@@ -135,7 +133,7 @@ If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is ma
 
 For participants who haven't started the survey, the survey automatically updates with the new version of all items and no notification is required.
 
-#### Confirm edits 
+### Confirm edits 
 
 Review your edits to make sure your employees receive appropriate notice. 
  
@@ -165,7 +163,7 @@ Live Communications edits only apply when made at the cycle level.
 | **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least the day before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled to be sent. |
 | **Results Notification** | You want to turn this feature on or off, edit existing text, or adjust the number of days until the message is sent. | To avoid potential challenges, make changes at least 48 hours before the closing of the survey window. |
 
-## Live changes in other survey settings
+## Other Live changes 
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
