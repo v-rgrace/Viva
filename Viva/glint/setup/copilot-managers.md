@@ -16,7 +16,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/16/2024
+ms.date: 11/15/2024
 ---
 
 # How managers use Microsoft 365 Copilot in Viva Glint 
@@ -28,21 +28,19 @@ Share this guidance with your managers:
 
 ## Look at the big picture before using Copilot in Viva Glint
 
-Use your Glint [Team Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231210) to review the data collected from your most recent survey. Look at the [Top Strengths and Top Opportunities](https://go.microsoft.com/fwlink/?linkid=2231116) for your team, as well as the other summaries on your dashboard. 
+Use your Glint [Team Summary dashboard](/viva/glint/reports/managers-use-team-summary-dashboard) to review the data collected from your most recent survey. Look at the [Top Strengths and Top Opportunities](/viva/glint/reports/managers-use-team-summary-dashboard) for your team, as well as the other summaries on your dashboard. 
 
-Now, access Copilot in Viva Glint in one of these ways:
-- Log into the Glint dashboard and select the **Copilot** button. 
-- Navigate to **Reports** on the top menu bar and use Copilot in Viva Glint for a specific report. 
+There are two different experiences
+- Initial: This experience includes onboarding instructions for a manager using Copilot for the first time
+- All Copilot in Viva Glint experiences after the initial use
 
->[!IMPORTANT]
->Copilot in Viva Glint can summarize comments on any report.
+## First-time user experience for Copilot in Viva Glint
+1.	Select the Copilot symbol.
+
+:::image type="content" source="../../media/glint/setup/introducing-copilot.png" alt-text="Screenshot of how learn more about Copilot in Viva Glint from your platform." lightbox="../../media/glint/setup/introducing-copilot.png":::
+
 
 :::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of how to access Copilot in Viva Glint from the Glint dashboard." lightbox="../../media/glint/setup/copilot-access-button.png":::
-
-## There are two different Copilot in Viva Glint experiences
-
-- Initial - This experience includes onboarding instructions for a manager using Copilot for the first time
-- All Copilot in Viva Glint experiences after the initial use
 
 ## First-time user experience for Copilot in Viva Glint
 
@@ -52,13 +50,21 @@ Now, access Copilot in Viva Glint in one of these ways:
 
 2. Review the content provided and select **Next** to reveal the Comments pane.
 3. Review the guidance and select **Next**.
-4. Now, **Try Copilot!**
+4. Experiment with Copilot!
 
-   :::image type="content" source="../../media/glint/setup/copilot-try.png" alt-text="Screenshot of the Try Copilot button.":::
+Now, access Copilot in Viva Glint in one of these ways:
 
-## Copilot quick tips for managers
+- Log into the Glint dashboard and select the **Copilot** button. 
+- Navigate to **Reports** on the top menu bar and use Copilot in Viva Glint for a specific report. 
 
-Use these tips to understand and act on employee feedback quickly.
+>[!IMPORTANT]
+>Copilot in Viva Glint can summarize comments on any report.
+
+:::image type="content" source="../../media/glint/setup/copilot-try.png" alt-text="Screenshot of the Try Copilot button.":::
+
+## Copilot quick tips for managers START HERE
+
+Use these tips to understand and act on employee feedback quickly:
 
 |Recommendation|Benefit|	
 |-----------|----------|
