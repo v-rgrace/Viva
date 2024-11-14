@@ -89,7 +89,7 @@ Global admins can also enable or disable automatic access to the dashboard using
 
 ## Manage settings for the Copilot Dashboard
 
-As a Microsoft 365 global admin or Viva Insights admin, you can configure several features of the Microsoft Copilot Dashboard. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md).
+As an admin, you can configure several features of the Microsoft Copilot Dashboard. [Learn how](../advanced/admin/manage-settings-copilot-dashboard.md).
 
 
 ## Interpreting the data
