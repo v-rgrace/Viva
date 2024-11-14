@@ -17,8 +17,13 @@ items:
             href: setup/privacy-protection-reporting.md
           - name: Privacy protection for 360 feedback programs
             href: setup/privacy-360-feedback.md
-      - name: Raw response data
+      - name: Raw data export
         href: setup/employee-raw-data-export.md
+        items:
+          - name: Extreme circumstances
+            href: setup/raw-data-extreme-circumstances.md
+          - name: Responding to Data Subject Requests (DSRs)
+            href: setup/raw-data-request-response.md
   - name: Connect and learn
     items:   
       - name: Viva Glint resources
