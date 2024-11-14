@@ -174,7 +174,7 @@ items:
               href: advanced/analyst/templates/microsoft-365-copilot-adoption.md   
             - name: Microsoft 365 Copilot impact report
               href: advanced/analyst/templates/microsoft-365-copilot-impact.md
-            - name: Copilot Business Outcome report
+            - name: Copilot Business Outcome (Copilot Business Impact) report
               href: advanced/analyst/templates/copilot-business-outcome.md   
             - name: Onboarding and development
               href: advanced/analyst/templates/onboarding.md    
@@ -230,7 +230,7 @@ items:
           href: advanced/admin/import-business-data-csv.md
         - name: Import business data with Azure blob import
           href: advanced/admin/import-business-data-azure.md   
-        - name: Copilot Business Outcome report
+        - name: Copilot Business Outcome (Copilot Business Impact) report
           href: advanced/analyst/templates/copilot-business-outcome.md   
       - name: Troubleshoot
         items:
