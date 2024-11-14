@@ -21,17 +21,19 @@ ms.date: 11/15/2024
 
 Some elements of a live survey can be adjusted, but only make live edits when necessary.
 
+> [!IMPORTANT]
+> The term "item" refers to any question or statement posed in a Glint survey.
+
+
 Preview your survey before launching. Then follow these practices:
 
-| **Best Practice** | **Scenario** | **Considerations** |
-| --- | --- | --- |
-|**Don't stop the survey**.|Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.|
-|**Make email and reminder edits only at the cycle level.**| Program level changes don't apply to a live survey.|
-|**Keep the meaning of a question intact.**| If you need to fix spelling, grammatical or translation errors:
-<ul><br>- The adjusted question's/item's meaning should remain the same before and after edits.<br>
-</ul>- To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.|
-|**Always Save and re-approve.**| When making live edits, save changes and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](https://learn.microsoft.com/en-us/viva/glint/setup/preview-manage-enable-engage-programs).|
-|**Make text changes uniformly, across all languages included in the survey**.|
+| **Best Practice** | **Considerations** |
+| --- | --- | 
+|**Don't stop the survey**|Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.|
+|**Make email and reminder edits only at the cycle level**| Program level changes don't apply to a live survey.|
+|**Keep the meaning of a question intact**| If you need to fix spelling, grammatical or translation errors:<ul><li>The adjusted item meaning should remain the same before and after edits </li><li> To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.</li></ul>|
+|**Always Save and re-approve**| When making live edits, save changes and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](https://learn.microsoft.com/en-us/viva/glint/setup/preview-manage-enable-engage-programs).|
+|**Make text changes uniformly**| Text changes need to be made across all languages included in the survey.|
 
 ## Process to edit a survey item
 
@@ -51,10 +53,10 @@ Sometimes changing a live survey may be beneficial.
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text will be featured immediately and *only* on surveys that haven't started. |
-| Question text | The phrasing of a question needs to be edited. | Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
-| Adding or removing a question/item | You want to add a new question/item or remove a question/item from a live survey. | A question/item *can't* be added or removed from a live survey except in an *Always-On*, Onboarding, or Exit pulse program. |
-| Question/item order | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
+| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
+| Item text | The phrasing of an item needs to be edited. | Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
+| Adding or removing an item | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or *Employee Lifecycle program. |
+| Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that haven't yet been started. |
 
 ## Fields which can be edited 
 
@@ -64,15 +66,15 @@ Sometimes changing a live survey may be beneficial.
 - **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. 
   
    >[!IMPORTANT]
-   > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention, which can subsequentlly affect the accuracy of the benchmark tied to the question.
+   > Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequentlly affect the accuracy of the benchmark tied to the item.
 
-- **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item
-- **Comment Placeholder Text** - "Leave your comments here" appears by default, but this text can be customized
-- **Rating Scale** - 5 or 7 points
-- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to YES and then assign their meaning. For example: 2 = disagree
-- Decide whether to **Allow Comments** - Toggle to Yes or No
-- Decide whether this item can be an **Optional Question** - Toggle to Yes or No
-- **Suggested Action Template** - Use the dropdown menu to attach this item to a previously configured Suggested Action Template to help managers act on feedback
+- **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item.
+- **Comment Placeholder Text** - **Leave your comments here** appears by default, but this text can be customized.
+- **Rating Scale** - five (5) or seven (7) points
+- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree
+- Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
+- Decide whether this item can be an **Optional Question** - Toggle to **Yes** or **No.**
+- **Suggested Action Template** - Use the dropdown menu to attach this item to a previously configured Suggested Action Template to help managers act on feedback.
 
 Select **Save Changes** when editing is complete.
 
@@ -82,22 +84,22 @@ Use the following information to edit a live survey. The information is broken o
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| Various | You want to edit the *Program Name* or *Allow Survey Resubmission* items*.* | Edits are only visible to users who haven't started their survey. |
-| Additional languages | You want to add a new language as a survey option. | If custom translation text isn't provided, Glint's standard text translations are featured. |
+| **Various** | You want to edit the **Program Name** or **Allow Survey Resubmission** | Edits are visible only to users who haven't started their survey. |
+| **Additional languages** | You want to add a new language as a survey option. | If custom translation text isn't provided, Glint's standard text translations are featured. |
 
 ## Distribution
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| Adding users | Employees not yet included in your Employee Attribute *File* need to participate in the survey. | From the admin dashboard, select the **People** section and select **Send Survey**. Each new user is sent the email invitation immediately. From then on, new users receive reminders according to the same schedule as all other users. |
-| Editing a Distribution List | The list of which employees are included/excluded in the survey needs adjustment. | A Distribution List can be adjusted at any time, but doesn't automatically send a survey invitation to new users. Those invites have to be sent manually. |
+| **Add users** | Employees not yet included in your *Employee Attribute File* need to participate in the survey. | From the admin dashboard, select the **People** section and then **Send Survey**. Each new user is sent the email invitation immediately. From then on, these new users receive reminders according to the same schedule as all other users. |
+| **Edit a Distribution List** | The list of employees included or excluded in the survey needs adjustment. | A Distribution List can be adjusted at any time but doesn't automatically send a survey invitation to new users. Those invites have to be sent manually. |
 
 ## Schedule
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| Survey launch date | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey was scheduled to go live. |
-| Response window | You want to decrease/increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>**Note** : Live *Schedule* edits are applied at the cycle level. |
+| **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go live. |
+| **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>**Note** : Live *Schedule* edits are applied at the cycle level. |
 
 ## Questions
 
@@ -105,10 +107,10 @@ Use the following information to edit a live survey. The information is broken o
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text will be featured immediately and *only* on surveys that haven't started. |
-| Question text | The phrasing of a question needs to be edited. |Survey item rephrasing propagates to future programs only. A live program is not affected by any edit.|
-| Adding or removing a question/item | You want to add a new question/item or remove a question/item from a live survey. | A question/item *can't* be added or removed from a live survey except in an *Always-On*, Onboarding, or Exit pulse program. |
-| Question/item order | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
+| **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
+| **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. A live program is not affected by any edit.|
+| **Adding or removing a survey item** | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or **Employee Lifecycle program. |
+| **Item order** | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
 
 ### Admin process for editing a question during a live survey
 
@@ -123,7 +125,8 @@ If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is ma
 ### Inform survey takers of a live edit
 
 > [!IMPORTANT]
-> All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live. They must also understand that if they retake a survey, their original answers are replaced.
+> All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live.
+> They must also understand that if they retake a survey, their original answers are replaced.
 
 **You are responsible to notify participants about any change and provide instructions on how to do so. Survey retake access:**
 -	Survey takers can use the link from their original survey invitation email 
