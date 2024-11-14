@@ -38,7 +38,7 @@ Preview your survey before launching. Then follow these practices:
 ## Process to edit a survey item
 
 There are three entry points to choose from:
--	From the **Question Library** on your admin dashboard (doesn't require survey to go into unapproved state)
+-	From the **Question Library** on your admin dashboard; doesn't require survey to go into unapproved state
 -	From **Survey Programs, Live** 
 -	From **Upcoming Surveys**
 
@@ -105,10 +105,10 @@ The information is broken out across **Program Summary** setup pages.
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
-| **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. A live program is not affected by any edit.|
-| **Add or remove a survey item** | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or **Employee Lifecycle program. |
-| **Item order** | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
+| **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't been started. |
+| **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. A live program isn't affected by any edit.|
+| **Add or remove a survey item** | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or **Employee Lifecycle** program. |
+| **Item order** | The questions need to be reordered. | The newly edited item order is featured immediately on surveys that haven't been started. |
 
 ### Admin process for editing a question during a live survey
 
@@ -160,7 +160,7 @@ Live Communications edits only apply when made at the cycle level.
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least the day before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled to be sent. |
+| **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least the day before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled. |
 | **Results Notification** | You want to turn this feature on or off, edit existing text, or adjust the number of days until the message is sent. | To avoid potential challenges, make changes at least 48 hours before the closing of the survey window. |
 
 ## Other Live changes 
@@ -169,8 +169,8 @@ Live Communications edits only apply when made at the cycle level.
 | --- | --- | --- |
 |**Driver labels** | The reporting label for an item needs adjustment. | Proceed as needed. |
 | **Manager hierarchies** | Your reporting displays incorrect leadership hierarchies due to errors in your Employee Attribute File. | Change only after the close of the survey window. |
-| **Add bulk survey participants** | You've discovered that an extra group of employees needs to be added to the platform. | Submit a delta file of the employees to be added. Then, manually send them the survey invite from within the **People** configuration page. |
-| **Add users not in the Distribution List** | You've discovered that employees outside of the Distribution List need to be included. | From the admin Configuration dashboard, select the **People** feature , then **Employee** , then **Action** , then **Send Survey**. |
+| **Add bulk survey participants** | An extra group of employees needs to be added to the platform. | Submit a delta file of the employees to be added. Then, manually send them the survey invite from within the **People** configuration page. |
+| **Add users not in the Distribution List** | Employees outside of the Distribution List need to be included. | From the admin Configuration dashboard, select the **People** feature, then **Employee**, then **Action**, then **Send Survey**. |
 | **Email timing** | You want to adjust the time emails are sent. | Adjust timing at the cycle level only and consider the user time zones. |
 
 
