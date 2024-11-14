@@ -222,7 +222,7 @@ items:
         href: copilot/copilot-admin-intro.md
       - name: Administrator deployment and setup for Copilot in Viva Glint 
         href: ../copilot/deployment-permissions.md
-      - name: Administrator enablement for Copilot in Viva Glint 
+      - name: Administrator enablement for Copilot in Viva Glint (preview)
         href: copilot/admin-enable.md
       - name: Microsoft 365 Copilot data, privacy, and security
         href: setup/copilot-privacy.md
@@ -480,7 +480,7 @@ items:
             href: reports/manager-concierge-dashboard.md
           - name: The Team Summary dashboard
             items:
-              - name: Eanble and manage the Team Summary dashboard
+              - name: Enable and manage the Team Summary dashboard
                 href: reports/team-summary-enable-manage.md
               - name: Use the Team Summary dashboard
                 href: reports/managers-use-team-summary-dashboard.md
