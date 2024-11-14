@@ -74,7 +74,7 @@ Sometimes changing a live survey may be beneficial.
 
 Select **Save Changes** when editing is complete.
 
-## Use the following information to edit live surveys 
+## Edit your live survey
 
 The information is broken out across **Program Summary** setup pages.
 
