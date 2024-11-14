@@ -19,17 +19,19 @@ ms.date: 11/15/2024
 
 # Make changes to a live Viva Glint survey
 
-While some elements of a live survey can be adjusted, only make live edits when necessary.
+Some elements of a live survey can be adjusted, but only make live edits when necessary.
 
-Preview your survey before launching. Follow these practices:
+Preview your survey before launching. Then follow these practices:
 
- - **Don't stop the survey**. Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.
- - **Make email and reminder edits only at the cycle level.** Program level changes don't apply to a live survey.
- - **Leave the meaning of a question intact.** If you need to fix spelling, grammatical or translation errors:
-   - The adjusted question's/item's meaning should remain the same before and after edits.
-   - To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.
- - **Always Save and re-approve.** When making live edits, save changes and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](https://go.microsoft.com/fwlink/?linkid=2230749).
- - **Make text changes uniformly, across all languages included in the survey**.
+| **Best Practice** | **Scenario** | **Considerations** |
+| --- | --- | --- |
+|**Don't stop the survey**.|Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.|
+|**Make email and reminder edits only at the cycle level.**| Program level changes don't apply to a live survey.|
+|**Keep the meaning of a question intact.**| If you need to fix spelling, grammatical or translation errors:
+<ul><br>- The adjusted question's/item's meaning should remain the same before and after edits.<br>
+</ul>- To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.|
+|**Always Save and re-approve.**| When making live edits, save changes and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](https://learn.microsoft.com/en-us/viva/glint/setup/preview-manage-enable-engage-programs).|
+|**Make text changes uniformly, across all languages included in the survey**.|
 
 ## Process to edit a survey item
 
