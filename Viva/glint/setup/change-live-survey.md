@@ -101,7 +101,7 @@ Use the following information to edit a live survey. The information is broken o
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go live. |
 | **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>**Note** : Live *Schedule* edits are applied at the cycle level. |
 
-## Questions
+## Items (Questions)
 
 [Read extended guidance on live survey item (question) edits here.](/viva/glint/setup/question-edit)
 
@@ -109,7 +109,7 @@ Use the following information to edit a live survey. The information is broken o
 | --- | --- | --- |
 | **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
 | **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. A live program is not affected by any edit.|
-| **Adding or removing a survey item** | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or **Employee Lifecycle program. |
+| **Add or remove a survey item** | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or **Employee Lifecycle program. |
 | **Item order** | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
 
 ### Admin process for editing a question during a live survey
@@ -126,13 +126,14 @@ If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is ma
 
 > [!IMPORTANT]
 > All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live.
+> <br>
 > They must also understand that if they retake a survey, their original answers are replaced.
 
 **You are responsible to notify participants about any change and provide instructions on how to do so. Survey retake access:**
--	Survey takers can use the link from their original survey invitation email 
+-	Survey takers can use the link from their original survey invitation email to retake their survey.
 -	[Use this guidance to resend survey invites](/viva/glint/communicate/support-survey-participants#resend-survey-invites)
 
-For participants who haven't started the survey, the survey is automatically updated with the new version of all questions and no notification is required.
+For participants who haven't started the survey, the survey automatically updates with the new version of all items and no notification is required.
 
 #### Confirm edits 
 
@@ -144,46 +145,34 @@ Review your edits to make sure your employees receive appropriate notice.
 
 2. If everything is as expected, select **Confirm.**
 
-3. A one-time notification confirms that your question is updated.
-
-## Question edits considerations
-  
-For question edits during draft, scheduled, or live status, always consider:
-
-| **Topic** | **Scenario** | **Considerations** |
-| --- | --- | --- |
-| The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text are featured immediately and *only* on surveys that haven't started. |
-| Question text | The phrasing of a question needs to be edited. | [Use this guide](https://go.microsoft.com/fwlink/?linkid=2230918). Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
-| Adding or removing a question/item | You want to add a new question/item or remove a question/item from a live survey. | A question/item *can't* be added or removed from a live survey except in an *Always-On*, Onboarding, or Exit pulse program. |
-| Question/item order | The questions need to be reordered. | The newly edited question/item order is featured immediately and *only* on surveys that haven't yet been started. |
-
+3. A one-time notification confirms that your item is updated.
 
 ## Reporting
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| All items in the *Reporting* section | Any section in the *Reporting* section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approve toggle to **Yes**. |
-| Benchmark update | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain any user with live access is aware so they aren't confused by results that don't mirror what they saw during their last viewing. |
-| Aggregate Indices | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain any user with live access is aware so they aren't confused by results that are different their last viewing. |
-| Driver Impact Outcomes | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain any user with live access is aware so they aren't confused by different outcome options available in the Driver Impact report. |
+| **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approve toggle to **Yes**. |
+| **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain users with live access are aware so they aren't confused by different results from a past viewing. |
+| **Aggregate Indices** | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain users with live access are aware so they aren't confused by results that are different their last viewing. |
+| **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain ausers with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
 
 ## Communications
 
-Live *Communications* edits will only apply when made at the cycle level.
+Live Communications edits only apply when made at the cycle level.
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| Reminders | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least the day before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled to be sent. |
-| Results Notification | You want to turn this feature on/off, edit existing text or adjust the number of days until the message is sent. | To avoid potential challenges, make changes at least 48 hours before the closing of the survey window. |
+| **Reminders** | You need to add or delete email reminders, or otherwise edit existing text. | Future reminders can be added, edited, or deleted if adjusted at least the day before they're scheduled to be sent. Reminders can't be added, edited, or deleted, on the day that they're scheduled to be sent. |
+| **Results Notification** | You want to turn this feature on or off, edit existing text, or adjust the number of days until the message is sent. | To avoid potential challenges, make changes at least 48 hours before the closing of the survey window. |
 
 ## Live changes in other survey settings
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| Driver labels | The reporting label for a question/item needs adjustment. | Proceed as needed. |
-| Manager hierarchies | Your reporting is displaying incorrect leadership hierarchies or due to errors in your Employee Attribute File. | Change only after the close of the survey window. |
-| Adding survey participants | You've discovered that an extra group of employees needs to be added to the platform. | Submit a delta file of the employees to be added. Then, manually send them the survey invite from within the **People** configuration page > Send Survey. |
-| Adding users not in the Distribution List | You've discovered that employees outside of the Distribution List need to be included. | Navigate to the admin Configuration dashboard, then **People** , then **Employee** , then **Action** , then **Send Survey**. |
-| Email timing | You want to adjust the time in which emails are sent. | Adjust timing at the cycle level only and consider the user time zones. |
+|**Driver labels** | The reporting label for an item needs adjustment. | Proceed as needed. |
+| **Manager hierarchies** | Your reporting displays incorrect leadership hierarchies due to errors in your Employee Attribute File. | Change only after the close of the survey window. |
+| **Add bulk survey participants** | You've discovered that an extra group of employees needs to be added to the platform. | Submit a delta file of the employees to be added. Then, manually send them the survey invite from within the **People** configuration page. |
+| **Add users not in the Distribution List** | You've discovered that employees outside of the Distribution List need to be included. | From the admin Configuration dashboard, select the **People** feature , then **Employee** , then **Action** , then **Send Survey**. |
+| **Email timing** | You want to adjust the time emails are sent. | Adjust timing at the cycle level only and consider the user time zones. |
 
 
