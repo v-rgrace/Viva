@@ -258,7 +258,7 @@ Group totals reflect all users based on the filtered group, including groups tha
 | Business Chat (work) queries submitted | Number of Business Chat (work) queries submitted by users. |
 | Business Chat (work) prompts submitted in Teams | The number of Business Chat (work) queries submitted by users through Teams, formerly called Copilot Chat (work). |
 | Chat conversation summaries created by Copilot | The number of times users summarized chats and channel conversations in Teams using Copilot. |
-| Chat message drafts composed using Copilot | The number of chat and channel message drafts created in Teams using Copilot. |
+| Chat message drafts composed using Copilot | The number of chats and channel message drafts created in Teams using Copilot. |
 | Chat conversations summarized by Copilot | The number of chats and channel conversations summarized by Copilot. |
 | Chats sent | The number of chat messages sent by users using Copilot. |
 
