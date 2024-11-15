@@ -99,7 +99,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
    :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary." lightbox"../../media/glint/reports/copilot-up-to-8000.png":::
 
-2. Use the **View Prompt Guid**e menu to display more prompts, or key in your own question in the box provided.
+2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided.
 
    :::image type="content" source="../../media/glint/reports/copilot-prompt-guide.png" alt-text="Screenshot of the question box in Copilot." lightbox="../../media/glint/reports/copilot-prompt-guide.png":::
 
