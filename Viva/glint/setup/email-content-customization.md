@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/06/2024
+ms.date: 11/14/2024
 ---
 
 # Customize Viva Glint survey email content
@@ -56,7 +56,9 @@ The following invite and reminder email sections support multiple paragraphs to 
 Add your customizations to each section and select **Save Changes** in the top right to save all of your edits.
 
 > [!CAUTION]
-> Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
+> - Hyperlinks and HTML aren't supported content in Viva Glint customized emails. These items can cause email delivery/blocking issues.
+> - Viva Glint Admins can add links as plain text; for example: `www.microsoft.com`.
+>   - Some versions of Microsoft Outlook automatically convert a plain text link into a clickable link. To prevent rendering issues with links, ensure that the plain text URL is less than or equal to 100 characters or create a shortened link.
 
 ### Email macros
 

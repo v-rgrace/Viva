@@ -1,6 +1,6 @@
 ---
-title:  Microsoft 365 Copilot in Viva Glint-FAQs (preview)
-description: Scan the most commonly asked questions about the comments summarization tool in Microsoft Viva Glint.
+title:  Microsoft 365 Copilot in Viva Glint-FAQs 
+description: Scan commonly asked questions about the comments summarization tool in Microsoft Viva Glint.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -16,13 +16,11 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/31/2024
+ms.custom: CELA-aapproved
+ms.date: 11/15/2024
 ---
 
-# Microsoft Copilot in Viva Glint-FAQs (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
+# Microsoft Copilot in Viva Glint-FAQs 
 
 ## Foundational and enablement questions
 
@@ -32,15 +30,15 @@ ms.date: 10/31/2024
 
 <br>**Q: How often is the Large Language Model (LLM) updated for Microsoft 365 Copilot in Viva Glint?**
 
-**A:** Copilot in Viva Glint uses the latest Open AI LLM model, GPT 4.0 turbo, trained with data up to April 2023. While it currently relies solely on customer survey data without external references, prompt engineering is continuously updated to ensure Copilot delivers accurate and relevant responses based on survey inputs.
+**A:** Copilot in Viva Glint uses the latest Open AI LLM model, GPT-4.0, trained with data up to October 2023. While it currently relies solely on customer survey data without external references, prompt engineering is continuously updated to ensure Copilot delivers accurate and relevant responses based on survey inputs.
 
-<br>**Q: What’s the licensing for Microsoft 365 Copilot in Viva Glint?** **Is it part of the Microsoft 365 Copilot, or Viva Glint licensing?**
+<br>**Q: What’s the licensing for Microsoft 365 Copilot in Viva Glint?** **Is it part of the Microsoft 365 Copilot or Viva Glint licensing?**
 
 **A:** Copilot in Viva Glint is separate from the Microsoft 365 Copilot license and is available with a Viva Glint or Microsoft Viva license.
 
 <br>**Q: Is Microsoft 365 Copilot in Viva Glint included in the Viva Glint subscription or as part of Viva Suite?**
 
-**A:** Copilot in Viva Glint is available for all Viva Glint customers with a Microsoft Viva and Viva Glint licenses.
+**A:** Copilot in Viva Glint is available for all Viva Glint customers with Microsoft Viva and Viva Glint licenses.
  
 <br>**Q: If I have a Microsoft 365 Copilot license and a license for Viva Glint, does that augment the Copilot in Viva Glint responses by having more scope to ground responses in (e.g., an Excel sheet with data to correlate the survey responses with)?**
 
@@ -48,11 +46,11 @@ ms.date: 10/31/2024
 
 <br>**Q: How is Microsoft 365 Copilot in Viva Glint enabled?**
 
-**A:** Admins enable Copilot in Viva Glint for within programs.
+**A:** Admins enable Copilot in Viva Glint within programs.
  
 <br>**Q: What operational factors and settings allow for effective and responsible use of Microsoft 365 Copilot in Viva Glint?**
 
-**A:** Viva Glint admins can enable or disable Copilot in Viva Glint for any role, in any survey program. Copilot in Viva Glint launches as ‘disabled’ or ‘off’ for all users by default.
+**A:** Viva Glint admins can enable or disable Copilot in Viva Glint for any role, in any survey program. Copilot in Viva Glint launches as **disabled** or **off** for all users by default.
 
 <br>**Q: Is Glint Copilot proprietary in how it works or is it similar to Microsoft Copilot?**
 
@@ -62,20 +60,24 @@ ms.date: 10/31/2024
 
 <br>**Q: What features does enabling Microsoft 365 Copilot in Viva Glint provide access to?**
 
-**A:** Through an interactive question and response format, users can request comment summarization across survey items, and filter attributes. Current functionality includes the ability to summarize, in English:
+**A:** Through an interactive question and response format, users can request comment summarization across survey items, as well as filter attributes. Current functionality includes the ability to summarize, in English:
 - All Comments
 - Comments by Item
 - Comments by Comment Sentiment
 - Comments by Filter Attribute
 - Prescriptive Comments
  
+<br>**Q: What languages does Microsoft 365 Copilot in Viva Glint support for comment summarization?**
+
+Copilot in Viva Glint comment summarization is available in all languages supported by Viva Glint. The user still needs to interact with Copilot in English. 
+ 
+For the best feedback, encourage your employees to leave comments in their native language.
+
+[Microsoft 365 Copilot currently supports these languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8). Copilot in Viva Glint may not support all of the languages listed on this page. Support for all languages is on the roadmap. Your platform informs you of which languages are available for your programs.
+
 <br>**Q: Can customers participate in multiple private previews, such as Viva Glint and Viva Insights integration, and Microsoft 365 Copilot in Viva Glint?**
 
 **A:** Yes, customers can enroll in multiple private previews by joining the Viva Customer Connection Program (VCCP), a prerequisite for any Viva private preview.
-
-<br>**Q: Is there a cut-off date for the Microsoft 365 Copilot in Viva Glint private preview?**
-
-**A:** The private preview ends with the public launch on June 29, 2024. Existing private preview customers can continue their private preview interviews after the June 29 public launch.
  
 <br>**Q: Does Microsoft 365 Copilot in Viva Glint work retroactively on past surveys, including those migrated from LinkedIn Glint?**
 
@@ -84,10 +86,6 @@ ms.date: 10/31/2024
 <br>**Q: Does Microsoft 365 Copilot in Viva Glint pull from the program level or generic settings for confidentiality thresholds?**
 
 **A:** Copilot in Viva Glint aligns with the threshold configured on the dashboard or report being viewed.
- 
-<br>**Q: What data controls are in place?**
-
-**A:** Copilot in Viva Glint has access to Viva Glint survey data only. Each user only sees survey data they’re granted access to by their Viva Glint admin. Viva Glint admins can control which roles use Copilot in Viva Glint and for which survey programs.
 
 <br>**Q: Can the end user see variables in summarization, based on the user's question or prompt?**
 
@@ -95,7 +93,7 @@ ms.date: 10/31/2024
  
 <br>**Q: If I ask Microsoft 365 Copilot in Viva Glint for key topics, does it use the same topic model as Viva Glint today? If not, what did you train on?**
 
-**A:** For now, we only tap into the items, not the topics from the NLP. Copilot pulls topics from its own semantic matching system that is similar to the NLP already available in Viva Glint but not exactly the same. 
+**A:** Copilot uses the same topic model as Viva Glint today and summarizes up to 10 top topics found in the comments. Topics with comment respondents that fall below the confidentiality threshold are excluded. 
 
 <br>**Q: How is random sampling determined? Is it inclusive of demographic data segmentation or is it stratified to be representative of the larger population?**
 
@@ -113,18 +111,17 @@ ms.date: 10/31/2024
 
 **A:** Currently, no.
 
-<br>**Q: Does Microsoft 365 Copilot in Viva Glint have the ability to look across multiple surveys or just 
-one at time?**
+<br>**Q: Does Microsoft 365 Copilot in Viva Glint have the ability to look across multiple surveys or just one at time?**
 
-**A:** One at a time for now. Additionally, Ad hoc and Recurring survey programs only, but we are looking to add the feature to employee lifecycle and always-on programs in the future.
+**A:** One at a time, for now. Additionally, Copilot in Viva Glint only reads Ad hoc and Recurring survey programs. We're looking to add the feature to employee lifecycle and always-on programs in the future.
 
 <br>**Q: Can Microsoft 365 Copilot in Viva Glint generate a PowerPoint from the results?**
 
-**A:** Not yet, but it’s another feature we would like to explore.
+**A:** Not yet, but it’s another feature we'd like to explore.
  
 <br>**Q: Can Microsoft 365 Copilot in Viva Glint recognize when some groups (based on attributes) have more of a negative or positive reactions to a certain question? Can it determine cultural bias or language/translation problems?**
 
-**A:** Currently, Copilot in Viva Glint can’t detect potential biases between survey comments left in different languages, as English is currently the only language available.
+**A:** Currently, Copilot in Viva Glint can’t detect potential biases between survey comments left in different languages. 
 
 <br>**Q: Is there a given bank of emotions that Copilot uses to describe sentiment?**
 
@@ -134,16 +131,16 @@ one at time?**
 
 <br>**Q: Are new features planned for Microsoft 365 Copilot in Viva Glint?**
 
-**A:** Yes! We let you know as soon as new features are available for Copilot in Viva Glint. All items mentioned as currently unavailable are on our list for consideration.
+**A:** Yes! We'll let you know as soon as new features are available. All items mentioned as currently unavailable are on our list for consideration.
 
 <br>**Q: Does Microsoft 365 Copilot in Viva Glint have any limitations?**
 
 **A:** Currently, but under consideration for the future:
-- Copilot in Viva Glint works on completed survey cycles for Recurring and Ad hoc programs only. It isn’t currently available for Employee Lifecycle, Always-On, or 360 Feedback programs. 
+- Copilot in Viva Glint works on completed survey cycles for Recurring and Ad hoc programs only. It isn’t currently available for Employee Lifecycle, Always-On, or 360 feedback programs. 
 - There must be at least one Recurring or Ad hoc program survey *administered* or *closed* on your Glint platform to use the feature. 
 - Copilot in Viva Glint doesn’t take quantitative survey results into consideration. It can’t answer questions that require comparison scores between questions or employee groups. 
 - Any AI can make mistakes misrepresenting the information it finds. If you encounter harmful, inappropriate, or inaccurate responses, immediately provide feedback or report a concern through our feedback button in Copilot in Viva Glint or in the Viva Glint app.
-- Copilot in Viva Glint samples a subset of comments from each question proportionate to the overall comment count per question. The current limit for this feature is 1000 comments (seeded comments - they come from the same 1000 questions if the prompt is regenerated).
+- Copilot in Viva Glint samples a subset of comments from each question proportionate to the overall comment count per question. The current limit for this feature is 8,000 comments.
 - Copilot in Viva Glint doesn’t currently support cross-program filters.
 - Copilot in Viva Glint doesn’t currently support plug-ins.
 

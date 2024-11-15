@@ -326,6 +326,6 @@ Join the discussion and see the latest events in the [Viva Connections Community
 
 [Learn how to plan, build, and launch a home site](home-site-plan.md)
 
-[Viva Connections adoption resources](https://adoption.microsoft.com/viva/)
+[Viva Connections adoption resources](https://adoption.microsoft.com/viva/connections)
 
 [Viva Connections guidance for end users](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b)
