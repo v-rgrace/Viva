@@ -223,17 +223,15 @@ items:
               href: setup/manage-confidentiality-thresholds.md
   - name: Microsoft 365 Copilot in Viva Glint (preview)
     items:
-      - name: Introduction to Microsoft 365 Copilot in Viva Glint 
+      - name: Introduction to Microsoft 365 Copilot in Viva Glint (preview) 
         href: copilot/copilot-admin-intro.md
-      - name: Administrator deployment and setup for Copilot in Viva Glint 
-        href: ../copilot/deployment-permissions.md
       - name: Administrator enablement for Copilot in Viva Glint (preview)
         href: copilot/admin-enable.md
       - name: Microsoft 365 Copilot data, privacy, and security
         href: setup/copilot-privacy.md
-      - name: Managers using Copilot in Viva Glint 
+      - name: Managers using Microsoft 365 Copilot in Viva Glint (preview)
         href: setup/copilot-managers.md
-      - name: Copilot in Viva Glint- more FAQs 
+      - name: Microsoft 365 Copilot in Viva Glint-FAQs (preview)
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
