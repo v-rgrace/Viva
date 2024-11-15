@@ -97,7 +97,7 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. Copilot in Viva Glint populates with the summary. In this example, the first prompt is chosen. Copilot summarizes 7,747 comments.
 
-   :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary." lightbox"../../media/glint/reports/copilot-up-to-8000.png":::
+   :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary." lightbox="../../media/glint/reports/copilot-up-to-8000.png":::
 
 2. Use the **View Prompt Guide** menu to display more prompts, or key in your own question in the box provided.
 
