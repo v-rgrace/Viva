@@ -35,12 +35,6 @@ There are two different experiences:
 - Initial: This experience includes onboarding instructions for a manager using Copilot for the first time
 - All Copilot in Viva Glint experiences after the initial use
 
-
-
-
-
-:::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of how to access Copilot in Viva Glint from the Glint dashboard." lightbox="../../media/glint/setup/copilot-access-button.png":::
-
 ## First-time user experience for Copilot in Viva Glint
 
 1. Select the **Copilot** symbol.
@@ -67,11 +61,11 @@ Use these tips to understand and act on employee feedback quickly:
 
 |Recommendation|Benefit|	
 |-----------|----------|
-|Browse ready-to-use prompts|	Prompt guide proactively suggests questions to get you started on data exploration.|
-|Experiment writing your own prompts|	Try writing your own prompts on different topics, items, and demographic groups. If a prompt doesn’t work right away, rephase it.
+|Browse ready-to-use prompts| Prompt guide proactively suggests questions to get you started on data exploration.|
+|Experiment writing your own prompts|Try writing your own prompts on different topics, items, and demographic groups. If a prompt doesn’t work right away, rephrase it.
 |Bundle requests into a single prompt|Follow-up questions aren’t currently supported. Instead, ask multi-step prompts, including your anticipated follow-up question. 
-|Keep queries to Viva Glint dataCopilot in Viva Glint doesn’t access data beyond what is in your dashboard.
-|Be specific on your prompt wording|The more detailed your prompt, the more likely Copilot in Viva Glint thoroughly interprets the intent. 
+|Keep queries to Viva Glint data|Copilot in Viva Glint doesn’t access data beyond what is in your dashboard.
+|Be specific on your prompt wording|The more detailed your prompt, the more likely Copilot in Viva Glint accurately interprets the intent. 
 
 > [!IMPORTANT]
 > For the most relevant summary results, include specific question titles, demographic attributes, prescriptive comments, or any other available Glint report filters in your Copilot in Viva Glint prompt.
