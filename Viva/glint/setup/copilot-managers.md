@@ -39,7 +39,7 @@ There are two different experiences:
 
 1. Select the **Copilot** symbol.
    
-:::image type="content" source="../../media/glint/reports/introducing-copilot.png" alt-text="Screenshot of how to learn more about Copilot in Viva Glint." lightbox="../../media/glint/reports/introducing-copilot.png":::
+   :::image type="content" source="../../media/glint/reports/introducing-copilot.png" alt-text="Screenshot of how to learn more about Copilot in Viva Glint." lightbox="../../media/glint/reports/introducing-copilot.png":::
 
 2. Review the content provided and select **Next** to open the Comments pane.
    
