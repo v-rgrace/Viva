@@ -39,9 +39,9 @@ There are two different experiences:
 
 1. Select the **Copilot** symbol.
    
-:::image type="content" source="../../media/glint/setup/introducing-copilot.png" alt-text="Screenshot of how to learn more about Copilot in Viva Glint." lightbox="../../media/glint/setup/introducing-copilot.png":::
+:::image type="content" source="../../media/glint/reports/introducing-copilot.png" alt-text="Screenshot of how to learn more about Copilot in Viva Glint." lightbox="../../media/glint/reports/introducing-copilot.png":::
 
-2. Review the content provided and select **Next** to reveal the Comments pane.
+2. Review the content provided and select **Next** to open the Comments pane.
    
 3. Review the guidance and select **Next**.
    
@@ -87,21 +87,21 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
 1. A Copilot in Viva Glint panel opens and provides survey prompts.
 
-   :::image type="content" source="../../media/glint/setup/copilot-summarize-comments.png" alt-text="Screenshot of the Copilot panel." lightbox="../../media/glint/setup/copilot-summarize-comments.png":::
+   :::image type="content" source="../../media/glint/reports/copilot-summarize-comments.png" alt-text="Screenshot of the Copilot panel." lightbox="../../media/glint/reports/copilot-summarize-comments.png":::
 
 1. Choose a prompt or ask your own question in the box at the bottom of the panel. 
 
-1. A pop-up indicates the prompt or question chosen and that Copilot in Viva Glint is “working on it.” If you made an error or wish to stop the summary generation, select **Stop Generating**.
+1. A pop-up indicates the prompt or question chosen and that Copilot is “working on it.” If you made an error or wish to stop the summary generation, select **Stop Generating**.
 
    :::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of how to access Copilot in Viva Glint from the Glint dashboard." lightbox="../../media/glint/setup/copilot-access-button.png":::
 
 1. Copilot in Viva Glint populates with the summary. In this example, the first prompt is chosen. Copilot summarizes 7,747 comments.
 
-   :::image type="content" source="../../media/glint/setup/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary.":::
+   :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary.":::
 
 1. Use the **View Prompt Guid**e menu to display more prompts, or key in your own question in the box provided. 
 
-   :::image type="content" source="../../media/glint/setup/copilot-prompt-guide.png" alt-text="Screenshot of the question box in Copilot." lightbox="../../media/glint/setup/copilot-prompt-guide.png":::
+   :::image type="content" source="../../media/glint/reports/copilot-prompt-guide.png" alt-text="Screenshot of the question box in Copilot." lightbox="../../media/glint/reports/copilot-prompt-guide.png":::
 
    > [!NOTE]
    > Use the **Send us feedback** link to request more Copilot capabilities
@@ -129,32 +129,32 @@ Follow this procedure to view a specific set of comments and summarize them usin
    
 1. Choose the report you wish to see. In this example, **Team Summary.**
 
-   :::image type="content" source="../../media/glint/setup/copilot-team-summary.png" alt-text="Screenshot of the Team Summary Report card within the Reports tab." lightbox="../../media/glint/setup/copilot-team-summary.png":::
+   :::image type="content" source="../../media/glint/reports/copilot-team-summary.png" alt-text="Screenshot of the Team Summary Report card within the Reports tab." lightbox="../../media/glint/reports/copilot-team-summary.png":::
 
 1. There are several opportunities within the report to view comments. Choose the specific comments you want to see. In this example, let's summarize the 19,306 comments from User 2s team:
 
-   :::image type="content" source="../../media/glint/setup/copilot-user-2.png" alt-text="Screenshot of choosing to view comments from the Glint dashboard." lightbox="../../media/glint/setup/copilot-flora.png":::
+   :::image type="content" source="../../media/glint/reports/copilot-user-2.png" alt-text="Screenshot of choosing to view comments from the Glint dashboard." lightbox="../../media/glint/reports/copilot-user-2.png":::
 
 1. **Hover over that row, over the number of comments**, and select it to reveal the **All Comments** panel.
 
 1. Select **Summarize** in the **Summary by Copilot** row.
 
-   :::image type="content" source="../../media/glint/setup/summarize-selected-comments.png" alt-text="Screenshot of the Copilot summarize button." lightbox="../../media/glint/setup/summarize-selected-comments.png":::
+   :::image type="content" source="../../media/glint/reports/summarize-selected-comments.png" alt-text="Screenshot of the Copilot summarize button." lightbox="../../media/glint/reports/summarize-selected-comments.png":::
 
 1. A pop-up indicates your comments are being scanned and summarized.
 
-    :::image type="content" source="../../media/glint/setup/summarizing-comments-banner.png" alt-text="Screenshot showing comment summarization is underway.":::
+    :::image type="content" source="../../media/glint/reports/summarizing-comments-banner.png" alt-text="Screenshot showing comment summarization is underway.":::
 
 1. Notice that the total number of comments summarized from the team of over 19K members is 5,786 comments. The most relevant comments are summarized – no more than 8000 – and grouped into top themes (no more than 10 top themes):
 
-    :::image type="content" source="../../media/glint/setup/summarizing-comments-banner.png" alt-text="Screenshot showing comment summarization that Copilot summarizes only up to 8000 comments.":::
+    :::image type="content" source="../../media/glint/reports/copilot-summary-one-team.png" alt-text="Screenshot showing comment summarization that Copilot summarizes only up to 8000 comments.":::
 
    > [!IMPORTANT]
    > If the number of comments is greater than 8,000, Copilot summarizes the most relevant comments up to 8,000 comments only. If the number of comments chosen for summary is less than 8,000, all comments are included in the summary.
 
 1. Review your summary and select the **Copy** symbol to save it.
 
-	 :::image type="content" source="../../media/glint/setup/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
+	 :::image type="content" source="../../media/glint/reports/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
 
 ## Copilot use in other Glint reports
 
@@ -196,7 +196,7 @@ We suggest enabling:
 
 Users see this:
 
- :::image type="content" source="../../media/glint/setup/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
+ :::image type="content" source="../../media/glint/reports/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
 
 ## More feedback resources
 
