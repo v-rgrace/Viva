@@ -1,5 +1,5 @@
 ---
-ms.date: 10/22/2024
+ms.date: 11/14/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -258,7 +258,7 @@ Group totals reflect all users based on the filtered group, including groups tha
 | Business Chat (work) queries submitted | Number of Business Chat (work) queries submitted by users. |
 | Business Chat (work) prompts submitted in Teams | The number of Business Chat (work) queries submitted by users through Teams, formerly called Copilot Chat (work). |
 | Chat conversation summaries created by Copilot | The number of times users summarized chats and channel conversations in Teams using Copilot. |
-| Chat message drafts composed using Copilot | The number of chat and channel message drafts created in Teams using Copilot. |
+| Chat message drafts composed using Copilot | The number of chats and channel message drafts created in Teams using Copilot. |
 | Chat conversations summarized by Copilot | The number of chats and channel conversations summarized by Copilot. |
 | Chats sent | The number of chat messages sent by users using Copilot. |
 
@@ -585,7 +585,16 @@ Business Chat (work) metrics are based on use of Business Chat (work), formerly 
 **Q2. Within the Copilot metrics tab of the comparison between groups table, why does the % difference not show what I'm expecting to see?**  
 The values under the first two columns (Group 1 & Group 2) are calculated using the sum. To compare groups of different sizes, the percentage difference is calculated using the per user per month average.
 
-**Q3. On the adoption page, why don’t the app usage totals match the sum of the usage of the individual features below each app?**
+**Q3. Why don't the metrics match on the readiness and adoption pages?**
+
+If you notice a slight difference in the number of Copilot licensed employees or the number of active Copilot users between the readiness and adoption pages, it might be because the adoption page:
+
+* Uses a slightly different date range
+* Excludes users because an admin created an [exclusion list](..//advanced/admin/manage-settings-copilot-dashboard.md#create-an-exclusion-list-hide-users-from-aggregates)
+* Excludes users with licenses that are assigned to disabled mailboxes. [Learn more about disabled mailboxes](/exchange/recipients/disconnected-mailboxes/connect-disabled-mailboxes).
+* Excludes users with licenses that are assigned to disabled accounts
+
+**Q4. On the adoption page, why don’t the app usage totals match the sum of the usage of the individual features below each app?**
 
 There are two reasons for this:
 
