@@ -28,7 +28,7 @@ More information on [Create a Viva Glint User Role](set-up-user-roles.md).
 From the Glint admin dashboard, select the **Configuration** symbol and then **User Roles.** 
 
 1.	If you created a User Role specifically for 360 feedback program administration, select this role. If you’re adding a new 360 feedback admin role, select **+ New Role.**
-1.	On the I*Untitled Role* page that opens, name your User Role by selecting the **pencil** symbol. Choose a name easily identifiable for that cycle name.
+1.	On the *Untitled Role* page that opens, name your User Role by selecting the **pencil** symbol. Choose a name easily identifiable for that cycle name.
 1.	Select **Permissions** and scroll down to the **Feedback** section of the page.
 
     :::image type="content" source="../../media/glint/setup/360-feedback-access-role.png" alt-text="Screenshot of accessing Permissions in Role Settings.":::
