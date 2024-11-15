@@ -156,7 +156,7 @@ Follow this procedure to view a specific set of comments and summarize them usin
 
 	 :::image type="content" source="../../media/glint/setup/copilot-copy-image.png" alt-text="Screenshot of the Copilot copy symbol.":::
 
-## Copilot in Viva Glint use in other Glint reports
+## Copilot use in other Glint reports
 
 Ask Copilot in Viva Glint different questions to drill down for meaningful insight. It takes practice. Copilot in Viva Glint uses the filters applied to the report the user is viewing.
 
@@ -177,12 +177,10 @@ Here are a few ideas of how to use Copilot in Viva Glint in reports:
 
 ## Copy your Copilot in Viva Glint summary to your clipboard
 
-Copilot in Viva Glint is only preserved within a user session. Once you log out, Copilot in Viva Glint summarization disappears. To save your Copilot in Viva Glint summary to your clipboard:
+Copilot in Viva Glint is only preserved within a user session. Once you log out, summarization that is captured disappears. To save your summary to your clipboard:
 
 1. Highlight the content you want to save.
 2. Select the **Copy** symbol.
-
-	 :::image type="content" source="../../media/glint/setup/copilot-save-summary-2.png" alt-text="Screenshot of how to save the Copilot summary.":::
 
 ## Give in-product feedback
 
@@ -192,9 +190,13 @@ Allow your leaders to give feedback by enabling feedback. **The feedback feature
 
 We suggest enabling:
 
-- Allow users to submit feedback to Microsoft:
+- **Allow users to submit feedback to Microsoft**:
   - Allow users to include screenshots and attachments when they submit feedback to Microsoft.
   - Allow users to include log file and relevant content samples when feedback is submitted to Microsoft.
+
+Users see this:
+
+ :::image type="content" source="../../media/glint/setup/copilot-give-feedback.png" alt-text="Screenshot of how to share Copilot feedback with Microsoft.":::
 
 ## More feedback resources
 
