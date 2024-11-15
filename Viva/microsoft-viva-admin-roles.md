@@ -79,7 +79,7 @@ Users with both SharePoint Admin role and Microsoft 365 Groups Admin role can co
 | Role | What this role does in Viva |
 |-----------|------------|
 |SharePoint admin |Users with this role have global permissions within Microsoft SharePoint Online, when the service is present, and the ability to create and manage all Microsoft 365 groups, manage support tickets, and monitor service health. |
-|Microsoft 365 Groups admin |Users in this role can create/manage groups and its settings like naming and expiration policies. It's important to understand that assigning a user to this role gives them the ability to manage all groups in the organization across various workloads like Viva Amplify campaigns, Teams, SharePoint, Yammer in addition to Outlook. Also, the user is able to manage the various groups settings across various admin portals like Microsoft admin center, Azure portal, and workload specific ones like Teams and SharePoint admin centers.
+|Microsoft 365 Groups admin |Users in this role can create/manage groups and its settings like naming and expiration policies. It's important to understand that assigning a user to this role gives them the ability to manage all groups in the organization across various workloads like Viva Amplify campaigns, Teams, SharePoint, Viva Engage in addition to Outlook. Also, the user is able to manage the various groups settings across various admin portals like Microsoft admin center, Azure portal, and workload specific ones like Teams and SharePoint admin centers.
 
 ### Viva Connections
 
