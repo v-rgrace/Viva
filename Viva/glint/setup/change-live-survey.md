@@ -24,7 +24,6 @@ Some elements of a live survey can be adjusted, but only make live edits when ne
 > [!IMPORTANT]
 > The term "item" refers to any question or statement posed in a Glint survey.
 
-
 Preview your survey before launching. Then follow these practices:
 
 | **Best Practice** | **Considerations** |
@@ -60,14 +59,14 @@ Sometimes changing a live survey may be beneficial.
 
 ## Fields which can be edited 
 
-- **Language** - from languages prepopulated in the dropdown menu
-- **Question Type** - rating, multiple choice, open-ended
-- **Reporting Label** - for easy identification of your item
+- **Language** - From languages prepopulated in the dropdown menu.
+- **Question Type** - Rating, multiple choice, open-ended.
+- **Reporting Label** - For easy identification of your item.
 - **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequentlly affect the accuracy of the benchmark tied to the item.
 - **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item.
 - **Comment Placeholder Text**
 - **Leave your comments here** appears by default, but this text can be customized.**Rating Scale** - five (5) or seven (7) points
--Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree
+- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree.
 - Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
 - Decide whether this item can be an **Optional Question** - Toggle to **Yes** or **No.**
 - **Suggested Action Template** - Use the dropdown menu to attach this item to a previously configured Suggested Action Template to help managers act on feedback.
@@ -139,7 +138,7 @@ Review your edits to make sure your employees receive appropriate notice.
  
 1. Review the **Confirm your changes** window that opens.
 
-:::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions."lightbox="../../media/glint/setup/confirm-changes-dialog-box.png":::
+   :::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions."lightbox="../../media/glint/setup/confirm-changes-dialog-box.png":::
 
 2. If everything is as expected, select **Confirm.**
 
