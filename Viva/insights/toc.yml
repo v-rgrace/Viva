@@ -175,7 +175,7 @@ items:
             - name: Microsoft 365 Copilot impact report
               href: advanced/analyst/templates/microsoft-365-copilot-impact.md
             - name: Copilot Business Outcome (Copilot Business Impact) report
-              href: advanced/analyst/templates/copilot-business-outcome.md   
+              href: advanced/analyst/templates/copilot-business-impact.md   
             - name: Onboarding and development
               href: advanced/analyst/templates/onboarding.md    
             - name: Recurring meeting audit
@@ -231,7 +231,7 @@ items:
         - name: Import business data with Azure blob import
           href: advanced/admin/import-business-data-azure.md   
         - name: Copilot Business Outcome (Copilot Business Impact) report
-          href: advanced/analyst/templates/copilot-business-outcome.md   
+          href: advanced/analyst/templates/copilot-business-impact.md   
       - name: Troubleshoot
         items:
         - name: Resolve Viva Insights errors 
