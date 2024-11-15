@@ -21,7 +21,7 @@ ms.date: 11/15/2024
 
 # How managers use Microsoft 365 Copilot in Viva Glint 
 
-Managers with Microsoft 365 Copilot in Viva Glint have access to comment summarization.  Managers see comments bundled by common subject matter, easily identifying themes and guidance to explore in [ACT conversations](https://go.microsoft.com/fwlink/?linkid=2234345).
+Managers with Microsoft 365 Copilot in Viva Glint have access to comment summarization. Managers see comments bundled by common subject matter, easily identifying themes and guidance to explore in [ACT conversations](/viva/glint/reports/take-action-team-conversations).
 Copilot in Viva Glint suggests items that are relevant to your data set and helps you explore and dig deeper. In-platform prompts provide multiple options for generating data summaries.
 
 Share this guidance with your managers:
