@@ -30,14 +30,13 @@ Share this guidance with your managers:
 
 Use your Glint [Team Summary dashboard](/viva/glint/reports/managers-use-team-summary-dashboard) to review the data collected from your most recent survey. Look at the [Top Strengths and Top Opportunities](/viva/glint/reports/managers-use-team-summary-dashboard) for your team, as well as the other summaries on your dashboard. 
 
-There are two different experiences
+There are two different experiences:
+
 - Initial: This experience includes onboarding instructions for a manager using Copilot for the first time
 - All Copilot in Viva Glint experiences after the initial use
 
-## First-time user experience for Copilot in Viva Glint
-1.	Select the Copilot symbol.
 
-:::image type="content" source="../../media/glint/setup/introducing-copilot.png" alt-text="Screenshot of how learn more about Copilot in Viva Glint from your platform." lightbox="../../media/glint/setup/introducing-copilot.png":::
+
 
 
 :::image type="content" source="../../media/glint/setup/copilot-access-button.png" alt-text="Screenshot of how to access Copilot in Viva Glint from the Glint dashboard." lightbox="../../media/glint/setup/copilot-access-button.png":::
@@ -46,10 +45,12 @@ There are two different experiences
 
 1. Select the **Copilot** symbol.
    
-   :::image type="content" source="../../media/glint/setup/copilot-symbol.png" alt-text="Screenshot of how to access Copilot in Viva Glint for the first use.":::
+:::image type="content" source="../../media/glint/setup/introducing-copilot.png" alt-text="Screenshot of how to learn more about Copilot in Viva Glint." lightbox="../../media/glint/setup/introducing-copilot.png":::
 
 2. Review the content provided and select **Next** to reveal the Comments pane.
+   
 3. Review the guidance and select **Next**.
+   
 4. Experiment with Copilot!
 
 Now, access Copilot in Viva Glint in one of these ways:
@@ -57,12 +58,10 @@ Now, access Copilot in Viva Glint in one of these ways:
 - Log into the Glint dashboard and select the **Copilot** button. 
 - Navigate to **Reports** on the top menu bar and use Copilot in Viva Glint for a specific report. 
 
->[!IMPORTANT]
->Copilot in Viva Glint can summarize comments on any report.
+> [!TIP]
+> Copilot in Viva Glint can summarize comments on any report in any Ad hoc or Recurring survey.
 
-:::image type="content" source="../../media/glint/setup/copilot-try.png" alt-text="Screenshot of the Try Copilot button.":::
-
-## Copilot quick tips for managers START HERE
+## Copilot quick tips for managers 
 
 Use these tips to understand and act on employee feedback quickly:
 
