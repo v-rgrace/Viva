@@ -99,17 +99,17 @@ This example follows Copilot in Viva Glint comment summarization on the **Commen
 
    :::image type="content" source="../../media/glint/reports/copilot-up-to-8000.png" alt-text="Screenshot of a Copilot in Viva Glint summary." lightbox"../../media/glint/reports/copilot-up-to-8000.png":::
 
-1. Use the **View Prompt Guid**e menu to display more prompts, or key in your own question in the box provided. 
+2. Use the **View Prompt Guid**e menu to display more prompts, or key in your own question in the box provided.
 
    :::image type="content" source="../../media/glint/reports/copilot-prompt-guide.png" alt-text="Screenshot of the question box in Copilot." lightbox="../../media/glint/reports/copilot-prompt-guide.png":::
 
    > [!NOTE]
-   > Use the **Send us feedback** link to request more Copilot capabilities
+   > Use the **Send us feedback** link to request more Copilot capabilities.
 
-1. Repeat this step until you have the right information to help you have a meaningful [ACT Conversation](/viva/glint/reports/managers-sharing-team-conversations) with your team.
+3. Repeat this step until you have the right information to help you have a meaningful [ACT Conversation](/viva/glint/reports/managers-sharing-team-conversations) with your team.
    
    - At any time, you can view the summarized comments or all the comments verbatim.
-   - You can also update the report using filters. 
+   - You can also update the report using filters.
 
    > [!CAUTION]
    > Once advanced filtering is enabled, the report can’t go back to basic filtering.
@@ -125,13 +125,13 @@ In many reports, you have the option to see comments and drill down into them wi
 
 Follow this procedure to view a specific set of comments and summarize them using Copilot in Viva Glint. This procedure works for any option to see comments when Copilot is enabled:
 
-1. From the Glint dashboard, select **Reports.**
+1. From the Glint dashboard, select **Reports**.
    
-1. Choose the report you wish to see. In this example, **Team Summary.**
+1. Choose the report you wish to see. In this example, **Team Summary**.
 
    :::image type="content" source="../../media/glint/reports/copilot-team-summary.png" alt-text="Screenshot of the Team Summary Report card within the Reports tab." lightbox="../../media/glint/reports/copilot-team-summary.png":::
 
-1. There are several opportunities within the report to view comments. Choose the specific comments you want to see. In this example, let's summarize the 19,306 comments from User 2s team:
+1. There are several opportunities within the report to view comments. Choose the specific comments you want to see. In this example, let's summarize the 19,306 comments from User 2's team:
 
    :::image type="content" source="../../media/glint/reports/copilot-user-2.png" alt-text="Screenshot of choosing to view comments from the Glint dashboard." lightbox="../../media/glint/reports/copilot-user-2.png":::
 
