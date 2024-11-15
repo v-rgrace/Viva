@@ -17,7 +17,7 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-Uploading business data into Viva Insights helps you understand how Copilot usage influences the business outcomes that matter most to your organization. Business outcomes might include productivity metrics at both the task and job levels, such as the number of emails sent by your sales team or the number of closed deals. Please refer to our separate documentation on the [Copilot Business Outcome report](..//analyst/templates/copilot-business-outcome.md) to learn more. 
+Uploading business data into Viva Insights helps you understand how Copilot usage influences the business outcomes that matter most to your organization. Business outcomes might include productivity metrics at both the task and job levels, such as the number of emails sent by your sales team or the number of closed deals. Please refer to our separate documentation on the [Copilot Business Outcome (Copilot Business Impact) report](..//analyst/templates/copilot-business-impact.md) to learn more. 
  
 You can upload business data in the Microsoft Viva Insights’ advanced insights app in one of two ways: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an Azure blob import that you, your source system admin, and your Azure contributor set up. 
 
@@ -395,6 +395,6 @@ Both full and incremental refreshes should include the same set of required fiel
 
 ### Related topics
 
-* [Copilot business outcome report](..//analyst/templates/copilot-business-outcome.md)
+* [Copilot business outcome (Copilot business impact) report](..//analyst/templates/copilot-business-impact.md)
 
 * [File rules and validation errors](..//admin/rules-validation-errors.md)
