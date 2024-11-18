@@ -51,23 +51,23 @@ After the data successfully validates and processes, the overall data-import tas
 
 1. Open a browser and sign in to your organization’s Azure portal.  
 
-2. Under **Azure services**, select **Storage accounts**. 
+2. Under **Azure services**, select **Storage accounts**. 
 
-3. Under **Storage accounts** at the top left, select **Create** to create a new storage account. 
+3. Under **Storage accounts** at the top left, select **Create** to set up a new storage account. 
 
-4. Under **Project details**, use the default settings. 
+4. Under **Project details**, use the default settings. 
 
-5. Under **Instance details**, enter a storage account name and select your region. For Primary service, Use Gen 2 Storage account that supports hierarchical namespace. [Learn more about how to create an Azure storage account](/azure/storage/common/storage-account-create).
+5. Under **Instance details**, enter a storage account name and select your region. For Primary service, Use Gen 2 Storage account that supports hierarchical namespace. [Learn more about how to create an Azure storage account](/azure/storage/common/storage-account-create).
 
 6. For Performance and Redundancy, you can use the default settings unless you need to make changes. 
 
-7. At the bottom, select **Next** to go to Advanced section. 
+7. At the bottom, select **Next** to go to Advanced section. 
 
-8. On the Advanced page, make sure that "Require secure transfer for REST API operations" and "Enable storage account key access" are both selected. For "Minimum TLS version," select at least **Version 1.2**. 
+8. On the Advanced page, make sure that "Require secure transfer for REST API operations" and "Enable storage account key access" are both selected. For "Minimum TLS version," select at least **Version 1.2**. 
 
 9. For all other Advanced settings, you can use the default settings unless you need to make changes.
 
-10. At the bottom, select **Next: Networking**.
+10. At the bottom, select **Next: Networking**.
 
 11. Under **Network connectivity**, select **Enable public access from all networks**. 
 
@@ -395,6 +395,6 @@ Both full and incremental refreshes should include the same set of required fiel
 
 ### Related topics
 
-* [Copilot business outcome (Copilot business impact) report](..//analyst/templates/copilot-business-impact.md)
+* [Copilot business outcome (Copilot business impact) report](..//analyst/templates/microsoft-365-copilot-impact.md)
 
 * [File rules and validation errors](..//admin/rules-validation-errors.md)
