@@ -43,15 +43,15 @@ Business data can originate from different data sources and might refresh at dif
 
 To create a separate .csv file for each dataset, structure the data in this way:  
 
-* Add all fields you want to import to the file 
+* Add all fields you want to import to the file.
 
-* Required fields are "PersonId" and "StartDate" 
+* Required fields are "PersonId" and "StartDate".
 
-* All business data should be tallied at a monthly and per-person level 
+* All business data should be tallied at a monthly and per-person level.
 
 * "StartDate" should represent a month’s data and the date should represent the first of the month. For example, January 2024 should be represented as 1/1/2024. At least three months of business data is recommended.  
 
-* Add a column for each business outcome metric you would like to analyze 
+* Add a column for each business outcome metric you would like to analyze.
 
 >[!Note]
 > You'll need to upload numeric business outcome data to be used in any of the reports in advanced insights.
