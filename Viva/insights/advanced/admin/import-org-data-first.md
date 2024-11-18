@@ -17,7 +17,7 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an API-based data import that you, your source system admin, and your Microsoft 365 IT admin set up.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an API-based data import that you, your source system admin, and your Microsoft 365 IT admin setup.
 
 This article talks about the third option, importing data. 
 
