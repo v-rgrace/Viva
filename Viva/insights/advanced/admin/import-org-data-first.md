@@ -1,6 +1,5 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
-ms.date: 08/6/2024
+ms.date: 11/18/2024
 title: Import organizational data (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
@@ -13,11 +12,12 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Import organizational data (first import)
+# Import organizational data (first import) (preview)
 
-*Applies to: private preview customers*
+>[!IMPORTANT]
+> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an automated data import that you, your source system admin, and your Microsoft 365 IT admin set up.
+Your organizational data can appear in the Microsoft Viva Insights’ advanced insights app in one of three ways: through Microsoft Entra ID, which is the default source; through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an API-based data import that you, your source system admin, and your Microsoft 365 IT admin set up.
 
 This article talks about the third option, importing data. 
 
@@ -136,15 +136,15 @@ That’s it for now. If you want to get a head start on your next steps, follow 
 
     1. From **Data hub**:
     
-        1. In the **Data source** section, find the **Automated import** option. Select the **Start** button.
+        1. In the **Data source** section, find the **API-based import** option. Select the **Start** button.
 
     1. From **Data connections**:
     
         1. Next to **Current source**, select the **data sources** button.
 
-        1. A **Switch to: Automated import** window appears. Select **Start**.
+        1. A **Switch to: API-based import** window appears. Select **Start**.
 
-1. On the **Automated organizational data import** page:
+1. On the **API-based organizational data import** page:
     1. Give your connection a name.
     
     1. Enter the app ID that your Microsoft 365 admin gave you.
