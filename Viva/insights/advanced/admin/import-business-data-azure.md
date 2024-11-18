@@ -19,17 +19,17 @@ audience: Admin
 
 Uploading business data into Viva Insights helps you understand how Copilot usage influences the business outcomes that matter most to your organization. Business outcomes might include productivity metrics at both the task and job levels, such as the number of emails sent by your sales team or the number of closed deals. Please refer to our separate documentation on the [Copilot Business Outcome (Copilot Business Impact) report](..//analyst/templates/copilot-business-impact.md) to learn more. 
  
-You can upload business data in the Microsoft Viva Insights’ advanced insights app in one of two ways: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an Azure blob import that you, your source system admin, and your Azure contributor set up. 
+You can upload business data in the Microsoft Viva Insights’ advanced insights app in one of two ways: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an Azure blob import that you, your source system admin, and your Azure contributor setup. 
 
 This article covers the second option, Azure blob import. 
 
-With an Azure blob import, your Azure subscription’s **Owner** or **Storage Account Contributor (with Role Based Access Control Administrator)** creates a new Storage account with blob container on the Azure portal, and your source system admin configures a periodic export of a .csv file to the blob container’s location. You can then set up Viva Insights to automatically pull business data from the .csv file within this location.
+With an Azure blob import, your Azure subscription’s **Owner** or **Storage Account Contributor (with Role Based Access Control Administrator)** creates a new Storage account with blob container on the Azure portal, and your source system admin configures a periodic export of a .csv file to the blob container’s location. You can then setup Viva Insights to automatically pull business data from the .csv file within this location.
 
 ## Workflow
 
 1. Setup:
 
-    1. The Azure subscription Owner creates a secure blob container on the Azure portal. The blob store location should be secure for sensitive business data, and it needs to be set up in the customer’s Azure subscription. 
+    1. The Azure subscription Owner creates a secure blob container on the Azure portal. The blob store location should be secure for sensitive business data, and it needs to be setup in the customer’s Azure subscription. 
 
     2. If the Azure contributor prefers service principal authorization, the Azure contributor authorizes the service principal and provides the blob URL to the Insights admin and source system admin by sharing it in a secure way. If the Azure contributor does not prefer service principal authorization, they generate a SAS URL and provide it to the Insights admin and source system admin. 
 
@@ -53,7 +53,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 2. Under **Azure services**, select **Storage accounts**. 
 
-3. Under **Storage accounts** at the top left, select **Create** to set up a new storage account. 
+3. Under **Storage accounts** at the top left, select **Create** to setup a new storage account. 
 
 4. Under **Project details**, use the default settings. 
 
@@ -141,11 +141,11 @@ Next, you’ll need to create a blob SAS URL or authorize **Workplace Analytics*
 
 8. Let the source system admin know, who will populate the data in this container. They will need Storage Blob Data Contributor access.
 
-### 3. Set up Viva Insights to import data from the blob location
+### 3. Setup Viva Insights to import data from the blob location
 
 *Applies to: Insights admin* 
 
-Business data likely has different data sources, and might update on different schedules. Customer satisfaction and sales activity metrics, for example, might have different source systems and source admins. You should set up a separate blob connection for each of these, which Viva Insights refers to as "datasets."
+Business data likely has different data sources, and might update on different schedules. Customer satisfaction and sales activity metrics, for example, might have different source systems and source admins. You should setup a separate blob connection for each of these, which Viva Insights refers to as "datasets."
 
 1. Start the import from one of two places in the advanced insights app: the **Data hub** page; or **Business data** page under **Platform Setup**. 
 
@@ -228,7 +228,7 @@ Business data likely has different data sources, and might update on different s
     } 
     ```
 
-    When you upload your data, data is recorded as "PipelineGenerated" of integer type. Ensure you upload a numeric outcome. [Learn more about how to set up your business data file](#4-prepare-business-data-file-and-send-to-blob-store).
+    When you upload your data, data is recorded as "PipelineGenerated" of integer type. Ensure you upload a numeric outcome. [Learn more about how to setup your business data file](#4-prepare-business-data-file-and-send-to-blob-store).
 
 6. Select **Submit**. 
 
@@ -269,7 +269,7 @@ At the frequency you decide, programmatically export the business data from your
 
 *Applies to: Insights admin*
 
-After the source system admin exports the data and you set up the import, the app starts validating. In most cases, file validation should complete quickly. 
+After the source system admin exports the data and you setup the import, the app starts validating. In most cases, file validation should complete quickly. 
 
 After this phase completes, validation has either succeeded or failed. Depending on the outcome, you’ll either receive a success status or a failure status in the Import history table in **Business data**.  
 
@@ -338,7 +338,7 @@ If you see a “Suspended” status in the **Import history** table or when 
 
 *Applies to: Insights admin*
 
-After you've set up your data import, use the steps below to add new data to an existing dataset, create a new dataset, turn off automated imports, and more.
+After you've setup your data import, use the steps below to add new data to an existing dataset, create a new dataset, turn off automated imports, and more.
 
 1. On the **Business data** page, select **Manage data sources**. 
 
