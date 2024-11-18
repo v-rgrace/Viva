@@ -32,7 +32,7 @@ The **Copilot business outcome (Copilot business impact)** report can help y
 
 * How can I increase potential Copilot assisted hours and value among employees who are not as active with Copilot?
 
-To populate the report in Power BI, you’ll need to **upload business outcome data** into Viva Insights and set up and successfully run the predefined **Copilot business outcome query**.
+To populate the report in Power BI, you’ll need to **upload business outcome data** into Viva Insights and setup and successfully run the predefined **Copilot business outcome query**.
 
 ## Prerequisites  
 
@@ -48,7 +48,7 @@ Before you can run the query and populate the report in Power BI, you’ll need 
 
 ### Uploading business outcome data in Viva Insights  
 
-There are two ways to upload your business outcome data in the Microsoft Viva Insights’ advanced insights app: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights;  or through an Azure blob import that you, your source system admin, and your Azure contributor set up. Learn more about how to import business data [using Azure](..//..//admin/import-business-data-azure.md), or [using a manual .csv upload](..//..//admin/import-business-data-csv.md).
+There are two ways to upload your business outcome data in the Microsoft Viva Insights’ advanced insights app: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights;  or through an Azure blob import that you, your source system admin, and your Azure contributor setup. Learn more about how to import business data [using Azure](..//..//admin/import-business-data-azure.md), or [using a manual .csv upload](..//..//admin/import-business-data-csv.md).
 
 ### What are sample business outcome metrics to consider?  
 
@@ -60,7 +60,7 @@ The [Copilot Scenario Library](https://adoption.microsoft.com/copilot-scenario-l
 
 1. In the [Viva Insights analyst experience](https://analysis.insights.viva.office.com/), select **Create analysis**.
 
-2. Under **Templates**, navigate to **Copilot Business Outcome report** and select **Set up analysis**. The template can also be found under the **Copilot** section.
+2. Under **Templates**, navigate to **Copilot Business Outcome report** and select **Setup analysis**. The template can also be found under the **Copilot** section.
 
 3. Under **Query setup**:
     
@@ -79,7 +79,7 @@ The [Copilot Scenario Library](https://adoption.microsoft.com/copilot-scenario-l
 
 4. Under **Select business outcome metrics of interest**, select one or more metrics that include your business outcome data. Select the dataset type and name of the dataset that has the business outcome measures you are looking for. You can select up to 5 metrics maximum.  
 
-5. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. However, you can add other metrics by selecting **Add metrics**.
+5. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to setup the Power BI report and you can’t remove them. However, you can add other metrics by selecting **Add metrics**.
 
     > [!IMPORTANT]
     > Low-quality or missing organizational data might affect your metrics and result in warnings or errors. [Learn more about data quality notifications](../../analyst/data-quality-analyst-experience.md).
@@ -174,7 +174,7 @@ This page provides an initial overview of business outcome scores for employees 
 
 This page allows you to focus on a particular business outcome and explore the influences of Copilot usage patterns.
 
-* After selecting the business outcome of interest, the analysis on the left identifies how different Copilot usage behaviors might increase the likelihood of favorable business outcomes. Research shows that Copilot usage intensity, number of different Copilot features used, and the consistency of Copilot usage are all factors that tend to contribute to higher productivity and work enjoyment. This card ranks the top Copilot usage behaviors that increase the likelihood of favorable business outcomes. It analyzes the users in the top quartile for the respective Copilot usage behavior and shows how much more likely users in this group are to achieve favorable outcomes for the business outcome selected. When interpretating the results, keep in mind the factors beyond Copilot usage that might influence the business outcome that are omitted from these predictive models.
+* After selecting the business outcome of interest, the analysis on the left identifies how different Copilot usage behaviors might increase the likelihood of favorable business outcomes. Research shows that Copilot usage intensity, number of different Copilot features used, and the consistency of Copilot usage are all factors that tend to contribute to higher productivity and work enjoyment. This card ranks the top Copilot usage behaviors that increase the likelihood of favorable business outcomes. It analyzes the users in the top quartile for the respective Copilot usage behavior and shows how much more likely users in this group are to achieve favorable outcomes for the business outcome selected. When interpreting the results, keep in mind the factors beyond Copilot usage that might influence the business outcome that is omitted from these predictive models.
 
 * The right side of this page provides a breakdown of inactive Copilot users across teams or functions. This chart might inform which teams or functions you want to focus your adoption efforts on by going after those with the lowest Copilot usage. Use the “Group by” slicer to select the HR attribute to use for this breakout. For example, if this report includes sales function-specific business outcome metrics such as “win rate” or “deals closed,” consider breaking out the information by different sales teams. If the business outcome metric is a more generic metric that could apply to different organizations or functions, consider breaking out the information by organization, team, function, or job family.
 
@@ -188,7 +188,7 @@ This section highlights how employees with favorable business outcomes use Copil
 
 ### Opportunities to boost Copilot assisted value  
 
-This page helps you identify opportunities to boost Copilot’s potential assisted hours and value. Copilot assisted hours is an estimate of the total time employees were assisted by Copilot over the selected time period. The metric is computed based on your employees’ actions in Copilot and multipliers derived from [our research on Copilot users](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). Copilot assisted value represents the conversion to a dollar value based on a default average wage of $72 per person per hour. Select “How we calculate Copilot assisted value” to further explore the underlying calculations and customize the average wage numbers for your organization. To get started, select one of the two metrics in the dropdown menu at the top of the page.
+This page helps you identify opportunities to boost Copilot’s potential assisted hours and value. Copilot assisted hours are an estimate of the total time employees were assisted by Copilot over the selected time period. The metric is computed based on your employees’ actions in Copilot and multipliers derived from [our research on Copilot users](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). Copilot assisted value represents the conversion to a dollar value based on a default average wage of $72 per person per hour. Select “How we calculate Copilot assisted value” to further explore the underlying calculations and customize the average wage numbers for your organization. To get started, select one of the two metrics in the dropdown menu at the top of the page.
 
 * The chart on the left shows the difference in average Copilot assisted hours or value for employees in the low and high Copilot usage groups. The definitions for these categories can be customized in the Settings menu.
 
