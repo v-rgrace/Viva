@@ -90,6 +90,10 @@ items:
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
+          - name: Import organizational data (first import)
+            href: advanced/admin/import-org-data-first.md
+          - name: Import organizational data (subsequent import)
+            href: advanced/admin/import-org-data-subsequent.md
           - name: Export Viva Insights data using MGDC
             href: advanced/admin/dynamic-metric-load.md
           - name: Integrate Viva Glint and Viva Insights data
