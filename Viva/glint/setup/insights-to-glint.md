@@ -64,9 +64,9 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 
 ## Understand confidentiality thresholds for the integration to understand what data can be sent
 
-For both Viva Insights and Viva Glint, the defaults are five (5). For most customers that set up this integration it should work as expected. 
+For both Viva Insights and Viva Glint, the default confidentiality thresholds are five (5). If the defaults are unchanged, the minimum threshold of five (5) is recognized for viewing survey data.
 
-**If you have changed your threshold,** for Glint to receive Insights data and display results, the confidentiality thresholds of both products are considered. We compare the largest threshold set, and that is the threshold enforced when showing any data for a survey. 
+**If you have changed the confidentiality threshold in either application,** we consider the thresholds of both products. The higher of the two thresholds is enforced when showing survey data. This includes both workplace pattern data from Viva Insights as well as sentiment data from Viva Glint.
 
 **If you have a program that has a confidentiality threshold of less than five and would like to use this integration, reach out to your account team. This may be possible.**
 
@@ -209,4 +209,9 @@ Use the ellipses next to each program to open the **Remove program** option.
 :::image type="content" source="../../media/glint/setup/glintsights-remove-program-2.png" alt-text="Screenshot of removing a program window.":::
 
 Select **Remove** from the window that opens.
+
+## Raw data export
+
+> [!IMPORTANT]
+> Viva insights attributes aren't available in [Raw Data Export](/viva/glint/reports/export-report-pdf). 
 
