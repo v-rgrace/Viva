@@ -17,7 +17,7 @@ audience: Admin
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
-In this article, we discuss two kind of imports: full and incremental. These imports refresh the data you provided when you set up your connection to Viva Insights. 
+In this article, we discuss two kinds of imports: full and incremental. These imports refresh the data you provided when you set up your connection to Viva Insights. 
 
 >[!Important]
 >Only use the following steps if this is not the first time you’re importing organizational data. If this is your first import, refer to [Import organizational data (first import)](import-org-data-first.md) to set up a connection, build an export app, and import data to Viva Insights.
