@@ -395,6 +395,6 @@ Both full and incremental refreshes should include the same set of required fiel
 
 ### Related topics
 
-* [Copilot business outcome (Copilot business impact) report](https://review.learn.microsoft.com/en-us/viva/insights/advanced/analyst/templates/copilot-business-impact?branch=pr-en-us-8495)
+* [Copilot business outcome (Copilot business impact) report](..//analyst/templates/copilot-business-impact.md)
 
 * [File rules and validation errors](..//admin/rules-validation-errors.md)
