@@ -344,7 +344,7 @@ After you've setup your data import, use the steps below to add new data to an e
 
 2. Under **Azure blob**, select **Manage**. 
 
-    * To add a new dataset, select **Add a dataset**, and follow the process outlined in [Step 3 above](#3-setup-viva-insights-to-import-data-from-the-blob-location). 
+    * To add a new dataset, select **Add a dataset**, and follow the process outlined in [Step 3 above](#3-set-up-viva-insights-to-import-data-from-the-blob-location). 
 
     * To delete a dataset, next to the dataset you’d like to delete, select the trash can icon. 
 
