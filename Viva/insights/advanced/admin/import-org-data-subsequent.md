@@ -1,5 +1,4 @@
 ---
-ROBOTS: NOINDEX, NOFOLLOW
 title: Import organizational data (subsequent import)
 description: Learn how to refresh your data in the Viva Insights advanced insights app through a connection
 author: zachminers
@@ -12,9 +11,10 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Import organizational data (subsequent import)
+# Import organizational data (subsequent import) (preview)
 
-*Applies to: private preview customers*
+>[!IMPORTANT]
+> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
 
 In this article, we discuss two kind of imports: full and incremental. These imports refresh the data you provided when you set up your connection to Viva Insights. 
 
