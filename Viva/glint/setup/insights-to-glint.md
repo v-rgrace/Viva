@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: raw data export, behavioral attributes from Viva Insights, confidentiality thresholds, data sharing between Insights and Glint, Viva Insightsw metrics
 ms.collection:  
 - m365initiative-viva
 - selfserve 
