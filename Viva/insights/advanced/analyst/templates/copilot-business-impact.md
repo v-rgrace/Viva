@@ -79,7 +79,7 @@ The [Copilot Scenario Library](https://adoption.microsoft.com/copilot-scenario-l
 
 4. Under **Select business outcome metrics of interest**, select one or more metrics that include your business outcome data. Select the dataset type and name of the dataset that has the business outcome measures you are looking for. You can select up to 5 metrics maximum.  
 
-5. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to setup the Power BI report and you can’t remove them. However, you can add other metrics by selecting **Add metrics**.
+5. Under **Predefined template metrics**, view a list of preselected metrics, which appear as gray tags. These metrics are required to set up the Power BI report and you can’t remove them. However, you can add other metrics by selecting **Add metrics**.
 
     > [!IMPORTANT]
     > Low-quality or missing organizational data might affect your metrics and result in warnings or errors. [Learn more about data quality notifications](../../analyst/data-quality-analyst-experience.md).
