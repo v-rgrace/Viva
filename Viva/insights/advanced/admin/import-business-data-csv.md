@@ -19,7 +19,7 @@ audience: Admin
 
 Uploading business data into Viva Insights helps you understand how Copilot usage influences the business outcomes that matter most to your organization. Business outcomes might include productivity metrics at both the task and job levels, such as the number of emails sent by your sales team or the number of closed deals.  
 
-Your business data can appear in the Microsoft Viva Insights advanced insights app in one of two ways: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an Azure blob import that you, your source system admin, and your Azure contributor set up. 
+Your business data can appear in the Microsoft Viva Insights advanced insights app in one of two ways: through individual .csv files that you as an Insights Administrator upload directly to Viva Insights; or through an Azure blob import that you, your source system admin, and your Azure contributor setup. 
 
 This article covers the first option, uploading .csv file.
 
@@ -39,7 +39,7 @@ After the data successfully validates and processes, you're done with the overal
 
 ## Prepare your business data  
 
-Business data can originate from different data sources and might refresh at different cadences. For example, customer satisfaction and sales activity metrics might have different source systems and source admins.  Viva Insights refers to these as "datasets." You should set up a separate .csv upload for each dataset. Refer to the [sample .csv template](https://go.microsoft.com/fwlink/?linkid=2286402) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more. [Learn more about file rules and validation errors](..//admin/rules-validation-errors.md).
+Business data can originate from different data sources and might refresh at different cadences. For example, customer satisfaction and sales activity metrics might have different source systems and source admins.  Viva Insights refers to these as "datasets." You should setup a separate .csv upload for each dataset. Refer to the [sample .csv template](https://go.microsoft.com/fwlink/?linkid=2286402) for data structure and guidelines to avoid common issues like too many or too few unique values, redundant fields, invalid data formats, and more. [Learn more about file rules and validation errors](..//admin/rules-validation-errors.md).
 
 To create a separate .csv file for each dataset, structure the data in this way:  
 
@@ -145,7 +145,7 @@ Learn more about how to [prepare your business data](..//admin/import-business-d
 
 ## Manage data source and make changes
 
-After you've set up your data import, use the steps below to delete a dataset, add a dataset, or add new data to an existing dataset. 
+After you've setup your data import, use the steps below to delete a dataset, add a dataset, or add new data to an existing dataset. 
 
 1. On the **Business data** page, select **Manage data sources**. 
 
