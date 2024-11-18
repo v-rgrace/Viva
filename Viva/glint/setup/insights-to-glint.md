@@ -39,8 +39,7 @@ This article discusses how to import survey results – employee-level survey re
 
 ## To resync the data to pick up the Microsoft Entra ID changes: 
 
-If you see discrepancies between Glint active users and your Microsoft Entra IDs in MAC, remedy by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the integration overview page.
-
+Use [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) to solve for discrepancies between Glint active users and those seen in your Microsoft Entra IDs in MAC.
 - In manage integration: delete all attributes and remove all programs. 
 - Readd the attributes and program to reimport Viva Insights data for all survey cycles. 
 
@@ -66,7 +65,7 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 
 For both Viva Insights and Viva Glint, the default confidentiality thresholds are five (5). If the defaults are unchanged, the minimum threshold of five (5) is recognized for viewing survey data.
 
-**If you have changed the confidentiality threshold in either application,** we consider the thresholds of both products. The higher of the two thresholds is enforced when showing survey data. This includes both workplace pattern data from Viva Insights as well as sentiment data from Viva Glint.
+**If you have changed the confidentiality threshold in either application,** we consider the thresholds of both products. The higher of the two thresholds is enforced when showing survey data. This rule includes both workplace pattern data from Viva Insights as well as sentiment data from Viva Glint.
 
 **If you have a program that has a confidentiality threshold of less than five and would like to use this integration, reach out to your account team. This may be possible.**
 
@@ -121,8 +120,8 @@ Add a Viva Insights metric as an employee attribute. Assign roles for the attrib
 |Email hours|Number of hours that a person spent sending and receiving emails|0 to less than 3|3 to less than 6|6 to less than 8|8 or more|Hour|
 |Call hours|Number of hours that a person spent in scheduled and unscheduled Teams calls with at least one other person, during and outside of working hours|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
 |After-hours collaboration hours|Number of hours that a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of overlapping times (for example, calls during a meeting), outside of working hours|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
-|Multitasking hours|Number of hours a person spent sending or reading emails or chats during a meeting or Teams call|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
-|Collaboration hours|Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person. These hours are either internal or external. They're determined after deduplication of time due to overlapping activities. 
+|Multitasking hours|Number of hours that a person spent sending or reading emails or chats during a meeting or Teams call|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
+|Collaboration hours|Number of hours that a person spent in meetings, emails, and Teams chats, and calls with at least one other person. These hours are either internal or external. They're determined after deduplication of time due to overlapping activities. 
 |Uninterrupted hours|Sum of block one hour or longer where a person didn't attend a meeting, read or send emails, read or send Teams chats, or initiate or receive Teams calls. In other words, uninterrupted hours are the sum of blocks of time, one hour or longer, for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
 |Meeting hours|Number of hours a person spent in meetings with at least one other person, during and outside of working hours.|0 to less than 6| 60 to less than 12|10 to less than 15|15 or more|Hour|
 |Meeting hours with Manager 1:1|Number of meeting hours involving only the person and their manager|0 to less than 0.01|0.01 to less than 0.25|0.25 to less than 0.5|0.5 or more|Hour|
