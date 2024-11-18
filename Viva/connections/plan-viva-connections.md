@@ -110,7 +110,7 @@ Start by identifying the key scenarios that Viva Connections needs to support an
 |----- |-----|
 |![Interaction between the Dashboard and cards.](../media/connections/new-vc-dashboard-interaction.gif) | In this example, a card on the dashboard is linked to a SharePoint page where users can take a daily health check easily from a mobile device.|
 >
-Common scenarios include view paystubs and vacation hours, submit help tickets, catch up on news, check daily lunch menus, find people in a directory, and shift management. Collaborate and align with business groups that manage these experiences to determine the best design. Review the [Adoption center's best practices from successful Viva Connections customers](https://adoption.microsoft.com/files/viva/connections/Adoption-Recommended-Practices-for-Viva-Connections.pdf) for more information on common scenarios and how to identify user experiences that result in lasting adoption.
+Common scenarios include view paystubs and vacation hours, submit help tickets, catch up on news, check daily lunch menus, find people in a directory, and shift management. Collaborate and align with business groups that manage these experiences to determine the best design. [Learn more about Viva Connections adoption](https://adoption.microsoft.com/viva/connections/) for more information on common scenarios and how to identify user experiences that result in lasting adoption.
 
 >
 | General | For information workers   | For frontline workers  |
@@ -202,7 +202,6 @@ The feed is designed to be dynamic, personalized, and a place where the most rel
 
 - Review [frequently asked questions about the feed](/viva/connections/faqs-viva-connections-feed) for Viva Connections
 - Consider [using web parts like the News, Viva Engage, File and Media, and Highlighted Content web parts](use-web-parts-in-sharepoint.md) to provide users with a steady stream of content from a variety of sources on popular SharePoint pages
-- Learn more about [best practices for higher feed engagement](https://adoption.microsoft.com/files/viva/connections/Adoption-Recommended-Practices-for-Viva-Connections.pdf)
 
 ## Step 5: Plan the resources
 
@@ -226,7 +225,7 @@ Planning for change and helping users adopt new resources will be different for 
 
 ### Adoption considerations
 
-- Viva Connections can only be accessed in Microsoft Teams. If your organization isn't already using Microsoft Teams, you need to [plan the adoption of Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/) alongside [Viva Connections](https://adoption.microsoft.com/viva/).
+- Viva Connections can only be accessed in Microsoft Teams. If your organization isn't already using Microsoft Teams, you need to [plan the adoption of Microsoft Teams](https://adoption.microsoft.com/microsoft-teams/) alongside [Viva Connections](https://adoption.microsoft.com/viva/connections).
 - Make adoption easy for end-users by [prepinning the app in Teams](/viva/connections/add-viva-connections-app#then-customize-the-app-settings) while picking settings. This only needs to be done once (Viva Connections is auto-enabled by default in Teams).
 - Find [early adopters and champions](https://adoption.microsoft.com/roles/champion/) and create ways to extend their enthusiasm to the rest of the organization.
 - Plan to engage with users where they typically meet and share information (for example, if your organization already meets in Teams, plan to post in channels.)
