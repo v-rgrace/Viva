@@ -161,6 +161,6 @@ After you've set up your data import, use the steps below to delete a dataset, a
 
 ### Related topics
 
-* [Copilot business outcome (Copilot business impact) report](..//analyst/templates/copilot-business-impact.md)
+* [Copilot business outcome (Copilot business impact) report](https://review.learn.microsoft.com/en-us/viva/insights/advanced/analyst/templates/microsoft-365-copilot-impact?branch=main)
 
 * [File rules and validation errors](..//admin/rules-validation-errors.md)
