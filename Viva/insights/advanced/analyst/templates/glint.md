@@ -14,10 +14,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Glint and organizational insights report (preview)
-
->[!IMPORTANT]
-> This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
+# Glint and organizational insights report
 
 The **Glint and organizational insights** report lets you explore the relationship between behaviors measured in Viva Insights and Viva Glint survey responses, to better understand employee sentiment at your company.  
 
@@ -102,32 +99,6 @@ Using these correlations, we determine whether a relationship between a Glint su
 |**Weak relationship**|0.1 to 0.3 |-0.3 to -0.1 |
 
 If a survey question and metric have **no relationship**, the correlation is between -.1 and .1, including 0.
-
-### Overview
-
-The Overview page has two main sections: **Summary** and **Questions with strong relationship**.
-
-:::image type="content" source="../../images/glint-pbi-overview-page.png" alt-text="Screenshot that shows the overview page." lightbox="../../images/glint-pbi-overview-page.png":::
-
-#### Summary
-
-See an overview about the survey you're analyzing:
-
-* Survey name
-* When the survey opened and closed
-* How many questions it has
-* When correlation with Viva Insights data took place (that is, 90 days before and after the survey close date). 
-
-#### Questions with strong relationship
-
-View the four survey questions with the strongest relationships to Viva Insights metrics. These questions and metrics are presented on cards that contain this information:
-
-* Glint survey score for the question averaged from all respondents 
-* Question text
-* Correlation coefficient from the Pearson (r) test and kind of relationship (strong, moderate, weak, or no relationship)
-* Name of the related Viva Insights metric
-
-:::image type="content" alt-text="card" source="../../images/analyst-pbi-glint-sample-card-diagram-2.png" lightbox="../../images/analyst-pbi-glint-sample-card-diagram-2.png":::
 
 ### Explore survey and metric relationships
 
