@@ -64,3 +64,6 @@ To ensure that employee records between Viva Glint and Viva Insights are matched
 Audience: For HR leadership, HR business partners, people analytics specialists and others who analyze larger groups of employee data in your organization. 
 
 [The Viva Glint + Viva Insights Playbook](https://adoption.microsoft.com/viva/glint/) outlines strategic guidance for combining sentiment and work patterns data and illustrative examples of how this information provides insight value. Use this playbook to understand how to interpret combined Viva Insights and Viva Glint data to unlock deeper insights into your people's experiences.
+**You'll need to scroll down on the Adoption site just a bit to locate the playbook.**
+
+:::image type="content" source="../../media/glint/setup/glint-insights-playbook.png" alt-text="Screenshot of how to locate the Glint and Insights Playbook on the Microsoft Adoption site.":::
