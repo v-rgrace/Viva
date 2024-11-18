@@ -1,5 +1,5 @@
 ---
-title: Introduction to Microsoft 365 Copilot in Viva Glint 
+title: Introduction to Microsoft 365 Copilot in Viva Glint (preview)
 description: Copilot in Viva Glint enables leaders and HR to understand and act on employee feedback by quickly summarizing large quantities of comments. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -16,18 +16,20 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/15/2024
-
+ms.date: 10/31/2024
 ---
 
-# Introduction to Microsoft 365 Copilot in Viva Glint
+# Introduction to Microsoft 365 Copilot in Viva Glint (preview)
 
-HR users and leaders of large organizations spend a lot of valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
+> [!NOTE]
+> This feature is available to preview customers only, beginning June 29, 2024. Features described here are subject to change.
+
+HR users and leaders of large organizations spend a lot of valuable time interpreting Glint survey results and comments. Copilot in Viva Glint enables them to understand and act on employee feedback by quickly summarizing large quantities of comments. 
+Copilot in Viva Glint is available for all enabled users whose teams meet the threshold for verbatim comment results.
 
 ## What is Microsoft 365 Copilot in Viva Glint?
 
 Copilot in Viva Glint is built to answer questions about your survey comments. It's your partner for all comment analysis and can:
-
 - Summarize your comments
 - Identify key themes across comments
 - Summarize comments by demographics
@@ -40,7 +42,8 @@ Copilot in Viva Glint is built to answer questions about your survey comments. I
 - There must be at least one Recurring or Ad hoc program survey administered or closed on your Glint platform to use the feature. 
 - Copilot doesn’t take quantitative survey results into consideration. It can’t answer questions that require comparison scores between questions or employee groups. 
 - Any AI can make mistakes representing the information it finds. If you encounter harmful, inappropriate, or inaccurate responses, immediately provide feedback. Report a concern through our feedback button in Copilot in Viva Glint or in the Viva Glint app.
-- Copilot samples a subset of comments from each question, proportionate to the overall comment count per question. The current limit for this feature is 8,000 comments.
+- Copilot samples a subset of comments from each question, proportionate to the overall comment count per question. The current limit for this feature is 1000 comments.
+- Currently Copilot can't manage language translations beyond its default English.
 
 ### Are more Microsoft 365 Copilot features planned?
 
@@ -48,13 +51,12 @@ Yes! As with all Viva Glint features, we post as soon as new features are availa
 
 ## Languages supported by Copilot in Viva Glint
 
-Copilot in Viva Glint comment summarization is available in all languages supported by Viva Glint. The user still needs to interact with the program in English.
+Copilot in Viva Glint comment summarization is available in most languages supported by Microsoft 365 Copilot. The admin still needs to interact with the program in English.
 
 For the best feedback, encourage your employees to leave comments in their native language.
 
 > [!NOTE]
-> [Microsoft 365 Copilot currently supports these languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8). Copilot in Viva Glint may not support all of the languages listed on this page. Your platform informs you of which languages are available for your programs.
-
+> [Microsoft 365 Copilot currently supports these languages](https://support.microsoft.com/office/supported-languages-for-microsoft-copilot-94518d61-644b-4118-9492-617eea4801d8). Copilot in Viva Glint may not support all of the languages listed on this page. Support for all languages is on the roadmap. Your platform informs you of which languages are available for your programs.
 
 ## How can my organization use Microsoft 365 Copilot in Viva Glint?
 
@@ -68,8 +70,7 @@ Copilot in Viva Glint answers queries related to your comment data in Glint, suc
 
 Microsoft 365 Copilot in Viva Glint can be used across roles
 
-### Use Copilot in Viva Glint for admins, HR leaders, org leaders, and managers
-
+Use Copilot in Viva Glint for admins, HR leaders, org leaders, and managers.
 - **Admins and HR** can use Copilot in Viva Glint to summarize large sets of data, allowing this group to quickly find key insights and support ad-hoc requests from stakeholders.
 - **Org leaders** can use Copilot in Viva Glint to summarize comments for their teams. They can uncover similarities and unique needs based on comments people are leaving using prompts and filters for different populations across their org.
 - **Managers** can use Copilot in Viva Glint to get access to comment summarization services. Managers can quickly uncover comments bundled by common subject matter or theme, identifying areas to explore deeper in their ACT conversations.
@@ -93,7 +94,6 @@ Copilot in Viva Glint gives you the flexibility to roll out to one or many user 
 ### Deployment considerations
 
 Think about:
-
 - **Current usage** – does your rollout group have experience with Viva Glint?
 - **Comment count** – do you expect a high number of comments?
 - **Survey timing** – can you align with an upcoming survey? 
@@ -111,8 +111,8 @@ Use our best practices to maximize the benefits from Copilot in Viva Glint. Use 
 
 ## More Resources
 
-- [**Learn how managers can use Copilot in Viva Glint**](/viva/glint/setup/copilot-managers)
-- [**Find answers to technical FAQs**](/viva/glint/setup/copilot-faqs)
+- [**Learn how managers can use Copilot in Viva Glint**](https://go.microsoft.com/fwlink/?linkid=2274072)
+- [**Find answers to technical FAQs**](https://go.microsoft.com/fwlink/?linkid=2274071)
 - [**Copilot for Microsoft 365**](https://adoption.microsoft.com/copilot/)
 
 
