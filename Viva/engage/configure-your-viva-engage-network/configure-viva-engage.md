@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
-ms.date: 05/24/2024
+ms.date: 11/19/2024
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -77,15 +77,15 @@ Private message content remains ingested for eDiscovery. Users can navigate to o
 
 ## Restrict file upload permissions and GIFs
 
-In Viva Engage, users can attach files, including images and videos, to posts and replies. Files in community posts or replies are stored in the community's SharePoint library, while those in storyline posts or replies are stored in the author's OneDrive. Learn more about [file storage for communities.](https://support.microsoft.com/en-us/office/where-are-my-viva-engage-files-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443) and [file storage in Storyline.](https://learn.microsoft.com/en-us/viva/engage/eac-storyline)
+In Viva Engage, users can attach files, including images and videos, to posts and replies. Files in community posts or replies are stored in the community's SharePoint library, while those in storyline posts or replies are stored in the author's OneDrive. Learn more about [file storage for communities.](https://support.microsoft.com/office/where-are-my-viva-engage-files-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443) and [file storage in Storyline.](https://learn.microsoft.com/viva/engage/eac-storyline)
 
-If your network is not yet [Native Mode](https://learn.microsoft.com/en-us/viva/engage/overview-native-mode), attachments to posts and replies in communities not connected to a Microsoft 365 group are uploaded to Azure Cloud storage. Learn more about [file storage for non-native networks](https://support.microsoft.com/en-us/office/where-are-my-viva-engage-files-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443) and how to identify which communities are backed by Microsoft 365 groups and which are backed by Azure Cloud storage.
+If your network is not yet [Native Mode](https://learn.microsoft.com/viva/engage/overview-native-mode), attachments to posts and replies in communities not connected to a Microsoft 365 group are uploaded to Azure Cloud storage. Learn more about [file storage for non-native networks](https://support.microsoft.com/office/where-are-my-viva-engage-files-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443) and how to identify which communities are backed by Microsoft 365 groups and which are backed by Azure Cloud storage.
 
 
 Configure the types of files that users can attach and upload in the Conversation settings page of the Admin center. 
 
 1.	Sign in to Viva Engage as a network administrator.
-2.	Go to the [Viva Engage Admin center.](https://learn.microsoft.com/en-us/viva/engage/eac-overview)
+2.	Go to the [Viva Engage Admin center.](https://learn.microsoft.com/viva/engage/eac-overview)
 3.	Select **Tenant settings**, then in the **Conversation settings** section, select **Edit**. <br>
 4. In the **Conversation settings** section, select an option in the **File uploads** section.
 
@@ -103,7 +103,7 @@ Configure the types of files that users can attach and upload in the Conversatio
     - When attachments are enabled, people can attach an unlimited number of files, images or videos, up to 5 GB each, to a message or reply. 
     - File types are determined based on the file’s extension. Viva Engage currently supports the following extensions when the “Allow only images and video” setting is selected: [Do we have a list of allowed file types?]
     - When file uploads are restricted or disabled, people can continue to share links in their posts. Viva Engage does not support blocking links.
-    - For networks in Native Mode [link to article], all files are checked for viruses when uploaded. For more information, see [Virus detection in SharePoint Online.](https://learn.microsoft.com/en-us/defender-office-365/anti-malware-protection-for-spo-odfb-teams-about) 
+    - For networks in Native Mode [link to article], all files are checked for viruses when uploaded. For more information, see [Virus detection in SharePoint Online.](https://learn.microsoft.com/defender-office-365/anti-malware-protection-for-spo-odfb-teams-about) 
     - If your network is not in native mode, virus checking applies only to 
     - Files attached to posts and replies on a storyline.
     - Files attached to posts and replies in a community attached to a Microsoft 365 group. 
