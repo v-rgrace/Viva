@@ -65,7 +65,7 @@ To update users' IDs in bulk:
       > - To avoid upload errors, don't include **Status** or any other columns in the ID update file.
       > - The labels for required attributes in your Viva Glint tenant may differ from the columns listed in this article. For example, your ogranization may use Worker ID instead of Employee ID.
       
-4. Delete users from the file that don't need an ID update and for remaining users, update values in the Employee ID column.
+4. Delete users from the file that don't need an ID update and update values in the Employee ID column for remaining users.
 6. Save the updated file in one of the following formats:
    1. .xlsx with a single sheet and no passwords or formulas
    2. .csv with a comma separator and UTF-8 encoding
