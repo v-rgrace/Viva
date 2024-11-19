@@ -1,6 +1,6 @@
 ---
 ms.date: 11/18/2024
-title: Import organizational data (subsequent import)
+title: Import organizational data using API-based import (subsequent import)
 description: Learn how to refresh your data in the Viva Insights advanced insights app through a connection
 author: zachminers
 ms.author: v-zachminers
@@ -12,7 +12,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Import organizational data (subsequent import) (preview)
+# Import organizational data using API-based import (subsequent import) (preview)
 
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
