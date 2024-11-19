@@ -72,13 +72,19 @@ To update users' IDs in bulk:
    1. .xlsx with a single sheet and no passwords or formulas
    2. .csv with a comma separator and UTF-8 encoding
 3. On the **People** page, select **Import** and choose the **Employee ID Updates** option.
-4. Drag and drop or browse to choose your ID update file and select **Upload File**.
-5. A progress bar at the top of the page show the status of the ID update file and you receive an email when the file is read to confirm.
-6. When the upload is complete, select **Review Upload** on the **People** page.
-7. In the **Confirm your import** dialog that appears, verify that:
+
+   :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the Employee ID Updates option.":::
+   
+5. Drag and drop or browse to choose your ID update file and select **Upload File**.
+6. A progress bar at the top of the page show the status of the ID update file and you receive an email when the file is read to confirm.
+7. When the upload is complete, select **Review Upload** on the **People** page.
+8. In the **Confirm your import** dialog that appears, verify that:
    1. The number of IDs updated is correct
    1. There are 0 unchanged IDs
-   2. There are 0 errors found. Select **Download Errors** to review a file of warnings/errors if needed. Use this article to troubleshoot: [Resolve upload errors related to employee ID updates](www.microsoft.com). 
+   2. There are 0 errors found. Select **Download Errors** to review a file of warnings/errors if needed. Use this article to troubleshoot: [Resolve upload errors related to employee ID updates](www.microsoft.com).
+  
+      :::image type="content" source="../../media/glint/setup/id-update-confim.png" alt-text="Screenshot of Comfirm your import dialog with a summary of updates, errors, and a summary download option.":::
+   
 3. Optionally, select **Download Summary** to download a file summarizing ID changes to your device.
 4. To finish the update, select **Confirm Import**.
 
