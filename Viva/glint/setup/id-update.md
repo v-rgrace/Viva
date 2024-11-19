@@ -52,8 +52,7 @@ To update a user's ID:
 To update users' IDs in bulk:
 
 1. From the admin dashboard, select the **Configuration** symbol and in the **Employees** section, choose **People**.
-2. In the menu on left side of the **People** page, select **All People.**
-3. In the top right of the page, select **Export**.
+2. In the menu on left side of the **People** page, select **All People** and then choose **Export**.
 4. In the **Export All People** dialog that appears, switch the **Include all user attributes?** toggle to **Yes** and select **Export**.
 5. A .csv file of all Glint users downloads to your device. To retain leading zeros and special characters when opening the file, [import it in Microsoft Excel](https://support.microsoft.com/office/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba).
 1. Delete all columns except for:
@@ -66,8 +65,7 @@ To update users' IDs in bulk:
       > - To avoid upload errors, don't include **Status** or any other columns in the ID update file.
       > - The labels for required attributes in your Viva Glint tenant may differ from the columns listed in this article. For example, your ogranization may use Worker ID instead of Employee ID.
       
-4. Delete users from the file that don't need an ID update.
-5. For remaining users, update values in the Employee ID column.
+4. Delete users from the file that don't need an ID update and for remaining users, update values in the Employee ID column.
 6. Save the updated file in one of the following formats:
    1. .xlsx with a single sheet and no passwords or formulas
    2. .csv with a comma separator and UTF-8 encoding
