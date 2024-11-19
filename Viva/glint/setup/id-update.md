@@ -81,9 +81,9 @@ To update users' IDs in bulk:
 8. In the **Confirm your import** dialog that appears, verify that:
    1. The number of IDs updated is correct
    1. There are 0 unchanged IDs
-   2. There are 0 errors found. Select **Download Errors** to review a file of warnings/errors if needed. Use this article to troubleshoot: [Resolve upload errors related to employee ID updates](www.microsoft.com).
+   2. There are 0 errors found. Select **Download Errors** to review a file of warnings/errors if needed. Use this article to troubleshoot: [Resolve upload errors related to employee ID updates](/viva/troubleshoot/glint/data-file-upload/data-file-upload-warnings-errors).
   
-      :::image type="content" source="../../media/glint/setup/id-update-confim.png" alt-text="Screenshot of Comfirm your import dialog with a summary of updates, errors, and a summary download option.":::
+      :::image type="content" source="../../media/glint/setup/id-update-confim.png" alt-text="Screenshot of Confirm your import dialog with a summary of updates, errors, and a summary download option.":::
    
 3. Optionally, select **Download Summary** to download a file summarizing ID changes to your device.
 4. To finish the update, select **Confirm Import**.
