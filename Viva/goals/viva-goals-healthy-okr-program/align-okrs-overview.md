@@ -24,13 +24,13 @@ description: "Learn how to align Objectives, Key Results, and Initiatives for a 
 
 Microsoft Viva Goals is a goal-setting solution that aligns teams to your organization’s strategic priorities to drive results and create a culture of engaged employees focused on achieving common goals.
 
-Organizing Objectives and Key Results (OKRs) up, down, and across an organization to ensure that everyone is moving in the same direction can help your organization achieve these goals more efficiently.Alignment provides visibility, transparency, and accountability to make sure that everyone in the organization is moving in the same direction.
+Organizing Objectives and Key Results (OKRs) up, down, and across an organization to ensure that everyone is moving in the same direction can help your organization achieve these goals more efficiently. Alignment provides visibility, transparency, and accountability to make sure that everyone in the organization is moving in the same direction.
 
 In this article, you'll learn:
 
-- How to define alignment and why it's important
-- How to align OKRs up, down, and across an organization  
-- Best practices for aligning your OKRs
+- How to define alignment and why it's important. 
+- How to align OKRs up, down, and across an organization.
+- Best practices for aligning your OKRs.
 
 > [!TIP]
 > Writing and aligning OKRs is an iterative process. Each quarter that you create, align, and achieve your goals, the better your alignment will become. Start by aligning a few of your major goals.
@@ -41,10 +41,10 @@ The concept of alignment within Viva Goals refers to the process of linking Obje
 
 Aligning your goals can help your organization:
 
-- Use resources and time more efficiently
-- Focus on and communicate top priorities
-- Adapt to the digital needs of a hybrid or remote workforce
-- Connect work groups that are siloed, disconnected, or doing redundant work
+- Use resources and time more efficiently.
+- Focus on and communicate top priorities.
+- Adapt to the digital needs of a hybrid or remote workforce.
+- Connect work groups that are siloed, disconnected, or doing redundant work.
 
 When OKRs are properly aligned, individuals can clearly see how the work they do as part of a team contributes to the overall purpose, and makes working with cross-functional teams and remote co-workers easier.
 
