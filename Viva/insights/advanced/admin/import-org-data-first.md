@@ -1,6 +1,6 @@
 ---
 ms.date: 11/18/2024
-title: Import organizational data (first import)
+title: Import organizational data using API-based import (first import)
 description: Learn how to set up a connection and import your data to the Viva Insights advanced insights app
 author: zachminers
 ms.author: v-zachminers
@@ -12,7 +12,7 @@ manager: anirudhbajaj
 audience: Admin
 ---
 
-# Import organizational data (first import) (preview)
+# Import organizational data using API-based import (first import) (preview)
 
 >[!IMPORTANT]
 > This feature is for public preview customers only. Features in preview might not be complete and could undergo changes before becoming available in the broader release.
