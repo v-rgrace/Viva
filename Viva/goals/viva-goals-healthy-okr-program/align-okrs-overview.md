@@ -100,15 +100,12 @@ This example shows senior leaders creating a top-down mission, and a team using 
 
 Now that you know strategies to align your OKRs, [learn how to align, and view your OKRs in Microsoft Viva Goals](https://support.microsoft.com/topic/collaborate-with-viva-goals-43673d1c-0dd7-42ba-97aa-6e712db171d1#bkmk_alignokrs).
 
-## Recommendations and best practices
+## Recommendations and Best Practices
 
-You can use these strategies to improve your healthy OKR program.
+You can use these strategies to improve your healthy OKR program:
 
-1. **Ensure that Organizational Objectives are set**
-    1. Make sure that senior leadership enters high-level objectives into Viva Goals. This enables departments to align up to these larger goals.  
+- **Ensure that Organizational Objectives are set**: Make sure that senior leadership enters high-level objectives into Viva Goals. This enables departments to align up to these larger goals.
 
-1. **Ensure that Team level Objectives align up to parent Organizational Objectives**
-    1. Remember that these objectives shouldn't be identical to the ones above it, but rather in support of them.
+- **Ensure that Team-level Objectives align up to parent Organizational Objectives**: Remember that these objectives shouldn't be identical to the ones above them, but rather in support of them.
 
-1. **Explore areas where common Objectives can be shared across groups through multiple alignment**
-    1. Multiple alignment helps avoid siloed workstreams, and ties multiple groups to a common purpose.
+- **Explore areas where common Objectives can be shared across groups through multiple alignment**: Multiple alignment helps avoid siloed workstreams and ties multiple groups to a common purpose.
