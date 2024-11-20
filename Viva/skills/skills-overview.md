@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/06/2024
+ms.date: 11/20/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -47,7 +47,7 @@ The following roles and permissions are required to set up Skills in Viva. Revie
 | Roles |  Permissions | 
 | - | - | 
 | Microsoft 365 Global Administrator | Microsoft 365 Global Administrator has global access to most management features and data across Microsoft online services. For Skills in Viva, the Microsoft 365 Global Administrator can configure and manage your organization’s skills library related settings from the Microsoft 365 admin center.| 
-| Knowledge Administrator | The Knowledge Administrator needs to be assigned by the Microsoft 365 Global Administrator or the Privileged Role Administrator. The Knowledge Administrator can configure and your organization’s skills library and related settings from the Microsoft 365 admin center. | 
+| Knowledge Administrator | The Knowledge Administrator is assigned by the Microsoft 365 Global Administrator or the Privileged Role Administrator. The Knowledge Administrator can configure and your organization’s skills library and related settings from the Microsoft 365 admin center. | 
 
 ## Sharing and management of skills data
 
@@ -59,14 +59,14 @@ See [Set up Skills in Viva](skills-get-started.md) and [Manage your skills libra
 
 ### Exporting skills
 
- Users can export the skills displayed on their profile card by selecting the ellipsis that appears at the top of the card and then **Export data**. This exports all of the data shown on the profile card to a file on their local computer.
+ Users can export the skills displayed on their profile card by selecting the ellipsis that appears at the top of their own card and then **Export data**. This action exports all of the data shown on the profile card to a file on their local computer.
 
 :::image type="content" source="../media/skills/export-data.png" lightbox="../media/skills/export-data.png" alt-text="A screenshot of the Skills in Viva query view with a pic of a logged in user.":::
 
 
 ## View existing profile skills 
 
-If a user added skills to their Microsoft 365 profile before joining the Skills in Viva private preview program, they can't see those skills on their Live Profile card during this current preview. 
+If a user added skills to their Microsoft 365 profile before joining the Skills in Viva private preview program, they won't see those skills on their Live Profile card during this current preview. 
 
 Provide this information to users who are accessing these skills. 
 
@@ -82,12 +82,18 @@ For more information, see [URL considerations](#url-considerations).
 2. Under **Edit Details**, select the **Details** tab. You see your existing skills under the Skills heading. You can copy or delete skills from this location. 
 
 
-      :::image type="content" source="../media/skills/skills-edit-details-details-tab.png" lightbox="../media/skills/skills-edit-details-details-tab.png" alt-text="A screenshot of the Skills in Viva edit details tab with fields where you can fill in information like past projects, skills, schools, birthdays, and interests":::
+ 
+> [!NOTE]
+> To add skills to your current skills profile,  don’t use this SharePoint experience. Go to [Skills in Viva](https://skills.cloud.microsoft). 
+
+
+
+  :::image type="content" source="../media/skills/skills-edit-details-details-tab.png" lightbox="../media/skills/skills-edit-details-details-tab.png" alt-text="A screenshot of the Skills in Viva edit details tab with fields where you can fill in information like past projects, skills, schools, birthdays, and interests":::
 
 
 ### URL considerations 
 
-If there are profile skills that previously appeared on the live profile card and don’t see them here, there could be more characters in the URL for your individual work SharePoint site.
+If you don't see profile skills that previously appeared on your live profile card, there could be more characters in the URL for your individual work SharePoint site.
  
 1. Go to your individual SharePoint site, which you can find using first part of the URL. Replace `[tenant]` with your tenant name:
 `https://[tenant]-my.sharepoint.com`
@@ -100,8 +106,7 @@ If there are profile skills that previously appeared on the live profile card an
     `[address that resolved in step 2]/_layouts/15/editprofile.aspx?`
 
 Reach out to your IT admin for more guidance. 
- 
-To add skills to your current skills profile,  don’t use this SharePoint experience. Go to [Skills in Viva](https://skills.cloud.microsoft). 
+
 
 ### Next steps
 
