@@ -37,6 +37,6 @@ The release schedule is subject to change and is updated, as appropriate.
 **Articulate your business priorities and needs.** In order to build your holistic employee listening strategy and design a program that reflects the needs of your organization, take time to align with your internal stakeholders. Download and complete our [Holistic Listening Vision and Strategy Discovery Workbook](https://www.microsoft.com/download/details.aspx?id=106205). This workbook helps you articulate the critical business information that is important to consider alongside your listening strategy and track the progress of your goals over time. 
 
 > [!NOTE]
-> The Blank recurring template does not support adding cycles so you should plan accordingly.
+> The Blank recurring template doesn't support adding cycles so you should plan accordingly.
 
 :::image type="content" source="../../media/glint/start/discovery-workbook.png" alt-text="Screenshot of the Holistic Listening Vision and Strategy Discover Workbook.":::
