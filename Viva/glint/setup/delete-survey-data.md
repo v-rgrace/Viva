@@ -33,7 +33,7 @@ Survey duplication copies all survey settings and translations from the selected
 1.  Select **Survey Programs** from your admin **Configuration** page. 
 1.  Use the search box or go to the **Survey Programs** list to identify the survey to duplicate.
 1.  Use the three dots to display the dropdown menu. Choose **Duplicate**.
-1.  You're directed to the **Program Summary** for the copied survey program, which is automatically named **[Survey Name] Copy.
+1.  You're directed to the **Program Summary** for the copied survey program, which is automatically named **[Survey Name] Copy**.
 ## Delete survey data
 
 Survey deletion is available for all nonactive surveys. This feature deletes every data entity directly related to the survey, including overall survey configuration, items/questions, reports, responses, etc. The action doesn't delete distribution lists or any roles related to the survey. 
