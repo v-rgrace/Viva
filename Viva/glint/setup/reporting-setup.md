@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/18/2024
+ms.date: 11/20/2024
 ---
 
 # Reporting setup in Program Summary
@@ -64,7 +64,8 @@ Select **Select questions** from the **Question Reporting Access** section.
 Remove an item by selecting the **X** next to it. 
 Add an item back by selecting **Add More** and then select the item to be added.
 
-## Set up reporting 
+> [!IMPORTANT]
+> If an item (question) is included in an aggregate, regardless if the aggregate is configured as the program's key outcome, that item can't be removed from the User Roles access.
 
 There are six fields to set up.
 
