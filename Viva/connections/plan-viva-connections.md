@@ -78,7 +78,7 @@ Learn more about [how to plan your SharePoint home site](/sharepoint/home-site-p
 
 Next, from the SharePoint home site Settings icon, select [Set up global navigation](/SharePoint/sharepoint-app-bar) to take advantage of full Viva Connections functionality. Design global navigation in a way that compliments and expands resources on the SharePoint home site. [Learn more about navigation and information architecture in SharePoint](/sharepoint/information-architecture-modern-experience).
 
-   ![Animation of the global app bar in SharePoint.](../media/connections/app-bar-gif.GIF)
+   ![Animation of the global app bar in SharePoint.](../media/connections/sharepoint-app-bar/app-bar-gif.gif)
 
 Navigational links that appear in the global navigation pane in the SharePoint app bar will also display in the Viva Connections app in Microsoft Teams for desktop when the organization's icon is selected in the Teams app rail. Links from the Global Navigation bar can also be [imported into the Resources section](edit-viva-home.md#import-sharepoint-links) of Viva Connections.
 
