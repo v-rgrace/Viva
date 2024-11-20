@@ -2221,6 +2221,11 @@
     "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
     "redirect_document_id": false
   },
+    {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/align-okrs-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/align-okrs-overview",
+    "redirect_document_id": false
+  },
   {
     "source_path": "viva/copilot/deployment-permissions.md",
     "redirect_url": "/viva/glint/introduction-viva-glint",
