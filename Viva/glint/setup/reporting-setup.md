@@ -54,7 +54,7 @@ To add User Roles to a program to view feedback, select **Add Role**. The dropdo
 
 :::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot that shows which features are permissioned for specific User Roles and the Add Role button." lightbox="../../media/glint/program-summary-reporting-add-role.png":::
 
-### Set up Question Reporting Access
+## Set up Question Reporting Access
 
 Selected questions can be excluded from a survey for specific roles. This example shows the Question Reporting Access permission for the Glint 360 admin role and that three of the 19 survey items are to be excluded for the People at vgAcme role:
 
@@ -64,14 +64,12 @@ Select **Select questions** from the **Question Reporting Access** section.
 Remove an item by selecting the **X** next to it. 
 Add an item back by selecting **Add More** and then select the item to be added.
 
-> [!IMPORTANT]
-> If an item (question) is included in an aggregate, regardless if the aggregate is configured as the program's key outcome, that item can't be removed from the User Roles access.
-
-There are six fields to set up.
-
 ### Aggregate Indices
 
 For most surveys, using aggregate indices isn't recommended. Aggregates are groups of items that are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, aggregates are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be part of aggregate indices.
+
+> [!IMPORTANT]
+> If an item (question) is included in an aggregate, regardless if the aggregate is configured as the program's key outcome, that item can't be removed from the User Roles access.
 
 If adding an Aggregate Index:
 
