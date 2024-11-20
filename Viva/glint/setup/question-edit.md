@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/19/2024
+ms.date: 11/20/2024
 ---
 
 #  Edit items in a live Viva Glint survey
@@ -64,9 +64,7 @@ The Edit Question slider window includes these setup tabs:
 ## Inform survey takers of a live edit
 
 >[!IMPORTANT]
->All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live. They must further understand that if they retake a survey, their original answers are replaced.
-
-**Enabling Survey Resubmission ensures that Entra ID and survey takers invited to take the survey through a personalized email, receive platform-generated email notification of a change in the survey.** This notification is required to meet Microsoft privacy policies and allows the survey taker to retake the survey if they choose to.
+>All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live. They must further understand that if they retake a survey, their original answers are replaced. Notification is required to meet Microsoft privacy policies and allows the survey taker to retake the survey if they choose to.
 
 **If your organization uses attribute-based access, you are responsible to notify participants about any change and provide instructions on how to do so.** Survey retake access:
 -	Survey takers can use the link from their original survey invitation email 
@@ -91,12 +89,7 @@ Review your edits to make sure your employees receive appropriate notice.
  
 1. Review the **Confirm your changes** window that opens.
 
-   >[!IMPORTANT]
-   >
-   > - If your organization uses Entra ID or personalized links for survey access, participants who have started or already completed the survey will be notified in email.
-   > - If your organization uses attribute-based survey access, notify participants about these changes and ask them to retake the survey, if needed. 
-
-2. If everything is as expected, select **Confirm.**
+2. If everything is correct, select **Confirm.**
 
 3. A one-time notification confirms that your question is updated.
 
