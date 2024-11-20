@@ -23,21 +23,22 @@ As your company’s data controllers, Microsoft Viva Glint Administrators can du
 
 :::image type="content" source="../../media/glint/setup/survey-management-menu.png" alt-text="Screenshot of the Glint Survey Programs page showing the Duplicate, Delete, and Disable menu options for a selected survey.":::
 
+> [!NOTE]
+> Viva Glint admins must have [Advanced Configuration access enabled](understand-advanced-configuration.md#grant-access-to-an-existing-admin-user) to delete survey data.
+
 ## Duplicate a survey
 
 Survey duplication copies all survey settings and translations from the selected survey program. To duplicate a survey in Glint, follow this process:
 
 1.  Select **Survey Programs** from your admin **Configuration** page. 
-1.  Use the search box or go to the **Survey Programs** list to identify the survey that should be duplicated.
-1.  Select the three dots and then from the dropdown menu, choose **Duplicate**.
-1.  You're directed to the Program Summary for the copied survey program, which is automatically named "*original survey name" Copy*. For example, "Quarterly Engagement Copy."
-1.  Leave the duplicated survey name as is or give it a new unique survey program name by selecting the pencil icon to edit.
-
+1.  Use the search box or go to the **Survey Programs** list to identify the survey to duplicate.
+1.  Use the three dots to display the dropdown menu. Choose **Duplicate**.
+1.  You're directed to the **Program Summary** for the copied survey program, which is automatically named **[Survey Name] Copy**.
 ## Delete survey data
 
 Survey deletion is available for all nonactive surveys. This feature deletes every data entity directly related to the survey, including overall survey configuration, items/questions, reports, responses, etc. The action doesn't delete distribution lists or any roles related to the survey. 
 
-> [!NOTE]
+> [!IMPORTANT]
 > Viva Glint admins must have [Advanced Configuration access enabled](understand-advanced-configuration.md#grant-access-to-an-existing-admin-user) to delete survey data.
 
 > [!CAUTION]
@@ -48,10 +49,9 @@ To delete survey data from Glint, follow this process:
 1.  Review Distribution Lists tied to the survey and if needed, [delete the lists](set-up-distribution-lists.md#delete-distribution-lists) **before** deleting the survey program. Distribution Lists can't be deleted if they're still linked to a deleted survey program.
 2.  Select **Survey Programs** from your admin **Configuration** page. 
 1.  Use the search box or navigate to the **Survey Programs** list to identify the survey that data should be deleted from. 
-1.  Select the three dots and then from the dropdown menu, choose **Delete**.
-1.  A **Survey Delete** confirmation box asks for confirmation and displays the following message: "This will permanently delete all data associated with this program."
-1.  If you aren't sure if they should complete the action, select **No, I am not sure**, otherwise **confirm the action**. 
-1.  Once the delete action is completed, return to the Survey page to verify that the survey doesn't appear in the Survey Programs list.
+1.  Select the three dots to reveal the dropdown menu. Choose **Delete**.
+1.  A **Survey Delete** confirmation box asks for confirmation and displays the following message: **This will permanently delete all data associated with this program.** If you aren't sure that should happen, select **No, I am not sure**, otherwise **Confirm the action**. 
+1.  Once the delete action is completed, return to the **Survey page** to verify that the survey doesn't appear in the **Survey Programs list**.
 
 ## Disable a survey
 
@@ -62,7 +62,7 @@ To disable a survey in Glint, follow this process:
 
 1.  Select **Survey Programs** from your admin **Configuration** page. 
 1.  Use the search box or navigate to the **Survey Programs** list to identify the survey that should be disabled. 
-1.  Select the three dots and then from the dropdown menu, choose **Disable**.
+1.  Select the three dots to reveal the dropdown menu. Choose **Disable**.
 1.  The survey now appears in the **Disabled** category in the status menu on the **Survey Programs** page and **all survey results for the program's cycles are no longer available**.
 
 To enable a disabled survey in Glint, follow this process:
@@ -70,5 +70,5 @@ To enable a disabled survey in Glint, follow this process:
 1.  Select **Survey Programs** from your admin **Configuration** page. 
 1.  Select **Disabled** in the survey status menu to view disabled surveys.
 2.  Use the search box or navigate over the **Survey Programs** list to identify the survey that should be enabled. 
-1.  Select the three dots and then from the dropdown menu, choose **Enable**.
-2.  The survey is available to edit and launch, but all survey response data present before the survey was disabled are inaccessible.
+1.  Select the three dots to reveal the dropdown menu. Choose **Enable**.
+2.  The survey is available to edit and launch, but all response data present before the survey was disabled are inaccessible.
