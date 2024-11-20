@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint 
 ms.localizationpriority: high 
-ms.date: 10/09/2024
+ms.date: 11/20/2024
 ---
 
 # Duplicate, delete, and disable surveys in Viva Glint
@@ -45,7 +45,8 @@ Survey deletion is available for all nonactive surveys. This feature deletes eve
 
 To delete survey data from Glint, follow this process:
 
-1.  Select **Survey Programs** from your admin **Configuration** page. 
+1.  Review Distribution Lists tied to the survey and if needed, [delete the lists](set-up-distribution-lists.md#delete-distribution-lists) **before** deleting the survey program. Distribution Lists can't be deleted if they're still linked to a deleted survey program.
+2.  Select **Survey Programs** from your admin **Configuration** page. 
 1.  Use the search box or navigate to the **Survey Programs** list to identify the survey that data should be deleted from. 
 1.  Select the three dots and then from the dropdown menu, choose **Delete**.
 1.  A **Survey Delete** confirmation box asks for confirmation and displays the following message: "This will permanently delete all data associated with this program."
