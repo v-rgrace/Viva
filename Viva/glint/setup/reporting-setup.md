@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/18/2024
+ms.date: 11/20/2024
 ---
 
 # Reporting setup in Program Summary
@@ -35,17 +35,17 @@ As an admin, make these choices:
 
 |Permission|Description|
 |-------------|---------------|
-|**Reporting view**| Whether the manager is granted [Live View or Phased access](/viva/glint/setup/live-versus-phased-access)|
-|**Concierge Visibility**|Whether the manager sees the [Manager Concierge](/viva/glint/reports/manager-concierge-dashboard) feature on their dashboard|
-|**Broader Team Insights**|Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](/viva/glint/reports/broader-team-insights)
+|**Reporting view**| Whether the manager is granted [Live View or Phased access](/viva/glint/setup/live-versus-phased-access).|
+|**Concierge Visibility**|Whether the manager sees the [Manager Concierge](/viva/glint/reports/manager-concierge-dashboard) feature on their dashboard.|
+|**Broader Team Insights**|Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](/viva/glint/reports/broader-team-insights).
 |**Team Conversations**|Managers with this feature enabled and who have a sufficient number of responses can access a [Team Conversations presentation kit](/viva/glint/reports/managers-sharing-team-conversations) once the survey closes and results are released.| 
 |**Default Dashboard**|[Team Summary](/viva/glint/reports/managers-use-team-summary-dashboard ) is the default Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available when not using Team Summary.<br><br> **Important:** Company Admin roles must be granted access to the [Executive Summary dashboard](/viva/glint/reports/executive-summary-report).   
-|**Export Comments**|The default **ON** setting allow managers to export verbatim comments exports using the **Export and Share** button in reports.<br><br> **Note:  To increase survey confidentiality,** you can disable the export functionality for comments at the program level. Disabling the feature enhances confidentiality measures by decreasing the chance that a user can match a specific comment to a survey respondent. When the default ON toggle is changed to **OFF**, the **Export and Share** button is hidden in reports.<br><br> :::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::|
+|**Export Comments**|The default **ON** setting allows managers to export verbatim comments exports using the **Export and Share** button in reports.<br><br> **Note:  To increase survey confidentiality,** you can disable the export functionality for comments at the program level. Disabling the feature enhances confidentiality measures by decreasing the chance that a user can match a specific comment to a survey respondent. When the default ON toggle is changed to **OFF**, the **Export and Share** button is hidden in reports.<br><br> :::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::|
 |**Report Template Access**|The individual reports this user can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](/viva/glint/reports/survey-reports-overview).
 
 ## Add User Roles to view feedback 
 
-To add User Roles to a program to view feedback, select **Add Role**. The dropdown menu displays User Roles created within the [User Role feature](/viva/glint/setup/set-up-user-roles)). Select roles that should have reporting permissions for this program. The User Role name now appears on its own row.
+To add User Roles to a program to view feedback, select **Add Role**. The dropdown menu displays User Roles created within the [User Role feature](/viva/glint/setup/set-up-user-roles). Select roles that should have reporting permissions for this program. The User Role name now appears on its own row.
 
 :::image type="content" source="../../media/glint/setup/reporting-add-role.png" alt-text="Screenshot for adding a role for report viewing." lightbox="../../media/glint/setup/reporting-add-role.png":::
 
@@ -54,7 +54,7 @@ To add User Roles to a program to view feedback, select **Add Role**. The dropdo
 
 :::image type="content" source="../../media/glint/program-summary-reporting-add-role.png" alt-text="Screenshot that shows which features are permissioned for specific User Roles and the Add Role button." lightbox="../../media/glint/program-summary-reporting-add-role.png":::
 
-### Set up Question Reporting Access
+## Set up Question Reporting Access
 
 Selected questions can be excluded from a survey for specific roles. This example shows the Question Reporting Access permission for the Glint 360 admin role and that three of the 19 survey items are to be excluded for the People at vgAcme role:
 
@@ -64,20 +64,19 @@ Select **Select questions** from the **Question Reporting Access** section.
 Remove an item by selecting the **X** next to it. 
 Add an item back by selecting **Add More** and then select the item to be added.
 
-## Set up reporting 
-
-There are six fields to set up.
-
 ### Aggregate Indices
 
 For most surveys, using aggregate indices isn't recommended. Aggregates are groups of items that are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, aggregates are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be part of aggregate indices.
+
+> [!IMPORTANT]
+> If an item (question) is included in an aggregate, regardless if the aggregate is configured as the program's key outcome, that item can't be removed from the User Roles access.
 
 If adding an Aggregate Index:
 
 1. Select **+ Add Aggregate Index** to open the *Create Aggregate* slider window.
 2. In the new window, enter an aggregate name of your choosing. 
 3. For **Calculation Method**, choose from:
-   - Select **Average** - Recommended. Select from all rating questions. Qverage score = (a+b+...+n)/n, with the range from 0 to 100.  
+   - Select **Average** - Recommended. Select from all rating questions. Average score = (a+b+...+n)/n, with the range from 0 to 100.  
    - Select **eNPS (employee Net Promoter Score)** - Select only one calculated 11-scale rating question. eNPS = (number of promoters - number of detractors) / (number of respondents) x 100, with the range from -100 to 100.
      
    >[!CAUTION]
