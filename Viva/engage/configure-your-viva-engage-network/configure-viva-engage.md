@@ -88,12 +88,11 @@ Configure the types of files that users can attach and upload in the Conversatio
 3. Select **Tenant settings**, then in the **Conversation settings** section, select **Edit**. <br>
 4. In the **Conversation settings** section, select an option in the **File uploads** section.
 
-- **Allow all files** (default). People can attach and upload files in any format
+    - **Allow all files** (default). People can attach and upload files in any format
 
-- **Allow only images and videos**. People can attach and upload images and videos, only. File type is determined by the file extension. Viva Engage currently supports the following extensions when the “Allow only images and video” setting is selected:
-     > [!NOTE]
-   > Uploading an image wider than 7680 pixels or taller than 4320 pixels results in an error.
-- **Disable uploads**. Users cannot attach files, including images and videos. Disabling uploads will not affect existing uploaded files.
+    - **Allow only images and videos**. People can attach and upload images and videos, only. File type is determined by the file extension. Viva Engage currently supports the following extensions when the “Allow only images and video” setting is selected:
+   
+    - **Disable uploads**. Users cannot attach files, including images and videos. Disabling uploads will not affect existing uploaded files.
 
 5. In the **GIFs** section you can enable or disable adding GIFs directly within Viva Engage. GIF selection uses Tenor, a third-party service
 
