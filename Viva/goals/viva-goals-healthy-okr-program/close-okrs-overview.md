@@ -1,5 +1,5 @@
 ---
-ms.date: 02/08/2023
+ms.date: 11/20/2024
 title: "Close OKRs Overview"
 ms.reviewer: 
 ms.author: daisyfeller
@@ -17,107 +17,85 @@ ms.collection:
   - vg-bestpractice
 search.appverid:
 - MET150
-description: "Learn how to close Objectives, Key Results, and Initiatives for a healthy OKR program."
+description: "Learn how to close Objectives and Key Results (OKRs) and Initiatives for a healthy OKR program."
 ---
 
 # Close, score, and reflect on OKRs with Viva Goals
 
-Closing out your OKRs at the end of a time period involves evaluating the progress made towards achieving your goals and determining whether they were accomplished.  
+Are you ready to close out your Objectives and Key Results (OKRs)? When the time comes to close them, you must evaluate the progress you made towards achieving your goals, determine whether you accomplished them, and decide on areas for improvement. When you close out OKRs, you're opening the door to future education and goal setting.
 
-It represents a moment in time when you can stop and reflect on both accomplishments and areas for improvement, and apply your learnings to future goal-setting.
+In this article, we'll discuss: 
 
-In this article, you do as follows:
-
-- Discuss when and how to close your OKRs  
-- Show how to properly score your OKRs
-- Teach you the importance of a reflection meeting
+- When and how to close your OKRs.  
+- How to properly score your OKRs.
+- The importance of a reflection meeting.
 
 > [!NOTE]
-> **Mindset:**  Before we get started, a quick reminder that creating, tracking, and closing your OKRs is an iterative process ... each quarter that you do this, the better you will become. That’s why we strongly urge focusing on progress over perfection.  
+Creating, tracking, and closing OKRs is an iterative, organic process. Every quarter that you do this process, you'll become better at it. Always remember to focus on progress, not perfection. It’s more important to reflect on what went right, what didn't go as planned, and what you learned. But then it's time to move on. Don't obsess over a missed goal that didn't go the way you anticipated.   
 
-> It’s far more important to briefly reflect on what went right, what did not, and what you learned from it and move on, than to get obsessed over a missed goal that did not go the way you anticipated. So for now, keep it simple and have some fun.  
+## When to close your OKRs and initiatives
 
-## When to close your OKRs and Initiatives
+In general, you should close OKRs within the last one or two weeks of a time period, such as every quarter. If you’re a team leader or program lead, we recommend that you send a message to remind users to close their OKRs during the last week of the quarter. However, you might wonder, “Is it ok to close out a key result or initiative before the end of a quarter?” The answer is yes. 
 
-In general, most your OKRs should be closed out within the last 1-2 weeks of a time period, such as quarterly. If you’re a team leader or program lead, it’s a good idea to send a message to remind users to close their OKRs during the last week of the quarter.
+For example, perhaps you have an initiative to create and share your marketing strategy for an upcoming product launch by the quarter's end. However, in a flash of productivity, you completed it in the first three weeks of the quarter. In that case, it's fine to close that initiative right then, and mark it complete. On the other hand, you might have situations where metrics such as sales figures or website traffic aren't finalized until the last day of the month. For those scenarios, conduct a check at the end of the time period, and then revisit it as soon as the final metrics are available, so you can close the OKR.
 
-That said, you might ask, “Is it ok to close out a key result or initiative before the end of a quarter?” The answer is yes. For example, let’s say you had an initiative to create and share your marketing strategy for an upcoming product launch by the end of the quarter. However, in a flash of productivity, you were able to get the initiative done in just the first three weeks of the quarter. In that case, it would fine to close that initiative and mark it complete.  
+## Closing OKRs and initiatives
 
-On the other hand, there may be cases where metrics like sales figures or website traffic might not be finalized until the last day of the month. In that case, we recommend making a check-in at the very end of the time period, and then going back as soon as possible once the final metrics are available to close out the OKR.
+There are two primary steps to perfect when closing your OKRs and initiatives.
 
-When you’re ready to close things out, there are two steps in the process.
+### Step 1: Close and score your OKRs in Viva Goals
 
-### Step 1: Close and Score your OKRs within Viva Goals
+Perform the first step using Viva Goals. The closing process is similar to a check-in process, which involves updating your metrics, choosing a status, and leaving a comment regularly throughout the quarter (usually weekly). However, when you perform the closing process, you're conducting a final check-in for the time period.  
 
-The first part of the closing process takes part in Viva Goals software, and is similar to the check-in process, which involves updating your metrics, choosing a status, and leaving a note regularly throughout the quarter, usually weekly. The closing process works the same way, but serves as the final check-in of the time period, with a few differences.  
-
-Within Viva Goals, navigate to the item that you want to close, select the More Actions button, and select Close. Then complete the following steps:
+In Viva Goals, navigate to the item that you want to close, select **More Actions**, and then select **Close**. You then must complete the following steps:
 
 1. **Update the metric.** Enter the final metric for the item that you're tracking for that quarter.
-1. **Review the status.** While during the check-in period the status would reflect progress (on track, behind, etc.), because the time period is now over, the status will automatically be marked as closed.
-1. **Provide a score.**Viva Goals will automatically calculate a recommended score based on the results of your metric. For example, if you reached 70% of your goal, your score would be 0.7 (see scoring note below).
-1. **Add a closing note.** While your weekly check-in notes served to provide bite-sized updates to your progress, your closing note should give an overall summary of how this particular goal performed. These reflections will be critical in feeding into the process of writing your OKRs for the next time period. They should include comments on why you chose the score that you did, what things went wrong, and what could have been done better to achieve your goal. Upload an attachment for reference if necessary.
+1. **Review the status.** During a routine check-in, the status should reflect progress (on track, behind, etc.). However, the applicable time period is now over, so Viva Goals should have marked the status as closed. Verify the status indicates it's closed.
+1. **Provide a score.** Viva Goals automatically calculates a recommended score based on your metric's results. For example, if you reached 70% of your goal, your score would be 0.7 (refer to the subsequent scoring note).
+1. **Add a closing note.** Your weekly check-in notes provided bite-sized updates to your progress. However, your closing note should provide an overall performance summary with respect to a specific goal. These reflections are critical with respect to writing your OKRs for the next time period. They should include comments on why you chose the score you selected, what things didn't go as planned, and what you could do better to achieve your goal. If necessary, upload attachments for reference.
 
-We recommend closing in the following order:
+We recommend closing OKRs in the following order:
 
-- 0.0 - 0.4, red (We failed to make real progress)
-- 0.5 - 0.6, yellow (We made progress, but fell short of completion)
-- 0.7 - 0.9, green (We delivered)
-- 1.0, orange (We hit 100%, but did we stretch enough?)
+- 0.0-0.4 (red): We failed to make real progress.
+- 0.5-0.6 (yellow): We made progress, but fell short of completion.
+- 0.7-0.9 (green): We delivered.
+- 1.0 (orange): We hit 100%, but did we stretch enough?
 
-(These ranges can be customized in the Viva Goals Admin Dashboard under the section Color scale for OKR scores).
+You can customize these ranges in the Viva Goals Admin Dashboard under the section **Color scale for OKR scores**. Remember that OKRs should be ambitious, and your goals should stretch what’s possible so you really move the needle on progress. Occasionally you'll hit 100% of your goals. That's fantastic, and you should celebrate it. However, if you find your OKRs consistently score a 1.0 each quarter, you're probably not making your goals ambitious enough.
 
-Some people are surprised to not see a green color coded score when reaching 100% of their goal. Remember that OKRs are designed to be ambitious, with goals chosen to stretch what’s possible in order to really move the needle on progress. Occasionally you'll hit 100% of your goals, which is fantastic and should be celebrated. But if you find your KRs consistently scoring a 1.0 each quarter, it’s a good sign that you’re not setting goals that are ambitious enough.
+Viva Goals automatically calculates a recommended score, but you can adjust it. This provides you with flexibility in how your OKR scores are viewed. For example, if your goal was to launch a new speaker series and host 10 events during the quarter, but you only did seven events, you’d get a score of 0.7. However, if those events exceeded all expectations, with each of them selling out and providing immense value to your audience, you could nudge the score up to 0.8 to reflect that accomplishment.  
 
-You might have noticed that Viva Goals will automatically calculate a recommended score, but that it can be adjusted, giving you some flexibility in how your OKR scores are viewed.
+It's important to note that you should do this only in exceptional circumstances. In most cases, don't use the scoring option to change a key result from 0.4 to 0.5 just to make your score go from red to yellow because you’re embarrassed by the result. Sometimes you’re going to write poor OKRs, choose the wrong metric to pursue, or get overwhelmed with other projects. That's OK. The correct course of action is to let the OKR score reflect the true outcome, detail the circumstances (good or bad) in the notes, and then make adjustments the following quarter.
 
-For example, let’s say your goal was to launch a new speaker series, and host 10 events during the quarter. If you ended up doing seven events, you’d receive a score of 0.7. But if those events exceeded all expectations, each one of them sold out, and provided immense value to your audience, then you could nudge the score up to 0.8 to reflect that.  
+### Step 2: Hold an OKR reflection meeting
 
-However, this should only be done in exceptional circumstances. In other words, in most cases, “your number is your number.” You shouldn’t use the scoring option to artificially nudge a key result from 0.4 to 0.5 just to make your score go from red to yellow because you’re embarrassed by the result.
+The second part of the closing process takes part outside Viva Goals, and serves as a retrospective to the quarter. Admittedly, it’s an easy step to gloss over. Closing your OKRs is straightforward. You enter your final metrics, give yourself a score, and write a brief summary. You might be tempted to skip scheduling another meeting when you can just jump right into the next quarter. However, it's important to set aside time to reflect on the previous quarter’s OKRs. It's actually critical to your program’s success. 
 
-Sometimes you’re going to write poor OKRs, choose the wrong metric to pursue, or get overwhelmed with other projects, and that's OK. The correct course of action here's to let the OKR score reflect the true outcome, detail the circumstances (good or bad) in the notes, and then make adjustments the following quarter.
+During your reflection meeting:
 
-### Step 2: Hold an OKR Reflection meeting
+ - **Celebrate the big wins.** Provide a summary of the major accomplishments for the quarter, making sure to call out significant wins and giving kudos to the individuals that made those happen.
+ - **Review the outcomes of your OKRs.** Each team member should review the OKRs for which they were responsible and discuss the:
 
-The second part of the closing process takes part outside the Viva Goals software, and serves as a retrospective to the quarter.
+    - Highlights: What went well? Discuss the successes in more detail.
+    - Lowlights: What didn't go so well? Discuss pain points and challenges encountered.
+    - Key learnings: Where's improvement needed? Discuss the lessons learned from the experience that can be applied for future OKRs.
 
-Admittedly, it’s an easy step to gloss over. As you just saw, closing out your OKRs is straightforward: enter your final metrics, give yourself a score, and write up a few bullet summary. Who wants to schedule another meeting when you can immediately jump into the next quarter?
+ - **Review the structure of your OKRs.** Regardless of the results you achieved, it's important to review the quality of your OKRs. You probably wrote them at least three months prior, and you can take your results and determine how closely you aligned with your initial intentions. This type of reflection ensures you keep getting better at writing meaningful OKRs.
+   - For example, if you greatly exceeded your numbers, that’s great. However, did you pick a target that was too easy? Consider how you can set more ambitious goals for the next quarter.
+   - Conversely, if you underperformed and missed your targets, what happened? Did you fall into the common trap of setting too many key results? Examine how you might be more streamlined and focused during the next time period.
 
-However, setting aside time to reflect on the previous quarter’s OKRs is critical to your program’s success. Here’s an outline how to run your meeting:
+After your reflection meeting:
 
-**Celebrate the big wins**
+ - **Share your learnings.** It's important to impart what you've learned with your team members and others in your organization. For the big wins, consider holding a quarterly “All hands” meetings where kudos can be shared with the company. However, it's equally important to share what you learned and discuss the following:
 
-1. The team lead gives an overall summary of the major accomplishments of the group for the quarter, calling out significant wins and giving kudos to the individuals that made it happen.  
+   - What new activities should you implement?
+   - What activities distracted you from your goals? What should you stop doing?
+   - What should you continue doing? What worked well?  
 
-**Review the outcomes of your OKRs**
+ - **Keep up the momentum.** You've celebrated your wins, discussed areas in which you can improve, and shared your results. Now what? Go ahead and proceed with OKR planning and writing for the upcoming time period. We recommend that you share, at a high level, the upcoming quarter’s OKRs, and then let team members review them and come back in a day or so with edits based on learnings from the reflection meeting.
 
-1. Each team member goes through the OKRs they were responsible for, and follows a simple framework:
-    1. Highlights / What went well (Talk about success in a bit more detail)
-    1. Lowlights / What went poorly (Talk about pain points and challenges encountered)
-    1. Key learnings / Areas of improvement (What did we learn from the experience that we can apply moving forward)
+## Need more info? 
 
-**Review the structure of your OKRs**
+Now that you understand why it's important to reflect on, and close, your OKRs, refer to the step-by-step process for closing and scoring your OKRs in Viva Goals: [Close OKRs with Viva Goals.](https://support.microsoft.com/en-us/topic/close-okrs-with-viva-goals-c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8)
 
-1. Regardless of the results, review the quality of the OKRs that you've written. After all, you likely wrote these goals 3 months prior. Knowing your current results, how aligned are they with your initial intentions? Doing this reflection is a great way to get better and better at crafting meaningful OKRs.
-1. For example, if you greatly exceeded your numbers, that’s great. But does that mean you picked a target that was too safe? Think about how you can set better stretch goals the following quarter.
-1. If you underperformed and missed your targets, what was the reason? Perhaps you fell into the common trap of setting too many key results, and can be more focused in the next time period.
 
-**Share your learnings**  
-
-1. Coming out of your reflection meeting, it’s important to share your learnings. For the big wins, many companies hold quarterly “All hands” meetings where kudos can be shared with the company.
-1. Equally important is sharing what was learned during this process. A great framework to use is:
-    1. **Start**: What new activities will you implement?
-    1. **Stop**: What activities were distracting from your goals and should be stopped?
-    1. **Continue**: What activities are working well that carries over?  
-
-**Keep up the momentum**
-
-1. After celebrating the wins, finding areas to improve, and sharing results, it’s the perfect time to roll this momentum into OKR planning and writing for the upcoming time period. One way to approach this is for the team lead to briefly share the upcoming quarter’s OKRs at a high level, and then let team members review them offline and come back in a day or so with edits based on learnings from the reflection meeting.
-
-## Close OKRs with Viva Goals
-
-Now that you’ve seen some of the “why” around closing and reflecting on your OKRs, see the step-by-step process “how” to close and score your OKRs in the Microsoft Viva Goals software platform, along with a tutorial video: [Close OKRs with Viva Goals.](https://support.microsoft.com/en-us/topic/close-okrs-with-viva-goals-c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8)
-
-## Summary
-
-In summary, creating and tracking OKRs are an incredible way to drive focus and propel a business forward, but it’s equally important to take the time to close, score, and reflect on progress at the end of a time period in order to celebrate wins and share key learnings.
