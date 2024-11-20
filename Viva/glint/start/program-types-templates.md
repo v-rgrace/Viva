@@ -76,7 +76,7 @@ Glint offers prescribed templates and a blank template option for each type of p
 |[Manager Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231106)|Special topic|Assesses employee perceptions of how their direct managers demonstrate key behaviors related to their effectiveness|Recurring|Managers and teams|All eligible employees|
 |[Team Effectiveness template](https://go.microsoft.com/fwlink/?linkid=2231201)|Special topic|Identifies a team's unique dynamics and opportunities for improvement|Recurring|Managers and teams|All eligible employees|
 
-> [!!NOTE]
+> [!NOTE]
 > If you use a Blank template, it doesn't support adding cycles so you'll need to plan accordingly.
 
 ## Align your organization to make the most of Viva Glint programs
