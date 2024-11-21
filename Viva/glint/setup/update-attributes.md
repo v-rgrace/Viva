@@ -30,34 +30,37 @@ To add new attributes to your Viva Glint setup from the admin dashboard:
 
 1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
 2. Select **Import** and then **New User Schema or Attribute Updates**.
-3. Upload your dataset with all existing attributes and the new attribute.
+
+   :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the New User Schema or Attribute Updates option.":::
+   
+4. Upload your dataset with all existing attributes and the new attribute.
 
      > [!NOTE]
      > Your uploaded file must contain the Attribute Header Row and at least one row of employee data that aligns with the current format.
 
-4. Select **Continue**.
-5. If dates are included in your file, select **There are date fields** and then the appropriate date format from the dropdown menu.
+5. Select **Continue**.
+6. If dates are included in your file, select **There are date fields** and then the appropriate date format from the dropdown menu.
 
      > [!NOTE]
      > This selection should be your existing date format in your employee data.
 
-6. Preview your data and confirm that you see the new attributes.
+7. Preview your data and confirm that you see the new attributes.
 
     :::image type="content" source="../../media/glint/setup/new-attribute.png" alt-text="Screenshot of the preview screen with a newly added attribute highlighted in green.":::
 
-7. Select **Continue**.
-8. The Attributes Setup page shows current required, derived, optional system, and hierarchy attributes. If the newly added field is required, derived, or an optional system attribute, make your selection in the appropriate section. Select **Continue**.
+8. Select **Continue**.
+9. The Attributes Setup page shows current required, derived, optional system, and hierarchy attributes. If the newly added field is required, derived, or an optional system attribute, make your selection in the appropriate section. Select **Continue**.
   
      > [!NOTE]
      > Derived Manager Hierarchy and Hierarchy Groups can't be edited after initial setup.
   
-9. Review newly added attributes and select **Continue**.
-10. Choose to **Save attributes and import employee data** or to **Save attributes and discard employee data**.
+10. Review newly added attributes and select **Continue**.
+11. Choose to **Save attributes and import employee data** or to **Save attributes and discard employee data**.
 
      > [!TIP]
      > When adding new attributes, choose the **Save attributes and discard employee data** option to save your setup in preparation for future imports.
 
-11. Select **Save** or **Go Back** to make more edits.
+12. Select **Save** or **Go Back** to make more edits.
 
 ## Edit attribute names
 
