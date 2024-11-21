@@ -114,13 +114,13 @@ If a goal belongs to multiple teams, a user will see a dropdown with all the tem
 
     a. In the case of an OKR having multiple owners, the Nudge notification is sent out to the Check-in owner only.
 
-    i. For example, Marketing VP and Product VP co-own this OKR while Product VP is set as the Check-in owner.
+      i. For example, Marketing VP and Product VP co-own this OKR while Product VP is set as the Check-in owner.
 
-       :::image type="content" source="../media/goals/nudge-button.png" alt-text="Nudge button to nudge the check-in owner." lightbox="../media/goals/nudge-button.png":::
+    ![Nudge button to nudge the check-in owner.](../media/goals/nudge-button.png)
 
-    ii. Clicking on Nudge will open the modal where the Product Owner will be notified as they're the check-in owner for this OKR.
+      ii. Clicking on Nudge will open the modal where the Product Owner will be notified as they're the check-in owner for this OKR.
 
-       :::image type="content" source="../media/goals/nudge-modal.png" alt-text="Nudge modal to send the notification." lightbox="../media/goals/nudge-modal.png":::
+    ![Nudge modal to send the notification.](../media/goals/nudge-modal.png)
 
 1. **Notifications for comments**
     1. Viva Goals allows you to add comments on OKRs and check-ins to interact with stakeholders. You can also use @mention to tag certain users. Users receive notifications for comments in the below cases:
