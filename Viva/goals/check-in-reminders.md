@@ -57,21 +57,21 @@ Let's consider the following scenarios to better understand the usage of these c
 
 - The department head, say Chief of Staff, is setting a cadence for the People Operations department to receive notifications every month on the first Friday at 9AM PST. The Chief of Staff wants the subteams reporting into them to continue having a cadence of their own (preferably, a weekly cadence). Therefore, they won't cascade this cadence down to the reporting teams and will let each team set their own check-in rhythm.
 
-   :::image type="content" source="../media/goals/teams-own-cadence.png" alt-text="Subteams follow their own cadence." lightbox="../media/goals/teams-own-cadence.png":::
+   :::image type="content" source="../media/goals/teams-own-cadence.png" alt-text="Screenshot of subteams following their own cadence." lightbox="../media/goals/teams-own-cadence.png":::
 
 - The Head of Marketing is setting a bi-weekly cadence for the Marketing team to receive notifications on every Monday once every two weeks at 9AM PST. The Head of Marketing wants his reporting teams (say, Product Marketing, Demand Generation, and Customer Marketing) to have their own cadence, but highly recommends starting them with the same cadence as the marketing team. In this case, the cadence will cascade down the teams; however, the teams can change this schedule at any time.
 
-   :::image type="content" source="../media/goals/teams-partial-own-cadence.png" alt-text="Subteams partially follow their own cadence." lightbox="../media/goals/teams-partial-own-cadence.png":::
+   :::image type="content" source="../media/goals/teams-partial-own-cadence.png" alt-text="Screenshot of subteams partially following their own cadence." lightbox="../media/goals/teams-partial-own-cadence.png":::
 
 - The VP of Sales wants their team to have a weekly check-in cadence and is setting a rhythm to receive notifications every Wednesday at 9AM PST. To ensure everyone is on the same page, they want all the subteams reporting into them to follow the same cadence, rather than each subteam having a cadence of its own. Therefore, they set a cadence, cascade it down to all their reporting teams, and not let them change this rhythm.
 
-   :::image type="content" source="../media/goals/teams-same-cadence.png" alt-text="All the subteams follow the same cadence of the parent team." lightbox="../media/goals/teams-same-cadence.png":::
+   :::image type="content" source="../media/goals/teams-same-cadence.png" alt-text="Screenshot of all the subteams following the same cadence of the parent team." lightbox="../media/goals/teams-same-cadence.png":::
 
 Team owners can create a custom cadence for reminders for their departments and teams in Admin > Team Settings. These cadences can differ from the organization-level cadence.
 
 If teams have to follow the parent team's check-in rhythm, the team owners won't be able to change the schedule.
 
-:::image type="content" source="../media/goals/subteams-match-parent-cadence.png" alt-text="Subteams won't be able to change the schedule if they're configured to follow the parent team's cadence." lightbox="../media/goals/subteams-match-parent-cadence.png":::
+:::image type="content" source="../media/goals/subteams-match-parent-cadence.png" alt-text="Screenshot of subteams unable to change the schedule if they're configured to follow the parent team's cadence." lightbox="../media/goals/subteams-match-parent-cadence.png":::
 
 ## Check-ins for single and multiple owners
 
@@ -116,11 +116,11 @@ If a goal belongs to multiple teams, a user will see a dropdown with all the tem
 
       i. For example, Marketing VP and Product VP co-own this OKR while Product VP is set as the Check-in owner.
 
-    ![Nudge button to nudge the check-in owner.](../media/goals/nudge-button.png)
+    :::image type="content" source="../media/goals/nudge-button.png" alt-text="Screenshot of the Nudge button to nudge the check-in owner." lightbox="../media/goals/nudge-button.png":::
 
       ii. Clicking on Nudge will open the modal where the Product Owner will be notified as they're the check-in owner for this OKR.
 
-    ![Nudge modal to send the notification.](../media/goals/nudge-modal.png)
+    :::image type="content" source="../media/goals/nudge-modal.png" alt-text="Screenshot of the Nudge modal to send the notification." lightbox="../media/goals/nudge-modal.png":::
    
 
 1. **Notifications for comments**
