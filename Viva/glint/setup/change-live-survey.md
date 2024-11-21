@@ -102,8 +102,6 @@ The information is broken out across **Program Summary** setup pages.
 
 ## Items (Questions)
 
-[Read extended guidance on live survey item (question) edits here.](/viva/glint/setup/question-edit)
-
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't been started. |
