@@ -31,7 +31,7 @@ In this article, we'll discuss:
 - The importance of a reflection meeting.
 
 > [!NOTE]
-Creating, tracking, and closing OKRs is an iterative, organic process. Every quarter that you do this process, you'll become better at it. Always remember to focus on progress, not perfection. It’s more important to reflect on what went right, what didn't go as planned, and what you learned. But then it's time to move on. Don't obsess over a missed goal that didn't go the way you anticipated.   
+> Creating, tracking, and closing OKRs is an iterative, organic process. Every quarter that you do this process, you'll become better at it. Always remember to focus on progress, not perfection. It’s more important to reflect on what went right, what didn't go as planned, and what you learned. But then it's time to move on. Don't obsess over a missed goal that didn't go the way you anticipated.   
 
 ## When to close your OKRs and initiatives
 
