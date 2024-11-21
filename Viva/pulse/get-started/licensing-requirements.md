@@ -17,12 +17,12 @@ search.appverid: MET150
 
 # Licensing requirements
 
-Viva Pulse is available both as a premium experience and a limited experience available with Microsoft 365 Copilot subsciptions. The following list of capabilities are available to Pulse authors and adminstrators as part of these experiences. 
+Viva Pulse is available both as a premium experience and a limited experience available with Microsoft 365 Copilot subsciption. The following list of capabilities are available to Pulse authors and Adminstrators as part of these experiences. 
 
 | Capability | Premium experience | Limited experience | 
 | ----------- | ------------------ | ------------------| 
 | Pulse content|Full access to all research backed templates. Content administration experience to create your own organizational content.|Use Copilot standalone & Series templates to measure employee sentiment for Copilot adoption.|
-| Survey authoring |All customization capabilities, including create your own questions, requests and series. | Authors can rename and schedule Pulse requests. |
+| Survey authoring |All customization capabilities, including create your own questions, requests, and series. | Authors can rename and schedule Pulse requests. |
 | Cross-Viva experiences|Integration with Insights Analyst Workbench & Glint follow up surveys.| Integration with Copilot Impact dashboard for Copilot impact Pulse results.|
 
 To send a Pulse request with full premium experience, you must have a license to one of the following:
@@ -31,11 +31,11 @@ To send a Pulse request with full premium experience, you must have a license to
 2. **Viva Workplace Analytics and Employee Feedback**: Users with a Viva Workplace Analytics and Employee Feedback subscription license have access to Viva Pulse, Viva Insights, and Viva Glint. To learn more about Workplace Analytics and Employee Feedback, visit [Workplace Analytics and Employee Feedback](https://www.microsoft.com/en-us/microsoft-viva/workplace-analytics-and-feedback).
 3. **Viva Pulse Admin-led Trial**: The Viva Pulse Admin-led Trial allows Billing Admins to assign 25 users within their tenant to try Viva Pulse for 30 days. During the 30 days, users can use the full functionality of Viva Pulse. Please contact your field seller or account executive to set up your own trial.
 
-To send a Pulse request using the limited experience thats available with Microsoft 365 Copilot subscriptions, you must have a license to a valid Microsoft 365 Copilot subscription. If the user has both a Microsoft 365 Copilot and Viva Pulse license assigned to them, in that case they will have access to all the premium capabilities to Pulse based on their AAD role. 
+To send a Pulse request using the limited experience that's available with Microsoft 365 Copilot subscriptions, you must have a license to a valid Microsoft 365 Copilot subscription. If the user has both a Microsoft 365 Copilot and Viva Pulse license assigned to them, in that case they have access to all the premium capabilities to Pulse based on their Azure Active Directory (AAD) role. 
 
 
 > [!IMPORTANT]
-> If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, please visit the [Viva Pulse home page](https://pulse.cloud.microsoft). If you have any trouble or see the No Access error, please retry in a few minutes. If you continue to face issues loading the Viva Pulse home page, please reach out to your account team or Microsoft support team and log an incident with us.
+> If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, please visit the [Viva Pulse home page](https://pulse.cloud.microsoft). If you have any trouble or see the No Access error, please retry in a few minutes. If you continue to face issues loading the Viva Pulse home page, reach out to your account team or Microsoft support team and log an incident with us.
 
 
 > [!IMPORTANT]
