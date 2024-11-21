@@ -17,6 +17,9 @@ search.appverid: MET150
 
 # Manage available surveys and questions
 
+> [!IMPORTANT]
+> Content customization and administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not access to the Content customization and administration experience. 
+
 ## Admin management of survey template and question libraries
 
 Viva Pulse provides both survey templates and stock questions that can be added to a survey. As an admin, you can manage the survey templates and stock questions available to your users. This includes managing the stock content and adding and publishing your own survey templates or questions. Survey templates and standalone questions are managed independently, and any changes impact all authors across your company.
