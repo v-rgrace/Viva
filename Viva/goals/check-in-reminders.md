@@ -113,23 +113,18 @@ If a goal belongs to multiple teams, a user will see a dropdown with all the tem
 1. **How to set who receives the Nudge for multiple-owned OKRs?**
     1. In the case of an OKR having multiple owners, the Nudge notification is sent out to the Check-in owner only.
         1. For example, Marketing VP and Product VP co-own this OKR while Product VP is set as the Check-in owner.
-        
-   :::image type="content" source="../media/goals/nudge-button.png" alt-text="Nudge button to nudge the check-in owner." lightbox="../media/goals/nudge-button.png":::
-        
+           
+           :::image type="content" source="../media/goals/nudge-button.png" alt-text="Nudge button to nudge the check-in owner." lightbox="../media/goals/nudge-button.png":::
+           
         2. Clicking on Nudge will open the modal where the Product Owner will be notified as they're the check-in owner for this OKR.
-        
-   :::image type="content" source="../media/goals/nudge-modal.png" alt-text="Nudge modal to send the notification." lightbox="../media/goals/nudge-modal.png":::
+           
+           :::image type="content" source="../media/goals/nudge-modal.png" alt-text="Nudge modal to send the notification." lightbox="../media/goals/nudge-modal.png":::
 
 1. **Notifications for comments**
     1. Viva Goals allows you to add comments on OKRs and check-ins to interact with stakeholders. You can also use @mention to tag certain users. Users receive notifications for comments in the below cases:
-        -  When a comment is added on an OKR they own
-        -  The user has been mentioned in a comment
+        - When a comment is added on an OKR they own
+        - When the user is mentioned in a comment
 
 1. **I have enabled check-in reminders, but they are not being sent. How can I resolve?**
     1. Check-in reminders will not be sent under the following conditions:
-        - **If the OKR approval workflow is enabled and the status of the OKR is in planning.** We don't trigger reminders for draft OKRs. Only when OKRs move from planning to other stages will reminders be triggered.
-        - **For OKRs where progress is updated via integration or rolled up from child OKRs**. We trigger reminders only for OKRs where progress is updated manually.
-        - **For anyone who is not a check-in owner.** Only check-in owners will receive reminders. This is to avoid creating extra "noise" for other users.
-        - **For OKRs where the start date is later than today’s date.**
-        - **For OKRs which have the setting 'Do not include OKRs & Projects updated within the last x days' enabled.**
-        - **For OKRs where the time period is archived.**
+        - **If the OKR approval workflow is enabled and the status of the OKR is in planning.** We don't trigger reminders for draft OKRs. Only when OKRs move from planning to other stages will
