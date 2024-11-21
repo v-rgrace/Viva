@@ -107,7 +107,7 @@ The information is broken out across **Program Summary** setup pages.
 | **Add or remove a survey item** | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or **Employee Lifecycle** program. |
 | **Item order** | The questions need to be reordered. | The newly edited item order is featured immediately on surveys that haven't been started. |
 
-> [NOTE!]
+> [!NOTE]
 > Changes to survey *sections* and survey *breaks* can't occur during a live cycle. They apply to upcoming cycles only.
 
 ### Admin process for editing a question during a live survey
