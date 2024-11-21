@@ -114,11 +114,11 @@ If a goal belongs to multiple teams, a user will see a dropdown with all the tem
 
     1. In the case of an OKR having multiple owners, the Nudge notification is sent out to the Check-in owner only.
 
-       a. For example, Marketing VP and Product VP co-own this OKR while Product VP is set as the Check-in owner.
+       - For example, Marketing VP and Product VP co-own this OKR while Product VP is set as the Check-in owner.
 
        :::image type="content" source="../media/goals/nudge-button.png" alt-text="Screenshot of the Nudge button to nudge the check-in owner." lightbox="../media/goals/nudge-button.png":::
 
-       b. Clicking on Nudge will open the modal where the Product Owner will be notified as they're the check-in owner for this OKR.
+       - Clicking on Nudge will open the modal where the Product Owner will be notified as they're the check-in owner for this OKR.
 
        :::image type="content" source="../media/goals/nudge-modal.png" alt-text="Screenshot of the Nudge modal to send the notification." lightbox="../media/goals/nudge-modal.png":::
    
