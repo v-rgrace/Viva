@@ -35,7 +35,7 @@ To set up your attributes in Viva Glint, your uploaded file must contain a final
 2. In **Employees,** select **People**.
 3. Choose **Get Started** and select **New User Schema or Attribute Updates** to begin the four-step process.
 
-   :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the Employee ID Updates option.":::
+   :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the New User Schema or Attribute Updates option.":::
 
 > [!CAUTION]
 > The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
