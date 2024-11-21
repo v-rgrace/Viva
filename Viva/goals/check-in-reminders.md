@@ -122,8 +122,8 @@ If a goal belongs to multiple teams, a user will see a dropdown with all the tem
 
 1. **Notifications for comments**
     1. Viva Goals allows you to add comments on OKRs and check-ins to interact with stakeholders. You can also use @mention to tag certain users. Users receive notifications for comments in the below cases:
-        1. When a comment is added on an OKR they own
-        1. The user has been mentioned in a comment
+        -  When a comment is added on an OKR they own
+        -  The user has been mentioned in a comment
 
 1. **I have enabled check-in reminders, but they are not being sent. How can I resolve?**
     1. Check-in reminders will not be sent under the following conditions:
