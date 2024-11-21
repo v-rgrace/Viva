@@ -57,8 +57,6 @@ Sometimes changing a live survey may be beneficial.
 | Adding or removing an item | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or *Employee Lifecycle program. |
 | Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that haven't yet been started. |
 
-##
-
 ## Fields which can be edited 
 
 - **Language** - From languages prepopulated in the dropdown menu.
