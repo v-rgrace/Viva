@@ -2,12 +2,12 @@
 title: Set up the in-app Viva Pulse experience
 description: "Set up the in-app Viva Pulse experience"
 ms.reviewer: 
-ms.author: jjaworsk
-author: jjaworsk
+ms.author: hasrivas
+author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 06/20/2024
+ms.date: 11/21/2024
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
