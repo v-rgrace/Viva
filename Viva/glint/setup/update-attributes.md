@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/16/2024
+ms.date: 11/21/2024
 ---
 
 # Update attributes in Viva Glint
 
-After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, manage derived and optional system attributes, and to update attribute visibility in the platform. New attributes and their values will apply to future survey results only.
+After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, manage derived and optional system attributes, and to update attribute visibility in the platform. New attributes and their values apply to future survey results only.
 
 > [!CAUTION]
 > The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
@@ -29,36 +29,35 @@ After initial attribute setup in Microsoft Viva Glint, use this guidance to add 
 To add new attributes to your Viva Glint setup from the admin dashboard:
 
 1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
-2. Select **Actions** and then **Manage User Attributes**.
-3. Select **Update dataset** at the top of the page.
-4. Upload your dataset with all existing attributes and the new attribute.
+2. Select **Import** and then **New User Schema or Attribute Updates**.
+3. Upload your dataset with all existing attributes and the new attribute.
 
      > [!NOTE]
      > Your uploaded file must contain the Attribute Header Row and at least one row of employee data that aligns with the current format.
 
-5. Select **Continue**.
-6. If dates are included in your file, select **There are date fields** and then the appropriate date format from the dropdown menu.
+4. Select **Continue**.
+5. If dates are included in your file, select **There are date fields** and then the appropriate date format from the dropdown menu.
 
      > [!NOTE]
      > This selection should be your existing date format in your employee data.
 
-7. Preview your data and confirm that you see the new attributes.
+6. Preview your data and confirm that you see the new attributes.
 
     :::image type="content" source="../../media/glint/setup/new-attribute.png" alt-text="Screenshot of the preview screen with a newly added attribute highlighted in green.":::
 
-8. Select **Continue**.
-9. The Attributes Setup page shows current required, derived, optional system, and hierarchy attributes. If the newly added field is required, derived, or an optional system attribute, make your selection in the appropriate section. Select **Continue**.
+7. Select **Continue**.
+8. The Attributes Setup page shows current required, derived, optional system, and hierarchy attributes. If the newly added field is required, derived, or an optional system attribute, make your selection in the appropriate section. Select **Continue**.
   
      > [!NOTE]
      > Derived Manager Hierarchy and Hierarchy Groups can't be edited after initial setup.
   
-10. Review newly added attributes and select **Continue**.
-11. Choose to **Save attributes and import employee data** or to **Save attributes and discard employee data**.
+9. Review newly added attributes and select **Continue**.
+10. Choose to **Save attributes and import employee data** or to **Save attributes and discard employee data**.
 
      > [!TIP]
      > When adding new attributes, choose the **Save attributes and discard employee data** option to save your setup in preparation for future imports.
 
-12. Select **Save** or **Go Back** to make more edits.
+11. Select **Save** or **Go Back** to make more edits.
 
 ## Edit attribute names
 
