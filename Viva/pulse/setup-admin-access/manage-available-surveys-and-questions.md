@@ -2,12 +2,12 @@
 title: Manage available surveys and questions
 description: "Manage available surveys and questions"
 ms.reviewer: 
-ms.author: michellehu
-author: michellehu-msft
+ms.author: hasrivas
+author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 05/23/2024
+ms.date: 11/21/2024
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
