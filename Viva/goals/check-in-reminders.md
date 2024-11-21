@@ -4,7 +4,7 @@ title: Configure check-in reminders, notifications, and templates
 ms.reviewer: 
 ms.author: rasanders
 author: RaSanders-MSFT
-manager: Liz.Pierce
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
