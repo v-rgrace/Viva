@@ -21,9 +21,9 @@ description: "Learn how to navigate the admin dashboard."
 
 # Organization admin dashboard overview
 
-To log in to Viva Goals, visit https://goals.microsoft.com/.
+To sign in to Viva Goals, visit https://goals.microsoft.com/.
 
-Organization owners can access the admin dashboard to manage organization settings.
+You need to be an [organization owner](roles-permissions-in-viva-goals.md) in Viva Goals to access the admin dashboard and manage organization settings.
 
 Before configuring your organization, you can review the [Get Started with Viva Goals learning path](/training/paths/viva-goals-get-started) to get familiar with the following:
 
