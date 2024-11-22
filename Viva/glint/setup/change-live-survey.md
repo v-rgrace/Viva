@@ -134,7 +134,6 @@ The Edit Question slider window includes these setup tabs:
 
 > [!IMPORTANT]
 > All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live.
-> <br>
 > They must also understand that if they retake a survey, their original answers are replaced.
 
 **You are responsible to notify participants about any change and provide instructions on how to do so. Survey retake access:**
@@ -149,9 +148,9 @@ Review your edits to make sure your employees receive appropriate notice.
  
 1. Review the **Confirm your changes** window that opens.
 
-   :::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions."lightbox="../../media/glint/setup/confirm-changes-dialog-box.png":::
+   :::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions." lightbox="../../media/glint/setup/confirm-changes-dialog-box.png":::
 
-2. If everything is as expected, select **Confirm.**
+2. If everything is as expected, select **Confirm**.
 
 3. A one-time notification confirms that your item is updated.
 
@@ -159,9 +158,9 @@ Review your edits to make sure your employees receive appropriate notice.
 
 A list of program names previously used or in use that include this survey item can be viewed here. You may see an alert cautioning you that this question is being used in one or more live surveys. 
 
-- If you don't want to make this change, choose **Cancel.**
+- If you don't want to make this change, choose **Cancel**.
 - You can edit language text, instruction text, and comment placeholder text only. Other fields are disabled and can't be edited until the survey is no longer live.
-- Make your changes and select **Save.**
+- Make your changes and select **Save**.
 
 :::image type="content" source="../../media/glint/setup/change-live-q-tooltips.png" alt-text="Screenshot of warning and tips about editing a question during a live survey." lightbox="../../media/glint/setup/change-live-q-tooltips.png":::
 
@@ -172,7 +171,7 @@ A list of program names previously used or in use that include this survey item 
 | **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approve toggle to **Yes**. |
 | **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain users with live access are aware so they aren't confused by different results from a past viewing. |
 | **Aggregate Indices** | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain users with live access are aware so they aren't confused by results that are different their last viewing. |
-| **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain ausers with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
+| **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain users with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
 
 ## Communications
 
