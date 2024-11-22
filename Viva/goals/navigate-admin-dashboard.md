@@ -106,7 +106,7 @@ The **Integrations** tab lets you manage integrations in three categories:
 
 - Messaging integrations: Microsoft Teams
 - Data integrations: Asana, Jira, Salesforce, and more  
-- Authentication integrations: Azure Active Directory only  
+- Authentication integrations: Azure Active Directly only  
 
 To learn more, see [Viva Goals integrations overview](/viva/goals/integrations-overview).
 
