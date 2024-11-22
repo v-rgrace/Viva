@@ -286,8 +286,6 @@ items:
                 items:
                   - name: Add items and sections
                     href: setup/add-new-questions.md
-                  - name: Edit questions during a live survey
-                    href: setup/question-edit.md
                   - name: Target survey items
                     href: setup/targeted-survey-items.md
                   - name: Add item Display Logic
@@ -396,6 +394,8 @@ items:
         items:
           - name: Reopen or extend a survey cycle
             href: setup/reopen-survey.md
+          - name: Make changes to a live survey
+            href: setup/change-live-survey.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey
