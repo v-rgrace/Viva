@@ -67,7 +67,7 @@ The **Settings** tab lets you control general settings related to the people and
     1. Customized (Choose users and grant them access)
 
     > [!NOTE]
-    > By default for all the newly created organizations, the default permission setting for who can teams would be set to 'Admins' and 'Team owners'. This option can be changed if needed.
+    > By default for all the newly created organizations, the default permission setting for who can create teams would be set to 'Admins' and 'Team owners'. This option can be changed if needed.
 
 - **Tag creation** is a feature that allows you to categorize OKRs in buckets that you can later filter in a report.  
 
@@ -98,7 +98,7 @@ This tab shows all the teams that you've set up, plus the team owner and members
 
 ### Notifications
 
-The **Notifications** tab lets you customize the notifications that are sent to employees. Notifications is a critical feature that helps drive the rhythm of the business. In a perfect world, every employee consistently checks in their OKRs. But we know from experience that sometimes it takes a little nudge.
+The **Notifications** tab lets you customize the notifications that are sent to employees. Notifications are a critical feature that helps drive the rhythm of the business. In a perfect world, every employee consistently checks in their OKRs. But we know from experience that sometimes it takes a little nudge.
 
 ### Integrations
 
@@ -106,7 +106,7 @@ The **Integrations** tab lets you manage integrations in three categories:
 
 - Messaging integrations: Microsoft Teams
 - Data integrations: Asana, Jira, Salesforce, and more  
-- Authentication integrations: Azure Active Directly only  
+- Authentication integrations: Azure Active Directory only  
 
 To learn more, see [Viva Goals integrations overview](/viva/goals/integrations-overview).
 
