@@ -2230,6 +2230,11 @@
     "source_path": "viva/copilot/deployment-permissions.md",
     "redirect_url": "/viva/glint/introduction-viva-glint",
     "redirect_document_id": false
-  }  
+  },
+  {
+    "source_path": "viva/glint/setup/question-edit.md",
+    "redirect_url": "/viva/glint/setup/change-live-survey",
+    "redirect_document_id": false
+  },
   ]
 }
