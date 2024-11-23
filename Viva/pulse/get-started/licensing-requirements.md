@@ -17,7 +17,7 @@ search.appverid: MET150
 
 # Licensing requirements
 
-Viva Pulse is available both as a premium experience and a limited experience available with Microsoft 365 Copilot subsciption. The following list of capabilities are available to Pulse authors and Adminstrators as part of these experiences. 
+Viva Pulse is available both as a premium experience and a limited experience available with Microsoft 365 Copilot subscription. The following list of capabilities are available to Pulse authors and Administrators as part of these experiences. 
 
 | Capability | Premium experience | Limited experience | 
 | ----------- | ------------------ | ------------------| 
