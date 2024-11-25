@@ -209,10 +209,6 @@ items:
   items:
   - name: Benefits of OKRs
     href: benefits-of-okrs.md
-  - name: OKR superpowers
-    href: okr-superpowers.md
-  - name: Ensuring OKR program success
-    href: ensuring-okr-success.md
   - name: Define your team
     href: define-your-team.md
   - name: Determine your rollout plan
@@ -257,11 +253,9 @@ items:
      items:
       - name: Align OKRs overview
         href: ./viva-goals-healthy-okr-program/align-okrs-overview.md
-      - name: Align OKRs recommendations
-        href: ./viva-goals-healthy-okr-program/align-okrs-recommendations.md
       - name: Tight vs loose alignment
         href: ./viva-goals-healthy-okr-program/align-loose-vs-tight.md
-   - name: Check-in and track goals
+   - name: Check in and track goals
      items:
       - name: Check-in OKRs overview
         href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md

@@ -2,7 +2,7 @@
 title: "About Viva Engage networks and Microsoft 365 tenants"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 9/29/2023

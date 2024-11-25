@@ -1,12 +1,12 @@
 ---
-title: Send Viva Insights data to Viva Glint (public preview)
+title: Send Viva Insights data to Viva Glint 
 description: Viva Glint admins can import behavioral data from Viva Insights to supplement their Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: raw data export, behavioral attributes from Viva Insights, confidentiality thresholds, data sharing between Insights and Glint, Viva Insightsw metrics
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,17 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/28/2024
+ms.date: 11/18/2024
 ---
 
-# Send Viva Insights data into Viva Glint (public preview)
-
-The following procedure requires these roles: 
-- **Microsoft 365 Global Administrator** to consent to share Viva Insights data with Viva Glint. 
-- **Viva Glint Administrator** to set up the integration and add the relevant metrics from Viva Insights.
-
->[!IMPORTANT]
->This feature is currently available to public preview customers only. Features described here are subject to change.
+# Send Viva Insights data into Viva Glint 
 
 Glint customers can import behavioral data from Microsoft Viva Insights to supplement their Viva Glint survey data for a better understanding of how your organization’s way of working impacts the employee experience.
 
@@ -36,24 +29,19 @@ To use this integration:
 -	Your organization purchased a Viva Insights tenant
 -	Your organization purchased Premium Viva Insights licenses
 
-Select **Learn more** in the platform to get more information about the integration.
-
-:::image type="content" source="../../media/glint/setup/glintsights-learn-more.png" alt-text="Screenshot of the banner announcing the new Viva Glint and Viva Insights integration.":::
-
 This article discusses how to import survey results – employee-level survey responses, question/item text, question/item labels, categories, survey names, rating scales, and survey closed date – from Viva Glint into Viva Insights. 
 
 ## Integration workflow 
 
-1. The **Microsoft 365 Global Administrator** consents to share Viva Insights data with Viva Glint. [Learn more about how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
+1. The **Microsoft 365 Global Administrator** consents to share Viva Insights data with Viva Glint. [Learn how to start the process](/viva/insights/advanced/admin/export-insights-data-glint).
 
-2. The **Viva Glint Administrator** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more about this step](/viva/glint/setup/insights-to-glint).
+2. The **Viva Glint Administrator** sets up the integration and adds the relevant metrics from Viva Insights. [Learn more](/viva/glint/setup/insights-to-glint).
 
 ## To resync the data to pick up the Microsoft Entra ID changes: 
 
-If you see discrepancies between Glint active users and you Microsoft Entra IDs in MAC, remedy the discrepancies by following the guidelines in [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) section on the Viva Glint and Viva Insights integration overview page.
-
+Use [Prerequisites to the integration](https://go.microsoft.com/fwlink/?linkid=2280859#prerequisites-to-the-integration) to solve for discrepancies between Glint active users and those seen in your Microsoft Entra IDs in MAC.
 - In manage integration: delete all attributes and remove all programs. 
-- Re-add the attributes and program to re-import Viva Insights data for all survey cycles. 
+- Readd the attributes and program to reimport Viva Insights data for all survey cycles. 
 
 In the future, expect this resync to happen automatically.
 
@@ -68,17 +56,22 @@ On your first visit to the Viva Insights Integrations platform, accessible from 
 ## Set up the Viva Insights integration 
 
 1.	From your Glint admin dashboard, select the **Configuration** symbol and then **Viva Insights** from the **Microsoft Viva Integrations** section.
-
-    :::image type="content" source="../../media/glint/setup/glintsights-integration-new.png" alt-text="Screenshot of the card to access the Viva Glint and Viva Insights integration from the admin dashboard.":::
-
 2.	Select the **Set up integration** button in the **Import Viva Insights** data section.
 3.	Review the window that pops up and then select **Get Started.**
 
     :::image type="content" source="../../media/glint/setup/import-insights-popup-window.png" alt-text="Screenshot of the Get Started importing Viva Insights data into Glint window.":::
 
+## Understand confidentiality thresholds for the integration to understand what data can be sent
+
+For both Viva Insights and Viva Glint, the default confidentiality thresholds are five (5). If the defaults are unchanged, the minimum threshold of five (5) is recognized for viewing survey data.
+
+**If you have changed the confidentiality threshold in either application,** we consider the thresholds of both products. The higher of the two thresholds is enforced when showing survey data. This rule includes both workplace pattern data from Viva Insights as well as sentiment data from Viva Glint.
+
+**If you have a program that has a confidentiality threshold of less than five and would like to use this integration, reach out to your account team. This may be possible.**
+
 ## Add behavioral attributes from Viva Insights
 
-In Step 1 of 2, decide which behavioral attributes to import into Glint. Attributes are numerically split into four different ranges, defined by Glint. Ranges can be customized after setup. Glint will also respect Viva Insights confidentiality thresholds on Glint reports and dashboards.
+In Step 1 of 2, decide which behavioral attributes to import into Glint. Attributes are numerically split into four different ranges, defined by Glint. Ranges can be customized after setup. Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
 
 1.	Select **Add** next to an attribute to continue. You must select at least one attribute to continue.
 
@@ -86,7 +79,7 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
 2.	In the window that opens, select at least one **role** to add to this attribute. Roles are prepopulated from your User Roles configured earlier.
 
-3.	In the **role row**, select if that role should have access to information about this attribute in their **report filters**, **report sections**, or **comment filters**. Roles without these permissions are greyed out and unavailable to select.
+3.	In the **role row**, select if that role should have access to information about this attribute in their **report filters**, **report sections**, or **comment filters**. 
 
     :::image type="content" source="../../media/glint/setup/glintsights-add-slidey.png" alt-text="Screenshot of the Select roles for this attribute window.":::
 
@@ -94,13 +87,17 @@ In Step 1 of 2, decide which behavioral attributes to import into Glint. Attribu
 
     :::image type="content" source="../../media/glint/setup/glintsights-added-2.png" alt-text="Screenshot of the Added confirmation." lightbox= "../../media/glint/setup/glintsights-added-2.png":::
 
-5.	Continue adding attributes until you have everything you need. 
+5.	Continue adding attributes until you have everything you need.
+   
 6.	**Select Programs.**
 
       :::image type="content" source="../../media/glint/setup/glintsights-select-programs-2.png" alt-text="Screenshot of the Select Programs button."lightbox= "../../media/glint/setup/glintsights-added-2.png":::
 
 >[!IMPORTANT]
 > Glint respects Viva Insights confidentiality thresholds on Glint reports and dashboards.
+
+>[!NOTE]
+> When a **new** survey cycle ends, it takes 24-48 hours to receive data from Viva Inights. Expect some delay in the data reflecting in the platform.
 
 ## Viva Insights metrics
 
@@ -120,16 +117,16 @@ Add a Viva Insights metric as an employee attribute. Assign roles for the attrib
 
 |Default metric name |Default metric description| Bucket 1|Bucket 2| Bucket 3|Bucket 4|Unit|
 |---------|---------|---------|----|-----|--------|--------|
-|Email hours|Number of hours a person spent sending and receiving emails|0 to less than 3|3 to less than 6|6 to less than 8|8 or more|Hour|
-|Call hours|Number of hours a person spent in scheduled and unscheduled Teams calls with at least one other person, during and outside of working hours|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
-|After-hours collaboration hours|Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of time due to overlapping activities (for example, calls during a meeting), outside of working hours|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
-|Multitasking hours|Number of hours a person spent sending or reading emails or chats during a meeting or Teams call|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
-|Collaboration hours|Number of hours a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person. These hours are either internal or external. They are determined after deduplication of time due to overlapping activities. 
-|Uninterrupted hours|Sum of block one hour or longer where a person didn't attend a meeting, read or send emails, read or send Teams chats, or initiate or receive Teams calls. In other words, uninterrupted hours is the sum of blocks of time, one hour or longer, for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
+|Email hours|Number of hours that a person spent sending and receiving emails|0 to less than 3|3 to less than 6|6 to less than 8|8 or more|Hour|
+|Call hours|Number of hours that a person spent in scheduled and unscheduled Teams calls with at least one other person, during and outside of working hours|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
+|After-hours collaboration hours|Number of hours that a person spent in meetings, emails, Teams chats, and Teams calls with at least one other person, either internal or external, after deduplication of overlapping times (for example, calls during a meeting), outside of working hours|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
+|Multitasking hours|Number of hours that a person spent sending or reading emails or chats during a meeting or Teams call|0 to less than 1|1 to less than 3|3 to less than 5|5 or more|Hour|
+|Collaboration hours|Number of hours that a person spent in meetings, emails, and Teams chats, and calls with at least one other person. These hours are either internal or external. They're determined after deduplication of time due to overlapping activities. 
+|Uninterrupted hours|Sum of block one hour or longer where a person didn't attend a meeting, read or send emails, read or send Teams chats, or initiate or receive Teams calls. In other words, uninterrupted hours are the sum of blocks of time, one hour or longer, for deep thinking with no communication. This metric helps organizations understand whether employees have long blocks of uninterrupted time for deep thinking to solve new problems creatively and to fuel innovation|0 to less than 5|5 to less than 10|10 to less than 15|15 or more|Hour|
 |Meeting hours|Number of hours a person spent in meetings with at least one other person, during and outside of working hours.|0 to less than 6| 60 to less than 12|10 to less than 15|15 or more|Hour|
 |Meeting hours with Manager 1:1|Number of meeting hours involving only the person and their manager|0 to less than 0.01|0.01 to less than 0.25|0.25 to less than 0.5|0.5 or more|Hour|
 |Meeting hours with Skip Level Manager|Number of meeting hours a person attended where their manager's manager also attended the meeting|0 to less than 0.01|0.01 to less than 0.5|0.5 to less than 1| 1 or more|Hour|
-|Internal network size|Number of people within the organization with whom a person has had a reciprocal interaction in the past four weeks|0 to less than 15|15 to less than 30|30 to less than 45|45 or more|Count|
+|Internal network size|Number of people within the organization with whom a person had a reciprocal interaction in the past four weeks|0 to less than 15|15 to less than 30|30 to less than 45|45 or more|Count|
 
 ## Import data
 
@@ -174,7 +171,7 @@ To add or delete attributes, check or uncheck any roles or filters. Select **Sav
 
 ### Customize attribute ranges
 
-To view numeric data in heatmaps, filters, and more, the data must be placed into ranges. Default ranges are defined by Glint, but you can configure your own range. 
+To view numeric data in heatmaps, filters, and more, the data must be placed into ranges. Glint defines default ranges, but you can configure your own ranges. 
 
 All data ranges are the same across the entire company.
 
@@ -188,7 +185,7 @@ All data ranges are the same across the entire company.
 
 ## Delete an imported attribute
 
-By deleting an attribute, Glint deletes all previously imported attribute data, and this data is not included in future Glint program cycles. Changes may take a few hours to show on Glint reports. Select **Delete** in the window that opens.
+By deleting an attribute, Glint deletes all previously imported attribute data, and this data isn't included in future Glint program cycles. Changes may take a few hours to show on Glint reports. Select **Delete** in the window that opens.
 
 :::image type="content" source="../../media/glint/setup/glintsights-delete-attribute.png" alt-text="Screenshot of a Delete Attribute window.":::
 
@@ -211,4 +208,9 @@ Use the ellipses next to each program to open the **Remove program** option.
 :::image type="content" source="../../media/glint/setup/glintsights-remove-program-2.png" alt-text="Screenshot of removing a program window.":::
 
 Select **Remove** from the window that opens.
+
+## Raw data export
+
+> [!IMPORTANT]
+> Viva insights attributes aren't available in [Raw Data Export](/viva/glint/reports/export-report-pdf). 
 

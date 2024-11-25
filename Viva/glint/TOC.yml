@@ -17,8 +17,13 @@ items:
             href: setup/privacy-protection-reporting.md
           - name: Privacy protection for 360 feedback programs
             href: setup/privacy-360-feedback.md
-      - name: Raw response data
+      - name: Raw data export
         href: setup/employee-raw-data-export.md
+        items:
+          - name: Extreme circumstances
+            href: setup/raw-data-extreme-circumstances.md
+          - name: Responding to Data Subject Requests (DSRs)
+            href: setup/raw-data-request-response.md
   - name: Connect and learn
     items:   
       - name: Viva Glint resources
@@ -218,17 +223,17 @@ items:
               href: setup/manage-confidentiality-thresholds.md
   - name: Microsoft 365 Copilot in Viva Glint (preview)
     items:
-      - name: Introduction to Microsoft 365 Copilot in Viva Glint (preview) 
+      - name: Introduction to Microsoft 365 Copilot in Viva Glint 
         href: copilot/copilot-admin-intro.md
-      - name: Administrator deployment and setup for Microsoft 365 Copilot in Viva Glint (preview)
+      - name: Administrator deployment and setup for Copilot in Viva Glint 
         href: ../copilot/deployment-permissions.md
       - name: Administrator enablement for Copilot in Viva Glint (preview)
         href: copilot/admin-enable.md
       - name: Microsoft 365 Copilot data, privacy, and security
         href: setup/copilot-privacy.md
-      - name: Managers using Microsoft 365 Copilot in Viva Glint (preview)
+      - name: Managers using Copilot in Viva Glint 
         href: setup/copilot-managers.md
-      - name: Microsoft 365 Copilot in Viva Glint-FAQs (preview)
+      - name: Copilot in Viva Glint- more FAQs 
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
@@ -283,8 +288,6 @@ items:
                 items:
                   - name: Add items and sections
                     href: setup/add-new-questions.md
-                  - name: Edit questions during a live survey
-                    href: setup/question-edit.md
                   - name: Target survey items
                     href: setup/targeted-survey-items.md
                   - name: Add item Display Logic
@@ -383,16 +386,18 @@ items:
         items:
           - name: Review surveys before launch
             href: setup/survey-qa.md    
-          - name: Preview and enable surveys and dashboards
-            href: setup/preview-manage-enable-engage-programs.md   
           - name: Preview data in reports
             href: setup/preview-demo-reporting.md
+          - name: Preview, enable, and prepare to launch surveys
+            href: setup/preview-manage-enable-engage-programs.md   
           - name: Duplicate, delete, and disable surveys 
             href: setup/delete-survey-data.md
       - name: Edit live surveys or reopen closed surveys
         items:
           - name: Reopen or extend a survey cycle
             href: setup/reopen-survey.md
+          - name: Make changes to a live survey
+            href: setup/change-live-survey.md
   - name: Support survey participants 
     items:
       - name: Provide support during a survey
@@ -480,7 +485,7 @@ items:
             href: reports/manager-concierge-dashboard.md
           - name: The Team Summary dashboard
             items:
-              - name: Eanble and manage the Team Summary dashboard
+              - name: Enable and manage the Team Summary dashboard
                 href: reports/team-summary-enable-manage.md
               - name: Use the Team Summary dashboard
                 href: reports/managers-use-team-summary-dashboard.md

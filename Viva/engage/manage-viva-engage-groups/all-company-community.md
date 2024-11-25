@@ -2,7 +2,7 @@
 title: "All Company now works like other Viva Engage communities"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 01/04/2024

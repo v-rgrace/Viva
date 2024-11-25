@@ -2202,9 +2202,49 @@
     "redirect_document_id": false
   },
   {
-    "source_path":"viva/connections/overview-viva-connections-education.md",
+    "source_path": "viva/connections/overview-viva-connections-education.md",
     "redirect_url": "/viva/connections/viva-connections-overview",
     "redirect_document_id": false 
-  }      
+  },
+  {
+    "source_path": "viva/connections/use-feed-web-part-for-viva-connections.md",
+    "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/connections/feed-web-part-video-news-link-retirement.md",
+    "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/connections/video-news-links.md",
+    "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
+    "redirect_document_id": false
+  },
+    {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/align-okrs-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/align-okrs-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/copilot/deployment-permissions.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/okr-superpowers.md",
+    "redirect_url": "/viva/goals/get-to-know-okrs",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/ensuring-okr-success.md",
+    "redirect_url": "/viva/goals/get-to-know-okrs",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/setup/question-edit.md",
+    "redirect_url": "/viva/glint/setup/change-live-survey",
+    "redirect_document_id": false
+  },
   ]
 }

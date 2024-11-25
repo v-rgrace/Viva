@@ -93,12 +93,6 @@ Audience targeting is useful when you want to present information that is releva
 
 To use audience targeting, you must first enable audience targeting for each pages library that contains the news stories you wish to target. For more information, see the article on [enabling audience targeting for your pages library](https://support.microsoft.com/office/c2dcee50-f5d7-434b-8cb9-a7feefd9f165#bkmk_audiencetarget).
 
-> [!NOTE]
->
-> Starting **September 1, 2024**, the feed for Viva Connection web part and the video news link will be removed and unavailable for SharePoint site editors to add to their sites. On **November 5, 2024**, support for the feed for Viva Connections web part and video news links will end and no longer display content.
->
-> Site owners are encouraged to use the [News](https://support.microsoft.com/office/c2dcee50-f5d7-434b-8cb9-a7feefd9f165#bkmk_sitenews), [Viva Engage](https://support.microsoft.com/office/a53cfa0c-3d09-42c8-a286-1038a81c59da#highlights), [File and Media](/stream/streamnew/portals-single-video), and [Highlighted content](/stream/streamnew/portals-set-of-videos) web parts, and [Video pages](https://support.microsoft.com/office/7823449f-e2cc-48d2-bda7-2ee82518958a) as alternatives to using the feed for Viva Connections web part and the video news link. For more information, refer to the [Viva Connections Feed web part retirement support guidance documentation](feed-web-part-video-news-link-retirement.md).
-
 ### Apply Audience Targeting to news posts from SharePoint
 
 To apply audience targeting to news posts (site pages) from your SharePoint site:
@@ -131,7 +125,7 @@ To apply audience targeting to news posts from Viva Connections:
 
 Resources are the navigation links that display beneath the dashboard. You can provide another level of customization to your Resource links by applying audience targeting. Resource links that have audience targeting applied only appear to users who are part of the selected audience.
 
-For example, an organization could use audience targeting to provide a set of resource links for employees working in Human Resources that would only be seen by those users.
+For example, an organization could use audience targeting to provide a set of resource links for users working in Human Resources that would only be seen by those users.
 
 1. Start by selecting **Edit** in the Resources section of your Connections experience.
 
@@ -160,5 +154,7 @@ For more information, see the article on [customizing resources](edit-viva-home.
 [Create the Viva Connections dashboard](create-dashboard.md)  
 
 [Frequently asked questions about the Feed for Viva Connections](faqs-viva-connections-feed.md)
+
+[Using web parts to display content on your SharePoint site](use-web-parts-in-sharepoint.md)
 
 [Set up global navigation in the SharePoint app bar](sharepoint-app-bar.md)  

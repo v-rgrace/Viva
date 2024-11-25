@@ -2,7 +2,7 @@
 title: "Restrict All Company posts in Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/09/2024
