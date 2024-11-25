@@ -20,7 +20,7 @@ In this article, we describe how your upload file needs to be formatted, and pro
 
 When any data row or column has an invalid value for any attribute, the entire upload might fail or produce warnings depending on whether **Upload valid rows and exclude rows with invalid data** under **Advanced configuration** is turned on or off.
 
-If **Upload valid rows and exclude rows with invalid data** under **Advanced configuration** is turned off, the entire upload will fail due to validation errors until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
+If **Upload valid rows and exclude rows with invalid data** under **Advanced configuration** is turned off, the entire upload fails due to validation errors until the source file is fixed (or the mapping changes the validation type of the attribute in a way that makes the value valid). 
 
 If **Upload valid rows and exclude rows with invalid data** under **Advanced configuration** is turned on, it will only upload rows that include valid values, and will show warnings for the rows that weren't ingested due to errors. This setting is off by default. 
 
@@ -32,7 +32,7 @@ The data file needs to be in the .csv UTF-8 format, and it can’t be empty.
 
 All source and target field header or column names need to: 
 
-1. Only contain ASCII alphanumeric characters (letters and numbers, for example, **Date1**), or underscore (_). Special non-alphanumeric characters such as @, #, %, &, or other characters aren’t supported.
+1. Only contain ASCII alphanumeric characters (letters and numbers, for example, **Date1**), or underscore (_). Special nonalphanumeric characters such as @, #, %, &, or other characters aren’t supported.
 2. Contain a value.
 3. Be unique. 
 
@@ -108,7 +108,7 @@ Here's an example snippet of a valid .csv export file:
 
 ## Validation errors and warnings
 
-Here are validation errors you might encounter while uploading data to the advanced insights app. In most cases, you'll need to correct the errors and upload your file again. Review our [Prepare organizational data](./prepare-org-data.md) article to learn how to format and get your data ready for upload.
+Here are validation errors you might encounter while uploading data to the advanced insights app. In most cases, you need to correct the errors and upload your file again. Review our [Prepare organizational data](./prepare-org-data.md) article to learn how to format and get your data ready for upload.
 
 |Category|Related rule| Message|Applies to|
 |---|-----|---|---|
@@ -129,7 +129,7 @@ Column headers|All field header or column names need to be unique.|Two or more c
 | | All source columns need to be mapped to a supported data type | The source column isn't mapped to a supported data type. Map to a supported data type and upload the file again. | API-based import and Azure blob import |
 | | | The .json file specifies a "DatasetType" that's not expected. Specify the correct value and upload the .zip file again. | API-based import and Azure blob import |
 
-Below are the validation errors and warnings related to field values. If **Upload valid rows and exclude rows with invalid data** under **Advanced configuration** is turned off, it will create errors and fail validation. If it's turned on, it will only upload rows that include valid values, and will show warnings for the rows that weren't ingested due to errors. This setting is off by default. 
+Below are the validation errors and warnings related to field values. If **Upload valid rows and exclude rows with invalid data** under **Advanced configuration** is turned off, it creates errors and fail validation. If it's turned on, it will only upload rows that include valid values, and will show warnings for the rows that weren't ingested due to errors. This setting is off by default. 
 
 | Category | Related rule | Message | Error or warning | Applies to |
 |---|---|---|---|---|
