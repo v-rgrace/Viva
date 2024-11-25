@@ -72,7 +72,7 @@ To turn off Required Diagnostic Data or Optional Diagnostic Data collection:
 ## Customization
 
 > [!IMPORTANT]
-> Customization administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not access to the customization administration experience. 
+> Customization administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not have access to the customization administration experience. 
 
 
 ### Customize Pulses
@@ -92,7 +92,7 @@ You can use this link to remind employees of internal policies and guidelines fo
 ## Notifications
 
 > [!IMPORTANT]
-> Notification administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not access to the notifications administration experience. 
+> Notification administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not have access to the notifications administration experience. 
 
 An employee’s ability to manage their email notifications preferences is default turned on, but as an admin, you can control whether the employee can manage their email notification preferences. Once the default is turned off, employees can't manage their email notification preferences and will receive all of Viva Pulse’s email notifications. You can also change the notification channels that users receive notifications from. To make any notification configurations:
 
@@ -104,7 +104,7 @@ An employee’s ability to manage their email notifications preferences is defau
 ## Viva resources
 
 > [!IMPORTANT]
-> Viva resources administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not access to the Viva resources administration experience. 
+> Viva resources administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not have access to the Viva resources administration experience. 
 
 Viva Pulse reports show recommended learning content for users to learn more about specific Pulse topics. These learning resources are sourced from LinkedIn Learning and can be viewed in the Viva Learning app. If your users are not subscribed to LinkedIn Learning or do not use Viva Learning, they will not be able to access those resources, even though the resources are shown. For example, a learning video might be displayed, but it will not play for those users. In this case, you may want to disable the display of these learning resources. To make any learning resource configurations:
 
