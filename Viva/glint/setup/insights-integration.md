@@ -94,7 +94,7 @@ In the future, this resync occurs automatically.
 
    :::image type="content" source="../../media/glint/setup/manage-integration-button.png" alt-text="Screenshot of Manage Integration dialog box and button.":::
 
-2. Select **+ Add Programs.**
+2. Select **+ Add Programs**.
 
 3. In the **Add Program** window, select **Add** next to any program. You can select multiple programs.
 
@@ -109,9 +109,9 @@ In the future, this resync occurs automatically.
 
 *Applies to Viva Glint admin and Viva Insights admin*
 
-After the Glint admin sends data, the Insights app validates it and provides status messages about the import. [Learn about the validation process, what status messages mean, and how to manage data errors.](/viva/insights/advanced/admin/import-survey-glint#3-data-validation-and-processing), 
+After the Glint admin sends data, the Insights app validates it and provides status messages about the import. [Learn about the validation process, what status messages mean, and how to manage data errors](/viva/insights/advanced/admin/import-survey-glint#3-data-validation-and-processing). 
 
-If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](/../../microsoft-365/admin/get-help-support).
+If processing fails, try running the import again, and resending your survey data. If you're still getting a failed status, [file a support ticket](/../../microsoft-365/admin/get-help-support).
 
 ## Glint data deletions result in Insights data deletion
 
@@ -127,7 +127,7 @@ After sending data to Viva Insights, you can continue to manage your integration
 
 1. Select **Manage Integration**.
 
-1. Hover over the ellipses next to the program to reveal the actions available. Select **Remove program.**
+1. Hover over the ellipses next to the program to reveal the actions available. Select **Remove program**.
 
    :::image type="content" source="../../media/glint/setup/send-data.png" alt-text="Screenshot of how to remove programs." lightbox="../../media/glint/setup/send-data.png":::
 
