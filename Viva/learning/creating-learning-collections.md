@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/30/2023
+ms.date: 11/25/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -14,12 +14,12 @@ ms.collection:
   - m365initiative-viva-learning
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
-description: Learn how to create collections in Viva Learning.
+description: Learn how to create collections in Viva Learning by curating learning objects and activities relevant to your users.
 ---
 
 # Create collections in Viva Learning
 
-A learning collection is a curation of learning objects or a sequence of learning activities that are relevant to the personal or social learning goals for employees of an organization.
+A learning collection is a curation of learning objects or a sequence of learning activities that are relevant to the personal or social learning goals for users of an organization.
 
 In Viva Learning, you can curate your personal Learning collections using learning content from various different learning providers enabled for your organization.
 
@@ -37,7 +37,7 @@ In Viva Learning, you can curate your personal Learning collections using learni
 
    ![Image of the create a new collection popup, where you can enter a title, description, and thumbnail.](../media/learning/learning-collections2.png)
 
-5. Select **Add content** to start adding content.
+5. Select **Add content** and start adding content.
 
    ![Image of the add content option to add specific content to your learning collection.](../media/learning/learning-collections3.png)
 
@@ -68,7 +68,7 @@ View and manage your collections under the **Collections** section in the **My L
 1. Navigate to the **My Learning** tab and select the **Collections** section.
 2. Select the Learning collection card.
 3. Navigate to the **Details** page
-4. Select the course thumbnail to play the course.
+4. Select the course thumbnail and play the course.
 
 ![Image of a successfully integrated learning collection with the option to play the course](../media/learning/learning-collections7.png)
 

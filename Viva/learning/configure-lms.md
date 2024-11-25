@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/30/2023
+ms.date: 11/25/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -19,7 +19,7 @@ description: Learn how to configure learning management systems as a learning co
 
 # Add learning management systems for Microsoft Viva Learning
 
-A growing set of learning management systems are available through Viva Learning. This set may change at any time as more providers join or change their status with the program.
+Viva Learning works with a growing set of learning management systems. This set can change at any time as more providers join or change their status with the program.
 
 Learning management systems aren't enabled by default. To enable these sources, add them to the Viva Learning Admin tab and follow the specific instructions shown in the following table.
 
@@ -43,9 +43,9 @@ Learning management systems aren't enabled by default. To enable these sources, 
 
 ## Dataflow architecture
 
-The dataflow diagram illustrates how Viva Learning uses the LMS connector to ingest the learning content catalog and learner records (assignments and completion status). The learning management system (LMS) is the ultimate source of content and learner records for their customers. Viva Learning extracts the content and learner records from the LMS by the LMS Connector as depicted in the diagram below.
+The dataflow diagram illustrates how Viva Learning uses the LMS connector to ingest the learning content catalog and learner records (assignments and completion status). The learning management system (LMS) is the ultimate source of content and learner records for their customers. Viva Learning extracts the content and learner records from the LMS by the LMS Connector as depicted in the following diagram.
 
-:::image type="content" alt-text="Flow chart depicting the content ingestion process, which is explained in the paragraph below." source="../media/learning/lms-dataflow.png" lightbox="../media/learning/lms-dataflow.png":::
+:::image type="content" alt-text="Flow chart depicting the content ingestion process, which is explained in the following paragraph." source="../media/learning/lms-dataflow.png" lightbox="../media/learning/lms-dataflow.png":::
 
 1. **LMS** <br> Viva Learning requires two types of data from every LMS.
    - **Content catalog**: Fields that are extracted as part of the Content Catalog package or API from the LMS. [View the table](#content-catalog)
@@ -61,7 +61,7 @@ These are the data extracted from the LMS as part of the Content Catalog package
 
 |Metadata field name |Field details |Priority |
 |:-------------------|:-------------|:--------|
-|Content provider (LMS) name | LMS's name. This can be provided separately and appended. |Required |
+|Content provider (LMS) name | LMS's name. Can be provided separately and appended. |Required |
 |Content provider (LMS) logo URL | URL to the LMS's logo for display purposes. |Required |
 |Title of learning content |Title of learning content |Required |
 |Content module's thumbnail URL |URL to the learning content thumbnail image for display purposes |Required |
@@ -71,15 +71,15 @@ These are the data extracted from the LMS as part of the Content Catalog package
 |Content module duration |Time duration of learning content |Required |
 |Last modified date of content module/content creation date |Date the learning content was last modified |Required |
 |Content format |Content format, such as article or video |Required |
-|Assigned user role |Role(s) or group(s) that have permissions to the content  |Required for role-based access |
+|Assigned user role |Roles or groups that have permissions to the content  |Required for role-based access |
 |Content source name |Name of the course content provider |Recommended |
 |Content source logo URL |Logo of the course content provider |Recommended |
 |Content ID |Unique identifier for learning content |Recommended |
 |Content module author/creator/contributor |Author/creator/contributor of learning content |Recommended |
-|Content module length/size |Size of content, not based on time. For example, this could be the number of pages. |Recommended |
+|Content module length/size |Size of content, not based on time. For example, it could be the number of pages. |Recommended |
 |Tags and keywords |Keywords, topics, and other tags associated with the learning content |Recommended |
 |Difficulty level |Difficulty level of the course (such as beginner, intermediate, or advanced) |Recommended |
-|Content module thumbnail alt text |Alternative text to support accessible design for images. Text describes images and can be invoked by screen readers for users with assistive technology. |Recommended |
+|Content module thumbnail alt text |Alternative text to support accessible design for images. Text describes images read by screen readers for users with assistive technology. |Recommended |
 |Popularity score |Rating or popularity score for learning content |Recommended |
 |Skills associated |Skills tags associated with the learning content |Recommended |
 
@@ -105,12 +105,12 @@ These are the data extracted from the LMS for assignment records.
 
 ### Completion status
 
-These are the data extracted from the LMS for completion status.
+The following table outlines the data extracted from the LMS for completion status.
 
 |Metadata field name |Field details |Priority |
 |:-------------------|:-------------|:--------|
 |Tenant ID | Tenant ID |Required |
-|Configuration ID |LMS configuration ID. This is the equivalent to the learning source ID of the LAS |Required |
+|Configuration ID |LMS configuration ID. The equivalent to the learning source ID of the LAS |Required |
 |ID |Object unique key (configid+externalAssignmentId) |Required |
 |User ID |Unique identifier for the user or employee |Required |
 |Learning object ID |Unique identifier for the assigned learning object |Required |

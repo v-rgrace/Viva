@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/30/2023
+ms.date: 11/25/2024
 audience: admin
 ms.topic: how-to
 ms.service: viva-learning
@@ -14,7 +14,7 @@ ms.collection:
     - m365initiative-viva-learning
     - essentials-get-started
 ms.localizationpriority: medium
-description: A guide to creating and managing academies within Viva Learning. 
+description: A guide for admins who want to create and manage academies in Viva Learning for a specific group of users.
 ---
 
 # Manage academies in Viva Learning
@@ -76,7 +76,7 @@ Configure the academy by selecting the featured set and learning paths.
 6. Select **Save**. The draft featured set are displayed in the dashboard. 
    >[!NOTE]
    >- You can only add individual learning objects to a featured set, not entire learning paths. 
-   >- You can add a maximum of six learning objectsto one featured set. 
+   >- You can add a maximum of six learning objects to one featured set. 
 
    ![Screenshot of the new featured set screen with fields to add title, find courses, and a list of your featured queue.](/viva/media/learning/academy-3.png)
 
@@ -105,7 +105,7 @@ Configure the academy by selecting the featured set and learning paths.
 
 ## Enable academy
 
-1. Toggle the **Enable Academy** switch to enable the Academy to the learner group.
+1. **Enable Academy** to enable the Academy to the learner group.
 
    ![Screenshot of an academy after it has been enabled](/viva/media/learning/academy-6.png)
 
