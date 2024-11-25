@@ -284,27 +284,7 @@ When any data row or column has an invalid value for any attribute, the entire i
 
 Refer to [Prepare organizational data](./prepare-org-data.md) for specific formatting rules that might help resolve errors you encounter.
 
-Here are a few import-specific errors you might encounter if your files aren't formatted correctly:
-
-* There is a problem with the files in the .zip file. Make sure the .zip file contains only one .json file and one .csv file and upload it again.
-
-* The .csv file in your .zip file is empty. Add a non-empty .csv file and upload the .zip file again.
-
-* The .json file in your .zip file is empty. Add a non-empty .json file and upload the .zip file again.
-
-* The source column isn't mapped to a supported data type. Map to a supported data type and upload the file again.
-
-* The .json file is invalid. Please use a valid .json file and upload the .zip file again.
-
-* The header names in the .csv file don’t match the fields you mapped in the .json file. Make sure the .json file contains the same fields as the .csv file, and upload the .zip file again.
-
-* The number of headers in the .csv file doesn't match the fields you mapped in the .json file. Make sure the .json file contains the same fields as the .csv file, and upload the .zip file again.
-
-* Your .csv file is mapped to a null or empty field in your .json file. Map it to a non-empty field and upload the .zip file again.
-
-* The .json file specifies a "DatasetType" that's not expected. Specify the correct value and upload the .zip file again.
-
-[Learn about other file rules and validation errors](./rules-validation-errors.md).
+[Learn more about validation errors and warnings](..//admin/rules-validation-errors.md#validation-errors-and-warnings).
 
 #### Suspended state
 If you see a “Suspended” status in the **Import history** table or when you select **Manage data sources**, this means your authorization credentials have expired or access has been revoked. You’ll need to update your credentials and reconnect the data source.
