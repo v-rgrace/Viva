@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/18/2024
+ms.date: 11/25/2024
 ---
 
 # Send Viva Glint survey results to Viva Insights 
@@ -84,6 +84,9 @@ In the future, this resync occurs automatically.
    :::image type="content" source="../../media/glint/setup/glintsights-confirm-v2.png" alt-text="Screenshot of confirmation message that your data is sent to Viva Insights.":::
 
 3. Select **Close.**
+
+> [!IMPORTANT]
+> With this integration, when export of raw survey responses is enabled for a survey program,  CSV download of the Glint and organizational insights report is also supported in Viva Insights. [Understand Viva Glint raw survey responses](https://learn.microsoft.com/viva/insights/advanced/analyst/templates/glint).  
 
 ## Send more survey programs to Viva Insights
 
