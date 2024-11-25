@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/01/2023
+ms.date: 11/25/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -160,7 +160,7 @@ Improve overall discovery and search relevance of the content by adding columns 
 
 If a description column is already present, you can delete it and add a new one by following the steps to add a metadata field.
 
-**To add a metadata field, follow these steps**:
+**Add a metadata field**:
 
 > [!IMPORTANT]
 > You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional, but if configured incorrectly, you will need to delete the column and create again. 
@@ -171,23 +171,23 @@ If a description column is already present, you can delete it and add a new one 
 
    [![Screenshot of the Documents page with Add column selected.](../media/learning/sp-new-column.png)](../media/learning/sp-new-column-big.png#lightbox)
 
-**To add a description column to the document library page, follow these steps**:
+**Add a description column to the document library page**:
 
-1. Follow the initial steps to create a column.
+1. Follow the initial steps for creating a column.
 1. Choose **Multiple lines of text**.
 1. Name the column `ContentDescription`.
 1. Add custom descriptions for each item. If no description is supplied, Viva Learning provides a default message that highlights the content as being from your own SharePoint library.
 
 **Add the content title**:
 
-1. Follow the initial steps to create a column.
+1. Follow the initial steps for creating a column.
 1. Choose **Multiple lines of text**.
 1. Name the column `ContentTitle`.
 1. Add custom title for each item. If no title is supplied, Viva Learning picks the file name as the title.
 
 **Add the content format**: 
 
-1. Follow the initial steps to create a column.
+1. Follow the initial steps for creating a column.
 1. Choose **Multiple lines of text**.
 1. Name the column `ContentFormat`.
 1. Add format for each item. If no format is supplied, Viva Learning picks the file type from the file extension like xlsx, docx, and so on.
@@ -198,7 +198,7 @@ If a description column is already present, you can delete it and add a new one 
 > - Only public URLs work for this process.
 > - For proper rendering of the image in Viva Learning the minimum aspect ratio should be 16:9.
 
-1. Follow the initial steps to create a column.
+1. Follow the initial steps for creating column.
 1. Choose **Hyperlink**.
 1. Name the column `ThumbnailWebUrl`.
 1. Add the URLs for each item.
@@ -206,26 +206,26 @@ If a description column is already present, you can delete it and add a new one 
 
 **Language metadata**
 
-1. Follow the initial steps to create a column. 
+1. Follow the initial steps for creating a column. 
 
 2. Choose Single line of text. 
 
 3. Name the column ContentLanguage 
 
-3. Add 2 Letter ISO standard Language-Locale code for each item. For example, for French (France) add fr_fr. See the list of [Supported languages](/viva/learning/viva-learning-supported-languages).
+3. Add two Letter ISO standard Language-Locale code for each item. For example, for French (France) add fr_fr. See the list of [Supported languages](/viva/learning/viva-learning-supported-languages).
 
 4. In case a language isn't provided, Viva Learning sets the language of the course as English (US) or to the default language set for Viva Learning by the admin. Learn more about [language preferences](language-preferences.md).
 
 **Add the duration of the content**:
 
-1. Follow the initial steps to create a column.
+1. Follow the initial steps for creating a column.
 1. Choose **Number**.
 1. Name the column `ContentDuration`.
 1. Provide the duration of the content in seconds.
 
 **Add tags**:
 
-1. Follow the initial steps to create a column.
+1. Follow the initial steps for creating a column.
 1. Choose **Managed metadata**.
 1. Name the column `SkillTags`.
 1. Select **More options**.
@@ -239,7 +239,7 @@ If a description column is already present, you can delete it and add a new one 
 
 **Add the author**:
 
-1. Follow the initial steps to create a column.
+1. Follow the initial steps for creating a column.
 1. Choose **Multiple lines of text**.
 1. Name the column `ContentAuthor`.
 1. Add the author or authors of the content.
@@ -269,7 +269,7 @@ Knowledge admins can access their organization's Learning App Content Repository
 
 The site URL provided by the knowledge admin where the Learning App Content Repository resides needs to belong to the central location where your Microsoft 365 subscription was originally provisioned. 
 
-Linked folders linked in the repository must also belong to the central location. This restriction conforms to data residency requirements. 
+Linked folders in the repository must also belong to the central location. This restriction conforms to data residency requirements. 
 
 If you encounter issues with content, refer to the [Manage Providers Configuration](/viva/learning/use-tabs#manage-providers-configuration) export log for detailed summaries of successful and failed content ingestions.
 

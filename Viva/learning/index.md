@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: shirana
-ms.date: 11/30/2023
+ms.date: 11/25/2024
 audience: enabler, admin
 ms.topic: landing-page
 ms.custom: intro-hub-or-landing
@@ -19,7 +19,7 @@ description: Learn how to find resources for Microsoft Viva Learning.
 
 # Introduction to Microsoft Viva Learning
 
-Microsoft Viva Learning empowers employees to make learning a natural part of the day by bringing learning into the flow of work within the tools and platforms they already use. Discover, share, and track learning across a variety of sources from a center of learning in Microsoft Teams.
+Microsoft Viva Learning empowers employees to make learning a natural part of the day by bringing learning into the flow of work within the tools and platforms they already use. Discover, share, and track learning across various sources from a center of learning in Microsoft Teams.
 
 ## Get started
 
