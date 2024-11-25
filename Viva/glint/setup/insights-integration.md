@@ -19,7 +19,7 @@ ms.date: 11/25/2024
 
 # Send Viva Glint survey results to Viva Insights 
 
-HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel–Glint-along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
+HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel–Glint-along with how people work - Insights. This integration gives your organization a complete picture of the employee's experience.
 
 *Applies to: Viva Glint administrator, Viva Insights administrator* 
 
@@ -75,7 +75,7 @@ In the future, this resync occurs automatically.
 
 *This guidance is for the initial sending of data to Insights only.*
 
-1. On the **Send Data to Viva Insights** page, **Select Programs** by enabling the checkbox next to the recurring or ad hoc program listed. You can choose more than one program.
+1. On the **Send Data to Viva Insights** page, **Select Programs** by enabling the checkbox next to the Recurring or Ad Hoc program listed. You can choose more than one program.
 
    :::image type="content" source="../../media/glint/setup/send-to-insights.png" alt-text="Screenshot of the Send data to Viva Insights button." lightbox="../../media/glint/setup/send-to-insights.png":::
 
@@ -86,7 +86,7 @@ In the future, this resync occurs automatically.
 3. Select **Close.**
 
 > [!IMPORTANT]
-> With this integration, when export of raw survey responses is enabled for a survey program,  CSV download of the Glint and organizational insights report is also supported in Viva Insights. [Understand Viva Glint raw survey responses](https://learn.microsoft.com/viva/insights/advanced/analyst/templates/glint).  
+> With this integration, when export of raw survey responses is enabled for a survey program,  CSV download of the Glint and organizational insights report is also supported in Viva Insights. [Understand Viva Glint raw survey responses](/viva/insights/advanced/analyst/templates/glint).  
 
 ## Send more survey programs to Viva Insights
 
