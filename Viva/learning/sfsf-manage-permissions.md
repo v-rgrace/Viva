@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 10/24/2023
+ms.date: 11/25/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -18,7 +18,7 @@ description: Configure SAP SuccessFactors permissions for Viva Learning integrat
 
 # Manage permissions for SAP SuccessFactors
 
-You can synchronize permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then that user isn't able to view, search, or consume the same course within Viva Learning. This is a one-way sync from SuccessFactors into Viva Learning.
+You can synchronize permissions applied using assignment profile on courses in SuccessFactors within Viva Learning application.  If a user is restricted to a certain course in SuccessFactors, then that user isn't able to view, search, or consume the same course within Viva Learning. This process is a one-way sync from SuccessFactors into Viva Learning.
 
 ## Prerequisites for catalog permissions sync
 
@@ -34,21 +34,21 @@ Use the toggle button to enable or disable the catalog permissions sync from the
 
 Users from your organization can view, search, and consume only the courses assigned to them through assignment profiles in SAP SuccessFactors.  
 
-By enabling catalog permissions, you allow Viva Learning to fetch user information, user assignment profiles mappings and catalog assignment profile mappings. The user information from the learning management system is only used for user mapping and isn't stored.
+By enabling catalog permissions, you allow Viva Learning to fetch user information, user assignment profiles mappings, and catalog assignment profile mappings. The user information from the learning management system is only used for user mapping and isn't stored.
 
 :::image type="content" alt-text="Screenshot shows the catalog permissions sync options displayed on the admin tab" source="../media/learning/sfsf-catalog-permissions-config.png":::
 
 
 Note the following considerations:
 
-Once the catalog permissions toggle button is enabled/re-enabled:
+Once the catalog permissions toggle button is enabled or re-enabled:
 
-- the ingestion of both catalogs and the permissions are triggered. The initial package from the specified SFTP folder path as mentioned earlier will be used for ingestion. It may take up to 24 hours to complete the ingestion.  
+- The ingestion of both catalogs and the permissions are triggered. The initial package from the specified SFTP folder path as mentioned earlier is for ingestion. It can take up to 24 hours to complete the ingestion.  
 
-- The Viva Learning application generates Microsoft 365 groups on behalf of the tenants for internal consumption. These groups are named as VL-GUID. These groups are system generated and shouldn’t be modified by users. 
+- The Viva Learning application generates Microsoft 365 groups on behalf of the tenants for internal consumption. These groups are named as VL-GUID. These groups are system generated and users shouldn't modify them.
 
-- Once the catalog permissions toggle button is disabled,  
+- The catalog permissions toggle button is disabled,  
 
     - The permissions data from SF  is deleted in Viva Learning. All the users are able to search and view all ingested courses from SAP SuccessFactors in Viva Learning.  
 
-    - Re-enabling the catalog permissions would require admins to ensure that all prerequisites are fulfilled as mentioned in the section above.
+    - Re-enabling the catalog permissions would require admins to ensure that all prerequisites are fulfilled as mentioned in the earlier section.
