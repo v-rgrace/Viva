@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/21/2024
+ms.date: 11/25/2024
 ---
 
 # Update employee IDs in Viva Glint
@@ -74,22 +74,22 @@ To update users' IDs in bulk:
    :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the Employee ID Updates option.":::
    
 5. Drag and drop or browse to choose your ID update file and select **Upload File**.
-6. A progress bar at the top of the page show the status of the ID update file and you receive an email when the file is read to confirm.
+6. A progress bar at the top of the page show the status of the ID update file and you receive an email when the file is ready to confirm.
 7. When the upload is complete, select **Review Upload** on the **People** page.
 8. In the **Confirm your import** dialog that appears, verify that:
    1. The number of IDs updated is correct
    1. There are 0 unchanged IDs
-   2. There are 0 errors found. Select **Download Errors** to review a file of warnings/errors if needed. Use this article to troubleshoot: [Resolve upload errors related to employee ID updates](#troubleshoot-warnings-and-errors).
+   2. There are 0 errors found. Select **Download Errors** to review a file of warnings/errors if needed. To troubleshoot, see: [Resolve upload errors related to employee ID updates](#troubleshoot-warnings-and-errors).
   
       :::image type="content" source="../../media/glint/setup/id-update-confim.png" alt-text="Screenshot of Confirm your import dialog with a summary of updates, errors, and a summary download option.":::
    
-3. Optionally, select **Download Summary** to download a file summarizing ID changes to your device.
+3. Optionally, select **Download Summary** to download a file summarizing ID changes.
 4. To finish the update, select **Confirm Import**.
 
    > [!IMPORTANT]
    > To prevent the ID update from cancelling, confirm the import within 60 minutes of receving the **Confirm your Glint file** email.
 
-6. A progress bar at the top of the page show the status of the update and you receive an email when the file is successfully imported.
+6. A progress bar at the top of the page shows the status of the update and you receive an email when the file is successfully imported.
 
 ## Troubleshoot warnings and errors
 
@@ -173,7 +173,7 @@ Error message:
 This error occurs when there are users in the uploaded file with blank employee ID values.
 
 #### Resolution
-Review the uploaded file and provide employee ID values where users have no ID listed.
+Review the uploaded file and provide employee ID values where users have no ID listed or delete the users if their ID shouldn't be updated.
 
 ### NO_EMPLOYEE_RECORD
 
@@ -204,7 +204,7 @@ Error message:
 This warning occurs when the first and/or last name for a user doesn’t match what’s on file in Viva Glint. This warning doesn’t fail the ID update. 
 
 #### Resolution
-If the names changes are expected, you can ignore these warnings. If the names changes are unexpected, [upload an employee file](upload-employee-attributes.md#process-for-import-of-employee-attributes) to correct users’ names.
+If the name changes are expected, you can ignore these warnings. If the name changes are unexpected, [upload an employee file](upload-employee-attributes.md#process-for-import-of-employee-attributes) to correct users’ names.
 
 ### DUPLICATE_IN_FILE
 
