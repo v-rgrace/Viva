@@ -63,7 +63,7 @@ To update users' IDs in bulk:
 
       > [!IMPORTANT]
       > - To avoid upload errors, don't include **Status** or any other columns in the ID update file.
-      > - The labels for required attributes in your Viva Glint tenant may differ from the columns listed in this article. For example, your ogranization may use Worker ID instead of Employee ID.
+      > - The labels for required attributes in your Viva Glint tenant may differ from the columns listed in this article. For example, your organization may use Worker ID instead of Employee ID.
       
 4. Delete users from the file that don't need an ID update and update values in the Employee ID column for remaining users.
 6. Save the updated file in one of the following formats:
@@ -74,7 +74,7 @@ To update users' IDs in bulk:
    :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the Employee ID Updates option.":::
    
 5. Drag and drop or browse to choose your ID update file and select **Upload File**.
-6. A progress bar at the top of the page show the status of the ID update file and you receive an email when the file is ready to confirm.
+6. A progress bar at the top of the page shows the status of the ID update file and you receive an email when the file is ready to confirm.
 7. When the upload is complete, select **Review Upload** on the **People** page.
 8. In the **Confirm your import** dialog that appears, verify that:
    1. The number of IDs updated is correct
@@ -87,7 +87,7 @@ To update users' IDs in bulk:
 4. To finish the update, select **Confirm Import**.
 
    > [!IMPORTANT]
-   > To prevent the ID update from cancelling, confirm the import within 60 minutes of receving the **Confirm your Glint file** email.
+   > To prevent the ID update from canceling, confirm the import within 60 minutes of receiving the **Confirm your Glint file** email.
 
 6. A progress bar at the top of the page shows the status of the update and you receive an email when the file is successfully imported.
 
