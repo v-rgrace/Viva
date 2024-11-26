@@ -37,7 +37,7 @@ Here's what to expect. You can refer to this article and to the [frequently aske
 
 ### Licensing
 
-To prevent auto-renewal beyond the product’s retirement date, you'll need to disable recurring billing in the Microsoft Admin Center. Learn how to disable recurring billing.
+To prevent auto-renewal beyond the product’s retirement date, you'll need to disable recurring billing in the Microsoft Admin Center. [Learn how to disable recurring billing](https://support.microsoft.com/office/renew-or-cancel-your-microsoft-365-for-business-subscription-91f5e912-24ab-433c-92ea-9f77345ce282).
 
 If your subscription extends beyond the product’s retirement date, contact your Microsoft representative for assistance.  
 
