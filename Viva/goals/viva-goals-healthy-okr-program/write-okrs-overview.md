@@ -38,7 +38,7 @@ Viva Goals uses the OKR (objectives and key results) framework, a powerful tool 
 
 - **Key Results** are how the team will measure results. They should be 3-5 measurable outcomes which contribute to the achievement of an objective.
 
-- **Initiatives** are actions that help the team achieve outcomes. They are focused efforts that will help you define the path to impact for each OKR.
+- **Initiatives** are actions that help the team achieve outcomes. They are focused efforts that will help you define the path to achieving each OKR.
 
 ### Objectives
 
@@ -54,7 +54,7 @@ Key results need to be clear, measurable, and not open to interpretation. Once a
 
 ### Initiatives
 
-Lastly, Initiatives are actions that help the team achieve outcomes. They are focused efforts that will help you define the path to impact for each OKR. For example, if your key result was to increase sales by 10%, your initiative could be to initiate a new marketing campaign.
+Lastly, Initiatives are actions that help the team achieve outcomes. They are focused efforts that will help you define the path to achievement for each OKR. For example, if your key result was to increase sales by 10%, your initiative could be to initiate a new marketing campaign.
 
 ## Formula for writing great OKRs
 
@@ -138,80 +138,52 @@ If we look at how our examples flow into our formula, it would look like this:
 
 ### Review and edit
 
-Once you’ve sketched out a draft of your OKRs, we recommend stepping back and asking yourself a few questions to help refine them. It’s often helpful to literally step away...take a break from writing and come back the following day with fresh eyes to review.
+Once you’ve sketched out a draft of your OKRs, look at each OKR through the lens of the 5 key OKR benefits:
 
-Then, look at each OKR through the lens of the 5 key OKR benefits:
+#### Alignment
 
-**Alignment**
+Have you aligned your goals from the top down, bottom up, and across teams to ensure everyone is driving towards the same purpose? Do we have the right owners identified who can take accountability for driving progress?
 
-Have you aligned your goals from the top down, bottom up, and across teams to ensure everyone is driving towards the same purpose, across the organization? Do we have the right owners identified who will feel accountability for driving progress?
+#### Focus
 
-**Focus**
+Have you limited both objectives and the key results below them to 3-5 at most? It can be difficult at first to narrow down your goals when everything seems to be a priority. However, focusing on the most important goals can help your teams stay aligned.
 
-Have you limited both Objectives and the Key Results below them to 3-5 at most? It can be difficult at first to narrow down your goals when everything seems to be a priority, but remember, “If everything is important, then nothing is.”
+#### Transparency
 
-**Transparency**
+Are your OKRs public for all team members to see in order to create accountability and surface dependencies and roadblocks? Can your team directly affect key results, or are you reliant on stakeholders? If the latter applies, can you make this a shared OKR?
 
-Are your OKRs public for all team members to see in order to create accountability and surface dependencies and roadblocks? Can our team directly impact Key Results or are we reliant on stakeholders? If the latter, can we make this a shared OKR?
+#### Adaptability
 
-**Adaptability**
+Have you set up integrations to a single source of truth where possible to enable faster and better decision making based on real-time data and insights? Will you be able to see progress on each key result in the current time frame?
 
-Have you set up integrations to a single source of truth where possible to enable faster and better decision making based on dynamic real-time data and insights? Will we be able to see progress on each Key Result in the current time frame?
+#### Growth
 
-**Growth**
-
-Do your OKRs go beyond “business as usual” to strive for ambitious outcomes and reaching for what’s possible?
+Do your OKRs strive for ambitious outcomes?
 
 ### Finalizing your OKRs
 
-A great way to finalize your OKRs is to take the necessary and sufficient test.
+To finalize your OKRs, check for necessity and sufficiency.
 
-In looking at an OKR, ask yourself, "Are all these Key Results necessary to achieve my Objective?"
+When reviewing an OKR, ask yourself, "Are all these key results necessary to achieve my objective?"
 
-- If the answer is yes, then it passes the necessary test.
+- If the answer is yes, then it passes the necessity test.
 - If the answer is no, then remove what isn't needed.
 
-Next, ask yourself, "Will accomplishing my Key Results be sufficient enough to achieve my Objective?"
+Next, ask yourself, "Will accomplishing my key results be sufficient to achieve my objective?"
 
-- If yes, then it passes the sufficient test and you're good to go.
-- If no, then modify existing Key Results to make them stronger, and add any Key Results to achieve your Objective.
+- If yes, then it passes the sufficiency test.
+- If no, modify existing key results to make them stronger, and add any more key results necessary to achieving your Objective.
 
 ## Enter OKRs into Viva Goals
 
-Now that you’ve seen the “why” around writing great OKRs, see the step-by-step process “how” to enter your OKRs into the Microsoft Viva Goals software platform: [Create Objectives, Key Results, and Initiatives with Viva Goals](https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-projects-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c)
+Now that you’ve learned how to write great OKRs, learn how to enter them into Microsoft Viva Goals. [Create Objectives, Key Results, and Initiatives with Viva Goals](https://support.microsoft.com/topic/create-objectives-key-results-and-projects-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c)
 
-## Summary
-
-Objectives and Key Results, along with Initiatives, act like a compass to direct you toward your goals. Learning to write great OKRs is an iterative process, so we strongly urge focusing on progress over perfection. That said, there are simple formulas you can follow to make it easier.
-
-- **Objectives** should be clear, concise, and inspirational, and limited to just 3-5.  
-- **Key Results** are how the team will measure results, and should also be limited to 3-5. They are the measurable outcomes which contribute to the achievement of an objective.
-- **Initiatives** are actions that help the team achieve outcomes; the focused efforts that will help you define the path to impact for each OKR.
-
-There are many pitfalls to avoid when writing OKRs, such as writing goals that are ambiguous, business-as-usual, not measurable, or too much like a to-do list.
-
-But the top issue organizations usually have is around focus. When companies get stuck, it’s usually because they’ve set way too many goals, so the answer is almost always “less is more” and scaling back to do a few things great.
-
-## Writing recommendations
-
-
-Looking to improve your healthy OKR program? Here are recommendations you can perform within Viva Goals: 
-
-1. **Set company-wide and top-level team OKRs** 
-    1. Make sure OKRs are set by senior leadership to promote alignment and transparency across your organization.  
-
-1. **All Objectives should have at least one KR** 
-    1. For each Objective within Viva Goals, there should be at least one Key Result, and ideally 3-5. In other words, there shouldn't be any "orphaned" Objectives — if a goal is important enough, it should have 3-5 measurable KRs associated with it; if you can’t come up with at least 3, the Objective should be removed or combined with another goal.
-    
-1. **Write quality OKRs**
-    1. Review your OKRs to make sure they're aspirational and measurable. If you’re just starting out, follow the formulas included in this resource, or draw from our sample OKR library during the creation process. 
-
-**Additional Resources**
+## Additional Resources
 
 [Viva Goals Community](https://techcommunity.microsoft.com/t5/viva-goals/ct-p/Viva-Goals)
 
 Looking to get advice on writing great OKRs, engage in a discussion with your peers, read the latest blog posts, or join a private user group? Check out the Viva Goals Community.  
 
-[Viva Goals Help Center](https://support.microsoft.com/en-us/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad)
+[Viva Goals end user help](https://support.microsoft.com/office/introducing-microsoft-viva-goals-bd651be7-472a-4f40-8fdd-6fcead79f3ad)
 
-Learn how to enter your OKRs into the Microsoft Viva Goals software platform via short videos and step-by-step instructions: [Create Objectives, Key Results, and Initiatives with Viva Goals](https://support.microsoft.com/en-us/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c)
+Learn how to enter your OKRs into Microsoft Viva Goals. [Create Objectives, Key Results, and Initiatives with Viva Goals](https://support.microsoft.com/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c)
