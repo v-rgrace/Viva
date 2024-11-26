@@ -1,5 +1,5 @@
 ---
-ms.date: 06/17/2024
+ms.date: 11/26/2024
 title: Write effective OKRs that inspire action and deliver results
 ms.reviewer: 
 ms.author: daisyfeller
@@ -22,20 +22,17 @@ description: "Learn how write objectives, key results, and initiatives for a hea
 
 # Write effective OKRs that inspire action and deliver results
 
-Both leaders and practitioners agree that having clear, relevant, and communicated goals allows employees to focus on the work that matters, and that outcome-driven goals help teams align to strategic priorities and deliver measurable results.
+Having clear, relevant, and communicated goals allows employees to focus on the work that matters. In addition, outcome-driven goals help teams align to strategic priorities and deliver measurable results.
 
-Building on that, if you and your team are bought in with the general process of setting goals, it may make sense to get more specific by following a goal framework, which serves as a powerful tool to structure and guide the process of setting and achieving goals.  
+Viva Goals uses the OKR (objectives and key results) framework, a powerful tool to help you structure the process of setting and achieving goals.
 
-The framework we recommend is OKRs (Objectives and Key Results), the secret weapon of high-achieving companies, and the #1 most commonly used goal-setting framework at enterprise organizations.
-
-> [!NOTE]
-> **Mindset:** Before we get started, a quick reminder that writing OKRs is an iterative process—the more you write, the better you will become. That’s why we strongly urge focusing on progress over perfection.
-> 
-> If you already have some basic strategic goals set for your company, it’s far more important to make initial progress, enter those into the system, and build on them, rather than get hung up trying to craft the perfect metric. So for now, keep it simple and have some fun.
+> [!TIP]
+> Writing OKRs is an iterative process. You can work to hone your team's goals over time.
+> If you already have some basic strategic goals set for your company, you can enter those into the system and build on them rather than crafting all new goals.
 
 ## OKR definitions
 
-Let’s start with a quick recap. **OKR** stands for **Objectives and Key Results.** Along with Initiatives, they act like a compass to direct you toward your goals.
+**OKR** stands for **Objectives and Key Results.** Along with initiatives, OKRs act like a compass to direct you toward your goals.
 
 - **Objectives** are what your team wants to accomplish. They are 3-5 clear, inspiring goals shared across teams and organizations.
 
@@ -43,32 +40,21 @@ Let’s start with a quick recap. **OKR** stands for **Objectives and Key Result
 
 - **Initiatives** are actions that help the team achieve outcomes. They are focused efforts that will help you define the path to impact for each OKR.
 
-Let’s dig into Objectives a bit deeper … What does the team want to accomplish?
+### Objectives
 
-Whether you’re the CEO of your organization, or the department lead in your group, what meaningful goals do you want to accomplish?
+Consider the priorities of your organization, your team, or your individual work. What meaningful goals do you want to accomplish?
 
-These goals should be clear, concise, and inspirational. We like to say that it should be like a slogan that will fit on a t-shirt. Remember to keep things simple and focused … just 3-5 goals max.
+These goals should be clear, concise, and inspirational. Effective goals are often one sentence or less. Remember to keep things simple and focused, with 3-5 objectives.
 
-Now let’s dig into Key Results. If Objectives are the aspirational words of a leader, Key Results are the specific numbers and metrics of a scientist.
+### Key results
 
-If an employee later asked if the team accomplished the goals they set out to achieve, the result should be clear, measurable, and not open to interpretation. Once again, keep things focused by limiting to 3-5 Key Results for each Objective.
+While objectives represent your conceptual goals, key results are the specific numbers and metrics you need to reach to achieve those goals.
 
-Lastly, Initiatives are actions that help the team achieve outcomes. They are focused efforts that will help you define the path to impact for each OKR.
+Key results need to be clear, measurable, and not open to interpretation. Once again, keep things focused by limiting to 3-5 Key Results for each Objective. For example, "Increase sales by 10% this quarter" is a more effective key result than "Increase sales".
 
-> [!IMPORTANT]
-> When thinking about Key Results vs. Initiatives:
->
-> - Key Results are outcomes—the level of performance or achievement you're trying to reach—the outcome you want to happen.  
->
-> - Initiatives are outputs—the list of activities you're performing to get there—the output to make those things happen.
+### Initiatives
 
-## Benefits of OKRs
-
-Because OKRs are simply a framework for goal-setting in general, the same benefits apply: [Benefits of effective goal setting](great-goal-writing.md)
-
-## Common pitfalls and best practices
-
-Because OKRs are simply a framework for goal-setting in general, the same pitfalls apply: [Goal setting pitfalls and best practices](goal-setting-pitfalls.md)
+Lastly, Initiatives are actions that help the team achieve outcomes. They are focused efforts that will help you define the path to impact for each OKR. For example, if your key result was to increase sales by 10%, your initiative could be to initiate a new marketing campaign.
 
 ## Formula for writing great OKRs
 
@@ -209,6 +195,20 @@ Objectives and Key Results, along with Initiatives, act like a compass to direct
 There are many pitfalls to avoid when writing OKRs, such as writing goals that are ambiguous, business-as-usual, not measurable, or too much like a to-do list.
 
 But the top issue organizations usually have is around focus. When companies get stuck, it’s usually because they’ve set way too many goals, so the answer is almost always “less is more” and scaling back to do a few things great.
+
+## Writing recommendations
+
+
+Looking to improve your healthy OKR program? Here are recommendations you can perform within Viva Goals: 
+
+1. **Set company-wide and top-level team OKRs** 
+    1. Make sure OKRs are set by senior leadership to promote alignment and transparency across your organization.  
+
+1. **All Objectives should have at least one KR** 
+    1. For each Objective within Viva Goals, there should be at least one Key Result, and ideally 3-5. In other words, there shouldn't be any "orphaned" Objectives — if a goal is important enough, it should have 3-5 measurable KRs associated with it; if you can’t come up with at least 3, the Objective should be removed or combined with another goal.
+    
+1. **Write quality OKRs**
+    1. Review your OKRs to make sure they're aspirational and measurable. If you’re just starting out, follow the formulas included in this resource, or draw from our sample OKR library during the creation process. 
 
 **Additional Resources**
 
