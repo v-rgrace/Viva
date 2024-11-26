@@ -34,7 +34,7 @@ Use the custom access export as a Viva Glint Admin to audit users' data access.
   
       :::image type="content" source="../../media/glint/setup/export-access-dialog.png" alt-text="Screenshot of the Export data dialog with program, role, and data selections.":::  
       
-4. A new dialog appears prompting you to **rename and save** the data to your device. Dy default, custom access files export to a compressed folder named: **Untitled.zip**.
+4. A new dialog appears prompting you to **rename and save** the data to your device. By default, custom access files export to a compressed folder named: **Untitled.zip**.
 
 ## Custom access file
 
