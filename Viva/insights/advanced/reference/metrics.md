@@ -216,7 +216,7 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 | Copilot actions taken in Excel  | The number of Copilot actions completed by active Copilot users in Excel.  | 10/15/2023 |
 | Copilot actions taken in Outlook  | The number of Copilot actions completed by active Copilot users in Outlook. | 10/15/2023 |
 | Copilot actions taken in PowerPoint  | The number of Copilot actions completed by active Copilot users in PowerPoint. | 10/15/2023 |
-| Copilot actions taken in Teams  | The number of Coplot actions completed by active Copilot users in Teams. This number includes the number of times users reviewed Intelligent recaps in Teams. | 10/15/2023 |
+| Copilot actions taken in Teams  | The number of Copilot actions completed by active Copilot users in Teams. This number includes the number of times users reviewed Intelligent recaps in Teams. | 10/15/2023 |
 | Copilot actions taken in Word  |  The number of Copilot actions completed by active Copilot users in Word.| 10/15/2023 |
 |  Rewrite text actions taken using Copilot in Word  | The number of times users modified text in Word documents using Copilot.  | 10/15/2023 |
 | Days of active Copilot usage in Excel | The number of days the user was actively using Copilot in Excel.  | 10/15/2023 |
