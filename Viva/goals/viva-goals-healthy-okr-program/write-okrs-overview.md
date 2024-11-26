@@ -58,17 +58,13 @@ Lastly, Initiatives are actions that help the team achieve outcomes. They are fo
 
 ## Formula for writing great OKRs
 
-While the goals of a SaaS startup might ultimately feel very different than the goals of a global media enterprise, the good news is there are a few simple formulas that anyone can use to write great OKRs, even if you’re just getting started.
+The OKR framework can apply across industries. For example, a software startup could apply the same framework as a global media enterprise.
 
-Remember, our definition of a great goal is:  
-
-**An ambitious, aspirational target to aim for, tied to measurable outcomes, with action connected to the work of your team.**
-
-Here’s an easy way to tie that to the components of OKRs:
+An easy way to visualize the components of OKRs is the sentence:
 
 "I will **OBJECTIVE** as measured by **KEY RESULTS** via **INITIATIVES.**"
 
-:::image type="content" source="../../media/goals/solutions-vg/viva-goals-okr-formula.png" alt-text="Screenshot of the OKR formula." lightbox="../../media/goals/solutions-vg/viva-goals-okr-formula.png":::
+:::image type="content" source="../../media/goals/solutions-vg/viva-goals-okr-formula.png" alt-text="Infographic of the OKR formula." lightbox="../../media/goals/solutions-vg/viva-goals-okr-formula.png":::
 
 From there, as you think about the goals you want to achieve, you can start by asking questions and using a formula.
 
@@ -90,7 +86,7 @@ Step 2: Formula to follow when writing Objectives
 In this formula, the verb is your action, what you're going to do is your aspiration, and the phrase "so that" or "in order to" is your meaning.
 
 > [!NOTE]
-> Example: Deliver a “must-have” product in order to delight customers and grow our user base
+> Example: Deliver an essential product in order to delight customers and grow our user base
 
 ### Formula for writing Key Results
 
@@ -100,7 +96,7 @@ Step 1: Questions to ask before writing Key Results
 
 - How will we know if we’re successful?
 - How can we measure the impact of our work?
-- What metric or outcome would let us measure definitively if we were successful?
+- What metric or outcome would let us definitively measure if we were successful?
 - Do we currently measure that metric?
 - What is our best-case scenario for achievement on that measure?
 
@@ -109,10 +105,10 @@ Step 2: Formula to follow when writing Key Results
 > [!IMPORTANT]
 > Verb + what you’re going to track / count + from x to y
 
-In this formula, the verb is your action, what you are going to track or count is your area of focus, the X to Y is your measure; the difference between the X and Y is the level of ambition you're trying to achieve.
+In this formula, the verb is your action, what you are going to track or count is your area of focus, the X to Y is your measure; the difference between the X and Y is the change you're trying to achieve.
 
 > [!NOTE]
-> Example: Increase our NPS score from 40 to 50
+> Example: Increase our net promoter score from 40 to 50
 
 ### Formula for writing Initiatives
 
@@ -132,13 +128,13 @@ Step 2: Formula to follow when writing Initiatives
 In this formula, the verb is your action and what you are going to do is the output of your initiative.
 
 > [!NOTE]
-> Example: Conduct market research initiative to identify "customer delighters"
+> Example: Conduct market research initiative to identify customer needs
 
 If we look at how our examples flow into our formula, it would look like this:
 
-"We will **deliver a must have produce in order to delight customers and grow out user base** as measured by **Increased NPS score from 80 to 90** via **Conducting market research initiative to identify customer delighters.**"
+"We will **deliver an essential product in order to delight customers and grow out user base** as measured by **Increased net promoter score from 40 to 50** via **Conducting market research initiative to identify customer needs.**"
 
-:::image type="content" source="../../media/goals/solutions-vg/viva-goals-okr-formula-example.png" alt-text="Diagram of a filled out OKR formula." lightbox="../../media/goals/solutions-vg/viva-goals-okr-formula-example.png":::
+:::image type="content" source="../../media/goals/solutions-vg/viva-goals-okr-formula-example.png" alt-text="Diagram of the OKR formula filled out with the aforementioned examples." lightbox="../../media/goals/solutions-vg/viva-goals-okr-formula-example.png":::
 
 ### Review and edit
 
