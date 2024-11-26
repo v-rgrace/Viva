@@ -1,10 +1,10 @@
 ---
-ms.date: 11/20/2024
-title: Benefits of OKRs
+ms.date: 11/26/2024
+title: Viva Goals retirement FAQ
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,50 +16,35 @@ ms.collection:
 - highpri  
 search.appverid:
 - MET150
-description: "Learn about the benefits OKRs offer both in general and for particular types of users"
+description: "Frequently asked questions about the retirement of Microsoft Viva Goals"
 ---
 
-# Benefits of OKRs
+# Viva Goals retirement FAQ
 
-## General benefits of OKRs
+## Why is Viva Goals being deprecated?
 
-Objectives and key results (OKRs) provide strategic advantages regardless of a company's size. Massive global enterprise companies adopt OKRs, as do small companies with only a few employees and even individuals. OKRs provide many vital benefits, including that they:
+Two years ago, we launched Viva Goals with a mission of empowering every team and organization to achieve more through focused goal management using the OKR methodology. However, overall adoption and usage of Viva Goals are low. To better focus on solutions with stronger adoption and market fit, Microsoft has made the decision to retire Viva Goals on December 31, 2025, and discontinue any further development of the product.
 
- - **Shift focus from output to impact:** When you make OKRs the center of your business planning, focus shifts from your team's outputs to the impact they have on business. Additionally, OKRs provide clarity about the purpose of the work you're doing, thereby promoting efficiency and helping reduce employee burnout.
+## What does this mean for the rest of the Viva suite?
 
- - **Create cross-functional cooperation that helps unify efforts and improve collaboration.** The alignment of goals, including those of individuals, teams, and departments, with a company’s broader strategy helps people prioritize the work they're doing.  
+Microsoft remains committed to Viva and will continue to invest and prioritize development across other Viva suite areas. We're increasing investment in areas related to change management and user enablement for Copilot and the AI transformation. Most recently at Ignite 2024, we unveiled exciting new capabilities in Microsoft Viva. [Learn more about Ignite 2024: New innovation for the AI-powered workforce](https://techcommunity.microsoft.com/blog/microsoftvivablog/ignite-2024-new-innovation-for-the-ai-powered-workforce/4303391).
 
- - **Help you navigate rapid change and reduce risk.** An OKR framework offers visibility into where you're concentrating efforts. In turn, this helps you manage risk proactively and identify themes and changes in diverse data sets that you might not notice without a unifying system. An OKR framework helps you shift focus from activity and output to outcomes, thereby making the right changes at the right time to stay competitive.
+## How long will users have access to Viva Goals?
 
- - **Provide clarity that's documented, measurable, and owned.** The OKR framework helps you track and measure output using OKR software or documentation that you use to manage it. Each individual is responsible for their OKRs *and* company leadership is responsible for enabling pursuit of OKRs.
+Users will have access to Viva Goals and their data until December 31, 2025, or until their licenses expire, whichever comes first. After this date, Viva Goals will no longer be accessible.
 
- - **Inspire stretch and foster involvement.** If you use OKRs correctly, you can make them a driving force in your strategic rhythm. OKRs help you keep people connected to your broader mission and ensure they’re invested in their contribution to it.  
+## How can I export my data from Viva Goals?
 
- - **Offer clear, contextual communication with continual progress reviews.** You don't stop developing your OKR framework once you document your goals. Your OKR framework should influence interactions for everyone in your company, support a review process that helps you continuously improve and create a rhythm centered around the pivotal outcomes you're pursuing.
+You can export your data through [API](/graph/api/goals-post-exportjobs?view=graph-rest-beta&tabs=http), [Excel](/viva/goals/explorer#save-and-export), and [PowerPoint](https://support.microsoft.com/topic/engage-with-viva-goals-365500a4-0599-41cd-bc86-09bef4206284). It's recommended to export your data before December 31, 2025, to ensure that you have time to move your data to a solution of your choice.
 
-## Benefits of OKRs for executives, team owners and managers, and individual contributors
+## How will deprecation affect integrations with other tools?
 
-OKRs drive alignment, agility, and impact in your organization. Adopting OKRs offers numerous benefits for:
+Integrations between Viva Goals and other tools, such as Teams or Azure DevOps, will remain functional until December 31, 2025. After that, these integrations will cease to operate. It's recommended to identify alternative workflows and adjust your integration strategies accordingly.
 
- - **Executives who want to establish a high-performing team that has a growth mindset and consistently drives strong business results. For executives, OKRs provide:**
+## Will there be continued support for Viva Goals up to the deprecation date?
 
-    - Full visibility into the progress of business initiatives across all organizational levels.
-    - Strong collaboration between departments and teams.
-    - High-performing, empowered, and engaged employees.
-    - Clear connection between daily work and overall organizational goals.
-    - More autonomous, focused teams.
+Yes. Microsoft will provide support for Viva Goals until December 31, 2025. This support includes maintenance, troubleshooting, and user assistance to ensure a smooth transition period for all users.
 
- - **Team owners or people making decisions on behalf of a larger group. For these people, OKRs provide:**
+## Will I be able to request an extension beyond the retirement date?
 
-    - More focused and clear priorities, so team members are more autonomous.
-    - Efficiency with respect to team meetings and actionable outcomes from them.
-    - Full transparency and increased collaboration with cross-functional partners.
-    - Clear alignment between daily work and larger business initiatives.
-    - Defined accountability and clear ownership of OKRs.
-    - Improved ability to allocate resources more efficiently.
-
- - **For individual contributors, with respect to engagement and purpose. For these people, OKRs provide:**  
-
-    - Priorities that are more clear and focused. OKRs help team members understand what they should be doing and why and spend less time on business initiatives that aren't critical.
-    - Visibility into the organization's top priorities, as well as those for their team and other teams.
-    - Improved autonomy and ownership.  
+No. The Viva Goals product will be shut down on December 31, 2025. It is not possible to extend usage past this date. If your subscription extends beyond the product’s retirement date, contact your Microsoft representative for assistance.
