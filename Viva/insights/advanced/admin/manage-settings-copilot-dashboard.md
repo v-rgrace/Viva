@@ -1,5 +1,5 @@
 ---
-ms.date: 08/22/2024
+ms.date: 11/27/2024
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -23,39 +23,48 @@ audience: Admin
 
 As an admin, you can configure several features of the Microsoft Copilot Dashboard. These settings, for example, control who can access the dashboard, upload organizational data, manage a list of non-Copilot users, create an exclusion list, upload aggregated survey data, and the minimum group size for generating insights. Let’s review them.
 
-## Manage access for individual users
+## Manage access for individual users and groups
 
 These steps must be performed by the Microsoft 365 Global Administrator.
 
 >[!Note]
 >When you add or remove users to the dashboard, the change will go into effect in 24 hours.
 
-You can also turn access to the dashboard on or off for individual users.
+You can also turn access to the dashboard on or off for individual users  or groups using Microsoft Entra ID.
 
 In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?#/viva/insights):  
 
-1. Go to the Settings tab and select **Microsoft Viva**, then **Viva Insights**. You need to enter your credentials if you're not already signed in.  
+1. Go to the Settings tab and select **Setup**. You need to enter your credentials if you're not already signed in.  
 
-2. Under **Viva Insights in Microsoft 365**, select **Manage settings for viewing the Copilot dashboard**.  
+2. At the top, select **Set up and manage settings**. 
 
-3. To see how many employees have automatic access, at the top, select **General**.
+3. Under **Microsoft Copilot Dashboard**, select **Manage access settings for Microsoft Copilot Dashboard**.
 
-   :::image type="content" source="../../org-team-insights/images/copilot-dashboard-02b.png" alt-text="Screenshot that shows how to view the number of employees with access." lightbox="../../org-team-insights/images/copilot-dashboard-02b.png":::
+   :::image type="content" source="../images/copilot-dash-admin-settings.png" alt-text="Screenshot that shows where to access the Copilot Dashboard settings.":::
 
-**To enable access for new report users:**
+**To enable access for new individual users:**
 
-1. Search for the people you'd like to add, and select them from the list.
-1. At the bottom, select **Add**.
+1. At the top, select **Users**. Search for the people you'd like to add, and select them from the list.
+
+2. At the bottom, select **Add**.
 
    :::image type="content" source="../../org-team-insights/images/copilot-dashboard-03.png" alt-text="Screenshot that shows how to add new users.":::
 
+**To enable access for new groups:**
+
+1. At the top, select **Groups**. Search for the Entra ID groups you'd like to add, and select them from the list. 
+
+2. At the bottom, select **Add**.
+
 **To disable access for existing report users:**
 
-1. At the top, select **Assigned**.
-1. Select the users from the list for whom you'd like to remove access.
-1. Select **Remove user**.
+1. To remove access for individual users, at the top, select **Users**. To remove access for entire Entra ID groups, select **Groups**.
 
-   :::image type="content" source="../../org-team-insights/images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users.":::
+2. Select the users or groups from the list for whom you'd like to remove access.
+
+3. Select **Remove selected users** or **Remove selected groups**.
+
+   :::image type="content" source="../images/copilot-dash-admin-settings-remove.png" alt-text="Screenshot that shows how to remove users.":::
 
 **Delegate access to the dashboard:**
 
