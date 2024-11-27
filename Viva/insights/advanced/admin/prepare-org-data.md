@@ -1,5 +1,5 @@
 ---
-ms.date: 09/09/2024
+ms.date: 11/25/2024
 title: Prepare organizational data in Viva Insights
 description: Learn how to prepare and structure your data for upload into the Viva Insights advanced insights app. 
 author: zachminers
@@ -144,7 +144,7 @@ Supply the following attributes as column headers, exactly as written below, in 
 
 ##### Reserved optional
 
-The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. Different attributes from the list below may be needed depending on the particular Power BI template.  <!--As indicated, FunctionType, and SupervisorIndicator are case sensitive.-->
+The following attributes are reserved column headers for attributes that are currently used to calculate, filter, and group data. Different attributes from the list below may be needed depending on the particular Power BI template.
 
 * **LevelDesignation**
 * **FunctionType**
@@ -232,12 +232,11 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
         * From 04/01/2024 to 04/14/2024, BoSmith@contoso.com is used to fetch EntraID “A”
         * From 04/14/2024, BoJames@contoso.com is used to fetch EntraID “A”
 
-[Learn more about how to use EffectiveDate to supply data over a time period](#supplying-data-over-a-time-period).
+         [Learn more about how to use EffectiveDate to supply data over a time period](#supplying-data-over-a-time-period).
 
 ### Option 2: Select date
 
 *Applies if: Your data source doesn’t track email address changes. The email address on the selected date is used for all past dates.*
-
 
 1.	Select today’s date if you exported data from it recently.
 2.	Otherwise, select an older date.
@@ -280,6 +279,10 @@ EffectiveDate is the date that a given attribute value applies for an employee. 
     * Select **04/20/2024** from the dropdown and not **04/25/2024** or **05/10/2024**. 
     * This ensures that the email address on 04/20/2024 (for example, BoSmith@constoso.com) is used to fetch EntraID "A" for all past dates.
 
+
+## Enable partial data ingestion 
+
+To enable partial data ingestion, select **Upload valid rows and exclude rows with invalid data**. This setting will only upload rows that include valid values, and will show warnings for the rows that were not ingested due to errors. This setting is off by default.
 
 ## Attribute reference
 

@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/16/2024
+ms.date: 11/21/2024
 ---
 
 # Update attributes in Viva Glint
 
-After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, manage derived and optional system attributes, and to update attribute visibility in the platform. New attributes and their values will apply to future survey results only.
+After initial attribute setup in Microsoft Viva Glint, use this guidance to add new attributes, rename attributes, manage derived and optional system attributes, and to update attribute visibility in the platform. New attributes and their values apply to future survey results only.
 
 > [!CAUTION]
 > The Viva Glint Admin that sets up or changes attributes needs to save changes in the **default language for your organization**. Confirm that the default language (often English) is selected in the Language dropdown menu in Glint. Setting up or editing attributes in a different language resets the expected language for Viva Glint data ingestion and causes upload errors.
@@ -29,8 +29,10 @@ After initial attribute setup in Microsoft Viva Glint, use this guidance to add 
 To add new attributes to your Viva Glint setup from the admin dashboard:
 
 1. Select the **Configuration** symbol and then under the **Employees** section, choose **People**.
-2. Select **Actions** and then **Manage User Attributes**.
-3. Select **Update dataset** at the top of the page.
+2. Select **Import** and then **New User Schema or Attribute Updates**.
+
+   :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the New User Schema or Attribute Updates option.":::
+   
 4. Upload your dataset with all existing attributes and the new attribute.
 
      > [!NOTE]

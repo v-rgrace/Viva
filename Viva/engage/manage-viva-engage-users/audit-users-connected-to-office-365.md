@@ -2,7 +2,7 @@
 title: "Audit Viva Engage users in networks connected to Microsoft 365"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/24/2024

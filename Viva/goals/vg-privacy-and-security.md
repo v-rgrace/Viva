@@ -17,6 +17,8 @@ ms.collection:
 - essentials-privacy
 - essentials-security
 - essentials-compliance
+- viva-copilot
+- magic-ai-copilot
 search.appverid:
 - MET150
 description: "Learn about Viva Goals security, privacy, and compliance."

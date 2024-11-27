@@ -1,7 +1,7 @@
 ---
 title: Supported languages in Viva Amplify
 ms.reviewer:
-ms.date: 11/28/2023
+ms.date: 10/22/2024
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
@@ -14,7 +14,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-amplify
-  - Tier1
 ms.localizationpriority: medium
 description: Learn which languages are supported for Viva Amplify.
 ---

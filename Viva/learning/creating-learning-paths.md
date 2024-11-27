@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/30/2023
+ms.date: 11/25/2023
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: medium
 description: Learn how to create and configure learning paths for Microsoft Viva Learning.
 ---

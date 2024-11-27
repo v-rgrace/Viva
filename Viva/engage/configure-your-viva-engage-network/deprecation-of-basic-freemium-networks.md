@@ -2,7 +2,7 @@
 title: "Viva Engage Basic networks are retired - FAQ"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/13/2023

@@ -2,7 +2,7 @@
 title: "Identify leaders and manage audiences in Viva Engage"
 description: "Leadership identification and audience management enable organizations to designate leaders, configure their audience and connect leaders with the entire organization."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 11/01/2023

@@ -16,7 +16,8 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.custom: CELA-approved
+ms.date: 11/19/2024
 ---
 
 # Security and compliance for data usage
@@ -81,7 +82,7 @@ A data subject is a person who can be identified through personal data. In the c
 
 ## Understand which data gets processed
 
-Viva Glint provides the customer with tools to manage the data Viva Glint processes and who has access to that data. Glint also gives customers the ability to receive and respond to [Data Subject Rights](https://www.microsoft.com/en-ww/trust-center/privacy/gdpr-dsr?market=af) requests from employees. Customers control what employee personal data they import to Viva Glint. Glint can then combine this customer-imported data with survey responses to provide extra insights. GDPR "sensitive data" has specific considerations that customers should assess in coordination with their HR, privacy, and legal teams.
+Viva Glint provides the customer with tools to manage the data Viva Glint processes and who has access to that data. Glint also gives customers the ability to receive and respond to [Data Subject Rights](raw-data-request-response.md) requests from employees. Customers control what employee personal data they import to Viva Glint. Glint can then combine this customer-imported data with survey responses to provide extra insights. GDPR "sensitive data" has specific considerations that customers should assess in coordination with their HR, privacy, and legal teams.
 
 > [!TIP]
 > Customers should upload the minimum and least sensitive data necessary to achieve their goals. It is the customer's responsibility to assess their privacy and compliance obligations and to determine whether Glint is suitable.
@@ -100,7 +101,7 @@ Viva Glint admins may create the following types of User Roles:
   
 - Human Resources Business Partners (HRBPs) with the ability to see divisions or even organization-wide, and the internal ability to see employee-level data. These users might need access to all attributes.
 
-[Read why Viva Glint collects employee attributes and how they're used in reporting.](https://go.microsoft.com/fwlink/?linkid=2230738)
+[Read why Viva Glint collects employee attributes and how they're used in reporting.](attribute-fundamentals.md)
 
 ## Privacy and legal subject matter experts might be required
 
@@ -108,7 +109,7 @@ Some countries require employers to consult with employee representatives or see
 
 ## More resources
 
-- [Privacy policy requirement of every Microsoft Viva Glint program](https://go.microsoft.com/fwlink/?linkid=2238336)
-- [How Viva Glint helps protect confidentiality and privacy](https://go.microsoft.com/fwlink/?linkid=2238614) 
-- [Raw data requests and handling](https://go.microsoft.com/fwlink/?linkid=2230875) 
-- [Why surveys are confidential rather than anonymous](https://go.microsoft.com/fwlink/?linkid=2238615)
+- [Privacy policy requirement of every Microsoft Viva Glint program](/viva/glint/setup/add-privacy-policy)
+- [How Viva Glint helps protect confidentiality and privacy](/viva/glint/setup/viva-glint-survey-privacy) 
+- [Raw data requests and handling](/viva/glint/setup/employee-raw-data-export) 
+- [Why surveys are confidential rather than anonymous](/viva/glint/setup/employee-raw-data-export)

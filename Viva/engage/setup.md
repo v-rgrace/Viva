@@ -3,7 +3,7 @@ ms.date: 05/17/2024
 title: "Set up Viva Engage"
 description: "Guidance for setting up licensing and installation of Viva Engage for an organization."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin
@@ -82,8 +82,8 @@ The Microsoft Teams admin can deploy and pin the app for all users, or for parti
 
 You can direct users to these other installation options:
 
-- [Install the Viva Engage desktop app](https://prod.support.services.microsoft.com/en-au/office/install-the-viva-engage-desktop-app-66ccb412-ca1d-4e43-872c-9705abf11b1b)
-- [Install Viva Engage on your iOS or Android phone](https://support.microsoft.com/en-us/office/set-up-viva-engage-on-your-mobile-phone-e52e65ad-14fa-4db9-b8f7-80fe3f6e25a7)
+- [Install the Viva Engage desktop app](https://support.microsoft.com/office/install-the-viva-engage-desktop-app-66ccb412-ca1d-4e43-872c-9705abf11b1b)
+- [Install Viva Engage on your iOS or Android phone](https://support.microsoft.com/office/set-up-viva-engage-on-your-mobile-phone-e52e65ad-14fa-4db9-b8f7-80fe3f6e25a7)
 - [Access Viva Engage on the web](https://engage.cloud.microsoft.com/)
 
 ## Customize the appearance for Viva Engage in the Teams store

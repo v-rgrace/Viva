@@ -311,6 +311,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "viva/insights/advanced/setup-maint/transferring-from-wpa.md",
+      "redirect_url": "/viva/insights/introduction",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "viva/insights/advanced/analyst/templates/diversity-equity-inclusion.md",
       "redirect_url": "/viva/insights/advanced/analyst/templates/growth-inclusion-engagement",
       "redirect_document_id": false
@@ -2177,6 +2182,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "viva/glint/setup/manager-access-issues.md",
+    "redirect_url": "/viva/troubleshoot/glint/access/manager-access-issues",
+    "redirect_document_id": false
+  },  
+  {
     "source_path": "viva/connections/use-the-link-card.md",
     "redirect_url": "/viva/connections/create-dashboard#add-a-web-link-card",
     "redirect_document_id": true
@@ -2190,6 +2200,51 @@
     "source_path": "viva/goals/copilot-faq.md",
     "redirect_url": "https://support.microsoft.com/topic/copilot-in-viva-goals-faq-31e9fbac-6214-4052-958f-9e766fd8b0e3",
     "redirect_document_id": false
-  }      
+  },
+  {
+    "source_path": "viva/connections/overview-viva-connections-education.md",
+    "redirect_url": "/viva/connections/viva-connections-overview",
+    "redirect_document_id": false 
+  },
+  {
+    "source_path": "viva/connections/use-feed-web-part-for-viva-connections.md",
+    "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
+    "redirect_document_id": true
+  },
+  {
+    "source_path": "viva/connections/feed-web-part-video-news-link-retirement.md",
+    "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/connections/video-news-links.md",
+    "redirect_url": "/viva/connections/use-web-parts-in-sharepoint",
+    "redirect_document_id": false
+  },
+    {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/align-okrs-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/align-okrs-overview",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/copilot/deployment-permissions.md",
+    "redirect_url": "/viva/glint/introduction-viva-glint",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/okr-superpowers.md",
+    "redirect_url": "/viva/goals/get-to-know-okrs",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/ensuring-okr-success.md",
+    "redirect_url": "/viva/goals/get-to-know-okrs",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/glint/setup/question-edit.md",
+    "redirect_url": "/viva/glint/setup/change-live-survey",
+    "redirect_document_id": false
+  },
   ]
 }

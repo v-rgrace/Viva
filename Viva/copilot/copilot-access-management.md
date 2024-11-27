@@ -15,8 +15,8 @@ ms.custom:
 ms.collection:  
 - M365initiative-viva
 - highpri
-- tier1
 - viva-copilot
+- magic-ai-copilot
 search.appverid:
 - MET150
 description: Control who can access Copilot in Microsoft Viva

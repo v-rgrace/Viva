@@ -17,7 +17,6 @@ ms.collection:
   - m365solution-overview
   - intro-overview
   - highpri
-  - Tier1
   - essentials-get-started
 search.appverid:
 - MET150

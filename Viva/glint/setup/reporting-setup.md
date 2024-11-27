@@ -1,6 +1,6 @@
 ---
 title: Reporting setup in Program Summary of Viva Glint
-description: On the Reports page admins, customize how dashboards are set up and how specific roles view them. 
+description: On the Reports page, admins customize how dashboards are set up and what reports specific roles can view. 
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/10/2024
+ms.date: 11/20/2024
 ---
 
 # Reporting setup in Program Summary
@@ -23,29 +23,29 @@ The Reporting page allows admins to customize how dashboards are set up for spec
 
 :::image type="content" source="../../media/glint/setup/program-summary-reporting-2.png" alt-text="Screenshot that shows how to access Reporting in Program Summary." lightbox="../../media/glint/setup/program-summary-reporting-2.png":::
 
-## View and add Program Roles
+## Assign permissions to view feedback
 
-In the **Program Roles** section, see and set how [User Roles](https://go.microsoft.com/fwlink/?linkid=2230740) are permissioned to see survey results. 
+In the **Program Roles** section, see and set how [User Roles](/viva/glint/setup/set-up-user-roles) are permissioned. **Select the role** to view what is configured. 
 
-### View Program Roles who can see feedback 
+In this example, you see what the Company Admin is permissioned for:
 
-Roles set up for this program are listed in the **Program Roles** section, each displaying on its own row.
-**Select the role row** to view what is configured. Assigned permissions include:
+:::image type="content" source="../../media/glint/setup/report-permissions.png" alt-text="Screenshot of report permissions in Program Roles." lightbox="../../media/glint/setup/report-permissions.png":::
 
- - **Reporting Access** - Whether the manager is granted [Live or Phased access](https://go.microsoft.com/fwlink/?linkid=2230747).
- - **Concierge Visibility** - Whether this user sees the [Manager Concierge]( https://go.microsoft.com/fwlink/?linkid=2231115) feature on their dashboard.
- - **Broader Team Insights** - Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](https://go.microsoft.com/fwlink/?linkid=2231012).
- - **Default Dashboard** - [Team Summary]( https://go.microsoft.com/fwlink/?linkid=2231116) is the default Viva Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available if not using Team Summary.
-   
-   > [!IMPORTANT]
-   > Company Admin roles must be granted access to the [Executive Summary dashboard](https://go.microsoft.com/fwlink/?linkid=2231010).
-   
- - **Report Template Access** - The individual reports this user can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](https://go.microsoft.com/fwlink/?linkid=2231109).
- - **Question Access** - By default all roles must have all questions selected. Admins can remove and add questions back as needed.
+As an admin, make these choices:
 
-## Enable User Roles to view feedback 
+|Permission|Description|
+|-------------|---------------|
+|**Reporting view**| Whether the manager is granted [Live View or Phased access](/viva/glint/setup/live-versus-phased-access).|
+|**Concierge Visibility**|Whether the manager sees the [Manager Concierge](/viva/glint/reports/manager-concierge-dashboard) feature on their dashboard.|
+|**Broader Team Insights**|Whether a high-level summary of this role's survey results is visible to their direct reports or roll-up hierarchy. [Learn about Broader Team Insights](/viva/glint/reports/broader-team-insights).
+|**Team Conversations**|Managers with this feature enabled and who have a sufficient number of responses can access a [Team Conversations presentation kit](/viva/glint/reports/managers-sharing-team-conversations) once the survey closes and results are released.| 
+|**Default Dashboard**|[Team Summary](/viva/glint/reports/managers-use-team-summary-dashboard ) is the default Glint manager dashboard experience. Change by using the dropdown menu to select a different report. Only one report is available when not using Team Summary.<br><br> **Important:** Company Admin roles must be granted access to the [Executive Summary dashboard](/viva/glint/reports/executive-summary-report).   
+|**Export Comments**|The default **ON** setting allows managers to export verbatim comments exports using the **Export and Share** button in reports.<br><br> **Note:  To increase survey confidentiality,** you can disable the export functionality for comments at the program level. Disabling the feature enhances confidentiality measures by decreasing the chance that a user can match a specific comment to a survey respondent. When the default ON toggle is changed to **OFF**, the **Export and Share** button is hidden in reports.<br><br> :::image type="content" source="../../media/glint/setup/disable-comment-export.png" alt-text="Screenshot of the button option which isn't available when exporting comments is disabled.":::|
+|**Report Template Access**|The individual reports this user can view. Select the **X** to delete a report or use the Search box to add a report. [Learn about Viva Glint reports](/viva/glint/reports/survey-reports-overview).
 
-To add User Roles to a program for the purpose of viewing feedback, select **Add Role**. The dropdown menu displays User Roles created within the [User Role feature](https://go.microsoft.com/fwlink/?linkid=2230740). Select roles that should have reporting permissions for this program. The User Role name now appears as its own row.
+## Add User Roles to view feedback 
+
+To add User Roles to a program to view feedback, select **Add Role**. The dropdown menu displays User Roles created within the [User Role feature](/viva/glint/setup/set-up-user-roles). Select roles that should have reporting permissions for this program. The User Role name now appears on its own row.
 
 :::image type="content" source="../../media/glint/setup/reporting-add-role.png" alt-text="Screenshot for adding a role for report viewing." lightbox="../../media/glint/setup/reporting-add-role.png":::
 
@@ -64,19 +64,19 @@ Select **Select questions** from the **Question Reporting Access** section.
 Remove an item by selecting the **X** next to it. 
 Add an item back by selecting **Add More** and then select the item to be added.
 
-## Set up reporting 
-There are six fields to set up.
-
 ### Aggregate Indices
 
-For most surveys, using aggregate indices is not recommended. Aggregates are groups of items that are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, aggregates are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be part of aggregate indices.
+For most surveys, using aggregate indices isn't recommended. Aggregates are groups of items that are similar. For surveys with a large number of items, however, it can make sense to group similar questions into aggregates. Typically, aggregates are statistically validated constructs which contain highly correlated questions. Only rating-type questions can be part of aggregate indices.
+
+> [!IMPORTANT]
+> If an item (question) is included in an aggregate, regardless if the aggregate is configured as the program's key outcome, that item can't be removed from the User Roles access.
 
 If adding an Aggregate Index:
 
 1. Select **+ Add Aggregate Index** to open the *Create Aggregate* slider window.
 2. In the new window, enter an aggregate name of your choosing. 
 3. For **Calculation Method**, choose from:
-   - Select **Average** - Recommended. Select from all rating questions. Qverage score = (a+b+...+n)/n, with the range from 0 to 100.  
+   - Select **Average** - Recommended. Select from all rating questions. Average score = (a+b+...+n)/n, with the range from 0 to 100.  
    - Select **eNPS (employee Net Promoter Score)** - Select only one calculated 11-scale rating question. eNPS = (number of promoters - number of detractors) / (number of respondents) x 100, with the range from -100 to 100.
      
    >[!CAUTION]
@@ -85,7 +85,7 @@ If adding an Aggregate Index:
    > [!NOTE]
    > Viva People Science doesn't recommend the use of an employee Net Promoter Score<sup>TM</sup> due to its calculation method and inability to act as the best predictor of employee engagement.
    
-4. In the **Add Questions** dropdown menu, search and select items to be grouped together. Your questions now appear in **Selected Questions**. 
+4. In the **Add Questions** dropdown menu, select items to be grouped together. Your questions now appear in **Selected Questions**. 
 5. Select the **Include in Driver Impact Report** checkbox to see this aggregate in the Driver Impact Report.
 6. Select **Save and Add to Program**.
 7. Select **X** to close the slider window.
@@ -113,7 +113,7 @@ The key outcome is added to all roles by default and can't be removed. If change
 
 > "To change the visibility of reporting results related to the previous key question, go to your question level permission setting, and remove the question manually. This will ensure that the results are no longer visible to all roles. The new key outcome will be added to all roles." 
 
-**Accept** or **Cancel** this change and then add the new key outcome to all roles. An admin must remove the previous key outcome from the roles that have it enabled.
+**Accept** or **Cancel** this change and then add the new key outcome to all roles. An admin must remove the previous key outcome from enabled roles.
 
 ### Driver Impact Outcomes
 

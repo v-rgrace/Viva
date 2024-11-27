@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
   - essentials-privacy
 ms.localizationpriority: medium
 description: This article describes privacy information related to optional connection experiences in Viva Learning

@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/25/2024
+ms.date: 10/15/2024
 ---
 
 # Manage General Settings in Viva Glint 
@@ -65,7 +65,7 @@ Choose attributes and hierarchies to show in reporting and select benchmark comp
 
 | Field | Definition and notes |
 |:-----------|:-----------|
-|**Attributes for Alerts**   | Narrow down alerts, if desired. If left empty, all attributes are incorporated (other than nonreportable fields and emails).   |
+|**Attributes for Alerts**   | Narrow down alerts, if desired. If left empty, **no alerts generate.** |
 |**Default Benchmark**   | Your preferred default comparison statistic. If left empty, it defaults to Benchmark.|
 |**Internal Benchmarks**   | Viva Glint’s three internal default benchmarks that cannot be removed. Up to ten more may be added. Choosing **Modify internal benchmarks** opens a new window with options.     |
 |**External Benchmarks**|Choose the external benchmarks that you want users to be able to select from on their dashboards and in their reporting. Choosing **Modify external benchmarks** opens a new window with options.|
@@ -168,10 +168,12 @@ Manage reusing employee IDs and reassign them to new or rehired employees. This 
 | On (default) | Exclude data associated with employee IDs of previously removed employees from uploads. |
 | Off | Update the already deleted records with the status provided in the HRIS file. |
 
->[!IMPORTANT]
->When Glint receives the delete signal from a Data Subject Request (DSR) or Microsoft Entra ID for a user, they’re not deleted from Viva Glint immediately. A user’s employee record is in a soft-deleted state for 30 days. During this period, the employee record can be modified from its soft-deleted state and updated to the status provided in the HRIS file.
->After the 30-day period, all data related to the employee is permanently deleted in accordance with User Data controls.
->Should a deleted user be reinstated, their data needs to be uploaded as if they are a new employee.
+When this setting is switched to On, records for deleted users can cause a [RECORD_STAGING_FAILURE](/viva/troubleshoot/glint/data-file-upload/fix-upload-invalid-unexpected-values-warnings) warning in file upload notifications. 
+
+> [!IMPORTANT]
+> - When Glint receives the delete signal from a Data Subject Request (DSR) or Microsoft Entra ID for a user, they’re not deleted from Viva Glint immediately. A user’s employee record is in a soft-deleted state for 30 days. During this period, the employee record can be modified from its soft-deleted state and updated to the status provided in the HRIS file.
+> - After the 30-day period, all data related to the employee is permanently deleted in accordance with User Data controls.
+> - Should a deleted user be reinstated, their data needs to be uploaded as if they are a new employee.
 
 
 

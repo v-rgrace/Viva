@@ -131,9 +131,9 @@ There are two ways you can upload Organizational data:
 
 If the Viva Insights admin and Global admin *both* upload data, the dashboard displays insights based on the merge of the uploads and show data based on the more recent upload. The uploaded .csv file should include the required attributes shown below, otherwise the data won't show in the dashboard.
 
-Below are the attributes that are used in the Copilot dashboard. Your admin should use the exact same attribute names as below when uploading correspondingly.
+Below are the attributes that are used in the Copilot Dashboard. Your admin should use the exact same attribute names as below when uploading correspondingly.
 
-| Attribute names for organizational data in Viva Insights | Attribute names for organizational data in Microsoft 365 | Required or optional for Copilot dashboard |
+| Attribute names for organizational data in Viva Insights | Attribute names for organizational data in Microsoft 365 | Required or optional for Copilot Dashboard |
 |----|----|----|
 | PersonId | Microsoft_PersonEmail | Required |
 | ManagerId | Microsoft_ManagerEmail | Required |
@@ -151,7 +151,7 @@ If your company has Copilot licenses but not Viva Insights licenses, you can upl
 
 Below are the attributes used in the dashboard. The admin should use the exact same attribute names as below when uploading the data.
 
-| Attribute names for organizational Data in Microsoft 365  | Required or optional for Copilot dashboard |
+| Attribute names for organizational Data in Microsoft 365  | Required or optional for Copilot Dashboard |
 |---|---|
 | Microsoft_PersonEmail | Required |
 | Microsoft_ManagerEmail | Required |
@@ -172,7 +172,7 @@ You can also upload aggregated survey responses to enable a summary view of Copi
 These steps apply both to Microsoft 365 global admins and Viva Insights admins.
 
 >[!Note]
->This change will go into effect in 24 hours. This will be used for the metric comparison between groups in the Copilot dashboard.
+>This change will go into effect in 24 hours. This will be used for the metric comparison between groups in the Copilot Dashboard.
 
 The dashboard’s adoption and impact pages provide group-level metrics for groups that meet or exceed the minimum group size you set, which by default is 10 employees.
 
@@ -180,7 +180,7 @@ If your tenant does *not* have a Viva Insights license and you're a global admin
 
 1. In the [Microsoft 365 Admin Center](https://admin.microsoft.com), go to the **Settings** tab and select **Microsoft Viva**, then **Microsoft Viva Insights**. 
 
-2. Under **Copilot dashboard in Microsoft 365**, select **Manage minimum group size**. 
+2. Under **Copilot Dashboard in Microsoft 365**, select **Manage minimum group size**. 
 
 3. Enter your preferred minimum group size, which must be at least five, then select **Save**. 
 
@@ -193,7 +193,7 @@ Or, if your tenant has a Viva Insights license and you're a Viva Insights admin,
 These steps apply to Microsoft 365 global admins.
 
 >[!Note]
->When you upload a list of non-Copilot users for cohort analysis, the process could take up to five days. This will be used for the metric comparison between groups in the Copilot dashboard.
+>When you upload a list of non-Copilot users for cohort analysis, the process could take up to five days. This will be used for the metric comparison between groups in the Copilot Dashboard.
 
 This feature lets you upload a list of non-Copilot users for cohort analysis in the dashboard. Cohort analysis enables leaders to compare the various metrics of two groups of users: Copilot users and non-Copilot users.
 
@@ -247,7 +247,7 @@ When the tenant purchases Viva Insights licenses that are allocated to non-Copil
 This process applies to Microsoft 365 global admins.
 
 >[!Important]
->If you don’t create an exclusion list, *all* employees who either have a Copilot license, a Viva Insights license, or are uploaded manually using the Cohort upload feature in the admin center, are included in the Copilot dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any user exclusions you make with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
+>If you don’t create an exclusion list, *all* employees who either have a Copilot license, a Viva Insights license, or are uploaded manually using the Cohort upload feature in the admin center, are included in the Copilot Dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any user exclusions you make with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
 
 >[!Note]
 >When you upload an exclusion list, the process could take up to five days to run and complete. This means that users won’t be immediately excluded after the list is uploaded.

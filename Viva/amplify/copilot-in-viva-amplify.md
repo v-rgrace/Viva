@@ -13,7 +13,8 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-amplify
   - highpri
-  - Tier1
+  - viva-copilot
+  - magic-ai-copilot
 ms.localizationpriority: medium
 description: Learn about Copilot in Microsoft Viva Amplify.
 ---

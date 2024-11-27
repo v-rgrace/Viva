@@ -13,7 +13,6 @@ ms.service: viva-goals
 ms.localizationpriority: medium
 ms.collection:
   - m365initiative-viva-goals
-  - Tier1
   - vg-bestpractice
 search.appverid:
 - MET150

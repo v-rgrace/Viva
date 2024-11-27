@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 09/16/2024
+ms.date: 10/02/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -16,17 +16,18 @@ ms.collection:
 - M365initiative-viva
 - m365solution-overview
 - highpri
-- tier1
+- magic-ai-copilot
 search.appverid:
 - MET150
 description: "Use organizational data in the Microsoft Copilot Dashboard"
 ---
 # Use organizational data in the Microsoft Copilot Dashboard
 
-If you've configured [Organizational Data in Microsoft 365](organizational-data.md), you can view and use your organizational data in the [Microsoft Copilot Dashboard](insights/org-team-insights/delegate-access.md) (as long as you've got a Microsoft 365 Copilot license). Use the following information to configure and manage organizational data for the Copilot Dashboard.
+If you've configured [Organizational Data in Microsoft 365](organizational-data.md), you can view and use your organizational data in the [Microsoft Copilot Dashboard](insights/org-team-insights/copilot-dashboard.md) (as long as you've got a Microsoft 365 Copilot license). Use the following information to configure and manage organizational data for the Copilot Dashboard.
 
 > [!NOTE]
-> To see data in the Copilot Dashboard, you need either 50 Microsoft 365 Copilot licenses or 10 Viva Insights license.
+> - To see data in the Copilot Dashboard, you need either 50 Microsoft 365 Copilot licenses or 10 Viva Insights license.
+> - To view the configuration of organizational data in the Copilot Dashboard and to make changes as described in this article, you must have Microsoft 365 Global Admin permissions.
 
 Your configuration experience with Organizational Data in Microsoft 365 and Copilot depends on whether you're configuring organizational data for the first time or if you've previously set it up and are now adding Copilot into your infrastructure.
 
@@ -51,7 +52,7 @@ After the experience has been provisioned and loaded, you see the following scre
 
 By default, because this is your first time using Organizational Data in Microsoft 365 (meaning you haven't already imported your organization's data), you see data from Microsoft Entra ID. (But this can take up to seven days post-provisioning.)
 
-Until you import organizational data, the Copilot Dashboard uses the data from Microsoft Entra ID. A yellow banner on the organizational data page indicates the source for the Copilot Dashboard data. See [Prepare and import your organizational data](organizational-data.md#prepare-and-import-your-organizational-data) for the steps to import your data.
+Until you import organizational data, the Copilot Dashboard uses the data from Microsoft Entra ID. A yellow banner on the organizational data page indicates the source for the Copilot Dashboard data. See [Prepare and import your organizational data](import-orgdata.md) for the steps to import your data.
 
 :::image type="content" source="media/orgdata-copilot-3.jpg" lightbox="media/orgdata-copilot-3.jpg" alt-text="A screenshot of the data attributes landing page with Microsoft Entra ID data.":::
 
