@@ -221,8 +221,6 @@ items:
        
 - name: Discover goal-setting best practices with Viva Goals
   items:
-   - name: Best practices for running a healthy Viva Goals program
-     href: ./viva-goals-healthy-okr-program/healthy-okr-program-overview.md
    - name: Create goals and OKRs
      items:
       - name: Writing great goals
