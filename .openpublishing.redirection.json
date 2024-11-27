@@ -2251,5 +2251,10 @@
     "redirect_url": "/viva/glint/setup/change-live-survey",
     "redirect_document_id": false
   },
+  {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/healthy-okr-program-overview.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/write-okrs-overview",
+    "redirect_document_id":false
+  }
   ]
 }
