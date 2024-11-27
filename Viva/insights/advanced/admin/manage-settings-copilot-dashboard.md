@@ -80,17 +80,17 @@ These steps must be performed by the Microsoft 365 global admin.
 You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user, or group-level policy. No users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
-1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
+1. After you've signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
-**Example: Turn off the dashboard for all users in your tenant**
+   **Example: Turn off the dashboard for all users in your tenant**
 
-```powershell
- ModuleId : VivaInsights
- FeatureId : CopilotDashboard
- Name : DisableFeatureForAll
- IsFeatureEnabled : false
- Everyone
-```
+   ```powershell
+    ModuleId : VivaInsights
+    FeatureId : CopilotDashboard
+    Name : DisableFeatureForAll
+    IsFeatureEnabled : false
+    Everyone
+   ```
 ## Turn off dashboard auto-enablement with Powershell 
 
 These steps must be performed by the Microsoft 365 global admin.
@@ -108,15 +108,15 @@ This feature access control allows Global admins to enable or disable the auto-e
 
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
-**Example: Turn off dashboard auto-enablement for your tenant**
+   **Example: Turn off dashboard auto-enablement for your tenant**
 
-```powershell
- ModuleId : VivaInsights
- FeatureId : AutoCxoIdentification
- Name : DisableFeatureForAll
- IsFeatureEnabled : false
- Everyone
-```
+   ```powershell
+    ModuleId : VivaInsights
+    FeatureId : AutoCxoIdentification
+    Name : DisableFeatureForAll
+    IsFeatureEnabled : false
+    Everyone
+   ```
 
 ## Upload organizational data 
 
@@ -138,16 +138,16 @@ There are two ways you can upload Organizational data:
 
 2. Your Microsoft 365 Global admin can upload data through the admin center using [these steps](/viva/organizational-data).
 
-If the Viva Insights admin and Global admin *both* upload data, the dashboard displays insights based on the merge of the uploads and show data based on the more recent upload. The uploaded .csv file should include the required attributes shown below, otherwise the data won't show in the dashboard.
+   If the Viva Insights admin and Global admin *both* upload data, the dashboard displays insights based on the merge of the uploads and show data based on the more recent upload. The uploaded .csv file should include the required attributes shown below, otherwise the data won't show in the dashboard.
 
-Below are the attributes that are used in the Copilot Dashboard. Your admin should use the exact same attribute names as below when uploading correspondingly.
+   Below are the attributes that are used in the Copilot Dashboard. Your admin should use the exact same attribute names as below when uploading correspondingly.
 
-| Attribute names for organizational data in Viva Insights | Attribute names for organizational data in Microsoft 365 | Required or optional for Copilot Dashboard |
-|----|----|----|
-| PersonId | Microsoft_PersonEmail | Required |
-| ManagerId | Microsoft_ManagerEmail | Required |
-| Organization | Microsoft_Organization | Required |
-| FunctionType | Microsoft_JobDiscipline | Optional. The “Job function” filter in the dashboard will be available if this attribute is uploaded. |
+   | Attribute names for organizational data in Viva Insights | Attribute names for organizational data in Microsoft 365 | Required or optional for Copilot Dashboard |
+   |----|----|----|
+   | PersonId | Microsoft_PersonEmail | Required |
+   | ManagerId | Microsoft_ManagerEmail | Required |
+   | Organization | Microsoft_Organization | Required |
+   | FunctionType | Microsoft_JobDiscipline | Optional. The “Job function” filter in the dashboard will be available if this attribute is uploaded. |
 
 ### For Copilot customers
 
@@ -195,7 +195,7 @@ If your tenant does *not* have a Viva Insights license and you're a global admin
 
     :::image type="content" source="../images/min-group-size-admin.png" alt-text="Screenshot that shows admins how to set the minimum group size.":::
 
-Or, if your tenant has a Viva Insights license and you're a Viva Insights admin, [use these steps to change the minimum group size](../../advanced/setup-maint/privacy-settings.md).  
+    Or, if your tenant has a Viva Insights license and you're a Viva Insights admin, [use these steps to change the minimum group size](../../advanced/setup-maint/privacy-settings.md).  
 
 ## Manage and upload non-Copilot users 
 
