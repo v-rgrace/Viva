@@ -36,8 +36,8 @@ An example of a URL: `https://wd3.myworkday.com/ccx/service/yourorg/Learning/v39
 
 To enhance the security and maintain the integration, we enabled OAuth for Workday.
 
-This avoids dependency from ISU’s username and password and handles the scenario if ISU leaves the company. Refer to below steps to generate client ID and Client secret required for configuration on admin portal. 
-OAuth access is applied at client level, so it will not impact any other sign in flow of other clients linked to Workday. To know more about OAuth, you can refer to [Workday’s OAuth documentation.](https://resourcecenter.workday.com/en-us/signin.html?fromURI=https://signin.resourcecenter.workday.com/app/workdayciam_aembetadoc2_1/exkd1j067lBdQMGYl4x7/sso/saml)
+This process avoids dependency from ISU’s username and password and handles the scenario if ISU leaves the company. Refer to below steps to generate client ID and Client secret required for configuration on admin portal. 
+OAuth access is applied at client level, so it doesn't impact any other sign in flow of other clients linked to Workday. To know more about OAuth, you can refer to [Workday’s OAuth documentation.](https://resourcecenter.workday.com/en-us/signin.html?fromURI=https://signin.resourcecenter.workday.com/app/workdayciam_aembetadoc2_1/exkd1j067lBdQMGYl4x7/sso/saml)
 
 1. Enable OAuth for the tenant 
 
@@ -48,7 +48,7 @@ OAuth access is applied at client level, so it will not impact any other sign in
 
 1. Create the client for OAuth. 
 
-1. Search for **Register API client for integrations** task. Enter client name as "VivaLearning" and set expiry of refresh token as "Never" and Scope (Functional Areas) the following. To edit any existing OAuth settings, you can use the **view API client for integrations** action.
+1. Search for **Register API client for integrations** task. Enter client name as "VivaLearning" and set expiry of refresh token as "Never" and Scope (Functional Areas) as the following. To edit any existing OAuth settings, you can use the **view API client for integrations** action.
 
     - "Organizations and Roles”
     - "Learning core"
@@ -62,13 +62,13 @@ OAuth access is applied at client level, so it will not impact any other sign in
 
 5. Generate refresh token 
 
-    1. Search for task- "View API client", go to tab "API clients for integration". It shows all clients. Open the "VivaLearning" client created in previous step. 
+    1. Search for the "View API client" task and go to "API clients for integration" tab. It shows all clients. Open the "VivaLearning" client created in previous step. 
 
     1. Select the ellipses (...), then **API client** and **Manage Refresh Token for Integration**. 
     
        :::image type="content" alt-text="Screenshot of the View API Client with the option task to manage refresh tokens for integration" source="../media/learning/wd-s3-3.png" lightbox="../media/learning/wd-s3-3.png":::
 
-    1. Select the ISU created initially during Viva Learning setup.
+    1. Select the ISU created initially during the Viva Learning setup.
     
        :::image type="content" alt-text="Screenshot of the Manage Refresh Tokens for Integration" source="../media/learning/wd-s3-4.png" lightbox="../media/learning/wd-s3-4.png":::
     
@@ -78,9 +78,9 @@ OAuth access is applied at client level, so it will not impact any other sign in
 
 ## Get org ID
 
-You need to enter the org IDs for which you want to get assignment and completion records. If you want to pull the data for all employees you can do so by adding all child org IDs for root ID in Workday. Follow below steps for same.
+You need to enter the org IDs for which you want to get assignment and completion records. If you want to pull the data for all employees, you can do so by adding all child org IDs for root ID in Workday. Follow below steps for same.
 
-To generate the org IDs for a single department, please follow below steps.
+To generate the org IDs for a single department, follow these steps.
 
 1. Go to your Workday portal. Search for the organization for which you want to sync the assignment and completion records. If you want to select the data for all employees, search for root org.
 
@@ -90,7 +90,7 @@ To generate the org IDs for a single department, please follow below steps.
 
    :::image type="content" alt-text="Screenshot of the View IDs options within the Organizations menu" source="../media/learning/wd-s3-6.png" lightbox="/viva/media/learning/wd-s3-6.png":::
 
-1. Select the Workday ID mentioned above. Save this ID for later as this will be used as a configuration parameter.
+1. Select the Workday ID mentioned previously. Save this ID for later to use as a configuration parameter.
 
    :::image type="content" alt-text="Screenshot of the Integrations ID section with the ID highlighted" source="../media/learning/wd-s3-7.png" lightbox="../media/learning/wd-s3-7.png":::
 
@@ -98,7 +98,7 @@ To generate the org IDs for a single department, please follow below steps.
 
 6. Select ellipses (...) and select **Integration IDs** and then View IDs.
 
-7. Select the Workday ID mentioned above. Save this ID for later as this will be used as a configuration parameter.
+7. Select the Workday ID previously mentioned. Save this ID for later to use as configuration parameter.
 
 8. In large tenant, generate org IDs for departments under root ID
 

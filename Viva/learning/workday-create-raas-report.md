@@ -36,6 +36,9 @@ Admins are required to create a custom RaaS report on the Workday portal. Once y
 
 Check with your organization admins for details around same. Otherwise, you can refer to the steps mentioned here to enable the provisioning. [Tutorial: Configure Workday for automatic user provisioning with on-premises Active Directory](/entra/identity/saas-apps/workday-inbound-tutorial)
 
+> [!IMPORTANT]
+> Verify that XML alias for the report field names, filter names, and prompt names match precisely with the support documentation after creating the report. 
+
 ## Create RaaS report on the Workday portal for catalog sync
 
 This report should be created from the primary Admin account of Workday to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments.
@@ -146,6 +149,7 @@ This report should be created from the primary Admin account of Workday to avoid
 > [!NOTE]
 > Assignments with the completion status “manually waived” are not shown on the Viva Learning UX. 
 
+
 ## Create RaaS report on Workday portal for user data sync
 
  Create this report from the primary Workday admin account to avoid any privacy and security related concerns. Currently we're syncing historic and present assignments. 
@@ -238,7 +242,7 @@ This report should be created from the primary Workday admin account to avoid an
     | Learning Assignment | Required | AssignmentType | AssignmentType | 
 
     > [!NOTE]
-    > The In progress status from Workday doesn't sync to Viva Learning.
+    > The `In progress` status from Workday doesn't sync to Viva Learning.
 
 4. Under "Group Column Headings", add the following fields.
 
@@ -311,6 +315,7 @@ This report should be created from the primary Workday admin account to avoid an
 
 > [!NOTE]
 > The assignments with the completion status of "manually waived" aren't displayed in the Viva Learning user experience. 
+
 
 ## Create RaaS report on the Workday portal for completion status of self-enrollment
 
@@ -394,6 +399,7 @@ This report should be created from the primary Workday admin account to avoid an
         
     :::image type="content" alt-text="Screenshot of the self-enrollment completion filters in Workday" source="../media/learning/workday-self-enrollment-completion-filters.png" lightbox="../media/learning/workday-self-enrollment-completion-filters.png":::
 
+
 ## Modify the prompts
 
 1. Go to **Prompts**.
@@ -416,4 +422,8 @@ This report should be created from the primary Workday admin account to avoid an
 1. Within the next 24 hours, the LRS sync calls the report API and accordingly reflects the data in Viva Learning. This depends on whether the admin has enabled LRS on Admin portal. Refer to this document for configuration steps on the Admin portal.
 
 > [!NOTE]
-> Lessons are not supported in self-enrollment completion status.
+> Lessons aren't supported in self-enrollment completion status.
+
+> [!NOTE]
+> If the tenant refreshes, the report owner can automatically change to the system owner. This change in owner status also changes the API url for Viva Learning. For the connection to work, you can either reconfigure the Workday connector or transfer the report to the original owner. 
+

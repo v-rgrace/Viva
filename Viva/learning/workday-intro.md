@@ -56,7 +56,7 @@ You need the following permissions and scenarios in place to complete the Workda
 ### User mapping
 User mapping between Workday and Viva Learning should exist before configuration.
  
-The default user mapping is determined by the "username" field in Workday user RaaS Report and the UPN alias in the Microsoft Entra (formerly Azure Active Directory) system. For proper mapping or mapping to work, the username field needs an email alias and the UPN should have an email address. 
+The default user mapping originates from the "username" field in Workday user RaaS Report and the UPN alias in the Microsoft Entra (formerly Azure Active Directory) system. For proper mapping or mapping to work, the username field needs an email alias and the UPN should have an email address. 
  
 If there's any discrepancy in mapping logic used by the customer organization, reach out to the Viva Learning product group. We have custom user mapping option available, which are controlled from the backend. The custom mapping is based on Workday attributes: Username, Email_address, and  employee_ID and corresponding Microsoft Entra attributes as UPN alias, UPN, employee ID and custom Microsoft Entra attributes. 
 
@@ -104,14 +104,14 @@ For learning management systems that don't include 3P content providers
 
 **Admin experience**
 
-- Manage multiple connectors for LMS and each 3P content provider.
-- Manually update the 3P content that is part of learning paths, collections, and other structured learning when the connectors for 3P content are updated, deleted, enabled, or disabled.
+- You can manage multiple connectors for LMS and each 3P content provider.
+- You can manually update the 3P content in learning paths, collections, and other structured learning when the connectors are updated, deleted, enabled, or disabled.
 
 **Learning experience**
 
 - Mixed consumption experience for contents coming from LMS and 3P content providers.
 - The **Assigned to you** tab doesn't show any assignment for 3P content as it can be only recommended.
-- The **Completed** tab won't show the history of completion status for 3P content.
+- The **Completed** tab doesn't show the history of completion status for 3P content.
 
 > [!NOTE]
 > - Deleting connectors from the admin interface will remove only the courses from LMS and 3P content providers based on the connectors being deleted.  
