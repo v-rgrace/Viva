@@ -15,7 +15,6 @@ ms.custom:
 ms.collection:  
 - M365initiative-viva
 - highpri
-- tier1
 - viva-copilot
 - magic-ai-copilot
 search.appverid:

@@ -1,5 +1,5 @@
 ---
-ms.date: 07/15/2022
+ms.date: 10/25/2024
 title: Advanced insights FAQ
 description: Get answers to frequently asked questions about Microsoft Viva Insights' advanced insights app
 author: zachminers
@@ -198,13 +198,26 @@ A5. It depends on the type of mailbox and which permissions are set for the Exch
     * **Send on Behalf** permission – The person who sends the message on behalf of the mailbox owner gets the credit in Viva Insights calculations.
     * Both **Send As** and **Send on Behalf** permissions – If the delegate person has both permissions set, the Send As permissions are used and that person does not get credit for sending the message or invite in Exchange and therefore Viva Insights credits the owner of the mailbox in calculations.
 
-##### Q6. Why don't I see data from this week in my analyses?
 
-A6. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. During the first part of each week, Viva Insights processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday.
+##### Q6. Why is a given meeting counted towards one user’s meeting metrics, but not another’s?
 
-##### Q7. Why don't I see last week's data in my analyses?
+A6. This discrepancy in meeting metrics such as meeting hours and meeting counts occurs when attendees don't respond with "Send response" when accepting a meeting invitation.
 
-A7. If you expect your analysis to include last week's collaboration data and you only see data through the previous Sunday, this is because all multi-day periods (weeks and months) that are included in analysis reflect the first day of the specified time period. For example, for a query aggregated by week, you’ll see it starts with Sunday. If you see a "November 7th” row in a weekly aggregated query, it means that the metrics include data through Saturday, November 13th.
+When a meeting invitation is sent, attendees have the option to respond with "Send response." If an attendee accepts the meeting but does *not* send a response, this acceptance isn't recorded in the organizer's mailbox. As a result, the meeting might not be counted in the meeting metrics for all attendees, leading to discrepancies.
+
+Metric rules define which meetings are included or excluded from the metrics. For example, the default "Collaboration exclusions" rule excludes meetings where the number of people who accepted the meeting, including the meeting organizer, is less than two. If an attendee doesn't send a response, a meeting might be excluded from the metrics for the organizer, causing discrepancies in the reported meeting hours.
+
+For example, if a manager organizes a 1:1 meeting with one of their direct reports and the direct report accepts the meeting but doesn't respond with "Send response," the meeting might be counted towards “Meeting hours with manager 1:1” for the direct report, but it might *not* be counted as a “Manager coaching hours 1:1” meeting for the manager. From the direct report’s mailbox perspective, the number of people who accepted the meeting, including the organizer, is two. However, from the manager’s mailbox perspective, the number of people who accepted the meeting, including the organizer, is one.
+
+To ensure accurate tracking of meeting hours, it's important for attendees to respond with "Send response" when accepting meeting invitations. This ensures that the acceptance is recorded and reflected in the meeting analysis results for all users. 
+
+##### Q7. Why don't I see data from this week in my analyses?
+
+A7. Microsoft 365 collaboration data is updated weekly for advanced insights and other applicable analysis. During the first part of each week, Viva Insights processes your organization's collaboration data from the preceding week, which includes the previous Sunday through Saturday.
+
+##### Q8. Why don't I see last week's data in my analyses?
+
+A8. If you expect your analysis to include last week's collaboration data and you only see data through the previous Sunday, this is because all multi-day periods (weeks and months) that are included in analysis reflect the first day of the specified time period. For example, for a query aggregated by week, you’ll see it starts with Sunday. If you see a "November 7th” row in a weekly aggregated query, it means that the metrics include data through Saturday, November 13th.
 
 
 ### Error screens 

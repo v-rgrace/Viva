@@ -1,5 +1,5 @@
 ---
-ms.date: 08/22/2024
+ms.date: 11/27/2024
 title: Manage settings for the Microsoft Copilot Dashboard
 description: This article provides instructions to Viva Insights admins on how to configure several settings for the Microsoft Copilot Dashboard.
 author: zachminers
@@ -23,39 +23,48 @@ audience: Admin
 
 As an admin, you can configure several features of the Microsoft Copilot Dashboard. These settings, for example, control who can access the dashboard, upload organizational data, manage a list of non-Copilot users, create an exclusion list, upload aggregated survey data, and the minimum group size for generating insights. Let’s review them.
 
-## Manage access for individual users
+## Manage access for individual users and groups
 
 These steps must be performed by the Microsoft 365 Global Administrator.
 
 >[!Note]
 >When you add or remove users to the dashboard, the change will go into effect in 24 hours.
 
-You can also turn access to the dashboard on or off for individual users.
+You can also turn access to the dashboard on or off for individual users  or groups using Microsoft Entra ID.
 
 In the [Microsoft 365 admin center](https://admin.microsoft.com/adminportal/home?#/viva/insights):  
 
-1. Go to the Settings tab and select **Microsoft Viva**, then **Viva Insights**. You need to enter your credentials if you're not already signed in.  
+1. Go to the Settings tab and select **Setup**. You need to enter your credentials if you're not already signed in.  
 
-2. Under **Viva Insights in Microsoft 365**, select **Manage settings for viewing the Copilot dashboard**.  
+2. At the top, select **Set up and manage settings**. 
 
-3. To see how many employees have automatic access, at the top, select **General**.
+3. Under **Microsoft Copilot Dashboard**, select **Manage access settings for Microsoft Copilot Dashboard**.
 
-   :::image type="content" source="../../org-team-insights/images/copilot-dashboard-02b.png" alt-text="Screenshot that shows how to view the number of employees with access." lightbox="../../org-team-insights/images/copilot-dashboard-02b.png":::
+   :::image type="content" source="../images/copilot-dash-admin-settings.png" alt-text="Screenshot that shows where to access the Copilot Dashboard settings.":::
 
-**To enable access for new report users:**
+**To enable access for new individual users:**
 
-1. Search for the people you'd like to add, and select them from the list.
-1. At the bottom, select **Add**.
+1. At the top, select **Users**. Search for the people you'd like to add, and select them from the list.
+
+2. At the bottom, select **Add**.
 
    :::image type="content" source="../../org-team-insights/images/copilot-dashboard-03.png" alt-text="Screenshot that shows how to add new users.":::
 
+**To enable access for new groups:**
+
+1. At the top, select **Groups**. Search for the Entra ID groups you'd like to add, and select them from the list. 
+
+2. At the bottom, select **Add**.
+
 **To disable access for existing report users:**
 
-1. At the top, select **Assigned**.
-1. Select the users from the list for whom you'd like to remove access.
-1. Select **Remove user**.
+1. To remove access for individual users, at the top, select **Users**. To remove access for entire Entra ID groups, select **Groups**.
 
-   :::image type="content" source="../../org-team-insights/images/copilot-dashboard-04.png" alt-text="Screenshot that shows how to remove users.":::
+2. Select the users or groups from the list for whom you'd like to remove access.
+
+3. Select **Remove selected users** or **Remove selected groups**.
+
+   :::image type="content" source="../images/copilot-dash-admin-settings-remove.png" alt-text="Screenshot that shows how to remove users.":::
 
 **Delegate access to the dashboard:**
 
@@ -71,17 +80,17 @@ These steps must be performed by the Microsoft 365 global admin.
 You can set a policy to disable the dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user, or group-level policy. No users are able to access the dashboard until you remove or update the policy, even if they were added in the Microsoft 365 admin center using the process above. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 
 1. [Connect to Exchange Online](/Viva/insights/advanced/setup-maint/configure-personal-insights#connect-to-exchange-online) and, when prompted, sign in with your admin credentials.
-1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
+1. After you've signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
-**Example: Turn off the dashboard for all users in your tenant**
+   **Example: Turn off the dashboard for all users in your tenant**
 
-```powershell
- ModuleId : VivaInsights
- FeatureId : CopilotDashboard
- Name : DisableFeatureForAll
- IsFeatureEnabled : false
- Everyone
-```
+   ```powershell
+    ModuleId : VivaInsights
+    FeatureId : CopilotDashboard
+    Name : DisableFeatureForAll
+    IsFeatureEnabled : false
+    Everyone
+   ```
 ## Turn off dashboard auto-enablement with Powershell 
 
 These steps must be performed by the Microsoft 365 global admin.
@@ -99,15 +108,15 @@ This feature access control allows Global admins to enable or disable the auto-e
 
 1. After you’ve signed in, you can manage access for your tenant using the Add-VivaModuleFeaturePolicy cmdlet: [Add-VivaModuleFeaturePolicy](/powershell/module/exchange/add-vivamodulefeaturepolicy).
 
-**Example: Turn off dashboard auto-enablement for your tenant**
+   **Example: Turn off dashboard auto-enablement for your tenant**
 
-```powershell
- ModuleId : VivaInsights
- FeatureId : AutoCxoIdentification
- Name : DisableFeatureForAll
- IsFeatureEnabled : false
- Everyone
-```
+   ```powershell
+    ModuleId : VivaInsights
+    FeatureId : AutoCxoIdentification
+    Name : DisableFeatureForAll
+    IsFeatureEnabled : false
+    Everyone
+   ```
 
 ## Upload organizational data 
 
@@ -129,16 +138,16 @@ There are two ways you can upload Organizational data:
 
 2. Your Microsoft 365 Global admin can upload data through the admin center using [these steps](/viva/organizational-data).
 
-If the Viva Insights admin and Global admin *both* upload data, the dashboard displays insights based on the merge of the uploads and show data based on the more recent upload. The uploaded .csv file should include the required attributes shown below, otherwise the data won't show in the dashboard.
+   If the Viva Insights admin and Global admin *both* upload data, the dashboard displays insights based on the merge of the uploads and show data based on the more recent upload. The uploaded .csv file should include the required attributes shown below, otherwise the data won't show in the dashboard.
 
-Below are the attributes that are used in the Copilot dashboard. Your admin should use the exact same attribute names as below when uploading correspondingly.
+   Below are the attributes that are used in the Copilot Dashboard. Your admin should use the exact same attribute names as below when uploading correspondingly.
 
-| Attribute names for organizational data in Viva Insights | Attribute names for organizational data in Microsoft 365 | Required or optional for Copilot dashboard |
-|----|----|----|
-| PersonId | Microsoft_PersonEmail | Required |
-| ManagerId | Microsoft_ManagerEmail | Required |
-| Organization | Microsoft_Organization | Required |
-| FunctionType | Microsoft_JobDiscipline | Optional. The “Job function” filter in the dashboard will be available if this attribute is uploaded. |
+   | Attribute names for organizational data in Viva Insights | Attribute names for organizational data in Microsoft 365 | Required or optional for Copilot Dashboard |
+   |----|----|----|
+   | PersonId | Microsoft_PersonEmail | Required |
+   | ManagerId | Microsoft_ManagerEmail | Required |
+   | Organization | Microsoft_Organization | Required |
+   | FunctionType | Microsoft_JobDiscipline | Optional. The “Job function” filter in the dashboard will be available if this attribute is uploaded. |
 
 ### For Copilot customers
 
@@ -151,7 +160,7 @@ If your company has Copilot licenses but not Viva Insights licenses, you can upl
 
 Below are the attributes used in the dashboard. The admin should use the exact same attribute names as below when uploading the data.
 
-| Attribute names for organizational Data in Microsoft 365  | Required or optional for Copilot dashboard |
+| Attribute names for organizational Data in Microsoft 365  | Required or optional for Copilot Dashboard |
 |---|---|
 | Microsoft_PersonEmail | Required |
 | Microsoft_ManagerEmail | Required |
@@ -172,7 +181,7 @@ You can also upload aggregated survey responses to enable a summary view of Copi
 These steps apply both to Microsoft 365 global admins and Viva Insights admins.
 
 >[!Note]
->This change will go into effect in 24 hours. This will be used for the metric comparison between groups in the Copilot dashboard.
+>This change will go into effect in 24 hours. This will be used for the metric comparison between groups in the Copilot Dashboard.
 
 The dashboard’s adoption and impact pages provide group-level metrics for groups that meet or exceed the minimum group size you set, which by default is 10 employees.
 
@@ -180,20 +189,20 @@ If your tenant does *not* have a Viva Insights license and you're a global admin
 
 1. In the [Microsoft 365 Admin Center](https://admin.microsoft.com), go to the **Settings** tab and select **Microsoft Viva**, then **Microsoft Viva Insights**. 
 
-2. Under **Copilot dashboard in Microsoft 365**, select **Manage minimum group size**. 
+2. Under **Copilot Dashboard in Microsoft 365**, select **Manage minimum group size**. 
 
 3. Enter your preferred minimum group size, which must be at least five, then select **Save**. 
 
     :::image type="content" source="../images/min-group-size-admin.png" alt-text="Screenshot that shows admins how to set the minimum group size.":::
 
-Or, if your tenant has a Viva Insights license and you're a Viva Insights admin, [use these steps to change the minimum group size](../../advanced/setup-maint/privacy-settings.md).  
+    Or, if your tenant has a Viva Insights license and you're a Viva Insights admin, [use these steps to change the minimum group size](../../advanced/setup-maint/privacy-settings.md).  
 
 ## Manage and upload non-Copilot users 
 
 These steps apply to Microsoft 365 global admins.
 
 >[!Note]
->When you upload a list of non-Copilot users for cohort analysis, the process could take up to five days. This will be used for the metric comparison between groups in the Copilot dashboard.
+>When you upload a list of non-Copilot users for cohort analysis, the process could take up to five days. This will be used for the metric comparison between groups in the Copilot Dashboard.
 
 This feature lets you upload a list of non-Copilot users for cohort analysis in the dashboard. Cohort analysis enables leaders to compare the various metrics of two groups of users: Copilot users and non-Copilot users.
 
@@ -247,7 +256,7 @@ When the tenant purchases Viva Insights licenses that are allocated to non-Copil
 This process applies to Microsoft 365 global admins.
 
 >[!Important]
->If you don’t create an exclusion list, *all* employees who either have a Copilot license, a Viva Insights license, or are uploaded manually using the Cohort upload feature in the admin center, are included in the Copilot dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any user exclusions you make with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
+>If you don’t create an exclusion list, *all* employees who either have a Copilot license, a Viva Insights license, or are uploaded manually using the Cohort upload feature in the admin center, are included in the Copilot Dashboard’s insights. Any previous exclusions made in the analyst workbench do *not* apply to this feature. Any user exclusions you make with this feature do not apply elsewhere in Viva Insights or the analyst workbench.
 
 >[!Note]
 >When you upload an exclusion list, the process could take up to five days to run and complete. This means that users won’t be immediately excluded after the list is uploaded.

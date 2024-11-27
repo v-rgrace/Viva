@@ -2,12 +2,12 @@
 title: Manage available surveys and questions
 description: "Manage available surveys and questions"
 ms.reviewer: 
-ms.author: michellehu
-author: michellehu-msft
+ms.author: hasrivas
+author: hasrivas
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 05/23/2024
+ms.date: 11/21/2024
 ms.topic: article
 ms.service: viva-pulse
 ms.localizationpriority: medium
@@ -16,6 +16,9 @@ search.appverid: MET150
 ---
 
 # Manage available surveys and questions
+
+> [!IMPORTANT]
+> Content customization and administration is available only to those tenant administrators who are trying to access Viva Pulse with a premium license. If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, you will not access to the Content customization and administration experience. 
 
 ## Admin management of survey template and question libraries
 

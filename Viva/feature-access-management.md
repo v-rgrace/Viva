@@ -16,7 +16,6 @@ ms.collection:
 - M365initiative-viva
 - m365solution-overview
 - highpri
-- tier1
 search.appverid:
 - MET150
 description: "Control who can access features in Microsoft Viva"

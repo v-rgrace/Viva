@@ -14,12 +14,13 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/27/2024
+ms.custom: CELA-approved
+ms.date: 10/30/2024
 ---
 
 # Why Viva Glint surveys are confidential but not anonymous
 
-**Confidential** and **anonymous** are sometimes used interchangeably, but in the realm of employee engagement their meanings are not the same. Understanding the difference is important for effective communication to your organization and other stakeholders, such as Works Councils.
+The terms **Confidential** and **anonymous** are sometimes used interchangeably, but in the realm of employee engagement their meanings aren't the same. Understanding the difference is important for effective communication to your organization and other stakeholders, such as Works Councils.
 -	When used with surveys, **confidential** means that survey results are aggregated, and the identity of the survey respondent is not disclosed.
 -	**Anonymous** surveys indicate there is no way to definitively link data back to a specific individual. Anonymous survey responses have no personal data associated with it, other than demographic questions that may be asked during the survey itself.
 

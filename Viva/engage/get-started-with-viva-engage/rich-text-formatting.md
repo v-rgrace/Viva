@@ -2,7 +2,7 @@
 title: "Rich text formatting for Viva Engage posts"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 9/11/2024

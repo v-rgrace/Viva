@@ -17,7 +17,7 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/19/2024
+ms.date: 11/20/2024
 ---
 
 # Introduction to Microsoft Viva Glint
@@ -67,6 +67,7 @@ Find support for technical, product, deployment, or authentication issues.
 
 | :::image type="icon" source="/office/media/icons/help.png" ::: |Support type | Avenues|
 |:---|:---|:---|
-|:::image type="icon" source="/office/media/icons/headset-blue.png" ::: | Technical or product questions| <ul><li>[Microsoft 365 support](https://go.microsoft.com/fwlink/?linkid=2272576)</li></ul> |
+|:::image type="icon" source="/office/media/icons/headset-blue.png" ::: | Technical or product questions| <ul><li>[Microsoft 365 support](/viva/troubleshoot/glint/contact-support/get-support-viva-glint)</li></ul> |
 |:::image type="icon" source="/office/media/icons/walkthrough-map-blue.png" ::: | Microsoft FastTrack deployment support | <ul><li>[Check eligibility](/microsoft-365/fasttrack/eligibility)</li> <li>If registered, [use this link](https://www.microsoft.com/fasttrack/microsoft-viva) to request support</li> <li>[Register here](https://www.microsoft.com/fasttrack/microsoft-viva) by selecting Sign In and submitting a request</li></ul>|
 |:::image type="icon" source="/office/media/icons/authentication.png" ::: | Authentication and identity/access management questions | <ul><li>[Microsoft Entra ID support](/entra/fundamentals/how-to-get-support)</li></ul>|
+|:::image type="icon" source="/office/media/icons/user.png" ::: | Adoption and Advisory Services | <ul><li>[Find a Partner](https://techcommunity.microsoft.com/t5/viva-glint-blog/maximize-your-viva-glint-experience-with-a-microsoft-partner/ba-p/4224197)</li></ul>|

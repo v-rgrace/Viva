@@ -9,7 +9,6 @@ metadata:
   description: The Microsoft Viva Accelerators help you create foundation applications and workflows to solve common business problems. # Required; article description that is displayed in search results. < 160 chars.
   ms.service: viva #Required; service per approved list. service slug assigned to your service by ACOM.
   ms.collection:
-    - Tier1
   ms.topic: hub-page
   author: madehmer 
   ms.author: helayne 

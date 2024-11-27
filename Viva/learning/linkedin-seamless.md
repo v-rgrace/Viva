@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
 ms.localizationpriority: high
 description: Learn how to enable seamless login in LinkedIn Learning.
 ---

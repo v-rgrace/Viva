@@ -14,7 +14,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-amplify
-  - Tier1
   - essentials-get-started
 ms.localizationpriority: medium
 description: Learn how to set up Viva Amplify for your organization.

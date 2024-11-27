@@ -14,18 +14,18 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/01/2024
+ms.date: 11/25/2024
 ---
 
 # Plan for Viva Glint scheduled monthly platform releases and shutdowns
 
-Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring updates to all customers and provide details about what's upcoming to the Viva Glint platform. This update includes scheduled downtime for the platform. The release schedule is subject to change and is updated as appropriate. 
+Microsoft Viva Glint is consistently improving the customer experience. Our platform maintains an agile production cycle with fixes, enhancements, and new features. Recurring updates to all customers and provide details about what's upcoming to the Viva Glint platform. This update includes scheduled downtime for the regular maintenance. The release schedule is subject to change and is updated as appropriate. 
 
 >[!TIP]
 >Inform survey takers if this short instance of downtime occurs during a survey-taking window. In most cases, platform downtime will be less than twelve hours.
 
-|Release number|Planned date for new feature releases and enhancements|Read the blog|
-|--------------|-------------------------------------------------------|------------|
+|Planned release date|Read the blog|
+|--------------|-------------------------------------------------------|
 |March 9, 2024|[Volume 1, Edition 3](https://techcommunity.microsoft.com/t5/viva-glint-blog/march-2024-viva-glint-newsletter/ba-p/4072981)|
 |April 6, 2024|[Volume 1, Edition 4](https://techcommunity.microsoft.com/t5/viva-glint-blog/april-2024-viva-glint-newsletter/ba-p/4100871)|
 |May 4, 2024|[Volume 1, Edition 5](https://techcommunity.microsoft.com/t5/viva-glint-blog/may-4-2024-viva-glint-release-update/ba-p/4127426)|
@@ -34,8 +34,8 @@ Microsoft Viva Glint is consistently improving the customer experience. Our plat
 |July 27, 2024|[Volume 1, Edition 8](https://techcommunity.microsoft.com/t5/viva-glint-blog/updates-for-the-july-27-2024-release/ba-p/4206526)|
 |August 24, 2024|[Volume 1, Edition 9](https://techcommunity.microsoft.com/t5/viva-glint-blog/news-to-know-volume-1-edition-9/ba-p/4229968)|
 |September 21, 2024|[Volume 1, Edition 10](https://techcommunity.microsoft.com/t5/viva-glint-blog/news-to-know-volume-1-edition-10/ba-p/4255096)|
-|October 19, 2024|
-|November 16, 2024|
+|October 19, 2024|[Volume 1, Edition 11](https://techcommunity.microsoft.com/blog/viva_glint_blog/news-to-know-volume-1-edition-11/4276675)
+|November 16, 2024|[Volume 1, Edition 12](https://techcommunity.microsoft.com/blog/viva_glint_blog/news-to-know---volume-1-edition-12/4310600)
 |December 7, 2024|
 |January 18, 2025|
 |February 15, 2025|

@@ -13,7 +13,6 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - highpri
-  - Tier1
 ms.localizationpriority: medium
 description: What's New - Release Notes for Microsoft Viva Learning.
 ---

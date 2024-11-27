@@ -15,6 +15,7 @@ search-appverid: MET150
 ms.topic: concept-article
 ms.service: viva-glint
 ms.localizationpriority: high
+ms.custom: CELA-approved
 ms.date: 10/17/2024
 ---
 

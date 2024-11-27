@@ -13,7 +13,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/05/2024
+ms.date: 10/28/2024
 ---
 
 # How to update reporting data in closed Viva Glint surveys
@@ -21,7 +21,8 @@ ms.date: 09/05/2024
 For highly trained users, Microsoft Viva Glint Advanced Configuration Uploads and Data Apps allow you to perform retroactive updates to survey data. Use this guidance to determine which retroactive update option best meets your needs.
 
 > [!CAUTION]
-> Do not perform a retroactive update while a Glint survey is live.
+> - Don't perform a retroactive update while a Glint survey is live.
+> - Deleted user data can't be retroactively updated.
 
 ## Attributes that don't require retroactive updates
 

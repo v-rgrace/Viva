@@ -14,7 +14,6 @@ ms.collection:
   - M365-analytics
   - viva-insights
   - highpri
-  - Tier1
 manager: scott.ruble
 audience: Admin
 ---

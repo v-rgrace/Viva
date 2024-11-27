@@ -15,7 +15,6 @@ ms.custom: intro-overview
 ms.collection:
   - M365-collaboration
   - M365initiative-viva
-  - Tier1
 search.appverid:
 - MET150
 description: "Deployment guides for Microsoft Viva helps you in planning and deploying Microsoft Viva."

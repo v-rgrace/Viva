@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
   - essentials-manage
 ms.localizationpriority: medium
 description: Learn how to manage catalog access in Microsoft Viva Learning to restrict the ability of select users to view and discover courses.

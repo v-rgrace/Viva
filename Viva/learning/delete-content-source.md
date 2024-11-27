@@ -12,7 +12,6 @@ search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
-  - Tier1
   - essentials-manage
 ms.localizationpriority: medium
 description: Learn how to delete a content provider in Microsoft Viva Learning.
