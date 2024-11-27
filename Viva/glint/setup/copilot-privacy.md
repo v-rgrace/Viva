@@ -1,5 +1,5 @@
 ---
-title: Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint (preview)
+title: Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint
 description: Microsoft 365 Copilot in Viva Glint summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. 
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -19,14 +19,11 @@ ms.localizationpriority: high
 ms.date: 09/12/2024
 ---
 
-# Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint (preview)
-
-> [!NOTE]
-> This feature is available to preview customers only, beginning on June 29, 2024. Features described here are subject to change.
+# Data, privacy, and security compliance for Microsoft 365 Copilot in Viva Glint
 
 ## What is Microsoft 365 Copilot in Viva Glint?
 
-[Copilot in Viva Glint](https://go.microsoft.com/fwlink/?linkid=2274070) summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. This article covers how data privacy and security is handled for Copilot in Viva Glint.
+[Copilot in Viva Glint](/viva/glint/copilot/copilot-admin-intro) summarizes survey comments and employee suggestions to help organizational leaders and managers quickly identify top issues and themes from comments. This article covers how data privacy and security is handled for Copilot in Viva Glint.
 
 ## How does this work in the backend?
 
