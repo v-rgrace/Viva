@@ -45,7 +45,7 @@ After preparing your data, Global admins must now work with your organization’
 To upload data, follow the Organizational data in Microsoft 365 wizard to complete the data upload. After successfully uploading data, Global admins can: 
 
 * View the data upload progress
-* Download data validation error logs to help you correct your data if needed
+* Download data validation error logs to help correct the data if needed
 * Check organizational data import history
 * View the data quality of past uploads
 
