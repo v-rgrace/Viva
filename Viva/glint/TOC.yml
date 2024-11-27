@@ -221,12 +221,10 @@ items:
               href: setup/glint-sensitive-comments.md
             - name: Manage confidentiality thresholds
               href: setup/manage-confidentiality-thresholds.md
-  - name: Microsoft 365 Copilot in Viva Glint (preview)
+  - name: Microsoft 365 Copilot in Viva Glint
     items:
       - name: Introduction to Microsoft 365 Copilot in Viva Glint 
         href: copilot/copilot-admin-intro.md
-      - name: Administrator deployment and setup for Copilot in Viva Glint 
-        href: ../copilot/deployment-permissions.md
       - name: Administrator enablement for Copilot in Viva Glint (preview)
         href: copilot/admin-enable.md
       - name: Microsoft 365 Copilot data, privacy, and security
