@@ -14,44 +14,57 @@ audience: Admin
 
 # Upload and maintain data through the Microsoft 365 admin center
 
-Organizational data uploads must now be done in the Microsoft 365 admin center, *not* the Viva Insights Advanced Analytics app or Analyst Workbench.  
+Organizational data uploads must now be done in the Microsoft 365 admin center, *not* the Viva Insights Advanced Analytics app.  
 
 This new platform centralizes organizational data uploads across all Viva apps, making it easier and faster to re-use your organizational data across multiple Viva apps and Microsoft 365 applications without needing to upload data for each app separately.
 
 >[!Important]
->This change is being made in waves, and all Viva Insights tenants have been put into one of three migration waves. If you're part of wave 1, your Viva Insights admin has been notified, and this change will roll out on November 26, 2024.
+>This change is being made in waves, and all Viva Insights tenants have been put into one of three migration waves. If you're part of wave 1, your Viva Insights admin has been notified, and this change will roll out November 26, 2024, through April of 2025.
 >
->Once your tenant(s) migrate, only Global admins can manage data uploads through the Microsoft 365 admin center. Managing data uploads through the Viva Insights Analyst Workbench will no longer be available.
+>Once your tenant(s) migrate, only Global admins can upload and manage data uploads through the Microsoft 365 admin center. Managing data uploads through the Viva Insights Analyst Workbench will no longer be available.
 >
 >[Learn more about the Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview).
 
-## Upload your data in the Microsoft 365 admin center
+## 1. Prepare your organizational data
 
-Global admins must now work with your organization’s data source admin to prepare organizational data using the .csv template in the Microsoft 365 admin center.
+Please work with the person responsible for preparing your data, such as your data source admin, to prepare your organizational data.
 
-1. First, update the template with your organizational data using the attribute name headers as specified in the template. This means that the attribute names in the data file must be prefixed with Microsoft_*attribute-name*, such as Microsoft_*Organization*. Please take note of the expected attribute names to prevent data upload errors.
-2. Follow the Organizational data in Microsoft 365 wizard to complete your data upload. Then you can:
-    1. View the data upload progress.
-    1. Download data validation error logs to help you correct your data if needed.
-    1. Check the organizational data import history.
-    1. View the data quality of past uploads.
+To use organizational data in Microsoft 365, you need to use the same column headers provided in the template through the data upload wizard.  
+
+Ensure your file is updated with the correct attribute name headers as specified in the template, which must be prefixed with Microsoft_*attribute-name* such as Microsoft_*Organization*. This is different from how you currently prepare your data file for upload within Viva Insights. The headers should now be prefixed with Microsoft_. Keep this formatting in mind as you prepare your data file to prevent data upload errors.
+
+[Learn more about how to prepare your data](..//admin/prepare-org-data.md).
 
 >[!Note]
->Microsoft Entra data is the default data source until you upload a data file. [Learn more](/viva/organizational-data).
+>Microsoft Entra data is the default data source until you upload an organizational data file. [Learn more](/viva/organizational-data).
+
+## 2. Upload and manage your data in the Microsoft 365 admin center
+
+After preparing your data, Global admins must now work with your organization’s data source admin to prepare organizational data using the .csv template in the Microsoft 365 admin center.
+
+To upload data, follow the Organizational data in Microsoft 365 wizard to complete the data upload. After successfully uploading data, Global admins can: 
+
+* View the data upload progress
+* Download data validation error logs to help you correct your data if needed
+* Check organizational data import history
+* View the data quality of past uploads
+
+>[!Note]
+>Uploading files larger than 25 MB using Organizational data in Microsoft 365 requires the use of SharePoint. [Learn how to upload data through Sharepoint](/viva/import-orgdata#upload-the-file-to-sharepoint).
 
 ## Other capabilities remaining in the Advanced Analytics app
 
-While organizational data uploads must now be done in the Microsoft 365 admin center, all other tasks must still be done in the Advanced Analytics app such as creating [data partitions](../admin/partitions.md), uploading all other types of data such as [sentiment data](../../org-team-insights/copilot-dashboard.md#upload-group-level-survey-results-with-the-advanced-insights-app), business outcome data, and managing your Viva Insights [admin settings](../admin/admin-center.md).
+While uploading and managing organizational data must now be done in the Microsoft 365 admin center, all other tasks must still be done in the Advanced Analytics app such as creating [data partitions](../admin/partitions.md), uploading all other types of data such as [sentiment data](../../org-team-insights/copilot-dashboard.md#upload-group-level-survey-results-with-the-advanced-insights-app), business outcome data, and managing your Viva Insights [admin settings](../admin/admin-center.md).
 
 ## FAQ
 
 **Why am I in wave 1?**
 
-Current product usage and geographical location were the main factors to determine which customers to migrate first.
+Current product usage and geographical location were the main factors to determine which customers to migrate first. Please reach out to us if you have any questions about the wave to which you're assigned.
 
 **Will this affect my organization’s existing data?**
 
-There is no impact on your organization’s existing data in Viva Insights.
+There is no impact on your organization’s existing data in Viva Insights. Every new upload from organizational data in Microsoft 365 is an incremental upload to your existing data.
 
 **Will there be any downtime associated with this move?**
 
@@ -61,4 +74,4 @@ No delays are expected, and you should not experience any break in Viva Insights
 
 No, you won’t have access to the organizational data upload feature in the Viva Insights app. All other features you use in Viva Insights will still be available.
 
-If you have any other questions or would like to be excluded from this migration wave, please reach out to vitomodismigration@microsoft.com by November 15, 2024.
+If you have any other questions, [please file a support ticket](..//..//get-insights-support.md).

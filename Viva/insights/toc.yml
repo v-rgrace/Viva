@@ -86,12 +86,12 @@ items:
             href: advanced/admin/org-data-overview.md
           - name: Prepare organizational data
             href: advanced/admin/prepare-org-data.md
+          - name: Upload and maintain data through the admin center 
+            href: advanced/admin/upload-org-data-admin-center.md
           - name: Upload organizational data (first upload)
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
             href: advanced/admin/upload-org-data-subsequent.md
-          - name: Upload and maintain data through the admin center 
-            href: advanced/admin/upload-org-data-admin-center.md
           - name: Import organizational data using API (first import)
             href: advanced/admin/import-org-data-first.md
           - name: Import organizational data using API (subsequent import)
