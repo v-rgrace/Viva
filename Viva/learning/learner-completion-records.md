@@ -61,3 +61,5 @@ You can download learner completion records for multiple employees within specif
 3. Depending on the size of the file, it can take up to 24 hours to be ready for download. 
 
 4. Download the csv file. It contains the completion records for all the employees included in the selected Microsoft 365 group or security group. 
+
+   ![Screenshot of the successfully processed group record export.](../media/learning/learner-records-2-success.png)
