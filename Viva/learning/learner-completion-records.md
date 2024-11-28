@@ -62,4 +62,4 @@ You can download learner completion records for multiple employees within specif
 
 4. Download the csv file. It contains the completion records for all the employees included in the selected Microsoft 365 group or security group. 
 
-   ![Screenshot of the successfully processed group record export.](../media/learning/learner-records-2-success.png)
+   [![Screenshot of the successfully processed group record export.](../media/learning/learner-records-2-success.png)](../media/learning/learner-records-2-success.png#lightbox)
