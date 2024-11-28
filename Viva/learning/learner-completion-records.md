@@ -46,3 +46,18 @@ The following table describes the columns and values within the exported file.
 | Recommender name (for Viva Learning Recommendation) | The name of the recommender who recommended the content to the learner in Viva Learning.|
 |Recommender email ID| The email ID of the recommender who recommended the content to the learner in Viva Learning.| 
 |Date of Recommendation/Assignment (UTC) | The date of creation of the assignment that displays if the date is synched from the content provider. The date of the creation of the recommendation by the recommender in Viva Learning.| 
+
+
+## Bulk export 
+
+You can download learner completion records for multiple employees within specific Microsoft 365 groups and security groups by bulk exporting learner completion records.
+
+1. Search for the Microsoft 365 group or security group you want to export. 
+
+2. Select a date range for the export.
+    1. You can select a maximum of a six-month period for the export. 
+    1. It can be any six-month window, not just the most recent period. 
+ 
+3. Depending on the size of the file, it can take up to 24 hours to be ready for download. 
+
+4. Download the csv file. It contains the completion records for all the employees included in the selected Microsoft 365 group or security group. 
