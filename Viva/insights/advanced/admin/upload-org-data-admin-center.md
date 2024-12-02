@@ -14,16 +14,20 @@ audience: Admin
 
 # Upload and maintain data through the Microsoft 365 admin center
 
-Starting December 5, 2024, organizational data uploads must be done in Organizational data in Microsoft 365 via the Microsoft 365 admin center, *not* the Viva Insights Advanced Analytics app.  
+Starting December 5, 2024, organizational data uploads must be done in Organizational data in Microsoft 365 through the Microsoft 365 admin center, *not* the Viva Insights Advanced Analytics app.  
 
-This new platform centralizes organizational data uploads across all Viva apps, making it easier and faster to reuse your organizational data across multiple Viva apps and Microsoft 365 applications without needing to upload data for each app separately.
+Organizational data in Microsoft 365 centralizes organizational data uploads across Viva and Microsoft 365 apps, making it faster to reuse your organizational data across multiple apps without needing to upload data for each app separately.
+
+[Learn more about organizational data in the Microsoft 365 admin center](/viva/organizational-data).
+
+[Learn more about the Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview).
 
 >[!Important]
->This change is being made in waves, and all Viva Insights tenants have been put into one of three migration waves. If you're part of wave 1, your Viva Insights admin has been notified, and this change will roll out November 26, 2024, through April of 2025.
+>There's a six-month transition period for Viva Insights admins to this new platform. This change is being made in three transition waves, and all Viva Insights tenants have been put into one wave.  
 >
->Once your tenant(s) migrate, only Global admins can upload and manage data uploads through the Microsoft 365 admin center. Managing data uploads through the Viva Insights Analyst Workbench will no longer be available.
+>If your tenant is part of the first wave, your Viva Insights admin has been notified, and we’ll begin the rollout on December 5 through April 2025.
 >
->[Learn more about the Microsoft 365 admin center](/microsoft-365/admin/admin-overview/admin-center-overview).
+>Once your tenant(s) migrate to Organizational data in Microsoft 365, only Global admins can upload and manage data through the Microsoft 365 admin center, [here](https://go.microsoft.com/fwlink/?linkid=2298902). Managing data uploads through the Viva Insights Analyst Workbench will no longer be available.
 
 ## 1. Prepare your organizational data
 
@@ -74,4 +78,6 @@ No delays are expected, and you shouldn't experience any break in Viva Insights 
 
 No, you won’t have access to the organizational data upload feature in the Viva Insights app. All other features you use in Viva Insights will still be available.
 
-If you have any other questions, [file a support ticket](..//..//get-insights-support.md).
+**I have more questions that haven’t been answered, or I need to make a request to the Viva Insights team.**
+
+Please reach out to us through your Viva Insights support team.
