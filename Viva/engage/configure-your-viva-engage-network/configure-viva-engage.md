@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
-ms.date: 05/24/2024
+ms.date: 11/19/2024
 audience: Admin
 ms.topic: article
 ms.localizationpriority: medium
@@ -54,12 +54,12 @@ As an Engage admin, network admin, or verified admin, you can choose to upload t
 
 ## Choose a language for system messages
 
-The system generates messages in response to user actions. These messages let the user know if the action was successful. Actions that trigger system messages include changes to the network configuration and within the app. 
+The system generates messages in response to user actions. These messages let the user know if the action was successful. Actions that trigger system messages include changes to the network configuration and within the app.
   
- - From the **Language** setting, choose a language for system messages.
+- From the **Language** setting, choose a language for system messages.
  All future system messages appear in the language you choose. Existing system messages appear in the previous language.
 
-## Set media configurations through the Yammer admin center
+## Set media configurations through the Engage admin center
 
 To access the Yammer admin center:
 
@@ -75,37 +75,42 @@ Private message content remains ingested for eDiscovery. Users can navigate to o
 
 - On the **Configuration** page, in the **Enabled Features** section, select whether to disable private messages.
 
-## Restrict file upload permissions and file formats
+## Restrict file upload permissions and GIFs
 
-1. On the **Configuration** page, in the **File Upload Permissions** section, set which types of files can be uploaded.
+In Viva Engage, users can attach files, including images and videos, to posts and replies. Files in community posts or replies are stored in the community's SharePoint library, while those in storyline posts or replies are stored in the author's OneDrive. Learn more about [file storage for communities.](https://support.microsoft.com/office/where-are-my-viva-engage-files-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443) and [file storage in Storyline.](/viva/engage/eac-storyline)
 
-2. To allow unlimited file types, select **Allow people to upload and attach files in any format**.
+If your network is not yet [Native Mode](/viva/engage/overview-native-mode), attachments to posts and replies in communities not connected to a Microsoft 365 group are uploaded to Azure Cloud storage. Learn more about [file storage for non-native networks](https://support.microsoft.com/office/where-are-my-viva-engage-files-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443) and how to identify which communities are backed by Microsoft 365 groups and which are backed by Azure Cloud storage.
 
-    Users can attach an unlimited number of files or images (up to 5 GB each) to a message or reply. File attachments are enabled by default.
+Configure the types of files that users can attach and upload in the Conversation settings page of the Admin center.
 
-   > [!NOTE]
-   > Uploading an image wider than 7680 pixels or taller than 4320 pixels results in an error.
-  
-3. To restrict who can upload files, clear the **Allow people to upload and attach files in any format** checkbox. 
-Choose from these three options:
+1. Sign in to Viva Engage as a network administrator.
+2. Go to the [Viva Engage Admin center.](/viva/engage/eac-overview)
+3. Select **Tenant settings**, then in the **Conversation settings** section, select **Edit**. <br>
+4. In the **Conversation settings** section, select an option in the **File uploads** section.
 
-      - **Allow people to upload and attach files in any format**
+    - **Allow all files** (default). People can attach and upload files in any format
 
-      - **Only allow people to upload and attach image or video files**: Limits attachments to images and videos. Viva Engage determines file type by extension.
+    - **Allow only images and videos**. People can attach and upload images and videos, only. File type is determined by the file extension. 
+    - **Disable uploads**. Users cannot attach files, including images and videos. Disabling uploads will not affect existing uploaded files.
 
-         Viva Engage uses Azure Media Services to make videos viewable within the network. For more information, see [Azure Media Services](https://azure.microsoft.com/products/media-services/).
+5. In the **GIFs** section you can enable or disable adding GIFs directly within Viva Engage. GIF selection uses Tenor, a third-party service
 
-      - **Don't allow anyone to upload or attach files**: When selected, this option prevents people from uploading and attaching new files. Existing attachments aren't affected.
 
-> [!NOTE]
-> When files are stored in Viva Engage, there is no virus check. Admins can export the files to perform an offline virus scan on them. Custom scripting can automate this process.
->
-> For Microsoft 365 connected Viva Engage groups that store files in SharePoint, virus checking occurs when the file is uploaded. For more information, see [Virus dectection in SharePoint Online](/office365/securitycompliance/virus-detection-in-spo).
+**Additional Infromation** 
 
-> [!TIP]
-> Community admins can delete files posted to the groups they manage. Other admins can delete any file.
->
-> To delete files, a network admin can select the Viva Engage **Settings** icon and then select **Files**. This opens the **Files** directory for the entire network. Community admins can delete files posted to a group from the **Files** tab in the group they administer.
+   - Attachments—file uploads—are enabled by default.
+   - GIFs are enabled by default.
+   - When attachments are enabled, people can attach an unlimited number of files, images or videos, up to 5 GB each, to a message or reply.
+   - File types are determined based on the file’s extension. When **Allow all files** or **Allow only images and videos** is selected, you can attach pdf files, image files, video files, Microsoft Office files, and more. Each post can have a maximum of 100 files.  
+   - When file uploads are restricted or disabled, people can continue to share links in their posts. Viva Engage does not support blocking links.
+   - For networks in Native Mode [link to article], all files are checked for viruses when uploaded. For more information, see [Virus detection in SharePoint Online.](/defender-office-365/anti-malware-protection-for-spo-odfb-teams-about)
+   - If your network is not in native mode, virus checking applies only to
+       - Files attached to posts and replies on a storyline.
+        - Files attached to posts and replies in a community attached to a Microsoft 365 group.
+        - There is no virus check for files uploaded to communities in non-native networks that are not connected to Microsoft 365 groups. Admins can export the files to perform an offline virus scan on them. Custom scripting can automate this process. Learn more about [file storage for non-native networks.](https://support.microsoft.com/en-us/office/where-are-my-viva-engage-files-stored-fadfdefa-e00d-40b6-94cb-a9ddb171a443)
+
+
+
   
 ## Enable or restrict the use of third-party apps
 
@@ -119,7 +124,7 @@ The growing network of partners and developers in Viva Engage continue to build 
   > [!NOTE]
   > This setting does not apply to Microsoft 365 connectors that can be added to Microsoft 365 groups. To disable use of these connectors in Viva Engage, use the following PowerShell command:  
   > Set-OrganizationConfig -ConnectorsEnabledforYammer:$false`
-  > 
+  >
   > For more information, see [Manage Microsoft 365 Groups with PowerShell](/office365/enterprise/powershell/manage-office-365-groups-with-powershell).
 
 ## Allow Tenor GIFs in messages
@@ -127,7 +132,7 @@ The growing network of partners and developers in Viva Engage continue to build 
 By default, users can attach GIFs provided by Tenor, a third-party company, to posts.
 
 > [!NOTE]
-> The GIF search in Viva Engage defaults to Tenor's "young audience" and "strict" filters to keep GIFs appropriate in a school or work setting. If you see inappropriate GIFs in a search, send email to support@tenor.com with a link to the GIF.
+> The GIF search in Viva Engage defaults to Tenor's "young audience" and "strict" filters to keep GIFs appropriate in a school or work setting. If you see inappropriate GIFs in a search, send email to <support@tenor.com> with a link to the GIF.
 
 You can turn off this feature so that users don't see GIFs from Tenor.
 
@@ -153,4 +158,4 @@ When this feature is enabled, users have a **Translate** option with any message
 
 Enable this feature to allow users to @mention other users without their full name. For example, Carole Poland can be mentioned as Carole.
 
--	On the **Configuration** page, in the **Enabled features** section, select **@mention custom usernames**.
+- On the **Configuration** page, in the **Enabled features** section, select **@mention custom usernames**.
