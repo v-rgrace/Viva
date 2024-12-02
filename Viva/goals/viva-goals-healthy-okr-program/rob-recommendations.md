@@ -1,4 +1,3 @@
-
 ---
 ms.date: 11/26/2024
 title: "Rhythm of Business Recommendations"
