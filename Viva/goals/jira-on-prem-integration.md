@@ -1,5 +1,5 @@
 ---
-ms.date: 02/21/2024
+ms.date: 11/13/2024
 title: Jira Server and Data Center integration for Viva Goals
 ms.reviewer: 
 ms.author: daisyfeller

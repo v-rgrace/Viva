@@ -32,7 +32,7 @@ Consider where and how different audiences get news and announcements. For examp
 - **Announce your organization’s instance of Viva Connections at an event:** Kick off the announcement about the availability of Viva Connections at an all-hands or Town Hall meeting where everyone in the organization attends or can view a recording later.
 - **Use communication tools like SharePoint news and Viva Engage communities:** Share details about the Viva Connections launch along with any change management guidance or end-user training in an [organizational news post](https://support.microsoft.com/office/create-and-share-news-on-your-sharepoint-sites-495f8f1a-3bef-4045-b33a-55e5abe7aed7#:~:text=In%20SharePoint%20Online%2C%20you%20can%20add%20news%20posts,instructions%20Create%20the%20news%20post%20.%20See%20More), [Viva Engage communities](https://support.microsoft.com/topic/dc806ad9-73bb-49ae-9c68-d800fd902649), and [Microsoft Teams channels](https://support.microsoft.com/office/8e7b8f6f-0f0d-41c2-9883-3dc0bd5d4cda).
 - **Consider hosting training events or offering office hours:** Make sure end-users get the most from Viva Connections by offering ongoing support the first 30 days after launching.
-- **Use the Viva email and poster templates:** Get a jump start on creating [communication materials for the Viva Connections launch](https://adoption.microsoft.com/viva/).
+- **Use the Viva email and poster templates:** Get a jump start on creating [communication materials for the Viva Connections launch](https://adoption.microsoft.com/viva/connections).
 
 ## Step 2: Announce Viva Connections
 

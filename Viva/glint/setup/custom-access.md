@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/15/2024
+ms.date: 11/26/2024
 ---
 
 # Custom data access in Viva Glint
@@ -34,30 +34,30 @@ Use the custom access export as a Viva Glint Admin to audit users' data access.
   
       :::image type="content" source="../../media/glint/setup/export-access-dialog.png" alt-text="Screenshot of the Export data dialog with program, role, and data selections.":::  
       
-4. A new dialog appears prompting you to **rename and save** the data to your device. Dy default, custom access files export to a compressed folder named: **Untitled.zip**.
+4. A new dialog appears prompting you to **rename and save** the data to your device. By default, custom access files export to a compressed folder named: **Untitled.zip**.
 
 ## Custom access file
 
-The custom data access export includes the following information. Modify or add data to this file to import to Viva Glint for data access updates in bulk.
+The custom data access export includes the following information:
 
 |Column  |Description   |
 |:----------|:-----------|
 |user email     | Populated with users' email addresses.       |
 |population     | The first population shows as 1. Each new population increases in number for each user. |
 |access type   | <ul><li>The survey uuid of the program that users have customized access for, or</li> <li>"GOAL" when exporting Focus Area access for users.</li> </ul>      |
-|other attributes    | Other columns in the export are based on your organization's attributes and values that are used to grant custom access. To grant new access, add new columns and values. |
+|other attributes    | Other columns in the export are based on your organization's attributes and values that are used to grant custom access. |
 
 ### Edit the access file
 
 To prepare your exported custom access file for import to Advanced Configuration:
 
 1. Open the exported .csv file by [importing in Microsoft Excel](https://support.microsoft.com/office/import-data-from-a-csv-html-or-text-file-b62efe49-4d5b-4429-b788-e1211b5e90f6) to retain leading zeros and data formats.
-2. Update the columns in the exported file to the following columns:
+2. Update the column labels in the exported file to the following columns:
 
    |Column  |Change to...   |
    |:----------|:-----------|
    |user email     | manager reference   |
-   |population     | `no change` |
+   |population     | `no change to column label` |
    |add or remove     | `insert this as a new column` populate with "ADD" or "REMOVE" |
    |access type   | survey uuid |
    |other attributes    | `no change` To grant new access, add new columns and values based on employee data imported to Glint. |
@@ -75,7 +75,8 @@ To prepare your exported custom access file for import to Advanced Configuration
    
 5. To grant custom access for:
    - **Survey results**:
-      - Populate the survey uuid column with the survey programs unique ID that's included in the access export file.
+      - Populate the survey uuid column with the survey program unique ID that's included in the access export file.
+      - **To update a user's data access for all surveys that they have access to, leave the survey uuid column blank**.
    - **Focus Areas**:
       - Populate the survey uuid column with "GOAL."
    - **Admin permissions**:
