@@ -225,7 +225,7 @@ items:
     items:
       - name: Introduction to Microsoft 365 Copilot in Viva Glint 
         href: copilot/copilot-admin-intro.md
-      - name: Administrator enablement for Copilot in Viva Glint (preview)
+      - name: Administrator enablement for Copilot in Viva Glint
         href: copilot/admin-enable.md
       - name: Microsoft 365 Copilot data, privacy, and security
         href: setup/copilot-privacy.md
@@ -235,7 +235,6 @@ items:
         href: setup/copilot-faqs.md
   - name: Create survey programs
     items: 
-      
       - name: Viva Holistic Listening Vision & Strategy Discovery Workbook
         href: ../solutions/holistic-listening-discovery-workbook.md
       - name: Set up and customize programs
