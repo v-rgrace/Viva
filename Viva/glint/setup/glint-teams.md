@@ -34,7 +34,7 @@ Bring survey notifications (invites, reminders, results notifications) and Nudge
 
 In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), your Microsoft 365 admin can install the Glint application for users in your organization. To install Glint for your organization: 
 
-1. Go to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and select **Teams Apps** and then **Setup Polices**.
+1. Go to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and select **Teams Apps** and then **Setup Policies**.
 1. Set up a policy (or modify an existing policy) to include the Viva Glint app for all users in your organization or a select group of users: [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
 1. When the Glint app is installed for users, they receive a welcome message in Microsoft Teams.
    
