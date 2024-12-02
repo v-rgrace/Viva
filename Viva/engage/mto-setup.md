@@ -24,11 +24,11 @@ search.appverid:
 >[!IMPORTANT]
 >Multitenant organization is available for Viva Engage on a roll-out basis. To configure this feature for your organization, contact your Microsoft Account Manager or Support.
 
-Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a group of trusted tenants in your organization in  Microsoft 365, you can communicate across those tenants in Viva Engage. Learn more about [multitenant organizations](/entra/identity/multi-tenant-organizations/).
+Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a group of trusted tenants in your organization in Microsoft 365, you can communicate across those tenants in Viva Engage. Learn more about [multitenant organizations](/entra/identity/multi-tenant-organizations/).
 
 #### Tenants connect in hub-and-spoke model
 
-Viva Engage uses a hub-and-spoke model to communicate across tenants. The *hub* rests at the center and is the tenant that generates most of the organization's content. The hub should be the tenant where your identified leaders (for example, corporate communicators, HR, and policy makers) reside.
+Viva Engage uses a hub-and-spoke model to communicate across tenants. The *hub* serves at the center and is the tenant that generates most of the organization's content. The hub should be the tenant where your identified leaders (for example, corporate communicators, HR, and policy makers) reside.
 
 *Spoke* tenants are the remaining networks. By using storyline and Leadership corner, leaders on the hub can broadcast content to all spoke tenants simultaneously, ensuring that information is distributed in a timely and efficient manner.
 
