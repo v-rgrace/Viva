@@ -1,8 +1,8 @@
 ---
-title: Viva Glint 360 cycle content export and import 
-description: Export and import translation files for 360 feedback cycles.
-ms.author: aweixelman
-author: AliciaWeixelman
+title: Viva Glint 360 cycle language text export and import 
+description: Export and import language translation files for 360 feedback cycles
+ms.author: JudithWeiner.
+author: JudyWeiner
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/23/2024
+ms.date: 12/02/2024
 ---
 
-# Viva Glint 360 cycle content export and import 
+# Viva Glint 360 cycle language text export and import 
 
 After setting up a Microsoft Viva Glint 360 cycle and making all customizations in English, use Export and Import Cycle Content options to apply all updates to translations.
 
