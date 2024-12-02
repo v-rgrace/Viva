@@ -41,7 +41,7 @@ Select **Save** when you are done configuring the page.
 
 Select up to six feedback provider categories. 
 - Standard categories automatically prepopulate feedback providers based on Manager Hierarchy.
-- Remove the Direct Reports category for individual contributor (IC) subjects,
+- Remove the Direct Reports category for individual contributor (IC) subjects.
 - **Or** ask IC subjects to skip adding feedback providers for the Direct Reports category for  cycles with both managers and ICs.
 
 >[!TIP]
@@ -52,7 +52,7 @@ Select up to six feedback provider categories.
 |Self| 1|No|Required - All 360 subjects require a subject self assessment|
 |Manager|1|Yes|Prepopulates with the subject's direct manager|
 |Skip Manager|1|Yes|Prepopulates with the subject's direct manager|
-|Direct reports|3*|Yes|Prepopulatees with the subject's direct reports|
+|Direct reports|3*|Yes|Prepopulates with the subject's direct reports|
 |Peers|3*|Yes|Prepopulates with people who have the same direct manager as the subject|
 |Custom|1|N/A|Not commonly used, but could be used for a *dotted line manager* or *mentor* feedback|
 |Custom|3*|N/A|Commonly used for *Collaborators*|
