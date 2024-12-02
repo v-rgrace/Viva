@@ -37,6 +37,8 @@ To use organizational data in Microsoft 365, you need to use the same column hea
 
 Ensure your file is updated with the correct attribute name headers as specified in the template, which must be prefixed with Microsoft_*attribute-name* such as Microsoft_*Organization*. This is different from how you currently prepare your data file for upload within Viva Insights. The headers should now be prefixed with Microsoft_. Keep this formatting in mind as you prepare your data file to prevent data upload errors.
 
+[Learn more about the public attributes you can upload through Organizational data in the Microsoft 365 admin center](/viva/organizational-data).
+
 [Learn more about how to prepare your data](..//admin/prepare-org-data.md).
 
 >[!Note]
