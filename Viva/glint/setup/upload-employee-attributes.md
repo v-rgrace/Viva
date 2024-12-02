@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 1/23/2024
+ms.date: 11/21/2024
 ---
 
 # Upload your employee attributes to Viva Glint
@@ -29,17 +29,7 @@ User file imports help admins to keep users current with their organization's HR
 
 ### File requirements
 
-The files exported by your HRIS system should be either comma-separated values (CSV) or Microsoft Excel (TM) files (.csv or .xlsx extensions). CSV is the preferred format with UTF-8 encoding. The following section provides additional information on the file format and structure.
-
-- File format – The Viva Glint system can accept employee attributes in either 'CSV – UTF 8' or 'XLSX' format. Files need to remain in that format once we set the expected format, or a failure message is generated.
-- File names - There are no specific restrictions. If your organization doesn’t have specific requirements for naming the files, the following naming convention is preferred:
-  - Full File: $clientuuid$_user_full_yyyymmdd.csv
-  - Incremental file: $clientuuid$_user_delta_yyyymmdd.csv
-  - The `$clientuuid$` part of the file name is your unique ID within Viva Glint.
-- Dates – Choose one format you use for dates and adhere to it. Our preferred format is “yyyy/mm/dd". If dates are sent in another format, we can configure the system to reformat the dates as the file is uploaded initially. However, the system shows errors if date formats don't match once we set the expected format.
-    > [!NOTE]
-    > The date format must include “/” instead of a hyphen between year, month, and day, and all dates must be in the same format.
-- Attribute names - Once attributes are determined, the attribute names (column headers) must remain the same. For example, “Employee ID” can't be changed to “EMP ID.”
+Use the [employee data file checklist](data-checklist.md) to ensure that your data meets all of Viva Glint's requirements.
 
 ## Import employee data
 
@@ -52,25 +42,26 @@ The import function allows you to quickly modify employee records in bulk and ad
 
 The following steps guide you through the process of importing the attributes manually: 
 
-1. Select the **Configure** symbol. 
+1. Select the **Configuration** symbol. 
 2. In the **Employees** section, select **People**.
-3. Select **Import**.
-4. Select the checkbox when updating all employee records, both in the file and in the system. 
-5. Drag and drop your file or browse to select it. 
+3. Select **Import** and then choose **Edit Employee List and Details**.
 
-    Select **Import File**. A message appears, informing you that an email sends once the upload is ready for review and confirmation.
-6. Then, select **Close**.
-7. After receiving the file upload email, go to the **People page** to confirm your upload.
+   :::image type="content" source="../../media/glint/setup/import-choice.png" alt-text="Screenshot of the import option selection screen, including the Edit Employee List and Details option."
+   
+5. Select the checkbox when updating all employee records, both in the file and in the system. 
+6. Drag and drop your file or browse to choose it. Select **Upload File**. A message appears, informing you that an email sends once the upload is ready for review and confirmation.
+7. Then, select **Close**.
+8. After receiving the file upload email, go to the **People page** to confirm your upload.
    1. Alternatively, refresh the People page to monitor the upload status in the progress bar at the top of the page.
-8. Select the **Review Upload** button in the top right of the People page.
-9. In the **Confirm your import** dialog that appears, before selecting **Confirm Import**:
+9. Select the **Review Upload** button in the top right of the People page.
+10. In the **Confirm your import** dialog that appears, before selecting **Confirm Import**:
    1. Confirm that the **employees moved to inactive** count is accurate.
    2. Confirm that the **employee change** count is accurate.
    3. Confirm that the **employees added** count is accurate.
-   1. [Troubleshoot errors](https://go.microsoft.com/fwlink/?linkid=2230863) as needed.
+   1. [Troubleshoot errors](/viva/troubleshoot/glint/data-file-upload/data-file-upload-warnings-errors) as needed.
 
 > [!NOTE]
-> - Only the user performing the upload will receive an email when the file has processed.
+> - Only the user performing the upload receives an email when the file has processed.
 > - If the file isn't confirmed within 60 minutes of upload, it's cancelled.
 
 ## Update your employee data regularly

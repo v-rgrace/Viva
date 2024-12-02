@@ -2,7 +2,7 @@
 title: "Migrate classic feeds in SharePoint to the Viva Engage Conversations web part"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 08/07/2024

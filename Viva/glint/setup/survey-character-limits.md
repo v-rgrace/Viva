@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/01/2024
+ms.date: 11/14/2024
 ---
 
 # Survey field character limits in Viva Glint programs
@@ -66,6 +66,9 @@ Character limits apply to survey invitations, reminders, and results release ema
 | Title | 3000 |
 | Message | 3000 |
 | Questionnaire Button | 65 |
+| Plan text links* | 100 |
+
+*HTML and hyperlinks aren't supported in Viva Glint emails and can cause email delivery issues. Viva Glint Admins can add plain text links. For example: `www.microsoft.com`. [Learn more about email customization](email-content-customization.md).
 
 ## Fields
 

@@ -3,7 +3,7 @@ title: "Viva Engage file storage overview"
 description: "Where files are stored in Viva Engage depends on whether the network uses Microsoft 365 connected groups."
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 01/04/2024

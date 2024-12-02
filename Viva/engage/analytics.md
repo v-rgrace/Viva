@@ -2,7 +2,7 @@
 title: "View and manage analytics in Viva Engage"
 description: "Viva Engage analytics lets user monitor their engagement metrics and leaders monitor engagement across the organization."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 6/18/2024

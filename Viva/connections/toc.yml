@@ -40,8 +40,12 @@ Items:
       href: viva-connections-analytics.md
     - name: Dashboard
       items:
-      - name: Add cards to the dashboard
+      - name: Create and edit the dashboard
         href: create-dashboard.md
+      - name: Build cards with the card designer
+        href: use-card-designer.md
+      - name: Available dashboard cards
+        href: available-dashboard-cards.md
       - name: Create a dashboard in more than one language
         href: create-multilingual-dashboard.md
     - name: Feed

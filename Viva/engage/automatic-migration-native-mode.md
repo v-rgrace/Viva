@@ -3,7 +3,7 @@ ms.date: 7/12/2023
 title: "Automatic Native Mode migration and network consolidation"
 description: "Frequently asked questions about Native Mode for Viva Engage"
 ms.reviewer: auhosford
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin
