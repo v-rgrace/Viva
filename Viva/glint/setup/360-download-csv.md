@@ -1,5 +1,5 @@
 ---
-title: 360 Feedback program Subject, Feedback Provider, and Coach CSV reports
+title: 360 Feedback Subject, Feedback Provider, and Coach CSV reports
 description: Export and import spreadsheets with Subject and Coach information for Viva Glint 360 Feedback programs.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 12/02/2024
 ---
 
-# 360 Feedback program Subject, Feedback Provider, and Coach CSV reports
+# 360 Feedback Subject, Feedback Provider, and Coach CSV reports
 
 For any 360 cycle in draft or scheduled status, admins can download a CSV file by selecting the **Import Subjects** button and then the **Download CSV** link.
 
