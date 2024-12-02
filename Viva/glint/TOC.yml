@@ -357,7 +357,7 @@ items:
           - name: Export and import 360 Feedback program cycle content
             items:
               - name: Export and import language translations for Viva Glint 360 Feedback programs
-                href: setup/360-import-csv.md
+                href: setup/360-export-import.md
               - name: Export CSV reports for 360 Feedback program Subjects and Coaches
                 href: setup/360-download-csv.md
           - name: Test and launch
