@@ -65,7 +65,7 @@ In the Subject ellipses menu:
 1.	Select **Edit/Add feedback providers**. 
 1.	Select **Invite feedback providers when Cycle is Live**. 
 
-    Once selections are saved and the cycle is live, feedback providers receive an invitation to participate. The Subject can review and add additional feedback providers during the cycle. 
+    Once selections are saved and the cycle is live, feedback providers receive an invitation to participate. The Subject can review and add other feedback providers during the cycle. 
     
     > [!NOTE]
     > Employees, other than the Subject, may be added to any feedback provider category but can’t be added to multiple feedback provider categories for a single subject.
