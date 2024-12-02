@@ -3,7 +3,7 @@ ms.date: 10/09/2023
 title: "Viva Engage network and Microsoft Defender"
 description: "Learn how Microsoft Defender for Clouds Apps works in your Viva Engage network."
 ms.reviewer: michael.mclean
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin

@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/18/2024
+ms.date: 11/18/2024
 ---
 
 # Export reports as a PDF
@@ -22,6 +22,9 @@ ms.date: 10/18/2024
 Microsoft Viva Glint users need to export their survey results to share with offline users, read verbatim comments, or to create presentations for their teams. Exporting reports as a Portable Document Format (PDF) in Glint is quick, allows easy consumption of comments, and supports highlighting, markup, search, and preview functionality. This export technology includes PDF exports for 360 feedback program reports and Focus Area reports.
 
 In 360 feedback reports, the PDF export experience is a valuable and primary way for reports to be shared with external coaches. Glint 360 feedback PDF reports are generated to be consumable, shareable, and easy to use for collaborating on next steps.
+
+> [!IMPORTANT]
+> Only the first page of your report exports. From our experience, most organizations aren't affected by this limitation.
 
 ## Procedure to export a PDF report
 

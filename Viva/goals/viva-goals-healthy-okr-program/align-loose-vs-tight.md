@@ -24,7 +24,7 @@ description: "Choosing between tight or loose alignment across your OKRs."
 
 There's widespread agreement that alignment is one of the strongest features of the OKR framework. When OKRs are properly aligned, individuals can clearly see how the work they do as part of a team delivers impact to the overall purpose, and makes working with cross-functional teams and remote coworkers easier. Everyone is moving in the same direction. 
 
-However, a question that is often asked is, “Should I have tight or loose alignment across my OKRs?”  
+However, a question that's often asked is, “Should I have tight or loose alignment across my OKRs?”  
 
 In other words, should cascading goals follow a strict adherence from one level to the next, or is it ok if goals are loosely supported? 
 

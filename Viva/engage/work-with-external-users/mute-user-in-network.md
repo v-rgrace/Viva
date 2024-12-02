@@ -2,7 +2,7 @@
 title: "Reduce visibility of a user's posts in Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 09/05/2024

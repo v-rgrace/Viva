@@ -3,7 +3,7 @@ ms.date: 02/12/2024
 title: "Deep linking into Viva Engage"
 description: "Create deep links into Viva Engage"
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin

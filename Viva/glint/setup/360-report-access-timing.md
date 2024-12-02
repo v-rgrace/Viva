@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/23/2024
+ms.date: 11/15/2024
 ---
 
 # 360 Feedback report access and timing
@@ -34,7 +34,7 @@ If access is turned to **ON**, a dropdown menu lets you choose report access tim
 
 Global Reporting Guidance
 
-:::image type="content" source="../../media/glint/setup/360-resource-guidance.png"alt-text="Screenshot of the search bar for choosing resource guidance.":::
+:::image type="content" source="../../media/glint/setup/360-resource-guidance2.png"alt-text="Screenshot of the search bar for choosing resource guidance.":::
 
 Glint offers standard program and report guidance templates. 
 
