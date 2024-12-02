@@ -14,12 +14,12 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/18/2024
+ms.date: 11/25/2024
 ---
 
 # Send Viva Glint survey results to Viva Insights 
 
-HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel–Glint-along with how people work - Insights.  This integration gives your organization a complete picture of the employee's experience.
+HR analysts and other leaders in your organization can bring Microsoft Viva Glint survey scores into Microsoft Viva Insights to learn how people feel–Glint-along with how people work - Insights. This integration gives your organization a complete picture of the employee's experience.
 
 *Applies to: Viva Glint administrator, Viva Insights administrator* 
 
@@ -75,7 +75,7 @@ In the future, this resync occurs automatically.
 
 *This guidance is for the initial sending of data to Insights only.*
 
-1. On the **Send Data to Viva Insights** page, **Select Programs** by enabling the checkbox next to the recurring or ad hoc program listed. You can choose more than one program.
+1. On the **Send Data to Viva Insights** page, **Select Programs** by enabling the checkbox next to the Recurring or Ad Hoc program listed. You can choose more than one program.
 
    :::image type="content" source="../../media/glint/setup/send-to-insights.png" alt-text="Screenshot of the Send data to Viva Insights button." lightbox="../../media/glint/setup/send-to-insights.png":::
 
@@ -85,13 +85,16 @@ In the future, this resync occurs automatically.
 
 3. Select **Close.**
 
+> [!IMPORTANT]
+> With this integration, when export of raw survey responses is enabled for a survey program,  CSV download of the Glint and organizational insights report is also supported in Viva Insights. [Understand Viva Glint raw survey responses](/viva/insights/advanced/analyst/templates/glint).  
+
 ## Send more survey programs to Viva Insights
 
 1. In the **Send Data to Viva Insights** section, after your first data send, the button displays **Manage Integration**. Use this button to send more programs to Insights.
 
    :::image type="content" source="../../media/glint/setup/manage-integration-button.png" alt-text="Screenshot of Manage Integration dialog box and button.":::
 
-2. Select **+ Add Programs.**
+2. Select **+ Add Programs**.
 
 3. In the **Add Program** window, select **Add** next to any program. You can select multiple programs.
 
@@ -106,9 +109,9 @@ In the future, this resync occurs automatically.
 
 *Applies to Viva Glint admin and Viva Insights admin*
 
-After the Glint admin sends data, the Insights app validates it and provides status messages about the import. [Learn about the validation process, what status messages mean, and how to manage data errors.](/viva/insights/advanced/admin/import-survey-glint#3-data-validation-and-processing), 
+After the Glint admin sends data, the Insights app validates it and provides status messages about the import. [Learn about the validation process, what status messages mean, and how to manage data errors](/viva/insights/advanced/admin/import-survey-glint#3-data-validation-and-processing). 
 
-If processing fails, try running the import again, and resending your survey data. If you’re still getting a failed status, [file a support ticket](/../../microsoft-365/admin/get-help-support).
+If processing fails, try running the import again, and resending your survey data. If you're still getting a failed status, [file a support ticket](/../../microsoft-365/admin/get-help-support).
 
 ## Glint data deletions result in Insights data deletion
 
@@ -124,7 +127,7 @@ After sending data to Viva Insights, you can continue to manage your integration
 
 1. Select **Manage Integration**.
 
-1. Hover over the ellipses next to the program to reveal the actions available. Select **Remove program.**
+1. Hover over the ellipses next to the program to reveal the actions available. Select **Remove program**.
 
    :::image type="content" source="../../media/glint/setup/send-data.png" alt-text="Screenshot of how to remove programs." lightbox="../../media/glint/setup/send-data.png":::
 

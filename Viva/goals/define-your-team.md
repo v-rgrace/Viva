@@ -1,10 +1,10 @@
 ---
-ms.date: 02/18/2024
+ms.date: 11/27/2024
 title: Key OKR stakeholders and their functions
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -20,8 +20,35 @@ description: "Learn about the key team members required for OKR success."
 
 # Key OKR stakeholders and their functions
 
-Adopting the OKR methodology and the technology used to enable it requires buy-in and support from across your organization. The following groups and team members are important to making sure the OKR methodology helps achieve your business outcomes, and each one plays a specific role.
+Adopting the OKR methodology and the technology used to enable it requires cooperation across your organization. The following groups and team members are important to making sure the OKR methodology helps achieve your business outcomes. Each one plays a specific role.
 
-![Picture of a table showing O K R key stakeholders.](../media/goals/1/12/a.png)
+## Key Groups
 
-![Picture of a table showing O K R stakeholder role responsibilities.](../media/goals/1/12/b.png)
+- Executive sponsors
+- OKR super champion
+- Team owners
+- OKR champions
+
+## Additional core team members
+
+- Project lead
+- Department leads (stakeholders)
+- IT specialists
+- Communications lead
+- Employee training lead
+- OKR community leader
+- Early adopters
+
+## Roles and responsibilities
+
+|Role                           |Responsibilities   |
+|-------------------------------|-----------|
+|Executive sponsor              |Communicate high-level vision and values for company-wide OKRs.      |
+|Super champion                 |Ensure Viva Goals adoption leads to realizing business goals.   |
+|Champions                      |Promote adoption of Viva Goals and handle objections. |
+|Project lead                   |Oversee Viva Goals deployment process and logistics. |
+|Tenant admin (IT specialist)   |Oversee technical aspects of Viva Goals deployment and rollout. |
+|Department leads (stakeholders)|Identify how departments will use Viva Goals, and encourage adoption within their departments. |
+|Early adopters                 |Use Viva Goals early in the adoption process. Provide feedback to help the rest of the organization transition smoothly. |
+|Employee training lead         |Manage and communicate training content about Viva Goals. |
+|OKR community leader           |Own and manage an internal community focused on OKRs. Facilitate discussions and learning opportunities for the organization. |

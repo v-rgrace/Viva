@@ -209,10 +209,6 @@ items:
   items:
   - name: Benefits of OKRs
     href: benefits-of-okrs.md
-  - name: OKR superpowers
-    href: okr-superpowers.md
-  - name: Ensuring OKR program success
-    href: ensuring-okr-success.md
   - name: Define your team
     href: define-your-team.md
   - name: Determine your rollout plan
@@ -225,8 +221,6 @@ items:
        
 - name: Discover goal-setting best practices with Viva Goals
   items:
-   - name: Best practices for running a healthy Viva Goals program
-     href: ./viva-goals-healthy-okr-program/healthy-okr-program-overview.md
    - name: Create goals and OKRs
      items:
       - name: Writing great goals
@@ -247,8 +241,6 @@ items:
           href: ./viva-goals-healthy-okr-program/write-okrs-overview.md
         - name: Improve your OKR writing
           href: ./viva-goals-healthy-okr-program/apply-okr-formula.md
-        - name: Write OKRs recommendations
-          href: ./viva-goals-healthy-okr-program/write-okrs-recommendations.md
         - name: Defining Key Result Types in Viva Goals
           href: ./viva-goals-healthy-okr-program/kr-types.md
         - name: OKR examples

@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/27/2023
+ms.date: 11/27/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -13,7 +13,7 @@ ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
 ms.localizationpriority: medium
-description: Get help with Viva Learning.
+description: Find out how to get support and help with Viva Learning.
 ---
 
 # Help and support

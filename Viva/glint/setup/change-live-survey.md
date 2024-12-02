@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/15/2024
+ms.date: 11/21/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -53,7 +53,7 @@ Sometimes changing a live survey may be beneficial.
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | The text at the beginning (top) and end (bottom) of the survey | The *Intro* or *Thank You* text needs adjustments or corrections. | Newly edited text is featured immediately and *only* on surveys that haven't started. |
-| Item text | The phrasing of an item needs to be edited. | Glint pushes your edits into production (that is, live survey and reporting).<br><p>**Note:** Republishing can cause a disruption to employees taking the survey at the moment this change is implemented. They can start over by refreshing their page.|
+| Item text | The phrasing of an item needs to be edited. | Decide whether to change the item while the survey is live or if it can wait until the next cycle. Instructions for editing items in a live survey are below.|
 | Adding or removing an item | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or *Employee Lifecycle program. |
 | Item order | The survey items need to be reordered. | The newly edited order is featured immediately but *only* on surveys that haven't yet been started. |
 
@@ -100,14 +100,15 @@ The information is broken out across **Program Summary** setup pages.
 
 ## Items (Questions)
 
-[Read extended guidance on live survey item (question) edits here.](/viva/glint/setup/question-edit)
-
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | **The text at the beginning (top) and end (bottom) of the survey** | The **Intro** or **Thank You** text needs adjustments or corrections. | Newly edited text is featured immediately on surveys that haven't been started. |
 | **Question text** | The phrasing of an item needs to be edited. |Survey item rephrasing propagates to future programs only. A live program isn't affected by any edit.|
 | **Add or remove a survey item** | You want to add a new item or remove an item from a live survey. | An item *can't* be added or removed from a live survey except in an *Always-On* or **Employee Lifecycle** program. |
 | **Item order** | The questions need to be reordered. | The newly edited item order is featured immediately on surveys that haven't been started. |
+
+> [!NOTE]
+> Changes to survey *sections* and survey *breaks* can't occur during a live cycle. They apply to upcoming cycles only.
 
 ### Admin process for editing a question during a live survey
 
@@ -119,11 +120,20 @@ There are three entry points for editing a question:
 **Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
 If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is made automatically when your edits are saved.
 
+Hover over the **horizontal ellipses** next to any survey item to select **Edit Question**.
+
+The Edit Question slider window includes these setup tabs:
+- Question Configuration
+- Associated Programs
+
+:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
+
+:::image type="content" source="../../media/glint/setup/before-question-edit.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit.png":::
+
 ### Inform survey takers of a live edit
 
 > [!IMPORTANT]
 > All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live.
-> <br>
 > They must also understand that if they retake a survey, their original answers are replaced.
 
 **You are responsible to notify participants about any change and provide instructions on how to do so. Survey retake access:**
@@ -138,11 +148,21 @@ Review your edits to make sure your employees receive appropriate notice.
  
 1. Review the **Confirm your changes** window that opens.
 
-   :::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions."lightbox="../../media/glint/setup/confirm-changes-dialog-box.png":::
+   :::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions." lightbox="../../media/glint/setup/confirm-changes-dialog-box.png":::
 
-2. If everything is as expected, select **Confirm.**
+2. If everything is as expected, select **Confirm**.
 
 3. A one-time notification confirms that your item is updated.
+
+### Associated programs
+
+A list of program names previously used or in use that include this survey item can be viewed here. You may see an alert cautioning you that this question is being used in one or more live surveys. 
+
+- If you don't want to make this change, choose **Cancel**.
+- You can edit language text, instruction text, and comment placeholder text only. Other fields are disabled and can't be edited until the survey is no longer live.
+- Make your changes and select **Save**.
+
+:::image type="content" source="../../media/glint/setup/change-live-q-tooltips.png" alt-text="Screenshot of warning and tips about editing a question during a live survey." lightbox="../../media/glint/setup/change-live-q-tooltips.png":::
 
 ## Reporting
 
@@ -151,7 +171,7 @@ Review your edits to make sure your employees receive appropriate notice.
 | **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approve toggle to **Yes**. |
 | **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain users with live access are aware so they aren't confused by different results from a past viewing. |
 | **Aggregate Indices** | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain users with live access are aware so they aren't confused by results that are different their last viewing. |
-| **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain ausers with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
+| **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain users with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
 
 ## Communications
 
