@@ -28,7 +28,7 @@ Multitenant organization is a Microsoft 365 feature that allows complex and dist
 
 #### Tenants connect in hub-and-spoke model
 
-Viva Engage uses a hub-and-spoke model to communicate across tenants. The *hub* serves at the center and is the tenant that generates most of the organization's content. The hub should be the tenant where your identified leaders (for example, corporate communicators, HR, and policy makers) reside.
+Viva Engage uses a hub-and-spoke model to communicate across tenants. The *hub* rests at the center and is the tenant that generates most of the organization's content. The hub should be the tenant where your identified leaders (for example, corporate communicators, HR, and policy makers) reside.
 
 *Spoke* tenants are the remaining networks. By using storyline and Leadership corner, leaders on the hub can broadcast content to all spoke tenants simultaneously, ensuring that information is distributed in a timely and efficient manner.
 
