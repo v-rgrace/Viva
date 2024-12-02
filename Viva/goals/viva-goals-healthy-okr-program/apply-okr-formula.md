@@ -32,7 +32,7 @@ Are you ready to draft your OKRs? As you do, it's important to ask:
 - Why does that matter right now?  
 - How should that be written into a statement to inspire the team?
 - What metric indicates success?
-- Is that metric currenty measured?
+- Is that metric currently measured?
 - What's the target and baseline?  
 
 ## Tip #2: Ask questions while reviewing your OKRs
