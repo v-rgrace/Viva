@@ -14,7 +14,7 @@ audience: Admin
 
 # Upload and maintain data through the Microsoft 365 admin center
 
-Starting December 5, 2024, organizational data uploads must now be done in Organizational data in Microsoft 365 via the Microsoft 365 admin center, *not* the Viva Insights Advanced Analytics app.  
+Starting December 5, 2024, organizational data uploads must be done in Organizational data in Microsoft 365 via the Microsoft 365 admin center, *not* the Viva Insights Advanced Analytics app.  
 
 This new platform centralizes organizational data uploads across all Viva apps, making it easier and faster to reuse your organizational data across multiple Viva apps and Microsoft 365 applications without needing to upload data for each app separately.
 
