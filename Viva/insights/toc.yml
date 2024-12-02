@@ -86,6 +86,8 @@ items:
             href: advanced/admin/org-data-overview.md
           - name: Prepare organizational data
             href: advanced/admin/prepare-org-data.md
+          - name: Upload and maintain organizational data through the admin center 
+            href: advanced/admin/upload-org-data-admin-center.md
           - name: Upload organizational data (first upload)
             href: advanced/admin/upload-org-data-first.md
           - name: Upload organizational data (subsequent upload)
