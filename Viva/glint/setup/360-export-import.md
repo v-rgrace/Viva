@@ -65,4 +65,4 @@ To export 360 content files from the cycle page and edit content to prepare for 
 
 ## Generate CSV files to view 360 Subjects information
 
-[Follow this guidance](Viva/glint/setup/360-download-csv)
+[Follow this guidance](360-download-csv.md)
