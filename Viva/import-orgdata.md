@@ -33,8 +33,8 @@ To import your data, you populate a .csv template with the attributes (or inform
 
 ## Step 1 - Download a .csv template
 
-1. Sign into to the Microsoft 365 admin center as a user with Global Admin permissions.
-1. On the **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started** (if this is the first time you're importing data) or **New import**.
+1. Sign in to the Microsoft 365 admin center as a user with Global Admin permissions.
+1. On **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started** (if this is the first time you're importing data) or **New import**.
 2. Select **Download CSV template**.
 
 > [!NOTE]
