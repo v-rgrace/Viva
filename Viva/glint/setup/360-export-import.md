@@ -41,13 +41,13 @@ To export 360 content files from the cycle page and edit content to prepare for 
 5. Double-click each .zip folder to open and view all language files for each content type.
 6. Open and edit files in each language where customizations need to be added.
 
-   > [!IMPORTANT]
-   > To retain special characters and formatting, always open CSV files by [importing data from csv](https://support.microsoft.com/en-us/office/import-data-from-a-csv-html-or-text-file-b62efe49-4d5b-4429-b788-e1211b5e90f6) in Microsoft Excel.
+   > [!IMPORTANT]  
+   > To retain special characters and formatting, always open CSV files by [importing data from CSV](https://support.microsoft.com/en-us/office/import-data-from-a-csv-html-or-text-file-b62efe49-4d5b-4429-b788-e1211b5e90f6) in Microsoft Excel.
 
 7. Modify content in columns that contain "translated" in the column label.
 
-> [!IMPORTANT]
-> To ensure that files import successfully, don’t edit exported **file names** or **header names**.
+   > [!IMPORTANT]  
+   > To ensure that files import successfully, don’t edit exported **file names** or **header names**.
 
 ## Import edited content to the 360 cycle page
 
