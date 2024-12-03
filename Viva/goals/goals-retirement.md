@@ -29,7 +29,7 @@ Microsoft remains fully committed to the Viva suite as a whole, and will continu
 
 ## How will the deprecation affect your organization?
 
-Here's what to expect. You can refer to this article and to the [frequently asked questions](goals-retirement-faq.md) to understand how to minimize disruption to your workflows and transition as smoothly as possible.
+Here's what to expect. You can refer to this article and to the [FAQ](goals-retirement-faq.md) to understand how to minimize disruption to your workflows and transition as smoothly as possible.
 
 - **Continued Access:** Viva Goals will continue to be available to our existing customers until December 31, 2025, to ensure time for a planned transition to other OKR solutions. Until the retirement date, Microsoft will continue to provide support through security patches and critical bug fixes.
 
@@ -41,4 +41,4 @@ To prevent autorenewal beyond the product’s retirement date, you need to disab
 
 If your subscription extends beyond the product’s retirement date, contact your Microsoft representative for assistance.  
 
-Thank you for being a valued Microsoft customer. For more information, see the [FAQs](goals-retirement-faq.md).
+Thank you for being a valued Microsoft customer. For more information, see the [FAQ](goals-retirement-faq.md).
