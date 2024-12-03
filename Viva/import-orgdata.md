@@ -66,10 +66,10 @@ Emp6@contoso.com,Mgr3@contoso.com,Support,Sales,9,New York
 For more information about attributes, see the [Attribute reference](orgdata-attributes.md).
 
 ## Step 3 - Import your organizational data for the first time 
-After you create a .csv file with your data, the next step is to import the data, either from your local computer (for Viva Insights-licensed customers) or from a SharePoint site.
+After you create a .csv file with your data, the next step is to import the data, either from your local files on your computer or from a SharePoint site.
 
-### Upload the .csv file from your computer
-After you create the .csv file with your data, you can upload it directly from your local files. 
+### Upload the .csv file from your local files on your computer
+After you create the .csv file with your data, you can upload it directly from your local files on your computer. 
 
 >[!NOTE]
 > There's a 25 MB limit on files uploaded directly from your local files. If your .csv file is larger, [upload it first to SharePoint](#upload-the-file-to-sharepoint) and then import it from there.
