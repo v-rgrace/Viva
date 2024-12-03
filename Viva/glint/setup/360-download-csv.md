@@ -1,5 +1,5 @@
 ---
-title: 360 Feedback Subject, Feedback Provider, and Coach CSV reports
+title: 360 Subject, Feedback Provider, and Coach CSV reports
 description: Export and import spreadsheets with Subject and Coach information for Viva Glint 360 Feedback programs.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/02/2024
+ms.date: 12/03/2024
 ---
 
-# 360 Feedback Subject, Feedback Provider, and Coach CSV reports
+# 360 Subject, Feedback Provider, and Coach CSV reports
 
 For any 360 cycle in draft or scheduled status, admins can download a CSV file by selecting the **Import Subjects** button and then the **Download CSV** link.
 
@@ -53,6 +53,6 @@ There are three ways to use the **Remove Action** column:
 - Insert **SUBJECT** into a cell to remove the Subject from that cycle
 - Insert **COACH** to keep the subject but remove the subject's coach from that cycle
 
-- 
+  
 
 
