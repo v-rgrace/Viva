@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/21/2024
+ms.date: 12/10/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -113,6 +113,7 @@ The information is broken out across **Program Summary** setup pages.
 ### Admin process for editing a question during a live survey
 
 There are three entry points for editing a question:
+
 -	From the Question Library on your admin dashboard (doesn't require survey to go into unapproved state)
 -	From the *Survey Programs, Live* section
 -	From the *Survey Programs, Upcoming* section
@@ -130,29 +131,24 @@ The Edit Question slider window includes these setup tabs:
 
 :::image type="content" source="../../media/glint/setup/before-question-edit.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit.png":::
 
-### Inform survey takers of a live edit
+## Edit and inform survey takers of a live edit
+
+After reviewing your edits to an item, select **Save**. The **Confirm your changes** dialog box displays.
+
+   :::image type="content" source="../../media/glint/setup/confirm-changes.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions." lightbox="../../media/glint/setup/confirm-changes.png":::
+
+1. In the **Confirm your changes** dialog box:
+ - If your organization uses Entra ID or personalized links for survey access, you have the option to notify participants who have started or already completed the survey. Check this box: **Send an email notification about this change to participants who have already started or completed this survey.** 
+ - If your organization uses an attribute-based survey access, you'll need to notify participants about these changes and give them the option to retake the survey. **This is mandatory.**
 
 > [!IMPORTANT]
-> All survey participants must be made aware of the opportunity to retake a survey if a question is changed while the survey is live.
-> They must also understand that if they retake a survey, their original answers are replaced.
+> - All survey participants must be made aware of the opportunity to retake a survey if a question is changed during a live survey. They must also understand that if they retake their survey, all original answers are replaced.
+> - Survey takers can use the link from their original survey invitation email to retake their survey. [Use this guidance to resend survey invites](/viva/glint/communicate/support-survey-participants#resend-survey-invites)
+> - For participants who haven't started the survey, the survey automatically updates with the new version of all items. No notification is required.
 
-**You are responsible to notify participants about any change and provide instructions on how to do so. Survey retake access:**
--	Survey takers can use the link from their original survey invitation email to retake their survey.
--	[Use this guidance to resend survey invites](/viva/glint/communicate/support-survey-participants#resend-survey-invites)
+2. Select **Confirm** in the dialog box or **Back** if you need to make more edits.
 
-For participants who haven't started the survey, the survey automatically updates with the new version of all items and no notification is required.
-
-### Confirm edits 
-
-Review your edits to make sure your employees receive appropriate notice. 
- 
-1. Review the **Confirm your changes** window that opens.
-
-   :::image type="content" source="../../media/glint/setup/confirm-changes-dialog-box.png" alt-text="Screenshot of the confirmation dialog box for editing live survey questions." lightbox="../../media/glint/setup/confirm-changes-dialog-box.png":::
-
-2. If everything is as expected, select **Confirm**.
-
-3. A one-time notification confirms that your item is updated.
+3. A one-time notification banner confirms that your item is updated.
 
 ### Associated programs
 
