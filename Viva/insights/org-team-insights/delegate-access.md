@@ -1,5 +1,5 @@
 ---
-ms.date: 09/12/2024
+ms.date: 11/11/2024
 title: Delegate access to organizational insights and Copilot Dashboard
 description: Learn how to delegate access to organization insights and Copilot Dashboard in Viva Insights.
 author: zachminers
@@ -87,9 +87,6 @@ Whenever a delegate has been added, they'll be notified in Teams Chat of their c
 ## Remove access to delegate Copilot Dashboard with Powershell
 
 [Learn more about using policies to control access to features in Viva](/viva/feature-access-management).
-
->[!Important]
->Policies to disable delegation for Copilot Dashboard can only be applied for the entire tenant level at this time.
 
 You can set a policy to disable delegation for Copilot Dashboard for the tenant using Powershell cmdlets. This is a tenant-level policy, not a user or group-level policy. No users can delegate access to Copilot Dashboard until you remove or update the policy. Before you can use the cmdlet, you need to install a module and sign in to be authenticated. [Learn more about how to set these policies](/viva/feature-access-management).
 

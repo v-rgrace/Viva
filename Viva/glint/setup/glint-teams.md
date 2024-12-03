@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/10/2024
+ms.date: 12/02/2024
 ROBOTS: NOINDEX, NOFOLLOW
 ---
 
@@ -25,15 +25,20 @@ ROBOTS: NOINDEX, NOFOLLOW
 
 Bring survey notifications (invites, reminders, results notifications) and Nudges into the flow of work by integrating Microsoft Viva Glint and Microsoft Teams. Use the information in this article to have a Microsoft 365 admin install Viva Glint for Teams users in your organization and to enable Teams in the Viva Glint application.
 
+> [!IMPORTANT]
+> Glint survey notifications and Nudges in Teams don't currently support:
+> - Notifications across multiple tenants for organizations that use Microsoft 365's [multitenant organization feature](glint-mto.md).
+> - Notifications that use [multiple languages in a single email](multi-lang-emails.md).
+
 ## Install Microsoft Viva Glint for your organization in Teams
 
 In the [Microsoft Teams admin center](https://admin.teams.microsoft.com/), your Microsoft 365 admin can install the Glint application for users in your organization. To install Glint for your organization: 
 
-1. Go to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and select **Teams Apps** and then **Setup Polices**.
+1. Go to the [Microsoft Teams admin center](https://admin.teams.microsoft.com/) and select **Teams Apps** and then **Setup Policies**.
 1. Set up a policy (or modify an existing policy) to include the Viva Glint app for all users in your organization or a select group of users: [Manage app setup policies in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
 1. When the Glint app is installed for users, they receive a welcome message in Microsoft Teams.
    
-   :::image type="content" source="../../media/glint/setup/teams-install-notice.png" alt-text="Screenshot of the Teams message that users receive when Viva Glint is installed to Microsoft Teams.":::
+   :::image type="content" source="../../media/glint/setup/new-welcome-ui-teams.png" alt-text="Screenshot of the Teams message that users receive when Viva Glint is installed to Microsoft Teams.":::
 
 ### Install Microsoft Viva Glint in Teams as an individual
 

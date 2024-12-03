@@ -52,7 +52,7 @@ After the experience has been provisioned and loaded, you see the following scre
 
 By default, because this is your first time using Organizational Data in Microsoft 365 (meaning you haven't already imported your organization's data), you see data from Microsoft Entra ID. (But this can take up to seven days post-provisioning.)
 
-Until you import organizational data, the Copilot Dashboard uses the data from Microsoft Entra ID. A yellow banner on the organizational data page indicates the source for the Copilot Dashboard data. See [Prepare and import your organizational data](organizational-data.md#prepare-and-import-your-organizational-data) for the steps to import your data.
+Until you import organizational data, the Copilot Dashboard uses the data from Microsoft Entra ID. A yellow banner on the organizational data page indicates the source for the Copilot Dashboard data. See [Prepare and import your organizational data](import-orgdata.md) for the steps to import your data.
 
 :::image type="content" source="media/orgdata-copilot-3.jpg" lightbox="media/orgdata-copilot-3.jpg" alt-text="A screenshot of the data attributes landing page with Microsoft Entra ID data.":::
 

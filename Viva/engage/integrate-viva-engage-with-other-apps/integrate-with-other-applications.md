@@ -2,7 +2,7 @@
 title: Integrate Viva Engage with other applications
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 01/04/2024

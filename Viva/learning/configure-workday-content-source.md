@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/30/2023
+ms.date: 11/25/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 > [!IMPORTANT]
 > Workday integration is currently only available for private preview customers. The capabilities here are subject to change.
 
-This article shows you how to configure Workday as a third-party content source for Microsoft Viva Learning. First, you'll need to create and set up an integration system user and set up security in Workday. Then you'll need to complete the configuration in the Microsoft 365 admin center.
+This article shows you how to configure Workday as a third-party content source for Microsoft Viva Learning. First, you need to create and set up an integration system user and set up security in Workday. Then you need to complete the configuration in the Microsoft 365 admin center.
 
 >[!NOTE]
 >Content accessible through Viva Learning is subject to terms other than the Microsoft Product Terms. Workday content and any associated services are subject to the Workday privacy and service terms.
 
 ## Configure in Workday
 
-You'll need to complete the following steps in Workday:
+You need to complete the following steps in Workday:
 
 1. [Create an integration system user](#create-an-integration-system-user).
 2. [Set up integration system user security](#set-up-integration-system-user-security).
 3. [Set up course-segmented security](#set-up-course-segmented-security).
 4. [Edit domain security policies](#edit-domain-security-policies).
 5. [Activate pending security policy changes](#activate-pending-security-policy-changes).
-6. [Retrieve the WWS endpoint](#retrieve-the-workday-web-service-endpoint).
+6. [Retrieve the Workday Web Service (WWS) endpoint](#retrieve-the-workday-web-service-endpoint).
 
 If you require more support, contact Workday.
 
 ### Create an integration system user
 
-Create an integration system user (ISU) for Microsoft Viva Learning to access your Workday tenant. Assign the ISU to a security group with permission to access Workday Learning Web Services and your learning catalog.
-
-1. Access the **Create Integration System User** task.
+Create an integration system user (ISU) for Microsoft Viva Learning to access your Workday tenant. Access Workday Learning Web Services and your learning catalog by assigning the ISU to a security group with permission.
+ 
+1. Go to the **Create Integration System User** task.
 
     >[!NOTE]
     >Workday automatically sets the value of **Session Timeout Minutes** to zero to prevent the integration system user session from expiring. Expired sessions can cause the integration to stop before it successfully completes.
@@ -53,7 +53,7 @@ Create an integration system user (ISU) for Microsoft Viva Learning to access yo
     1. Keep the session timeout value at zero to prevent session expiration.
     2. Tick the **Do Not Allow UI Sessions** checkbox to prevent the ISU from signing into Workday through the user interface.
 
-3. Access the **Create Security Group** task and select **Integration System Security Group (Unconstrained)**.
+3. Go to the **Create Security Group** task and select **Integration System Security Group (Unconstrained)**.
 
 4. Provide a group name. Workday recommends using **ISU_Microsoft_Viva_Learning**.
 
@@ -61,12 +61,12 @@ Create an integration system user (ISU) for Microsoft Viva Learning to access yo
 
 ### Set up integration system user security
 
-You'll need these domains in the Integration and System functional areas:
+You need these domains in the Integration and System functional areas:
 
 - Integration Security
 - Security Configuration
 
-You'll need to have already [created an integration system user](#create-an-integration-system-user).
+You need to have already [created an integration system user](#create-an-integration-system-user).
 
 1. Access the **Maintain Permissions for Security Group** task to update domain security policies.
 
@@ -81,7 +81,7 @@ You can configure which learning content displays in Viva Learning. You do this 
 >[!NOTE]
 >Setting up segmented security is optional.
 
-1. Access the **Create Learning Security Category** task or the **Create Learning Topic** task. Create security segments or topics to restrict access and add these to your learning content. You'll need the **Learning Segment Setup** domain in the System functional area.
+1. Access the **Create Learning Security Category** task or the **Create Learning Topic** task. Create security segments or topics to restrict access and add these to your learning content. You need the **Learning Segment Setup** domain in the System functional area.
 
 2. Select the **Inactive** checkbox if you want to disable permissions for members of the security group. You can't inactivate the security group when you:
     1. Grant the security group permission to the **Security Configuration** domain.
@@ -118,7 +118,7 @@ To provide security permissions:
 
 You can configure which security groups have permission to access the secured items in a domain.
 
-You'll need the **Security Configuration** domain in the System functional area.
+You need the **Security Configuration** domain in the System functional area.
 
 1. Access the **Domain Security Policies for Functional Area** report.
 
@@ -153,7 +153,7 @@ You can find the required Workday Web Service endpoint on the **Workday Data Cen
 
 1. Use [this page in Workday](https://resourcecenter.workday.com/) to identify which Workday Production Data Center your tenant is in.
 
-2. Now that you know your data center, fill in your information (in the bolded areas) to get your URL. You'll need this URL for integration in your Microsoft 365 admin center. "https:// {**Production Data Center URL Prefix**}/ccx/service/{**Tenant name**}/Learning/v38.0".
+2. Now that you know your data center, fill in your information (in the bolded areas) to get your URL. You need this URL for integration in your Microsoft 365 admin center. "https:// {**Production Data Center URL Prefix**}/ccx/service/{**Tenant name**}/Learning/v38.0".
 
     For example, your URL could look like this: "https://wd3.myworkday.com/ccx/service/yourorg/Learning/v38.0".
 
@@ -167,9 +167,9 @@ You can find the required Workday Web Service endpoint on the **Workday Data Cen
 2. Navigate to **Settings**, then **Org settings**. Select Viva Learning, and choose Workday in the panel.
 
 3. Fill in the following required configuration details:
-    1. **Display name:** This is the name of the carousel under which Workday learning content will appear for your organization in Viva Learning. If you don't enter a name, it will display the name "Workday".
-    2. **Learning Workday Web Service (WWS) endpoint:** This is the URL that you got when you [retrieved the endpoint](#retrieve-the-workday-web-service-endpoint).
-    3. **Username:** This is the username that you chose when you [created the integration system user](#create-an-integration-system-user).
-    4. **Password:** This is the password that you chose when you created the integration system user.
+    1. **Display name:** The name of the carousel under which Workday learning content appears for your organization in Viva Learning. If you don't enter a name, it displays the name "Workday".
+    2. **Learning Workday Web Service (WWS) endpoint:** The URL that you got when you [retrieved the endpoint](#retrieve-the-workday-web-service-endpoint).
+    3. **Username:** The username that you chose when you [created the integration system user](#create-an-integration-system-user).
+    4. **Password:** The password that you chose when you created the integration system user.
 
 4. Select **Save** to save the configuration details and complete the setup process.

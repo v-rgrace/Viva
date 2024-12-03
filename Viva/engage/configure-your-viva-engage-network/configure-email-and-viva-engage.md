@@ -2,7 +2,7 @@
 title: "Configure email and Viva Engage"
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 10/27/2023

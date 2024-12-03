@@ -3,7 +3,7 @@ title: "Non-Native Mode and hybrid Viva Engage networks upgrades"
 description: Details on non-native and hybrid Viva Engage networks.
 f1.keywords:
 - NOCSH
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 ms.date: 10/28/2023

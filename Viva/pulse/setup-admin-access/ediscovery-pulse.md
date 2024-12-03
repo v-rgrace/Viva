@@ -24,13 +24,13 @@ You can use eDiscovery to surface Viva Pulse content from within the Microsoft P
 ## Prerequisites
 
 - Licensing: Because discovery of Forms content within this preview requires eDiscovery premium, you must have appropriate licensing. See this article for more information: 
-[Microsoft Purview eDiscovery - Service Descriptions | Microsoft Learn](https://learn.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-purview-ediscovery#feature-availability)  If your tenant doesn't have appropriate licensing, see [Free trial of Microsoft Purview compliance solutions | Microsoft Learn](https://learn.microsoft.com/purview/compliance-easy-trials). 
-- Permissions: You must have appropriate permissions to use eDiscovery. See the following article for more information: [Assign eDiscovery permissions in the Microsoft Purview compliance portal | Microsoft Learn](https://learn.microsoft.com/purview/ediscovery-assign-permissions).
+[Microsoft Purview eDiscovery - Service Descriptions | Microsoft Learn](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-purview-ediscovery#feature-availability). If your tenant doesn't have appropriate licensing, see [Free trial of Microsoft Purview compliance solutions | Microsoft Learn](/purview/compliance-easy-trials).
+- Permissions: You must have appropriate permissions to use eDiscovery. See the following article for more information: [Assign eDiscovery permissions in the Microsoft Purview compliance portal | Microsoft Learn](/purview/ediscovery-assign-permissions).
 
 
 ## How to search for Pulse content via Microsoft Forms content
 
-- Microsoft Pulse content is discoverable using the author's Exchange mailbox locations ([custodial, non-custodial, or other](https://learn.microsoft.com/purview/ediscovery-managing-custodians)).
+- Microsoft Pulse content is discoverable using the author's Exchange mailbox locations ([custodial, non-custodial, or other](/purview/ediscovery-managing-custodians)).
 
 - To find both Pulse requests and responses, you can use the **Microsoft Forms** type when creating a collection using the query builder or use the KQL editor with **ItemClass=“IPM.File.Forms”** as the search term.
 
