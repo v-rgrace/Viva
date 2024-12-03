@@ -34,7 +34,7 @@ Open your CSV download in a new tab. These columns generate:
 
 |Column|Column header|
 |------|---------|
-|A|Sujbect Employee ID|
+|A|Subject Employee ID|
 |B|Subject Email Address|
 |C|Subject First Name (optional)|
 |D|Subject Last Name (optional)|
@@ -51,7 +51,7 @@ There are three ways to use the **Remove Action** column:
 
 - Leave the cell blank to bulk upload a Subject or a Subject/Coach pair for a cycle
 - Insert **SUBJECT** into a cell to remove the Subject from that cycle
-- Insert **COACH** to keep the subject but remove the subject's coach from that cycle
+- Insert **COACH** to keep the Subject but remove the Subject's coach from that cycle
 
   
 
