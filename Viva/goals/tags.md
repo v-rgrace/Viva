@@ -16,45 +16,54 @@ ms.collection:
 search.appverid:
 - MET150
 
-description: "Learn how to add tags to OKRs and initiatives to simplify navigation and reporting."
+description: "Add tags to Objectives and Key Results (OKRs) and initiatives to simplify navigation and reporting."
 ---
 
 # Tags
 
-You  add tags in Viva Goals to group similar OKRs and initiatives under a common identifier or add an extra level of description. Tags make it easier to search for specific OKRs and initiatives and to generate targeted reports.
+Using tags in Viva Goals makes it easier to search for specific Objectives and Key Results (OKRs) and initiatives, and to generate reports targeted to specific data. Using tables enables you to group similar OKRs and initiatives under a common identifier and add an extra level of description so they're easier to find, track, and use. 
     
-This article describes how to add tags, search by tag, and use Explorer to make reports with the Tags filter.
+This article describes how to add tags in Viva Goals, search by a tag, and use the **Tags** filter in Viva Goals.
 
 ## Add a tag
 
-1. Open the create or edit objective dialog box and select **Add Tags** under **More Options** under the objective name. In the text box, type the desired tag.
+You can add a tag to an OKR in Viva Goals in two ways:
 
-2. Add a new tag if it doesn't exist yet, or select one from the dropdown.
+1. Create a new OKR by selecting **+ Objective** in your main OKRs window. The **New Objective** window opens, in which you can enter a title for your new objective, add other details, and also select **More Options** to add delegation, view persmissions, and tags.
+1. In the **Tags** field, add tags by entering the tag text, such as **WFH**, and then select **Create a new tag - WFH** when it highlights. You can add multiple tags consecutively. If there are preexisting tags, you can select those to apply them to your new objective.
+1. Select **Create** when you're done adding tags, and observe that the tags are added to the objective's **Tags** column.
+
+--OR--
+
+1. Select an OKR from the main **OKRs** tab, and then select **Edit**.
+2. In the **Edit** window that opens, select how you want to modify the OKR's tags. For example, you can select **Add to existing** under **Change tags** and then select an existing tag to apply or enter a new tag name.
+3. Select **Save**, and then observe that your new tags are added to the OKR's **Tags** column.
 
    > [!NOTE]
-   > You can select **x** to remove the tag at any time.
+   > You can select **x** next to a tag's name to remove it.
 
-In the example pictured below, we're tagging OKRs related to **Customer Obsession**, the responsibilities for which are distributed across teams and individuals. It becomes strategically valuable to group these related OKRs together.
+The following image depicts an example of tagging OKRs that pertain to **Keep the company financially stable**. The responsibilities for **Keep the company financially stable** are distributed across teams, so it's valuable to group these related OKRs so they're easier to find and review.
 
 :::image type="content" source="../media/goals/4/45/a.jpg" alt-text="Screenshot shows where you add tags." lightbox="../media/goals/4/45/a.jpg":::
 
 ## Search by tag
 
-Tags are searchable. To search by tag, select the search button in the upper-right corner and type the tag name.
+You can search by tags by selecting **Search** in the **Main Menu** in the left pane, and then entering the tag name for which you want to search in **Search for OKRs, people, teams and more**. For example, if you search by **WFH**, the results that return include the OKR to which you added the WFH tag in the previous step, as the following image illustrates.
 
 :::image type="content" source="../media/goals/4/45/b.jpg" alt-text="Screenshot shows where you search by tag." lightbox="../media/goals/4/45/b.jpg":::
 
-## Reporting with tags
+## Create reports with tags
 
-You can use Explorer to filter by tag and create meaningful reports and views. To create a report:
+You can use Explorer to filter by tags and create targeted reports and views. To create a report:
 
-1. Go to Explorer from the main menu and create a new view.
+1. Select **Explorer** from the **Main Menu**, and then select **Create new view**.
 
-2. Add the **Tags** filter, and select the desired tag.
+2. Select **+ Add filter**, and then select **Tag**. Select the desired tag, such as **#WFH**.
 
-3. Optionally, add other filters to the report. For example, we could use the **Tags** filter in combination with **Last Updated** to bring up recent progress made toward the Annual Event.
+3. Add other filters, optionally, such as **Last Check-in: Before** to have recent recorded progress made toward the objective included in the report.
 
-4. To separate tags in the exported report, select **Export tag values as separate columns**.
+4. Select Export options to have your report exported to either a Microsoft PowerPoint or Excel file. Depending on which application you select, you can then configure more options for the exported report. For example, if you select Excel, you can have tags separated in the exported report by selecting **Export tag values as separate columns**.
+5. Select **Export**, and you'll receive an email with the exported file attached.
 
    :::image type="content" source="../media/goals/4/45/c.jpg" alt-text="Screenshot shows the export report page." lightbox="../media/goals/4/45/c.jpg":::
 
