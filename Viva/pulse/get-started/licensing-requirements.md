@@ -17,7 +17,7 @@ search.appverid: MET150
 
 # Licensing requirements
 
-Viva Pulse is available both as a premium experience and a limited experience available with Microsoft 365 Copilot subscription. The following list of capabilities are available to Viva Pulse authors and administrators as part of these experiences. 
+Viva Pulse is available both as a premium experience and a limited experience available with Microsoft 365 Copilot subscription. The following list of capabilities is available to Viva Pulse authors and administrators as part of these experiences. 
 
 | Capability | Premium experience | Viva Pulse with Microsoft 365 Copilot subscription | 
 | ----------- | ------------------ | ------------------| 
@@ -34,7 +34,7 @@ To send a Pulse request with full premium experience, you must have a license to
 > [!IMPORTANT]
 > A user must have an active license to Microsoft Forms to create and send a Pulse request. A user does not need a license to respond to a Pulse request.
 
-To send a Pulse request using the experience that's available with Microsoft 365 Copilot subscriptions, you must have a license to a Microsoft 365 Copilot subscription. If the user has both a Microsoft 365 Copilot and Viva Pulse license assigned to them they have access to all the premium capabilities to Pulse based on their Azure Active Directory (AAD) role. 
+To send a Pulse request using the experience that's available with Microsoft 365 Copilot subscriptions, you must have a license to a Microsoft 365 Copilot subscription. If the user has both a Microsoft 365 Copilot and Viva Pulse license assigned to them, they have access to all the premium capabilities to Pulse based on their Azure Active Directory (AAD) role. 
 
 > [!IMPORTANT]
 > If you are trying to access Viva Pulse with your Microsoft 365 Copilot subscription, visit the [Viva Pulse home page](https://pulse.cloud.microsoft). If you have any trouble or see the No Access error, retry in a few minutes. If you continue to face issues loading the Viva Pulse home page, reach out to your account team or Microsoft support team.
