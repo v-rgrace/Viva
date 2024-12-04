@@ -3,7 +3,7 @@ title: "Set up Viva Engage for a multitenant organization"
 description: "How to set up Viva Engage for a multitenant organization."
 ms.reviewer: ahosford
 ms.author: donnabouldin
-author: Starshine89
+author: donnabouldin
 manager: elizapo
 ms.date: 09/26/2024
 audience: Admin
@@ -24,7 +24,7 @@ search.appverid:
 >[!IMPORTANT]
 >Multitenant organization is available for Viva Engage on a roll-out basis. To configure this feature for your organization, contact your Microsoft Account Manager or Support.
 
-Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a group of trusted tenants in your organization in  Microsoft 365, you can communicate across those tenants in Viva Engage. Learn more about [multitenant organizations](/entra/identity/multi-tenant-organizations/).
+Multitenant organization is a Microsoft 365 feature that allows complex and distributed organizations to communicate as a unified network. By configuring a group of trusted tenants in your organization in Microsoft 365, you can communicate across those tenants in Viva Engage. Learn more about [multitenant organizations](/entra/identity/multi-tenant-organizations/).
 
 #### Tenants connect in hub-and-spoke model
 
@@ -122,7 +122,7 @@ On the hub tenant, enable audiences and specify the leaders whose storyline post
 
 *For the Engage admin*
 
-Only pre-existing communities on the hub tenant can be enabled for cross-tenant engagement. Once enabled, the community becomes private. Learn more about [Multitenant communities in Viva Engage](https://support.microsoft.com/en-us/topic/multitenant-communities-in-viva-engage-51462784-c566-44d0-a2cd-4d59dfc55fff).
+Only pre-existing communities on the hub tenant can be enabled for cross-tenant engagement. Once enabled, the community becomes private.
 
 |Task description|Instructions|
 |----------------|----------------|

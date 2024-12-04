@@ -41,9 +41,6 @@ Viva Learning supports the following document types:
 For more information, see [SharePoint limits](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits?redirectSourcePath=%252farticle%252fSharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
 > [!NOTE]
-> Viva Learning is currently unable to support video (.avi) document type in the standalone web app due to an ongoing issue. Once the issue is fixed, we will continue to support this document type.
-
-> [!NOTE]
 > You can use either a Modern or Classic SharePoint site. You can choose whether to use an existing site or create a new SharePoint site based on your organization's needs.
 
 > [!NOTE]
@@ -163,7 +160,7 @@ If a description column is already present, you can delete it and add a new one 
 **Add a metadata field**:
 
 > [!IMPORTANT]
-> You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional, but if configured incorrectly, you will need to delete the column and create again. 
+> You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional.
 
 
 1. Select the folder from your learning content repository.

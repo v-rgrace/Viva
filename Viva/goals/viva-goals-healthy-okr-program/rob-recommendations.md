@@ -1,5 +1,5 @@
 ---
-ms.date: 03/03/2023
+ms.date: 11/26/2024
 title: "Rhythm of Business Recommendations"
 ms.reviewer: 
 ms.author: daisyfeller
@@ -17,28 +17,28 @@ ms.collection:
   - vg-bestpractice
 search.appverid:
 - MET150
-description: "Recommendations for adopting OKRs into your business rhythm for a healthy OKR program."
+description: "Weave a healthy Objectives and Key Results (OKRs) program into your business rhythm."
 ---
 
-# Rhythm of Business Recommendations
+# Rhythm of business recommendations
 
-Looking to improve your healthy OKR program? Here are recommendations you can perform to incorporate OKRs and dashboards into your business rhythms: 
+Most organizations have a unique rhythm of business, sometimes referred to as *ROB*, that refers to the workflow of planning, meetings, and execution within the organization. If you've created an Objectives and Key Results (OKR) program, you can implement it into your established ROB to help support your drive toward strategic priorities and results, and foster an organizational mindset focused on achieving common goals.
 
-1. Understand that every company already has some form of business rhythm, the ebb and flow of strategic planning, “all hands” meetings, and weekly updates. Organizations are most successful when incorporating OKRs into existing processes that are already in place and working, so rather than forcing something new, look for areas to infuse OKRs so they can be additive, not constraining. 
+To incorporate your OKRs into your ROB, it's important that you: 
 
-2. Understand the four parts of the OKR cadence, known as the “four Cs”: Collaborate, Create, Check-in, and Close. At each stage, take steps to reduce friction. 
-    1. Block calendar time for strategic planning, monthly OKR reviews, and end-of-quarter reflection in advance so that it's embedded into team workflow. 
-    1. Use data integrations wherever possible to automate check-ins from a single source of truth. 
-    1. Set reminder notifications to nudge users to perform check-ins to build good habits and avoid a “set it and forget it” mentality. 
+1. Recognize that organizations are most successful when incorporating OKRs into existing, successful processes. Don't force a new process. Rather, investigate ways in which you can infuse your OKRs with positive steps that add value to your existing ROB. 
+2. Understand the four parts of the OKR cadence, known as the *four Cs*: Collaborate (working together to create shared OKRs), Create (finalize OKRs and add them to Viva Goals), Check-in (track progress periodically toward goal attainment), and Close (reflect on goal attainment and close and score OKRs). At each stage, it's important to take steps to help reduce friction by:
+   - Blocking out calendar time for strategic planning, monthly OKR reviews, and end-of-quarter reflection sessions so these processes become embedded in the team workflow and culture.
+   - Using data integrations where applicable to automate check-ins from a single source of truth.
+   - Setting reminder notifications to help support users with performing check-ins. This builds good habits and helps avoid a *set it and forget it* mentality. 
+3. Create and use OKR dashboards to help drive toward meeting goals in each of the following four categories:
+   - Leadership strategy: Refers to establishing organizational goals. 
+   - Organizational visibility: Refers to communicating your goals with an organization, so everyone understands what you're working toward.
+   - Departmental alignment: Refers to providing clarity to all groups so, again, there's understand of what you're working toward.
+   - Team execution: Refers to driving toward goals, making progress, and ensuring accountability. 
 
-3. Create and use OKR dashboards as the cornerstone for driving each of the four meeting categories:
-    1. Leadership Strategy 
-    1. Organizational Visibility 
-    1. Departmental Alignment 
-    1. Team Execution 
+If you need more clarity about how to incorporate OKRs into your business rhythm, ask yourself, and your team if applicable, these questions: 
 
-To get more clarity on how to move forward, ask your team these three questions: 
-
-1. What business rituals does your organization use today that could be evolved to use OKRs? 
-1. Where are there manual data collection and reporting processes that could be automated? 
-1. In which meeting category does your organization have room to improve your approach?  
+1. What business rituals do you use that evolve to incorporate OKRs? 
+1. Where are there manual data-collection and reporting processes that you could automate? 
+1. In which meeting category does your organization have room to improve?  

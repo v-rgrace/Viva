@@ -1,5 +1,5 @@
 ---
-ms.date: 11/14/2024
+ms.date: 11/26/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -19,7 +19,7 @@ audience: user
 # Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 
 >[!Note]
->The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active Exchange Online account. Neither a paid Viva Insights license nor a Microsoft 365 Copilot license is required to view the dashboard. The analyzed population in the Copilot Dashboard includes every employee who has an assigned Copilot license. However, for tenants with more than 50 Copilot licenses or tenants with more than 10 Viva Insights licenses, the dashboard includes full capabilities with metrics and advanced filters. [Learn more about which features are available based on your tenant’s assigned license](#feature-availability-based-on-licenses). 
+>The Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active Exchange Online account. Neither a paid Viva Insights license nor a Microsoft 365 Copilot license is required to view the dashboard. The analyzed population in the Copilot Dashboard includes all employee who has an assigned Copilot license. However, for tenants with more than 50 Copilot licenses or tenants with more than 10 Viva Insights licenses, the dashboard includes full capabilities with metrics and advanced filters. [Learn more about which features are available based on your tenant’s assigned license](#feature-availability-based-on-licenses). 
 
 Microsoft 365 Copilot works alongside you to unleash your creativity and help you perform tasks faster. It helps summarize key points and action items in Microsoft Teams, draft new documents in Word, jumpstart replies in Outlook, and more.
 
@@ -81,7 +81,7 @@ For those qualifying tenants, only users who meet all of the following criteria 
 * Users who are assigned the [Global administrator role](/entra/identity/role-based-access-control/permissions-reference#global-administrator) also have access to the Microsoft Copilot Dashboard
 
     >[!Note]
-    >If you are a Privileged Identity Management (PIM) enabled tenant, the Global Admins might not have access to the Copilot Dashboard. If you want to give Global Admins access to the Copilot Dashboard, add them explicitly using [these steps](../advanced/admin/manage-settings-copilot-dashboard.md#manage-access-for-individual-users).
+    >If you are a Privileged Identity Management (PIM) enabled tenant, the Global Admins might not have access to the Copilot Dashboard. If you want to give Global Admins access to the Copilot Dashboard, add them explicitly using [these steps](../advanced/admin/manage-settings-copilot-dashboard.md#manage-access-for-individual-users-and-groups).
 
 The criteria above are analyzed on a weekly basis to capture any major org changes. Each week, any new users who meet the above criteria gain access to the dashboard. The Microsoft 365 Global Admin can revoke access to those users through the Microsoft 365 admin center and they are not added back unless the admin re-enables them. In addition, admins can disable access to the Copilot Dashboard for their entire organization.
 
@@ -147,7 +147,7 @@ All metrics on this page represent aggregations over the past 28 days with a typ
 >[!Note]
 >Adoption and impact data underneath the filter represent the four complete weeks that ended on the last Saturday prior to the current date. For example, if someone viewed their data on Wednesday, March 20, 2024, the last Saturday would be March 16, and the dashboard would represent activity between Sunday, February 18 and Saturday, March 16.
 >
->On the the adoption page, the group-level number of "Copilot licenses assigned" and "Active Copilot users" doesn't include disabled mailboxes. [Learn more about disabled mailboxes](/exchange/recipients/disconnected-mailboxes/connect-disabled-mailboxes).
+>On the adoption page, the group-level number of "Copilot licenses assigned" and "Active Copilot users" doesn't include disabled mailboxes. [Learn more about disabled mailboxes](/exchange/recipients/disconnected-mailboxes/connect-disabled-mailboxes).
 
 ##### Select the filters for your analysis in the dashboard
 
@@ -241,7 +241,7 @@ Group totals reflect all users based on the filtered group, including groups tha
 | Non-Copilot users | The number of users who don't have a Copilot license in the last 28 days. |
 | Copilot actions taken | The number of actions in Copilot completed by active Copilot users. |
 | Meetings summarized by Copilot | The number of meetings summarized by Copilot. |
-| Meeting hours summarized by Copilot | The number of hours of meetings summarized by Copilot. |
+| Meeting hours summarized by Copilot | Meeting hours summarized are calculated based on actual hours summarized, not a per action estimate. For example, if a user summarizes after a 1-hour meeting, they'll count 1 hour toward the total. If another user summarizes 15 minutes into the meeting, they'll count 15 minutes toward the total, resulting in an overall total of 1 hour, 15 minutes. This metric does *not* include meeting summaries accessed through Intelligent Recap. |
 | Meeting summaries created by Copilot |  The number of times users summarized meetings using Copilot. |
 | Emails sent using Copilot | The number of emails sent with assistance from Copilot. |
 | Email drafts generated by Copilot |  The number email drafts users generated using Copilot. |
@@ -322,13 +322,13 @@ This is an estimate of the value of Copilot’s impact over the given time perio
 
 ##### Details on the "Copilot assisted hours" metric
  
-The **Copilot assisted hours** metric is a general estimate that tries to leverage the latest research on AI and productivity to describe your employees’ use of three types of Copilot capabilities described in the table below. Copilot usage metrics are aggregated within each category, then multiplied by an assistance factor to determine hours assisted per category. The three resulting values are then added together to produce the final **Copilot assisted hours** metric. Please note that these are broad approximations based on the [best available research rather than precise calculations](https://www.microsoft.com/research/project/the-new-future-of-work). As more research becomes available, we will update our approach.
+The **Copilot assisted hours** metric is a general estimate that tries to leverage the latest research on AI and productivity to describe your employees’ use of three types of Copilot capabilities described in the table below. Copilot usage metrics are aggregated within each category, then multiplied by an assistance factor to determine hours assisted per category. The three resulting values are then added together to produce the final **Copilot assisted hours** metric. These are broad approximations based on the best available research rather than precise calculations. As more research becomes available, we'll update our approach.
 
 | Copilot capability | Metric(s) counted | Assistance factor | Source of assistance factor (if applicable) |
 |---|---|---|---|
-| Meeting summaries | Meeting hours summarized by Copilot | The full duration of each meeting summarized is counted towards total assisted hours (e.g. if a user summarizes an hour-long meeting after it has ended, that counts as one assisted hour). | N/A |
+| Meeting summaries | Meeting hours summarized by Copilot | Meeting hours summarized are calculated based on actual hours summarized, not a per action estimate. For example, if a user summarizes after a 1-hour meeting, they'll count 1 hour toward the total. If another user summarizes 15 minutes into the meeting, they'll count 15 minutes toward the total, resulting in an overall total of 1 hour, 15 minutes. This metric does *not* include meeting summaries accessed through Intelligent Recap. | N/A |
 | Search and summaries | Business Chat (work) queries submitted <br> <br/> Email thread summaries created by Copilot <br> <br/> Document summaries generated by Copilot <br> <br/> Presentations summarized by Copilot <br> <br/> Spreadsheet analyses completed using Copilot <br> <br/> Chat threads summarized by Copilot | 6 minutes per search or summary action  | In a study of 163 knowledge workers, users were able to retrieve information across files, emails, and calendars 6 minutes faster with Copilot versus without Copilot. See study #4 in section 2 of [this blog post](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). |
-| Creation | Email coaching actions using Copilot <br> <br/> Email drafts generated by Copilot <br> <br/> Documents drafted by Copilot <br> <br/> Presentations created using Copilot <br> <br/> Rewrite text actions taken using Copilot <br> <br/> Excel formula calculations completed using Copilot <br> <br/> Excel formatting actions completed using Copilot <br> <br/> Chat messages composed using Copilot | 6 minutes per creation action  | In a study of 147 knowledge workers, people were able to complete a writing task (drafting a blog post) 6 minutes faster with Copilot versus without Copilot. See study #1 in section 2 of [this blog post](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). Creation is especially difficult to summarize in a single number, so this number should be in particular understood to be a broad estimate. As research improves, we will adjust our methodology. |
+| Creation | Email coaching actions taken using Copilot <br> <br/> Email drafts generated by Copilot <br> <br/> Documents drafted by Copilot <br> <br/> Presentations created using Copilot <br> <br/> Rewrite text actions taken using Copilot <br> <br/> Excel formula calculations completed using Copilot <br> <br/> Excel formatting actions completed using Copilot <br> <br/> Chat messages composed using Copilot | 6 minutes per creation action  | In a study of 147 knowledge workers, people were able to complete a writing task (drafting a blog post) 6 minutes faster with Copilot versus without Copilot. See study #1 in section 2 of [this blog post](https://www.microsoft.com/en-us/worklab/work-trend-index/copilots-earliest-users-teach-us-about-generative-ai-at-work). Creation is especially difficult to summarize in a single number, so this number should be in particular understood to be a broad estimate. As research improves, we will adjust our methodology. |
 
 **Key insights for this page:**
 
@@ -368,7 +368,7 @@ This analysis helps you compare collaboration activities between employees who u
 |  | Conflicting meeting hours  |  The number of meeting hours where users had overlapping meetings on their calendar. The count includes only the amount of time that overlaps. | 
 |  | Meeting hours |  The number of hours users spent in meetings with at least one other person during and outside of working hours.  |
 |   |  Multitasking meeting hours |  The number of hours users spent sending or reading emails or chats, posting or replying to Teams channels messages, or visiting Teams channels during a meeting or Teams call. | 
-|   | Meeting hours summarized by Copilot | The number of hours of meetings summarized by Copilot. |
+|   | Meeting hours summarized by Copilot | Meeting hours summarized are calculated based on actual hours summarized, not a per action estimate. For example, if a user summarizes after a 1-hour meeting, they'll count 1 hour toward the total. If another user summarizes 15 minutes into the meeting, they'll count 15 minutes toward the total, resulting in an overall total of 1 hour, 15 minutes. This metric does *not* include meeting summaries accessed through Intelligent Recap. |
 | **Chat** | Chat conversation summaries created by Copilot |  The number of times users summarized chats and channel conversations in Teams using Copilot.  | 
 |   | Chats sent | The number of chat messages sent by users using Copilot. | 
 |   | Chat conversations summarized by Copilot | The number of chats and channel conversations summarized by Copilot.  | 
