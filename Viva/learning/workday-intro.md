@@ -19,9 +19,9 @@ description: Learn how to configure and manage Workday for Microsoft Viva Learni
 
 ---
 
-# Introduction Workday in Microsoft Viva Learning
+# Overview of Workday and Microsoft Viva Learning integration
 
-This document introduces the process for configuring Workday as a content source in Microsoft Viva Learning.
+This article introduces the process for configuring Workday as a content source in Microsoft Viva Learning.
 It also outlines prerequisites and recommendations. 
 
 The integration is based on Workday RaaS APIs (Report as a Service). Any breach in API contract might change the user experience. 

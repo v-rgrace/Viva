@@ -52,9 +52,3 @@ You need to have premium Viva Learning license to configure Workday. Global Admi
 8. You can also use **Manage providers** to edit or delete the Workday configuration.
  
 9. Admins can also trigger full sync for catalog from "Full Sync" toggle in the catalog row.
-
-## Enable SSO for Workday
-
-Viva Learning and Workday integration allows seamless authentication (SSO). On Teams Desktop and Web, users can directly consume a course on Workday portal without the need to sign in via Workday credentials. On Teams mobile, user need to enter the credentials for first time. 
-
-Refer to the [SSO integration between Workday and Viva Learning](/entra/identity/saas-apps/workday-tutorial).

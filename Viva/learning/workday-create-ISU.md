@@ -19,7 +19,8 @@ description: Learn how to Create an integration system user (ISU) on the Workday
 ---
 
 # Create an integration system user (ISU) on Workday
-Integration system user (ISU) account is required for Microsoft Viva Learning to access your Workday tenant. ISU can be created from Workday portal. ISU also requires relevant security group access with permission to access Workday Learning Web Services and learning catalog.
+
+An integration system user (ISU) account is required for Microsoft Viva Learning to access your Workday tenant. You can create an ISU from the Workday portal. ISU also requires relevant security group access with permission to access Workday Learning Web Services and learning catalog.
 
 1. Access the **Create Integration System User** task. Workday automatically sets the value of **Session Timeout Minutes** to zero to prevent the integration system user session from expiring. Expired sessions can cause the integration to stop before it successfully completes.
 
