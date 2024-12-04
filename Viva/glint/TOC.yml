@@ -354,8 +354,6 @@ items:
                 href: setup/360-email-edits.md
               - name: Manage 360 subjects, coaches, feedback providers
                 href: setup/360-manage-subjects.md
-          - name: Export and import 360 Feedback program cycle content
-            items:
               - name: Export and import 360 language translations
                 href: setup/360-export-import.md
               - name: Export CSV reports for 360 Subjects
