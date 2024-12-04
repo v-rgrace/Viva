@@ -56,4 +56,4 @@ No. The Viva Goals product will be shut down entirely on December 31, 2025, and 
 
 ## Can I renew my licenses until the retirement date?
 
-Reach out to your Microsoft representative or submit a support case in the Microsoft 365 Admin Center for assistance.
+Reach out to your Microsoft representative for assistance.

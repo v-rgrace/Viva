@@ -38,6 +38,6 @@ We know changes like this can affect your workflows, and we’re here to make th
 
 - **Data migration options:** Viva Goals offers data export features via [API](/graph/api/goals-post-exportjobs?view=graph-rest-beta&tabs=http), [Excel](/viva/goals/explorer#save-and-export), and [PowerPoint](https://support.microsoft.com/topic/engage-with-viva-goals-365500a4-0599-41cd-bc86-09bef4206284), allowing users to move their data to a solution of their choice. we recommend that users export their data before December 31, 2025.
 
-- If your subscription extends beyond the product's retirement date, or if you have questions or need help with your service plan, contact your Microsoft representative or submit a support case through the Microsoft admin center for assistance.
+- If your subscription extends beyond the product's retirement date, or if you have questions or need help with your service plan, contact your Microsoft representative for assistance.
 
 Thank you for being a valued Microsoft customer. For more information, see the [FAQ](goals-retirement-faq.md).
