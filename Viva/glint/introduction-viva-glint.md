@@ -17,12 +17,14 @@ search-appverid: MET150
 ms.topic: overview
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/20/2024
+ms.date: 12/03/2024
 ---
 
 # Introduction to Microsoft Viva Glint
 
-Microsoft Viva Glint is a people-driven platform that provides visibility into the health of your organization. Create a people-science based measurement strategy to assess employee engagement and translate insights into action. [Learn more here](https://www.microsoft.com/microsoft-viva/glint).
+Microsoft Viva Glint is a people-driven platform that provides visibility into the health of your organization. Create a people-science based measurement strategy to assess employee engagement and translate insights into action. [Learn more here](https://www.microsoft.com/microsoft-viva/glint) and watch this video:
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW17jMY]
 
 ### Get started
 

@@ -4,7 +4,7 @@ ms.reviewer: elizapo
 ms.author: elizapo
 author: lizap
 manager: elizapo
-ms.date: 11/05/2024
+ms.date: 12/03/2024
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -33,8 +33,8 @@ To import your data, you populate a .csv template with the attributes (or inform
 
 ## Step 1 - Download a .csv template
 
-1. Sign into to the Microsoft 365 admin center as a user with Global Admin permissions.
-1. On the **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started** (if this is the first time you're importing data) or **New import**.
+1. Sign in to the Microsoft 365 admin center as a user with Global Admin permissions.
+1. On **Organizational Data in Microsoft 365** page (under **Setup > Migration and imports**), select **Get started** (if this is the first time you're importing data) or **New import**.
 2. Select **Download CSV template**.
 
 > [!NOTE]
@@ -66,14 +66,13 @@ Emp6@contoso.com,Mgr3@contoso.com,Support,Sales,9,New York
 For more information about attributes, see the [Attribute reference](orgdata-attributes.md).
 
 ## Step 3 - Import your organizational data for the first time 
-After you create a .csv file with your data, the next step is to import the data, either from your local computer (for Viva Insights-licensed customers) or from a SharePoint site.
+After you create a .csv file with your data, the next step is to import the data, either from your local files on your computer or from a SharePoint site.
 
-### Upload the .csv file from your computer (for Viva Insights-licensed customers)
-After you create the .csv file with your data, you can upload it directly from your local files. 
+### Upload the .csv file from your local files on your computer
+After you create the .csv file with your data, you can upload it directly from your local files on your computer. 
 
 >[!NOTE]
-> - Local upload is only available for Viva Insights-licensed customers.
-> - There's a 25 MB limit on files uploaded directly from your local files. If your .csv file is larger, [upload it first to SharePoint](#upload-the-file-to-sharepoint) and then import it from there.
+> There's a 25 MB limit on files uploaded directly from your local files. If your .csv file is larger, [upload it first to SharePoint](#upload-the-file-to-sharepoint) and then import it from there.
 
 :::image type="content" source="media/orgdata-import-local.png" alt-text="A screenshot shows local import option. ":::
 
