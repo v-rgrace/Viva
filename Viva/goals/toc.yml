@@ -16,13 +16,6 @@ items:
         href: self-service-trials.md
       - name: Trial checklist
         href: trials-checklist.md
-
-- name: Viva Goals retirement
-  items:
-    - name: Viva Goals retirement
-      href: goals-retirement.md
-    - name: Frequently asked questions
-      href: goals-retirement-faq.md
   
 - name: Administration
   items:
