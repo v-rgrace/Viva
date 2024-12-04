@@ -308,7 +308,7 @@ items:
                     href: reports/team-conversations-resource-guidance.md  
       - name: Employee Lifecycle surveys
         items:
-          - name: Use and set up an Employee Lifecycle survey
+          - name: Set up an Employee Lifecycle survey
             href: setup/program-summary-setup-lifecycle.md
           - name: Create an onboarding survey 
             href: setup/create-onboarding-exit-surveys.md
@@ -318,51 +318,49 @@ items:
             href: setup/preview-filter-lifecycle-programs.md 
       - name: Create a 360 feedback program
         items:
-          - name: Overview and terminology
+          - name: 360 Overview and terminology
             href: setup/360-overview.md
           - name: 360 Feedback programs
             items:
-              - name: General settings
+              - name: 360 General settings
                 href: setup/360-general-settings.md
-              - name: User roles and permissions
+              - name: 360 User roles and permissions
                 href: setup/360-roles-permissions.md
-              - name: Program design and templates
+              - name: 360 Program design and templates
                 href: setup/360-design-templates.md
           - name: Manage 360 cycles
             items:
               - name: Create a new 360 cycle
                 href: setup/create-new-360-cycle.md
-              - name: Configure cycle settings
+              - name: Configure 360 cycle settings
                 items:
                   - name: Setup
                     href: ../360-config-cycle-settings.md
-                  - name: Survey questions
+                  - name: 360 Survey questions
                     items:
                        - name: Core questions
                          href: setup/360-core-questions.md
                        - name: Adding and editing questions
                          href: setup/360-add-edit-cycle-questions.md
-              - name: Feedback provider selections
+              - name: 360 Feedback provider selections
                 href: setup/overview-feedback-provider-selection.md
-              - name: Competencies and survey guidance
+              - name: 360 Competencies and survey guidance
                 href: setup/360-competencies.md
-              - name: Report access and timing
+              - name: 360 Report access and timing
                 href: setup/360-report-access-timing.md
-              - name: Schedule and communications setup
+              - name: 360 Schedule and communications setup
                 href: setup/360-schedules-comms.md
               - name: Customize 360 email content
                 href: setup/360-email-edits.md
-              - name: Manage subjects, coaches, feedback providers
+              - name: Manage 360 subjects, coaches, feedback providers
                 href: setup/360-manage-subjects.md
-          - name: Export and import 360 Feedback program cycle content
-            items:
-              - name: Export and import language translations for Viva Glint 360 Feedback programs
+              - name: Export and import 360 language translations
                 href: setup/360-export-import.md
-              - name: Export CSV reports for 360 Feedback program Subjects and Coaches
+              - name: Export CSV reports for 360 Subjects
                 href: setup/360-download-csv.md
-          - name: Test and launch
+          - name: Test and launch 360s
             href: setup/360-test-launch.md
-          - name: Admin experience during live survey
+          - name: Admin experience during live 360 survey
             href: setup/360-live-cycle-actions.md
           - name: 360 Subject experience
             href: setup/360-subject-experience.md
