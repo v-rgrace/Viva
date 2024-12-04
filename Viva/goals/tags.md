@@ -29,7 +29,7 @@ This article describes how to add tags in Viva Goals, search by a tag, and use t
 
 You can add a tag to an OKR in Viva Goals in two ways:
 
-1. Create a new OKR by selecting **+ Objective** in your main OKRs window. The **New Objective** window opens, in which you can enter a title for your new objective, add other details, and also select **More Options** to add delegation, view persmissions, and tags.
+1. Create a new OKR by selecting **+ Objective** in your main OKRs window. The **New Objective** window opens, in which you can enter a title for your new objective, add other details, and also select **More Options** to add delegation, view permissions, and tags.
 1. In the **Tags** field, add tags by entering the tag text, such as **WFH**, and then select **Create a new tag - WFH** when it highlights. You can add multiple tags consecutively. If there are preexisting tags, you can select those to apply them to your new objective.
 1. Select **Create** when you're done adding tags, and observe that the tags are added to the objective's **Tags** column.
 
