@@ -94,7 +94,7 @@ In case `FailedObjectsCount` isn't zero check the **Failed Object Details** tab,
 - **What can I do if the metadata isn't reflecting properly?**
 
     1. Check the [column names](/viva/learning/configure-sharepoint-content-source#metadata)
-    2. If they're not correct, delete and recreate the column.
+    2. If they're not correct, update the column.
 
 - **What size do the thumbnails have to be to properly render in Viva Learning?**
     - The aspect ratio has to be 16:9.

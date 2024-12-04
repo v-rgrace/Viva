@@ -160,7 +160,7 @@ If a description column is already present, you can delete it and add a new one 
 **Add a metadata field**:
 
 > [!IMPORTANT]
-> You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional, but if configured incorrectly, you will need to delete the column and create again. 
+> You'll need to use the column names exactly as they're provided here for the metadata to populate the field. Adding metadata is optional.
 
 
 1. Select the folder from your learning content repository.
