@@ -1,12 +1,12 @@
 ---
-title: Access Viva Glint with Microsoft Entra ID
+title: Set up access to Viva Glint with Microsoft Entra ID
 description: To access the Microsoft Viva Glint application, a Global administrator must first register Viva Glint in a Microsoft Entra tenant.
 ms.author: SarahBerg
 author: SarahAnneBerg
 manager: elizapo
 audience: admin
 f1.keywords: NOCSH
-keywords: Access, authentication, login, AAD, Azure Active Directory, Azure AD, sign in 
+keywords: Access, authentication, login, AAD, Azure Active Directory, Azure AD, sign in, Microsoft Entra ID, Entra
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 12/05/2024
 ---
 
-# Access Viva Glint with Microsoft Entra ID
+# Set up access to Viva Glint with Microsoft Entra ID
 
 To access the Microsoft Viva Glint application, a Microsoft 365 Global Administrator must register Viva Glint in a Microsoft Entra tenant. A Viva Glint Administrator must also import users to the Viva Glint app. Users must exist in both Microsoft Entra ID and Viva Glint with the same email address to successfully access the application.
 
