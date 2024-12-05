@@ -96,7 +96,7 @@ The information is broken out across **Program Summary** setup pages.
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go live. |
-| **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>**Note** : Live *Schedule* edits are applied at the cycle level. |
+| **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>> **Note** that live *Schedule* edits are applied at the cycle level. |
 
 ## Items (Questions)
 
@@ -120,13 +120,13 @@ There are three entry points for editing a question:
 **Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
 If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is made automatically when your edits are saved.
 
-Hover over the **horizontal ellipses** next to any survey item to select **Edit Question**.
+Hover over the **horizontal ellipsis** next to any survey item to select **Edit Question**.
 
 The Edit Question slider window includes these setup tabs:
 - Question Configuration
 - Associated Programs
 
-:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
+:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipsis.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
 
 :::image type="content" source="../../media/glint/setup/before-question-edit.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit.png":::
 
