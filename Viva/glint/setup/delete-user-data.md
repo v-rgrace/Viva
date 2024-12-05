@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date:12/05/2024
+ms.date: 12/05/2024
 ---
 
 # Delete user data from Viva Glint
