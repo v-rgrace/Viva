@@ -22,7 +22,7 @@ ms.date: 12/05/2024
 Access Microsoft Viva Glint with a Microsoft Entra ID user account and review supported browsers and session timeout information.
 
 > [!NOTE]
-> Users must exist in Entra with a Member Type of "Member" (not "Guest") to successfully access Viva Glint. Learn more about how Microsoft 365 Global Administrators or Entra admin can [set up access to Glint with Microsoft Entra ID](access-with-azure-ad.md).
+> Users must exist in Entra with a Member Type of "Member" (not "Guest") to successfully access Viva Glint. Learn more about how Microsoft 365 Global Administrators or Entra admins can [set up access to Glint with Microsoft Entra ID](access-with-azure-ad.md).
 
 ## Select a supported browser
 
