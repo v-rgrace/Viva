@@ -19,7 +19,7 @@ ms.date: 12/05/2024
 
 # Delete user data from Viva Glint
 
-In order to comply with a General Data Protection Regulation (GDPR) data subject request. a Microsoft Viva Glint Administrator can delete user data from the platform. 
+In order to comply with a General Data Protection Regulation (GDPR) data subject request, a Microsoft Viva Glint Administrator can delete user data from the platform. 
 
 > [!IMPORTANT]
 > - User data deleted from Viva Glint is automatically deleted from *any* Microsoft Viva program it's shared with.
