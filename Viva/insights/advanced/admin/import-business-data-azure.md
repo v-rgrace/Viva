@@ -47,7 +47,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 ### 1. Create a secure blob container
 
-*Applies to: Azure Subscription Owner or Storage Account Contributor*
+*Applies to: Azure Subscription Owner with at least Storage Blob Data Contributor permissions at the account level*
 
 1. Open a browser and sign in to your organization’s Azure portal.  
 
@@ -63,7 +63,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 7. At the bottom, select **Next** to go to Advanced section. 
 
-8. On the Advanced page, make sure that "Require secure transfer for REST API operations" and "Enable storage account key access" are both selected. For "Minimum TLS version," select at least **Version 1.2**. 
+8. On the Advanced page, select **Require secure transfer for REST API operations** and **Enable storage account key access**. For "Minimum TLS version," select at least **Version 1.2**. Select **Enable hierarchical namespace**.
 
 9. For all other Advanced settings, you can use the default settings unless you need to make changes.
 
@@ -97,7 +97,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 ### 2. Authorize the blob container
 
-*Applies to: Azure Subscription Owner or Role Based Access Control Administrator*
+*Applies to: Azure Subscription Owner with at least Storage Blob Data Contributor permissions at the account level*
 
 Next, you’ll need to create a blob SAS URL or authorize **Workplace Analytics** service principal. Service principal authorization is the recommended and more secure approach. The blob SAS token does not have any built-in auditing capabilities. Follow the appropriate steps below for the method you choose.
 
@@ -164,6 +164,8 @@ Business data likely has different data sources, and might update on different s
 4. Enter the **Blob SAS URL** or the **Blob URL** for the import provided to you by the Azure contributor in Step 2. 
 
 5. Upload a metadata.json file, with the inputs described below:
+
+    * For incremental uploads and easy access to this data, enter a "Dataset name" and "Dataset type" for this dataset. For example, you could upload two different datasets from your sales team on customer satisfaction and account retention. You can assign the type "Sales" to these datasets and name them "CSAT" and "Account." Analysts can discover this data by searching for their name and type while setting up queries. The dataset name and type shouldn’t contain spaces. 
 
     * `"Dataset type"`: The name of the data category, such as "Sales data." You can assign any unique type except these system reserved types: "Survey," "CRM," "Person," "Signal," "AnalystUploadedData," "UserSkills," "HeirarchicalSkills," "RelatedSkills," "SkillsLibrary," "ManagerHierarchy," "Learning," "None," "InteractiveExplorationPersonOutput," "None" 
 
@@ -236,7 +238,7 @@ Business data likely has different data sources, and might update on different s
 
 ### 4. Prepare business data file and send to blob store
 
-*Applies to: Source system admin*
+*Applies to: Azure Subscription Owner with at least Storage Blob Data Contributor permissions at the account level*
 
 #### Task 1 - Prepare your data 
 
