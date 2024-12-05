@@ -126,7 +126,7 @@ The Edit Question slider window includes these setup tabs:
 - Question Configuration
 - Associated Programs
 
-:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipsis.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
+:::image type="content" source="../../media/glint/setup/program-summary-questions-ellipses.png" alt-text="Screenshot of ellipses dropdown menu next to each survey item." lightbox="../../media/glint/setup/program-summary-questions-ellipses.png":::
 
 :::image type="content" source="../../media/glint/setup/before-question-edit.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit.png":::
 
