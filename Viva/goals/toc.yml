@@ -257,10 +257,10 @@ items:
         href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
       - name: Check-in OKRs recommendations
         href: ./viva-goals-healthy-okr-program/check-in-recommendations.md
+  
    - name: Tags
-      href: tags.md
-
-   
+     href: tags.md
+ 
    - name: Close and score goals
      items:
       - name: Close OKRs overview
