@@ -64,7 +64,7 @@ Sometimes changing a live survey may be beneficial.
 - **Reporting Label** - For easy identification of your item.
 - **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequently affect the accuracy of the benchmark tied to the item.
 - **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item.
-- **Comment Placeholder Text** - *Leave your comments here* appears by default, but this text can be customized.
+- **Comment Placeholder Text** - **Leave your comments here** appears by default, but this text can be customized.
 - **Rating Scale** - five (5) or seven (7) points
   - Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree.
   - Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
