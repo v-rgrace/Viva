@@ -37,11 +37,11 @@ With an Azure blob import, your Azure subscription’s **Owner** or **Storage Ac
 
     4. The Insights admin enters the URL in the Viva Insights app to turn on the import from the Azure blob store location. The Insights Admin also uploads the mapping file for the business data.
 
-2. Validation: Viva Insights validates the data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).) 
+2. Validation: Viva Insights validates the data. (If validation isn't successful, you can choose from a few options described in [Validation fails](#validation-fails).) 
 
-3. Processing: Viva Insights processes the data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).) 
+3. Processing: Viva Insights processes the data. (If processing isn't successful, you can choose from a few options described in [Processing fails](#processing-fails).) 
 
-After the data successfully validates and processes, the overall data-import task is complete.
+   After the data successfully validates and processes, the overall data-import task is complete.
 
 ## Setup
 
@@ -218,7 +218,7 @@ Business data likely has different data sources, and might update on different s
       } 
     }
     ```
-    For example, let’s say your source system admin uses "PipelineGenerated" to capture the number of deals created. The code would be:  
+    For example, let's say your source system admin uses "PipelineGenerated" to capture the number of deals created. The code would be:  
 
     ```
     "PipelineGenerated": { 
@@ -273,7 +273,7 @@ At the frequency you decide, programmatically export the business data from your
 
 After the source system admin exports the data and you set up the import, the app starts validating. In most cases, file validation should complete quickly. 
 
-After this phase completes, validation has either succeeded or failed. Depending on the outcome, you’ll either receive a success status or a failure status in the Import history table in **Business data**.  
+After this phase completes, validation has either succeeded or failed. Depending on the outcome, you'll either receive a success status or a failure status in the Import history table in **Business data**.  
 
 For information about what happens next, go to the appropriate section:
 
@@ -354,17 +354,17 @@ After you've setup your data import, use the steps below to add new data to an e
 
     * To add new data to an existing dataset, select the plus icon next to the dataset.
 
-On the next page, you can edit the connection name, the blob SAS URL, or the blob URL. If you update the SAS URL or URI, the new location will be used for future data refreshes. 
+    On the next page, you can edit the connection name, the blob SAS URL, or the blob URL. If you update the SAS URL or URI, the new location will be used for future data refreshes. 
 
-You can also turn automated imports on or off. When you’re done, select **Save**. 
+    You can also turn automated imports on or off. When you’re done, select **Save**. 
 
-To replace or edit the business data using the existing blob SAS URL or blob URL, contact your source system admin. When you import data to Viva Insights, you’ll either perform a full or an incremental refresh. If you want to delete fields, you can use a full refresh to do so.
+    To replace or edit the business data using the existing blob SAS URL or blob URL, contact your source system admin. When you import data to Viva Insights, you'll either perform a full or an incremental refresh. If you want to delete fields, you can use a full refresh to do so.
 
 ### Refresh types
 
 #### Full
 
-When you perform a full refresh, you’re replacing all your business data in Viva Insights—that is, you overwrite what you’ve already imported. The required fields are PersonId and StartDate. 
+When you perform a full refresh, you’re replacing all your business data in Viva Insights—that is, you overwrite what you've already imported. The required fields are PersonId and StartDate. 
 
 You can use a full refresh to delete fields, because fields you leave out won’t show up in your data. We cover deleting data in the next section.
 
