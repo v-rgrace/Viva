@@ -17,7 +17,6 @@ ms.collection:
 search.appverid:
 - MET150
 description: "Frequently asked questions about the retirement of Microsoft Viva Goals"
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Viva Goals retirement FAQ
