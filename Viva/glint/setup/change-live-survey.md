@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/21/2024
+ms.date: 12/05/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -81,7 +81,7 @@ The information is broken out across **Program Summary** setup pages.
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| **Various** | You want to edit the **Program Name** or **Allow Survey Resubmission** | Edits are visible only to users who haven't started their survey. |
+| **Various** | You want to edit the **Program Name**. | Edits are visible only to users who haven't started their survey. |
 | **Additional languages** | You want to add a new language as a survey option. | If custom translation text isn't provided, Glint's standard text translations are featured. |
 
 ## Distribution
