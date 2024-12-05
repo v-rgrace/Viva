@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 11/21/2024
+ms.date: 12/05/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -62,13 +62,13 @@ Sometimes changing a live survey may be beneficial.
 - **Language** - From languages prepopulated in the dropdown menu.
 - **Question Type** - Rating, multiple choice, open-ended.
 - **Reporting Label** - For easy identification of your item.
-- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequentlly affect the accuracy of the benchmark tied to the item.
+- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequently affect the accuracy of the benchmark tied to the item.
 - **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item.
-- **Comment Placeholder Text**
-- **Leave your comments here** appears by default, but this text can be customized.**Rating Scale** - five (5) or seven (7) points
-- Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree.
-- Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
-- Decide whether this item can be an **Optional Question** - Toggle to **Yes** or **No.**
+- **Comment Placeholder Text** - **Leave your comments here** appears by default, but this text can be customized.
+- **Rating Scale** - five (5) or seven (7) points
+  - Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree.
+  - Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
+  - Decide whether this item can be an **Optional Question** - Toggle to **Yes** or **No.**
 - **Suggested Action Template** - Use the dropdown menu to attach this item to a previously configured Suggested Action Template to help managers act on feedback.
 
 Select **Save Changes** when editing is complete.
@@ -81,7 +81,7 @@ The information is broken out across **Program Summary** setup pages.
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| **Various** | You want to edit the **Program Name** or **Allow Survey Resubmission** | Edits are visible only to users who haven't started their survey. |
+| **Various** | You want to edit the **Program Name**. | Edits are visible only to users who haven't started their survey. |
 | **Additional languages** | You want to add a new language as a survey option. | If custom translation text isn't provided, Glint's standard text translations are featured. |
 
 ## Distribution
@@ -96,7 +96,7 @@ The information is broken out across **Program Summary** setup pages.
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
 | **Survey launch date** | You need to postpone the launch date of the survey. | To avoid potential challenges, make this update a minimum of 24 hours before the survey is scheduled to go live. |
-| **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>**Note** : Live *Schedule* edits are applied at the cycle level. |
+| **Response window** | You want to decrease or increase the number of days within the survey window. | Adjust a minimum of 48 hours before the original survey end date.<br>Also, make sure your *Communications* emails align with any updated survey window planning.<br><p>> **Note** that live *Schedule* edits are applied at the cycle level. |
 
 ## Items (Questions)
 
@@ -120,7 +120,7 @@ There are three entry points for editing a question:
 **Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
 If not toggled to **Yes**, a pop-up informs you that the change to **Yes** is made automatically when your edits are saved.
 
-Hover over the **horizontal ellipses** next to any survey item to select **Edit Question**.
+Hover over the **horizontal ellipsis** next to any survey item to select **Edit Question**.
 
 The Edit Question slider window includes these setup tabs:
 - Question Configuration
@@ -168,7 +168,7 @@ A list of program names previously used or in use that include this survey item 
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approve toggle to **Yes**. |
+| **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approved toggle to **Yes**. |
 | **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain users with live access are aware so they aren't confused by different results from a past viewing. |
 | **Aggregate Indices** | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain users with live access are aware so they aren't confused by results that are different their last viewing. |
 | **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain users with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
