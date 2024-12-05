@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/24/2024
+ms.date: 12/05/2024
 ---
 
 # Set up and use Distribution Lists in Viva Glint
@@ -73,6 +73,9 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
          
 >[!NOTE]
 >This method removes attribute rules from this Distribution List.
+
+> [IMPORTANT]
+> A Distribution List is a snapshot in time as soon as survey is enabled. This means that survey results are based on the current organization and manager hierarchy during the window of the survey. For this reason, your Employee Attribute File should be updated before the survey is enabled for automatic invite triggers.
 
 ## Understand the date range attribute and why frequency of updating your Employee Attribute File matters
 
