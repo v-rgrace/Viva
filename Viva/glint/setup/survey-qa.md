@@ -72,7 +72,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
 
 > [!TIP]
-> *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
+> *Viva Glint standard translations become available immediately for newly added languages.
 
 ### Distribution
 
@@ -103,13 +103,16 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
 |Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
 |Questions: Order|Questions are in the correct order.   |High|Yes|
-|Questions: Text and translations|Customized question text and translations are accurate.   |High|No|
+|Questions: Text and translations|Customized question text and translations are accurate.   |High|Yes*|
 |Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
 |Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
 |Sections and translations|Section break/header text and translations are correct.   |Medium|No|
 |Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
+
+
 > [!TIP]
+> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-questions)
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
@@ -121,6 +124,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Reporting View |Live View or Phased Access is selected appropriately, depending on whether the role should have access to live survey data.   |Medium|Yes|
 |Concierge Visibility |This setting is set to On or Off correctly to give managers a concierge experience in dashboards.   |Medium|Yes|
 |Broader Team Insights |This setting is set to On or Off to allow direct reports visibility to a summary report of users' scores in this role.   |Medium|Yes|
+|Copilot in Viva Glint |This setting is set to On or Off to allow users to access Copilot comment summarization.   |Medium|Yes|
 |Team Conversations |This setting is set to On or Off correctly to allow managers to use in-platform Team Conversations.   |Medium|Yes|
 |Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
 |Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
@@ -184,7 +188,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
 
 > [!TIP]
-> *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
+> *Viva Glint standard translations become available immediately for newly added languages.
 
 > [!NOTE]
 > **Updating the Response Window and Waiting Period Between Surveys affects future surveys only.
@@ -207,13 +211,14 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
 |Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
 |Questions: Order|Questions are in the correct order.   |High|Yes|
-|Questions: Text and translations|Customized question text and translations are accurate.   |High|No|
+|Questions: Text and translations|Customized question text and translations are accurate.   |High|Yes*|
 |Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
 |Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
 |Sections and translations|Section break/header text and translations are correct.   |Medium|No|
 |Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
+> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-questions)
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
@@ -282,7 +287,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
 
 > [!TIP]
-> *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
+> *Viva Glint standard translations become available immediately for newly added languages.
 
 ### Distribution
 
@@ -311,13 +316,14 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
 |Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
 |Questions: Order|Questions are in the correct order.   |High|Yes|
-|Questions: Text and translations|Customized question text and translations are accurate.   |High|No|
+|Questions: Text and translations|Customized question text and translations are accurate.   |High|Yes*|
 |Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
 |Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
 |Sections and translations|Section break/header text and translations are correct.   |Medium|No|
 |Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
+> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-questions)
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
@@ -329,6 +335,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Reporting View |Live View or Phased Access is selected appropriately, depending on whether the role should have access to live survey data.   |Medium|Yes|
 |Concierge Visibility |This setting is set to On or Off correctly to give managers a concierge experience in dashboards.   |Medium|Yes|
 |Broader Team Insights |This setting is set to On or Off to allow direct reports visibility to a summary report of users' scores in this role.   |Medium|Yes|
+|Copilot in Viva Glint |This setting is set to On or Off to allow users to access Copilot comment summarization.   |Medium|Yes|
 |Dashboard Default |The correct report, typically Team Summary, is selected for the dashboard view.   |Medium|Yes|
 |Report Template Access |Report templates are selected correctly to grant users access to specific reports.  |High|Yes|
 |Question Reporting Access |Users in the role have access to the correct questions.   |Medium|Yes|
@@ -389,7 +396,7 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Company Message to Survey Participants|Any optional custom messaging to survey participants and accompanying translations are entered correctly.  |High|Yes|
 
 > [!TIP]
-> *Viva Glint standard translations become available immediately for newly added languages. Custom question translations can't be added during a live survey.
+> *Viva Glint standard translations become available immediately for newly added languages.
 
 > [!NOTE]
 > **Updating the Response Window and Waiting Period Between Surveys affects future surveys only.
@@ -408,13 +415,14 @@ Choose a tab based on your survey type (for example: Recurring for an Engagement
 |Welcome text and translations    |Welcome text and translations are accurate.       |High        |Yes        |
 |Questions|All questions are part of the survey and that the upcoming cycle number is selected for the right questions.   |High|No|
 |Questions: Order|Questions are in the correct order.   |High|Yes|
-|Questions: Text and translations|Customized question text and translations are accurate.   |High|No|
+|Questions: Text and translations|Customized question text and translations are accurate.   |High|Yes*|
 |Questions: Targeting|Distribution lists selected to target questions are accurate.   |High|No|
 |Questions: Display Logic|Questions that should only appear based on certain responses to other questions are set up correctly.   |High|No|
 |Sections and translations|Section break/header text and translations are correct.   |Medium|No|
 |Thank you text and translations|Thank you text and translations are accurate.    |High|Yes|
 
 > [!TIP]
+> - *[Edit questions in a live survey and optionally notify users](change-live-survey.md#items-questions)
 > - Section break: User scrolls and it disappears as you take the survey. 
 > - Survey section: A persistent header with questions tied to it that remains at the top of the screen as the user responds.
 
