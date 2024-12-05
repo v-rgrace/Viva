@@ -62,10 +62,10 @@ Sometimes changing a live survey may be beneficial.
 - **Language** - From languages prepopulated in the dropdown menu.
 - **Question Type** - Rating, multiple choice, open-ended.
 - **Reporting Label** - For easy identification of your item.
-- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequentlly affect the accuracy of the benchmark tied to the item.
+- **Question Text** - Consider if it's as it should be. Wording shows verbatim. The **+ button** allows you to edit the question. Try not to edit our standard survey items! Item edits may impact language translations and the item's intention. This change can subsequently affect the accuracy of the benchmark tied to the item.
 - **Instruction Text** - Use this space to provide survey takers with helpful information about how to answer this item.
 - **Comment Placeholder Text**
-- **Leave your comments here** appears by default, but this text can be customized.**Rating Scale** - five (5) or seven (7) points
+- **Leave your comments here** appears by default, but this text can be customized. **Rating Scale** - five (5) or seven (7) points
 - Decide whether to include the rating **Label for all options** - The **Low Value** (1-strongly disagree) and **High Value** (5- strongly agree) appear by default. To define values 2, 3, and 4, toggle to **YES** and then assign their meaning. For example: 2 = disagree.
 - Decide whether to **Allow Comments** - Toggle to **Yes** or **No.**
 - Decide whether this item can be an **Optional Question** - Toggle to **Yes** or **No.**
@@ -168,7 +168,7 @@ A list of program names previously used or in use that include this survey item 
 
 | **Topic** | **Scenario** | **Considerations** |
 | --- | --- | --- |
-| **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approve toggle to **Yes**. |
+| **All items in the Reporting section** | Any section in the Reporting section needs adjustment. | Save all changes, then return to the **Program Summary** and adjust the Approved toggle to **Yes**. |
 | **Benchmark update** | Your external comparison benchmark was updated. | If changes are made to the benchmark in a live program, be certain users with live access are aware so they aren't confused by different results from a past viewing. |
 | **Aggregate Indices** | You need to edit or add an aggregate index. | If changes are made to indices in a live program, be certain users with live access are aware so they aren't confused by results that are different their last viewing. |
 | **Driver Impact Outcomes** | You need to edit or add Driver Impact Outcomes. | If changes are made to Driver Impact Outcomes, be certain users with live access are aware so they aren't confused by different outcome options available in the Driver Impact report. |
