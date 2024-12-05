@@ -26,8 +26,6 @@ If you don't already have a Microsoft Entra user account, you can [create one fo
 > [!NOTE]
 > To add a Support or Partner user to Viva Glint, follow this guidance: [Add an external user to Viva Glint.](add-external-user.md)
 
-<a name='set-up-and-manage-a-viva-glint-azure-active-directory-tenant'></a>
-
 ## Set up and manage a Viva Glint Microsoft Entra tenant
 
 For information on tenant creation, user and group creation, bulk user maintenance, authentication options, how to enable single sign-on, and federation, see the following articles:
@@ -41,8 +39,8 @@ For information on tenant creation, user and group creation, bulk user maintenan
 - [Microsoft Entra Connect and federation](/entra/identity/hybrid/connect/how-to-connect-fed-whatis)
 - [Microsoft Entra federation compatibility list](/entra/identity/hybrid/connect/how-to-connect-fed-compatibility)
 
-> [!TIP]
-> Add all users in Microsoft Entra ID to minimize friction for ongoing role and data access changes for Viva Glint users. Control Viva Glint User Role membership and permissions in the Viva Glint application.
+> [!NOTE]
+> Users must exist in Entra with a Member Type of "Member" (not "Guest") to successfully access Viva Glint.
 
 ## Import users to Viva Glint
 
