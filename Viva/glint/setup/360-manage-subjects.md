@@ -1,6 +1,6 @@
 ---
 title: Manage subjects, Feedback Providers, and Coaches in a Viva Glint 360 feedback program
-description: Selecting Dubjects, Feedback Providers, and Coaches is done in the Manage Subjects sections of a Viva Glint 360 program.
+description: Selecting Subjects, Feedback Providers, and Coaches is done in the Manage Subjects sections of a Viva Glint 360 program.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: mbarry
@@ -34,12 +34,12 @@ Selecting Subjects can be done manually or through an upload, if you’re adding
 
 ## Add a Coach
 
-1. Select the ellipses next to the Subject name.
+1. Select the ellipses next to the Subject's name.
 2. Select **Edit/Add Coach.**
 3. Search for the Coach's name using the search bar and select **Add Coach**.
 
    > [!IMPORTANT]
-   > The role of coach is optional and the 360 program can proceed without it. Selection is up to your organization. Managers are often coaches but don’t have to be. Coaches guide Subjects though their 360 report and are automatically granted report access.
+   > The role of coach is optional and the 360 program can proceed without it. Selection is up to your organization. Managers are often coaches but don’t have to be. Coaches guide Subjects through their 360 report and are automatically granted report access.
     
    :::image type="content" source="../../media/glint/setup/360-edit-add-coach2.png" alt-text="Screenshot of the ellipses section dropdown next to a Subject's name for adding a coach.":::
 
