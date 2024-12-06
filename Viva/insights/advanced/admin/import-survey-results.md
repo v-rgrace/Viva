@@ -10,6 +10,7 @@ ms.collection: viva-insights-advanced
 ms.service: viva-insights
 manager: anirudhbajaj
 audience: Admin
+ms.date: 06/30/2023
 ---
 
 # Import survey results

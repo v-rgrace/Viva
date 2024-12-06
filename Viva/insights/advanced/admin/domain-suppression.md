@@ -9,6 +9,7 @@ ms.collection: viva-insights-advanced
 ms.service: viva-insights
 manager: ablubetk
 audience: Admin
+ms.date: 08/14/2023
 ---
 
 # Domain suppression
