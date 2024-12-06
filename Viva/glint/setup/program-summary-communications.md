@@ -35,7 +35,7 @@ There are two sections to set up:
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-notification-timing.png" alt-text="Screenshot of the Notifications Timing section in Communications setup.":::
 
-Send survey invites and reminders between the times that you select. Your organization's default time zone is selected in [General Settings](manage-general-settings.md#company-information). If your organization chooses to [send emails based on users' time zones](time-zones.,d), the text in this setting reflects that.
+Send survey invites and reminders between the times that you select. Your organization's default time zone is selected in [General Settings](manage-general-settings.md#company-information). If your organization chooses to [send emails based on users' time zones](time-zones.md), the text in this setting reflects that.
 
 > [!IMPORTANT]
 > Viva Glint can successfully process 10,000 - 15,000 surveys and email invites per hour. Factor in these processing limitations and the number of employees in your distribution list when selecting a delivery window.
@@ -57,7 +57,7 @@ Check **Send notification** to ensure that the send date is correct.
 
 ### Disabling the survey invitation
 
-If you want to include content that the Viva Glint platform doesn't support - like URLs, HTML, images, or  videos - toggle the **Send Notification** to **Off** and use your own email service for survey notifications.
+If you want to include content that the Viva Glint platform doesn't support - like URLs, HTML, images, or  videos - toggle the **Send Notifications** setting to **Off** and use your own email service for survey notifications.
 
 > [!TIP]
 > Always send your organization a survey invite! Participation is essential for uncovering useful feedback.
@@ -66,14 +66,14 @@ If you want to include content that the Viva Glint platform doesn't support - li
 
 ### Use Reminders
 
-Use the first, second, third, and final reminder email templates during the survey window to encourage users to participate.
+To encourage users to participate, use the first, second, third, and final reminder email templates during the survey window.
 
 > [!NOTE]
 > Survey takers only receive reminders if they haven't completed their survey. 
 
 Use the **Pencil** symbol to open the window and then:
 
-- Change reminder send dates, which are preset.
+- Change reminder email dates, which are preset.
 - Preview your reminder. You can change the language and preview the message in other languages.
 
 ### Add survey reminders
