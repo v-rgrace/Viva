@@ -30,14 +30,14 @@ Preview your survey before launching. Then follow these practices:
 | --- | --- | 
 |**Don't stop the survey**|Unless you need to completely replace a survey cycle, never *stop* a survey. Many edits can be made while the survey is enabled.|
 |**Make email and reminder edits only at the cycle level**| Program level changes don't apply to a live survey.|
-|**Keep the meaning of a question intact**| If you need to fix spelling, grammatical or translation errors:<ul><li>The adjusted item meaning should remain the same before and after edits </li><li> To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.</li></ul>|
+|**Keep the meaning of a question intact**| If you need to fix spelling, grammatical or translation errors:<ul><li>The adjusted item meaning should remain the same before and after edits. </li><li> To ensure the integrity of the survey results, don't adjust any rating scale or multiple-choice options.</li></ul>|
 |**Always Save and re-approve**| When making live edits, save changes and *reapprove* the survey before ending your session. [Use this guidance for approving, previewing, enabling, and disabling your survey](/viva/glint/setup/preview-manage-enable-engage-programs).|
 |**Make text changes uniformly**| Text changes need to be made across all languages included in the survey.|
 
 ## Process to edit a survey item
 
 There are three entry points to choose from:
--	From the **Question Library** on your admin dashboard; doesn't require survey to go into unapproved state
+-	From the **Question Library** on your admin dashboard; doesn't require the survey to go into unapproved state
 -	From **Survey Programs, Live** 
 -	From **Upcoming Surveys**
 
@@ -139,7 +139,7 @@ After reviewing your edits to an item, select **Save**. The **Confirm your chang
 
 1. In the **Confirm your changes** dialog box:
    - If your organization uses Entra ID or personalized links for survey access, you can notify participants who have started or already completed the survey by checking the **Send an email notification about this change to participants who have already started or completed this survey** box.
-   - If your organization uses an attribute-based survey access, you must to notify participants about these changes and give them the option to retake the survey. **This is mandatory.**
+   - If your organization uses an attribute-based survey access, you must notify participants about these changes and give them the option to retake the survey. **This is mandatory.**
 
 > [!IMPORTANT]
 > - All survey participants must be made aware of the opportunity to retake a survey if a question is changed during a live survey. They must also understand that if they retake their survey, all original answers are replaced.
