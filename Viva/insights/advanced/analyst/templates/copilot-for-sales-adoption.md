@@ -97,7 +97,7 @@ Before you can run the query and populate the report in Power BI, you’ll need 
     > [!IMPORTANT]
     > You need to sign in to Power BI with the same account you use to access Viva Insights. If available, select **Organizational account** from the left. You might have to sign in more than once.
     >
-    > :::image type="content" source="../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab":::
+    > :::image type="content" source="../../images/analyst-pbi-org-account1.png" alt-text="Screenshot that shows signing into to Power BI on the Organizational account tab.":::
 
 ## Report settings
 
