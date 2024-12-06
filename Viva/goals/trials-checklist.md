@@ -1,6 +1,7 @@
 ---
 title: Trials check list
 ms.reviewer: 
+ms.date: 02/08/2024
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
@@ -28,14 +29,11 @@ Trials can be a great way to evaluate software solutions for your organization, 
 
 To keep things easy, here are three key elements to consider when running your trial: 
 
-1. **Clearly define the objectives** 
- Before starting a trial, it's essential to identify what you want to achieve as your end result. To do so, outline specific objectives that you want to accomplish and ensure that these align with the needs of your business. This helps you measure the effectiveness of the software and determine whether it meets your expectations. 
+1. **Clearly define the objectives**: Before starting a trial, it's essential to identify what you want to achieve as your end result. To do so, outline specific objectives that you want to accomplish and ensure that these align with the needs of your business. This helps you measure the effectiveness of the software and determine whether it meets your expectations.
 
-2. **Engage with users**
- To achieve success, it's important to involve the right people. Identify key stakeholders who will be using the software in their daily operations. This could include senior leadership, department leaders, and end users. Encourage feedback from these individuals throughout the trial period to identify any issues or areas for improvement. This feedback helps you define any questions you need to validate and ensure that the software meets the needs of your business. 
+2. **Engage with users**: To achieve success, it's important to involve the right people. Identify key stakeholders who will be using the software in their daily operations. This could include senior leadership, department leaders, and end users. Encourage feedback from these individuals throughout the trial period to identify any issues or areas for improvement. This feedback helps you define any questions you need to validate and ensure that the software meets the needs of your business.
 
-3. **Utilize available support and resources**
- When evaluating anything new, invariably you have questions. Ensure that trial users have access to any necessary resources and support during the trial. This could include online training materials, such as the checklist we’ve provided below. 
+3. **Utilize available support and resources**: When evaluating anything new, invariably you have questions. Ensure that trial users have access to any necessary resources and support during the trial. This could include online training materials, such as the checklist we’ve provided below.
 
 ## Using Trial Checklists for Microsoft Viva Goals
 
