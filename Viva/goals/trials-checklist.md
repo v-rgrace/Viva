@@ -1,6 +1,7 @@
 ---
 title: Trials check list
 ms.reviewer: 
+ms.date: 02/08/2024
 ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
