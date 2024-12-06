@@ -17,7 +17,6 @@ ms.collection:
 search.appverid:
 - MET150
 description: "Viva Goals will be retired as of December 31, 2025,"
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Viva Goals retirement
