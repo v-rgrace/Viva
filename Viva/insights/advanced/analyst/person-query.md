@@ -1,5 +1,5 @@
 ---
-ms.date: 08/21/2024
+ms.date: 11/07/2024
 title: Person query
 description: Learn how to run a custom person query in the Microsoft Viva Insights advanced insights app
 author: zachminers
@@ -84,9 +84,9 @@ Under **Query setup**:
    
    :::image type="content" alt-text="Select metrics section, with selected metrics appearing as tags" source="../images/person-query-selected-metrics-tags.png" lightbox="../images/person-query-selected-metrics-tags.png":::
 
-3. You can also add Microsoft 365 Copilot metrics to your custom person query. These metrics provide insights around how employees are using Microsoft 365 Copilot with Microsoft 365 apps, and they’re part of your .csv output file.
+3. You can also add Microsoft 365 Copilot metrics to your custom person query. These metrics provide insights about how employees are using Microsoft 365 Copilot or Copilot for Sales in Microsoft 365 apps, and they’re part of your .csv output file.
 
-    [Learn more about the Microsoft 365 Copilot metrics that you can use for your query](../../advanced/reference/metrics.md#microsoft-365-copilot-metrics).
+    Learn more about the [Microsoft 365 Copilot metrics](../../advanced/reference/metrics.md#microsoft-365-copilot-metrics) and the [Copilot for Sales metrics](../../advanced/reference/metrics.md#copilot-for-sales-metrics)  that you can use for your query.
 
 #### About metrics
 
