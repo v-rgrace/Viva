@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/08/2024
+ms.date: 12/06/2024
 ---
 
 # Communications setup in Program Summary
@@ -23,7 +23,7 @@ Notifying employees about upcoming surveys and the time frame for taking their s
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-intro.png" alt-text="Screenshot of where to access Communications setup from Program Summary." lightbox="../../media/glint/setup/program-summary-comms-intro.png":::
 
->[!NOTE]
+> [!NOTE]
 > If you're configuring an Always-On program, skip this step.
 
 There are two sections to set up:
@@ -45,8 +45,8 @@ The following sections display as setup actions and each field can be edited by 
 
 :::image type="content" source="../../media/glint/setup/program-summary-comms-configure-notifications.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
 
->[!TIP]
->When [personal email](https://go.microsoft.com/fwlink/?linkid=2247991) is set up as an optional system attribute, use **Email Settings** to send to **Company** or **Company and personal** email.
+> [!TIP]
+> When [personal email](https://go.microsoft.com/fwlink/?linkid=2247991) is set up as an optional system attribute, use **Email Settings** to send to **Company** or **Company and personal** email.
 
 ### Editing the survey invitation
 
@@ -67,8 +67,8 @@ If you want to include items in your survey invitation that cannot be supported 
 
 Set up to three reminders during the survey window and also a final reminder.
 
->[!TIP]
->Send two survey reminders per program. Survey takers only receive reminders if they haven't completeled their survey. 
+> [!TIP]
+> Send two survey reminders per program. Survey takers only receive reminders if they haven't completed their survey. 
 
 Use the **Pencil** symbol to open the window and then:
 
