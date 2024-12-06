@@ -39,7 +39,7 @@ Regular check-ins, where you update metrics to reflect where you're at, help you
 
 ## Check-in cadence 
 
-The check-in process typically takes a few minutes, or you can automate it. We recommend a weekly check-in, which helps ensure that you're updating key metrics. Consistent check-ins provide a clear picture of your progress and helps ensure you remain on track or make adjustments as necessary. However, you can select a different check-in cadence if you feel like a weekly review isn't necessary. 
+The check-in process typically takes a few minutes, or you can automate it. We recommend a weekly check-in, which helps ensure that you're updating key metrics. Consistent check-ins provide a clear picture of your progress and help ensure you remain on track or make adjustments as necessary. However, you can select a different check-in cadence if you feel like a weekly review isn't necessary. 
 
 ## Manual vs. integrated check-ins 
 
