@@ -32,7 +32,7 @@ In this article, we'll discuss:
 
 > **Note:** Consistency is key with respect to doing check-ins. Focus on progress rather than perfection. If you miss a series of check-ins, don’t give up on the process. Instead, start doing your check-ins again and continue regularly through the rest of your OKR time period. 
 
-# What is a check-in? 
+## What is a check-in? 
 
 Regular check-ins, where you update metrics to reflect where you're at, help you review and assess progress toward meeting your OKRs. You can conduct a check-in manually in Viva Goals or integrate it with an outside data source so check-ins occur automatically.  
 
@@ -65,7 +65,7 @@ Additionally, with integrated check-ins, you can:
  - Select the **Sync** button to refresh metrics immediately, if you need more current data than the hourly update provides. An example of when you might require this is if you're about to present at a monthly OKR review meeting. 
  - Perform a check-in directly from a collaboration platform in which you're working, such as Teams or Slack, thereby seamlessly checking in while not disrupting your workflow.
 
-# Benefits of Viva Goals data integrations 
+#### Benefits of Viva Goals data integrations 
 
 Viva Goals supports integration with industry-leading tools and platforms you use every day, which means your OKR implementation process is as simple, effective, and seamless as possible. Configuring integrations offers several advantages, including that: 
 
@@ -76,7 +76,7 @@ Viva Goals supports integration with industry-leading tools and platforms you us
 >[!IMPORTANT]
 >Your administrator must set up integrations before you and other users can connect them to your OKRs. For more information, refer to [Viva Goals Integrations Administration Overview](../../goals/vg-integrations-administration-overview.md).
 
-# Check-in OKRs with Viva Goals
+## Check-in OKRs with Viva Goals
 You're now ready to use Viva Goals to collaborate on your OKRs with others and align your goals. For the detailed process about how to do this, refer to [Collaborate and Align with Viva Goals](https://support.microsoft.com/en-us/topic/collaborate-with-viva-goals-43673d1c-0dd7-42ba-97aa-6e712db171d1).
 
 ## Summary
