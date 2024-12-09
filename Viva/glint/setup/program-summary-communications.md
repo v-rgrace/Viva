@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/06/2024
+ms.date: 12/09/2024
 ---
 
 # Communications setup in Program Summary
@@ -26,9 +26,10 @@ Notifying employees about a survey's start and sending reminders throughout the 
 > [!NOTE]
 > Always-On programs don't include a Communications section. Skip this step.
 
-There are two sections to set up:
+There are three sections to set up:
 
 - Notification Timing
+- Email Settings
 - Configure Notifications
 
 ## Notification Timing
@@ -40,14 +41,23 @@ Send survey invites and reminders between the times that you select. Your organi
 > [!IMPORTANT]
 > Viva Glint can successfully process 10,000 - 15,000 surveys and email invites per hour. Factor in these processing limitations and the number of employees in your distribution list when selecting a delivery window.
 
+## Email Settings
+
+Use the Email Settings section to determine email addresses used to contact users and whether to use multiple languages in email templates.
+
+### Choose where email notifications are sent
+
+When [personal email](send-employee-attributes.md#optional-system-attributes) is set up as an optional system attribute, this email option becomes visible. Select **Company email and personal email** to better contact existing employees.
+
+### Send survey notifications in multiple language in a single email
+
+If your organization has employees in areas where local guidelines require you to communicate in multiple languages, consider switching this toggle On and [setting up emails in multiple languages](multi-lang-emails.md).
+
 ## Configure Notifications
 
 The following sections display as setup actions and each field can be edited by selecting the **pencil symbol** that displays when selecting a row.
 
-:::image type="content" source="../../media/glint/setup/program-summary-comms-configure-notifications.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
-
-> [!TIP]
-> When [personal email](send-employee-attributes.md#optional-system-attributes) is set up as an optional system attribute, use **Email Settings** to send to **Company** or **Company and personal email**.
+:::image type="content" source="../../media/glint/setup/survey-comms-config.png" alt-text="Screenshot of the Configure Notifications section in Communications setup.":::
 
 ### Editing the survey invitation
 
