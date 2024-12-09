@@ -1,6 +1,6 @@
 ---
 ms.date: 12/06/2024
-title: "Overview of checking in OKRs"
+title: "Check in and update OKRs"
 ms.reviewer: 
 ms.author: daisyfeller
 author: daisyfell
@@ -20,28 +20,28 @@ search.appverid:
 description: "Learn how to review Objectives and Key Results (OKRs) and initiatives to help ensure a healthy OKR program."
 ---
 
-# Check in and update OKRs periodically
+# Check in and update OKRs
 
 Regular evaluation of your Objectives and Key Results (OKRs) helps you gauge the progress you're making toward your goals. You'll develop and document your OKRs at the beginning of an applicable time period, such as a quarter, and then conduct a reflection process at the end of that time period. During your reflection process, you'll score your progress with respect to your goals. However, it's also vital to evaluate your progress *during* the time period, to ensure you're on track to meeting your goals.
 
 In this article, we'll discuss:
 
-- How to define and describe the two types of check-ins you can do with Viva Goals. 
+- How to define and describe the two types of check-ins you can do with Viva Goals.
 - Examples of the two types and when to use them.  
-- The benefits of using data integrations for your check-in reviews. 
+- The benefits of using data integrations for your check-in reviews.
 
 > [!NOTE]  
-> Consistency is key with respect to doing check-ins. Focus on progress rather than perfection. If you miss a series of check-ins, don’t give up on the process. Instead, start doing your check-ins again and continue regularly through the rest of your OKR time period. 
+> Consistency is key with respect to doing check-ins. Focus on progress rather than perfection. If you miss a series of check-ins, don’t give up on the process. Instead, start doing your check-ins again and continue regularly through the rest of your OKR time period.
 
-## What is a check-in? 
+## What is a check-in?
 
 Regular check-ins, where you update metrics to reflect where you're at, help you review and assess progress toward meeting your OKRs. You can conduct a check-in manually in Viva Goals or integrate it with an outside data source so check-ins occur automatically.  
 
-## Check-in cadence 
+## Check-in cadence
 
-The check-in process typically takes a few minutes, or you can automate it. We recommend a weekly check-in, which helps ensure that you're updating key metrics. Consistent check-ins provide a clear picture of your progress and help ensure you remain on track or make adjustments as necessary. However, you can select a different check-in cadence if you feel like a weekly review isn't necessary. 
+The check-in process typically takes a few minutes, or you can automate it. We recommend a weekly check-in, which helps ensure that you're updating key metrics. Consistent check-ins provide a clear picture of your progress and help ensure you remain on track or make adjustments as necessary. However, you can select a different check-in cadence if you feel like a weekly review isn't necessary.
 
-## Manual vs. integrated check-ins 
+## Manual vs. integrated check-ins
 
 You can update your OKR progress in Viva Goals either manually or by integrating it with a data source. 
 
@@ -63,12 +63,12 @@ Consider the previous example. Your key result is to increase customer-facing kn
 
 Additionally, with integrated check-ins, you can:
 
- - Select the **Sync** button to refresh metrics immediately, if you need more current data than the hourly update provides. An example of when you might require this is if you're about to present at a monthly OKR review meeting. 
- - Perform a check-in directly from a collaboration platform in which you're working, such as Teams or Slack, thereby seamlessly checking in while not disrupting your workflow.
+- Select the **Sync** button to refresh metrics immediately, if you need more current data than the hourly update provides. An example of when you might require this is if you're about to present at a monthly OKR review meeting. 
+- Perform a check-in directly from a collaboration platform in which you're working, such as Teams or Slack, thereby seamlessly checking in while not disrupting your workflow.
 
-#### Benefits of Viva Goals data integrations 
+#### Benefits of Viva Goals data integrations
 
-Viva Goals supports integration with industry-leading tools and platforms you use every day, which means your OKR implementation process is as simple, effective, and seamless as possible. Configuring integrations offers several advantages, including that: 
+Viva Goals supports integration with industry-leading tools and platforms you use every day, which means your OKR implementation process is as simple, effective, and seamless as possible. Configuring integrations offers several advantages, including that:
 
 - Check-ins occur automatically, without disrupting your workflow and requiring you to stop what you're doing to manually check in.
 - All data flows from a single source, which helps eliminate redundancy.
@@ -78,9 +78,21 @@ Viva Goals supports integration with industry-leading tools and platforms you us
 >Your administrator must set up integrations before you and other users can connect them to your OKRs. For more information, refer to [Viva Goals Integrations Administration Overview](../../goals/vg-integrations-administration-overview.md).
 
 ## Check-in OKRs with Viva Goals
+
 You're now ready to use Viva Goals to collaborate on your OKRs with others and align your goals. For the detailed process about how to do this, refer to [Collaborate and Align with Viva Goals](https://support.microsoft.com/en-us/topic/collaborate-with-viva-goals-43673d1c-0dd7-42ba-97aa-6e712db171d1).
 
-## Summary
-The OKR check-in process reflects the critical work you're performing during a given time period. It helps you measure your progress, and stay on track, toward reaching your goals by enabling you to quickly perform check-ins within Viva Goals or by using a third-party integration.
+## Recommendations
 
-For more information about Viva Goals and for the latest events, refer to [Microsoft Viva Goals Community](https://techcommunity.microsoft.com/t5/viva-goals/ct-p/Viva-Goals) and [Measuring and Tracking OKRs](https://techcommunity.microsoft.com/t5/measuring-and-tracking-okrs/bd-p/Measuring_and_Tracking_OKRs). 
+Looking to improve the efficiency of your OKR program? Here are recommendations you can perform within Viva Goals: 
+
+### Set up automated key result check-ins through data integrations
+
+Action: Go through each key result and determine if the data is already being tracked in a supported third-party program, and whenever possible, use integrations to automatically pull from a single source of truth. For example: 
+
+### Connect to collaboration platforms  for easier check-ins
+
+If you and your organization use Microsoft Teams or Slack, connect them to Viva Goals to enjoy seamless usage right from those products.
+
+### Set up check-in reminder notifications
+
+The OKR Program Lead can determine the cadence of OKR reminders (such as once per week on Friday mornings) and work with the Viva Goals Admin to set these up in the admin dashboard. Sometimes all users need to update their OKRs is a small nudge to remind them.

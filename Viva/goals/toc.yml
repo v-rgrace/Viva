@@ -262,8 +262,6 @@ items:
      items:
       - name: Check-in OKRs overview
         href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
-      - name: Check-in OKRs recommendations
-        href: ./viva-goals-healthy-okr-program/check-in-recommendations.md
   
    - name: Tags
      href: tags.md
