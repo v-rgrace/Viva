@@ -49,11 +49,11 @@ Use the Email Settings section to determine email addresses used to contact user
 
 ### Choose where email notifications are sent
 
-When [personal email](send-employee-attributes.md#optional-system-attributes) is set up as an optional system attribute, this email option becomes visible. Select **Company email and personal email** to better contact existing employees.
+When [personal email](send-employee-attributes.md#optional-system-attributes) is set up as an optional system attribute, this email option becomes visible. Select **Company email and personal email** to better contact exiting employees.
 
 ### Send survey notifications in multiple languages in a single email
 
-If your organization has employees in areas where local guidelines require you to communicate in multiple languages, consider switching this toggle On and [setting up emails in multiple languages](multi-lang-emails.md).
+If your organization has employees in areas where local guidelines require you to communicate in multiple languages, consider switching this toggle to **On** and [setting up emails in multiple languages](multi-lang-emails.md).
 
 ## Configure Notifications
 
