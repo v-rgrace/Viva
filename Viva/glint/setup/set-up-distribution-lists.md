@@ -113,9 +113,9 @@ From the Distribution Lists page, the far-right column entitled **Membership Typ
 
 ## Use the dynamic Distribution Lists functionality
 
-Guide your decision decision whether to use manual population or attribute rule population by these principles:
+Guide your decision whether to use manual population or attribute rule population by these principles:
 
-- If membership type is based on Attribute Rules and a user is manually added in the platform, employee data file imports automatically updates the Distribution List.
+- If the membership type is based on Attribute Rules and a user is manually added in the platform, employee data file imports automatically update the Distribution List.
 - If the Distribution List began manually, adding attribute rules changes the list to include both Attribute Rules and Manual.
 - If a member is deleted manually and they match the filter criteria, they still appear in the Distribution List. The **Added by** method changes from Manual to Attribute Rules.
 
