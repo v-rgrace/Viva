@@ -1,5 +1,5 @@
 ---
-ms.date: 10/29/2024
+ms.date: 11/07/2024
 title: Advanced insights metric descriptions
 description: Describes the metrics for analysis data that are available in Microsoft Viva Insights, including query metrics and Power BI template metrics
 author: zachminers
@@ -197,16 +197,20 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 |---|---|---|
 | Summarize meeting actions taken using Copilot in Teams | The number of times users summarized meetings using Copilot. Each action represents a user sending a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. | 10/15/2023 |
 | Total meetings summarized by Copilot in Teams | The number of meetings summarized by Copilot. Each meeting summarized represents a meeting where the user sent a prompt in the meeting Copilot dialog (including suggested prompts and user-generated prompts). This metric does *not* include meeting summaries accessed through Intelligent Recap. | 10/15/2023 |
+| Intelligent recap actions taken using Copilot | The number of times users accessed a meeting recap in Teams using Copilot. | 02/01/2024 |
 | Summarize chat actions taken using Copilot in Teams | The number of times users summarized chats and channel conversations in Teams using Copilot. | 10/15/2023 |
 | Total chat conversations summarized by Copilot in Teams | The number of chats and channel conversations summarized by Copilot. | 12/18/2023 |
 | Summarize email thread actions taken using Copilot in Outlook | Number of times users summarized email conversations with Copilot.  | 11/15/2023 |
 | Draft Word document actions taken using Copilot | The number of times users drafted Word documents using Copilot. | 10/15/2023 | 
 | Summarize Word document actions taken using Copilot in Word |  The number of times users summarized Word documents using Copilot.  | 10/15/2023 | 
+| Visualize as table actions taken using Copilot in Word | The number of times users converted text to a table with Copilot in Word. | 02/01/2024 |
 |  Create presentation actions taken using Copilot  | The number of times users created PowerPoint presentations using Copilot. | 10/15/2023 |
+| Organize presentation actions taken using Copilot | The number of times users prompted Copilot in PowerPoint to help organize a presentation. | 02/01/2024 |
+| Add content to presentation actions taken using Copilot | The number of times users added a slide or image to a presentation using Copilot. | 02/01/2024 |
 |  Summarize presentation actions taken using Copilot in PowerPoint  | Number of times users  summarized PowerPoint presentations with Copilot.  | 10/15/2023 | 
 | Meeting hours summarized by Copilot in Teams | Meeting hours summarized are calculated based on actual hours summarized, not a per action estimate. For example, if a user summarizes after a 1-hour meeting, they'll count 1 hour toward the total. If another user summarizes 15 minutes into the meeting, they'll count 15 minutes toward the total, resulting in an overall total of 1 hour, 15 minutes. This metric does *not* include meeting summaries accessed through Intelligent Recap. | 12/18/2023 |
 | Compose chat message actions taken using Copilot in Teams | The number of chats and channel message drafts created in Teams using Copilot. | 10/15/2023 |
-| Copilot actions taken in Business Chat (work) | The number of Copilot actions completed by active Copilot users in Business Chat (work), formerly called Copilot Chat (work). | 10/15/2023 |
+| Copilot actions taken in Business Chat (work) | The number of Copilot actions completed by active Copilot users in Business Chat (work), formerly called Copilot Chat (work). Includes prompts submitted through Teams, Outlook, Edge, and the Microsoft 365 app.| 10/15/2023 |
 |  Generate email draft actions taken using Copilot in Outlook | The number of times users generated email drafts using Copilot. | 11/15/2023 |
 |  Email coaching actions taken using Copilot  | The number of times users selected coaching by Copilot in Outlook. | 11/15/2023 |
 | Total emails sent using Copilot in Outlook | The number of emails sent with assistance from Copilot. | 11/15/2023  |
@@ -227,7 +231,12 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 |  Days of active Copilot usage in Teams  |  The number of days the user was actively using Copilot in Microsoft Teams.  | 10/15/2023 |
 | Days of active Copilot usage in Word | The number of days the user was actively using Copilot in Word. | 10/15/2023 |
 |  Days of active Business Chat (work) usage  |  The number of days the user was actively using Business Chat (work), formerly called Copilot Chat (work). | 10/15/2023 |
-| Business Chat (work) prompts submitted in Teams | The number of Business Chat (work) queries submitted by users through Teams, formerly called Copilot Chat (work). | 10/15/2023 |
+| Business Chat (work) prompts submitted | The number of prompts submitted by users in Business Chat (work), formerly called Copilot chat (work). Includes prompts submitted through Teams, Outlook, Edge, and the Microsoft 365 app. | 10/15/2023 |
+| Business Chat (work) prompts submitted in Outlook | The number of Business Chat (work) queries submitted by users through Outlook, formerly called Copilot Chat (work). | 02/21/2024 | 
+| Chat (Copilot in Word) prompts submitted | The number of times users submitted a prompt to Copilot chat in Word. Includes any prompts that don't map to one of the established Word Copilot skills such as "Summarize"-, "Draft"-, or "Rewrite"- actions taken in Word. | 02/01/2024 |
+| Chat (Copilot in PowerPoint) prompts submitted | The number of times users submitted a prompt to Copilot chat in PowerPoint. Includes any prompts that don't map to one of the established PowerPoint Copilot skills such as "Summarize"-, "Add content"-, or "Organize presentation"- actions taken in PowerPoint. | 02/01/2024 |
+| Chat (Copilot in Excel) prompts submitted | The number of times users submitted a prompt to Copilot chat in Excel. Includes any prompts that don't map to one of the established Excel Copilot skills such as "Analysis"-, "Formatting"-, or "Formula"- actions taken in Excel. | 02/01/2024 |
+| Business Chat (web) prompts submitted	 | The number of queries submitted by users in the web tab of Business Chat, also known as "Coplot with Enterprise Data Protection." Includes prompts submitted through Edge and the Microsoft 365 app. | 08/20/2024 |
 | Copilot assisted hours | The estimated number of hours users were assisted by using Copilot. [Learn more about this metric calculation](../../org-team-insights/copilot-dashboard.md#details-on-the-copilot-assisted-hours-metric).  | 10/15/2023 |
 | Total Copilot active days  | The number of days the user was actively using Copilot in any of the apps.  | 10/15/2023 |
 | Total Copilot enabled days  | The number of days the user had at least one service plan for Copilot enabled. | 10/15/2023 |
@@ -239,6 +248,26 @@ These metrics provide insights around how employees are using Microsoft 365 Copi
 
 >[!Note]
 >The Copilot active days metrics may capture Copilot actions that are not yet captured in Viva Insights metrics. For example, "Copilot actions taken in Teams" might return a figure that's larger than the sum of the metrics representing the actions employees can take with Copilot in Teams, such as "Summarize meeting actions taken using Copilot in Teams." This data gap will be closed over time.
+
+## Copilot for Sales metrics
+
+These metrics provide insights about how employees are using Copilot for Sales within Microsoft 365 apps like Outlook, Teams, and Word.
+
+| Metric | Description | Date from when the data is available and the customers can view |
+|----|----|----|
+| Total Copilot for Sales enabled days | The number of days the user had at least one premium service plan for Copilot for Sales enabled. | 2/21/2024  |
+| Total Copilot for Sales active days  | The number of days the user actively used Copilot for Sales at least once in Microsoft Teams or Outlook. | 2/21/2024 |
+| Days of active Copilot for Sales usage in Teams  | The number of days the user actively used Copilot for Sales in Teams. | 2/21/2024 |
+| Days of active Copilot for Sales usage in Outlook   | The number of days the user actively used Copilot for Sales in Outlook. | 2/21/2024 |
+| Summarize email thread actions taken using Copilot for Sales | The number of times users summarized email conversations with Copilot for Sales. [Learn more about this feature](/microsoft-sales-copilot/email-summary-premium). | 2/21/2024 |
+| Generate email draft actions taken using Copilot for Sales | The number of times users generated email replies in Outlook using Copilot for Sales. [Learn more about this feature](/microsoft-sales-copilot/email-reply-premium). | 2/21/2024 |
+| Create follow-up email actions taken using Copilot for Sales  | The number of times users created a follow-up email directly from the Teams post-meeting experience using Copilot for Sales. [Learn more about this feature](/microsoft-sales-copilot/view-meeting-summary-recap#create-a-post-meeting-summary-email). | 2/21/2024 |
+| Review post-meeting summary actions taken using Copilot for Sales | The number of times users reviewed the post-meeting summary highlights and follow-up actions that Copilot for Sales identified. [Learn more about this feature](/microsoft-sales-copilot/view-meeting-summary-recap). | 2/21/2024 |
+| Review CRM record summary actions taken using Copilot for Sales | The number of times users reviewed a CRM record summary with Copilot for Sales. [Learn more about this feature](/microsoft-sales-copilot/view-opportunity-summary). | 2/21/2024 |
+| Save email or meeting to CRM actions taken using Copilot for Sales  | The number of times users saved Outlook activities such as emails and meetings to their CRM with Copilot for Sales. [Learn more about this feature](/microsoft-sales-copilot/save-outlook-activities-crm). | 2/21/2024 |
+| Save email summary in CRM actions taken using Copilot for Sales  | The number of times users saved an email summary to their CRM as a note to a record using Copilot for Sales. [Learn more about this feature](/microsoft-sales-copilot/view-save-email-summary-crm#save-email-summary-to-crm). | 2/21/2024 |
+| Create CRM record actions taken using Copilot for Sales  | The number of times users created a new CRM record (like a contact, lead, or opportunity) from Copilot for Sales. [Learn more about this feature](/microsoft-sales-copilot/create-new-record). | 2/21/2024 |
+| Edit CRM record actions taken using Copilot for Sales  | The number of times users edited a CRM record with Copilot for Sales. [Learn more about this feature](/microsoft-sales-copilot/edit-crm-record). | 2/21/2024 |
 
 ## Exported metrics
 

@@ -17,14 +17,13 @@ ms.collection:
 search.appverid:
 - MET150
 description: "Frequently asked questions about the retirement of Microsoft Viva Goals"
-ROBOTS: NOINDEX, NOFOLLOW
 ---
 
 # Viva Goals retirement FAQ
 
 ## Why is Viva Goals being deprecated?
 
-Two years ago, we launched Viva Goals with a mission of empowering every team and organization to achieve more through focused goal management using the OKR methodology. While some customers have valued its functionality, overall adoption and usage of Viva Goals have remained low. Since launch, we have not seen substantive adoption and usage and have decided to deprecate the product over the next 13 months with retirement of Viva Goals on **December 31, 2025**.
+Two years ago, we launched Viva Goals with a mission of empowering every team and organization to achieve more through focused goal management using the OKR methodology. While some customers have recognized value, overall adoption and usage of Viva Goals across the Viva Suite customer base has not grown. Microsoft has been unable to reach the scale and impact needed to continue further investment and therefore has decided to deprecate the product over the next 13 months with retirement of Viva Goals on December 31, 2025.
 
 ## What does this mean for the rest of the Viva suite?
 

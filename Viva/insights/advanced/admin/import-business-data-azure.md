@@ -37,17 +37,17 @@ With an Azure blob import, your Azure subscription’s **Owner** or **Storage Ac
 
     4. The Insights admin enters the URL in the Viva Insights app to turn on the import from the Azure blob store location. The Insights Admin also uploads the mapping file for the business data.
 
-2. Validation: Viva Insights validates the data. (If validation isn’t successful, you can choose from a few options described in [Validation fails](#validation-fails).) 
+2. Validation: Viva Insights validates the data. (If validation isn't successful, you can choose from a few options described in [Validation fails](#validation-fails).) 
 
-3. Processing: Viva Insights processes the data. (If processing isn’t successful, you can choose from a few options described in [Processing fails](#processing-fails).) 
+3. Processing: Viva Insights processes the data. (If processing isn't successful, you can choose from a few options described in [Processing fails](#processing-fails).) 
 
-After the data successfully validates and processes, the overall data-import task is complete.
+   After the data successfully validates and processes, the overall data-import task is complete.
 
 ## Setup
 
 ### 1. Create a secure blob container
 
-*Applies to: Azure Subscription Owner or Storage Account Contributor*
+*Applies to: Azure Subscription Owner with at least Storage Blob Data Contributor permissions at the account level*
 
 1. Open a browser and sign in to your organization’s Azure portal.  
 
@@ -63,7 +63,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 7. At the bottom, select **Next** to go to Advanced section. 
 
-8. On the Advanced page, make sure that "Require secure transfer for REST API operations" and "Enable storage account key access" are both selected. For "Minimum TLS version," select at least **Version 1.2**. 
+8. On the Advanced page, select **Require secure transfer for REST API operations** and **Enable storage account key access**. For "Minimum TLS version," select at least **Version 1.2**. Select **Enable hierarchical namespace**.
 
 9. For all other Advanced settings, you can use the default settings unless you need to make changes.
 
@@ -97,7 +97,7 @@ After the data successfully validates and processes, the overall data-import tas
 
 ### 2. Authorize the blob container
 
-*Applies to: Azure Subscription Owner or Role Based Access Control Administrator*
+*Applies to: Azure Subscription Owner with at least Storage Blob Data Contributor permissions at the account level*
 
 Next, you’ll need to create a blob SAS URL or authorize **Workplace Analytics** service principal. Service principal authorization is the recommended and more secure approach. The blob SAS token does not have any built-in auditing capabilities. Follow the appropriate steps below for the method you choose.
 
@@ -165,6 +165,8 @@ Business data likely has different data sources, and might update on different s
 
 5. Upload a metadata.json file, with the inputs described below:
 
+    * For incremental uploads and easy access to this data, enter a "Dataset name" and "Dataset type" for this dataset. For example, you could upload two different datasets from your sales team on customer satisfaction and account retention. You can assign the type "Sales" to these datasets and name them "CSAT" and "Account." Analysts can discover this data by searching for their name and type while setting up queries. The dataset name and type shouldn’t contain spaces. 
+
     * `"Dataset type"`: The name of the data category, such as "Sales data." You can assign any unique type except these system reserved types: "Survey," "CRM," "Person," "Signal," "AnalystUploadedData," "UserSkills," "HeirarchicalSkills," "RelatedSkills," "SkillsLibrary," "ManagerHierarchy," "Learning," "None," "InteractiveExplorationPersonOutput," "None" 
 
     * `"Dataset name"`: Unique name representing a specific table in the data category. In case your dataset type is named "SalesData," an example dataset could be "Deals," "Inventory" or "Orders."  
@@ -216,7 +218,7 @@ Business data likely has different data sources, and might update on different s
       } 
     }
     ```
-    For example, let’s say your source system admin uses "PipelineGenerated" to capture the number of deals created. The code would be:  
+    For example, let's say your source system admin uses "PipelineGenerated" to capture the number of deals created. The code would be:  
 
     ```
     "PipelineGenerated": { 
@@ -236,7 +238,7 @@ Business data likely has different data sources, and might update on different s
 
 ### 4. Prepare business data file and send to blob store
 
-*Applies to: Source system admin*
+*Applies to: Azure Subscription Owner with at least Storage Blob Data Contributor permissions at the account level*
 
 #### Task 1 - Prepare your data 
 
@@ -271,7 +273,7 @@ At the frequency you decide, programmatically export the business data from your
 
 After the source system admin exports the data and you set up the import, the app starts validating. In most cases, file validation should complete quickly. 
 
-After this phase completes, validation has either succeeded or failed. Depending on the outcome, you’ll either receive a success status or a failure status in the Import history table in **Business data**.  
+After this phase completes, validation has either succeeded or failed. Depending on the outcome, you'll either receive a success status or a failure status in the Import history table in **Business data**.  
 
 For information about what happens next, go to the appropriate section:
 
@@ -352,17 +354,17 @@ After you've setup your data import, use the steps below to add new data to an e
 
     * To add new data to an existing dataset, select the plus icon next to the dataset.
 
-On the next page, you can edit the connection name, the blob SAS URL, or the blob URL. If you update the SAS URL or URI, the new location will be used for future data refreshes. 
+    On the next page, you can edit the connection name, the blob SAS URL, or the blob URL. If you update the SAS URL or URI, the new location will be used for future data refreshes. 
 
-You can also turn automated imports on or off. When you’re done, select **Save**. 
+    You can also turn automated imports on or off. When you’re done, select **Save**. 
 
-To replace or edit the business data using the existing blob SAS URL or blob URL, contact your source system admin. When you import data to Viva Insights, you’ll either perform a full or an incremental refresh. If you want to delete fields, you can use a full refresh to do so.
+    To replace or edit the business data using the existing blob SAS URL or blob URL, contact your source system admin. When you import data to Viva Insights, you'll either perform a full or an incremental refresh. If you want to delete fields, you can use a full refresh to do so.
 
 ### Refresh types
 
 #### Full
 
-When you perform a full refresh, you’re replacing all your business data in Viva Insights—that is, you overwrite what you’ve already imported. The required fields are PersonId and StartDate. 
+When you perform a full refresh, you’re replacing all your business data in Viva Insights—that is, you overwrite what you've already imported. The required fields are PersonId and StartDate. 
 
 You can use a full refresh to delete fields, because fields you leave out won’t show up in your data. We cover deleting data in the next section.
 

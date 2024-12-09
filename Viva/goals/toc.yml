@@ -16,6 +16,13 @@ items:
         href: self-service-trials.md
       - name: Trial checklist
         href: trials-checklist.md
+
+- name: Retirement
+  items:
+    - name: Viva Goals Retirement
+      href: goals-retirement.md
+    - name: FAQs
+      href: goals-retirement-faq.md
   
 - name: Administration
   items:
@@ -257,7 +264,10 @@ items:
         href: ./viva-goals-healthy-okr-program/check-in-okrs-overview.md
       - name: Check-in OKRs recommendations
         href: ./viva-goals-healthy-okr-program/check-in-recommendations.md
-   
+  
+   - name: Tags
+     href: tags.md
+ 
    - name: Close and score goals
      items:
       - name: Close OKRs overview
