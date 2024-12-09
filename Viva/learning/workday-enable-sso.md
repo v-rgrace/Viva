@@ -15,7 +15,7 @@ ms.collection:
   - highpri
   - Tier1
 ms.localizationpriority: medium
-description: Learn how to configure Workday on Viva Learning, the licensing required for the process, and also how to enable Single Sign On (SSO) 
+description: Learn how to enable single sign-on Workday login on Viva Learning to allow for seamless authentication. 
 ---
 # Enable SSO on Workday
 
@@ -23,3 +23,4 @@ description: Learn how to configure Workday on Viva Learning, the licensing requ
 Viva Learning and Workday integration allows seamless authentication (SSO). On Teams Desktop and Web, users can directly consume a course on Workday portal without the need to sign in via Workday credentials. On Teams mobile, user need to enter the credentials for first time. 
 
 Refer to the [SSO integration between Workday and Viva Learning](/entra/identity/saas-apps/workday-tutorial).
+

@@ -15,7 +15,7 @@ ms.collection:
   - highpri
   - Tier1
 ms.localizationpriority: medium
-description: Learn how to configure and manage Workday for Microsoft Viva Learning.
+description: An introduction on how to configure and manage Workday for Microsoft Viva Learning.
 
 ---
 

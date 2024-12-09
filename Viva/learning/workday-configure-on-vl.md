@@ -15,7 +15,7 @@ ms.collection:
   - highpri
   - Tier1
 ms.localizationpriority: medium
-description: Learn how to configure Workday on Viva Learning, the licensing required for the process, and also how to enable Single Sign On (SSO) 
+description: Learn how to configure Workday on the Viva Learning tab and the licensing required for the process.
 ---
 # Configure Workday on Viva Learning Admin tab
 
