@@ -67,15 +67,15 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
 
      - **Option 2: Import**: Use a CSV or XLSX file to import employees into a Distribution List.
 
-    - In the window that opens, follow the onscreen guidance.
+       - In the window that opens, follow the onscreen guidance.
          
-:::image type="content" source="../../media/glint/setup/distro-list-import-spreadsheet-v2.png" alt-text="Screenshot of slider window for importing employees to a Distribution List.":::
+         :::image type="content" source="../../media/glint/setup/distro-list-import-spreadsheet-v2.png" alt-text="Screenshot of slider window for importing employees to a Distribution List.":::
          
->[!NOTE]
->This method removes attribute rules from this Distribution List.
+         >[!NOTE]
+         >This method removes attribute rules from this Distribution List.
 
->[!IMPORTANT]
->A Distribution List is a snapshot in time as soon as survey is enabled. This means that survey results are based on the current organization and manager hierarchy during the window of the survey. For this reason, your Employee Attribute File should be updated before the survey is enabled for automatic invite triggers.
+      >[!IMPORTANT]
+      >A Distribution List is a snapshot in time as soon as survey is enabled. This means that survey results are based on the current organization and manager hierarchy during the window of the survey. For this reason, your Employee Attribute File should be updated before the survey is enabled for automatic invite triggers.
 
 ## Understand the date range attribute and why updating your Employee Attribute File matters
 
