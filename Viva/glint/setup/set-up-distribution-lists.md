@@ -62,10 +62,10 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
          - The new Distribution List, including the number of members, appears under the **Included** section, while excluded employees appear under **Excluded**.
          - Confirm your list and select **Save Changes**.
 
-  > [!TIP]  
-  > For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
+     > [!TIP]  
+     > For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
 
-  - **Option 2: Import**: Use a CSV or XLSX file to import employees into a Distribution List.
+     - **Option 2: Import**: Use a CSV or XLSX file to import employees into a Distribution List.
 
     - In the window that opens, follow the onscreen guidance.
          
