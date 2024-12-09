@@ -1,5 +1,5 @@
 ---
-ms.date: 05/07/2024
+ms.date: 12/09/2024
 title: Advanced insights privacy
 description: Learn more about privacy in advanced insights
 author: zachminers
@@ -235,8 +235,6 @@ If the Viva Insights license is removed from a user, Viva Insights retains that 
 
 
 The person's collaboration data will be deleted according to the overall retention policy described in [Data retention for active tenants](#data-retention-for-active-tenants). 
-
-To permanently remove data from users after licenses are removed, you can contact Microsoft customer support to request a collaboration data reset. 
 
 For information about data deletion requests as handled under the GDPR, refer to [Managing data subject requests](#managing-data-subject-requests). 
 
