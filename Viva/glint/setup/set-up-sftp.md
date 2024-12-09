@@ -32,6 +32,9 @@ Your IT team may need to add an IP exception or add hosts and ports to an allowl
 Learn more about how to set up SFTP with this video and the guidance in this article:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1jOMv]
 
+> [!NOTE]
+> Once a tenant is deprovisioned or considered in a "LockedOut" state, the public SSH key is deleted and SFTP no longer works.
+
 ## Manage SFTP in General Settings
 
 Manage SFTP settings to connect to your Viva Glint SFTP account:
@@ -53,6 +56,16 @@ Manage SFTP settings to connect to your Viva Glint SFTP account:
 > - **10.0.0.0/8 IP addresses:** 10.0.0.0 – 10.255.255.255
 > - **172.16.0.0/12 IP addresses:** 172.16.0.0 – 172.31.255.255
 > - **192.168.0.0/16 IP addresses:** 192.168.0.0 – 192.168.255.255
- 
-> [!NOTE]
-> Once a tenant is deprovisioned or considered in a "LockedOut" state, the public SSH key is deleted and SFTP will no longer work.
+
+## PGP key expiration
+
+The public PGP key provided by Glint that your organization can optionally use to encrypt data files expires every 12 months. Users selected in the **Notify People** field in SFTP setup receive a notification email 30 days before the key's expiration date letting them know that they need to generate a new key. 
+
+:::image type="content" source="../../media/glint/setup/pgp-expire-email.png" alt-text="Screenshot of the PGP key expiration email which Glint sends 30 days before the expiration date.":::
+
+To create a new public PGP key:
+
+1. Go to **Configuration** and select **General Settings** in the **Service Configuration** section.
+2. Select **Technical Configuration** in the menu and then in **SFTP Setu**p choose **Manage**.
+3. To generate a new key, go **PGP Encryption** and switch the toggle from **On** to **Off**, and then back to **On**.
+4. Select the copy icon next to the **Public Key** field or select the **Download .asc file** option to get the newly generated key.
