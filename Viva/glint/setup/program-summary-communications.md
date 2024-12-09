@@ -45,6 +45,8 @@ Send survey invites and reminders between the times that you select. Your organi
 
 Use the Email Settings section to determine email addresses used to contact users and whether to use multiple languages in email templates.
 
+:::image type="content" source="../../media/glint/setup/email-settings.png" alt-text="Screenshot of the Email Settings section in Communications setup.":::
+
 ### Choose where email notifications are sent
 
 When [personal email](send-employee-attributes.md#optional-system-attributes) is set up as an optional system attribute, this email option becomes visible. Select **Company email and personal email** to better contact existing employees.
