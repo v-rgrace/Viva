@@ -74,8 +74,8 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
          >[!NOTE]
          >This method removes attribute rules from this Distribution List.
 
-      >[!IMPORTANT]
-      >A Distribution List is a snapshot in time as soon as survey is enabled. This means that survey results are based on the current organization and manager hierarchy during the window of the survey. For this reason, your Employee Attribute File should be updated before the survey is enabled for automatic invite triggers.
+         >[!IMPORTANT]
+         >A Distribution List is a snapshot in time as soon as survey is enabled. This means that survey results are based on the current organization and manager hierarchy during the window of the survey. For this reason, your Employee Attribute File should be updated before the survey is enabled for automatic invite triggers.
 
 ## Understand the date range attribute and why updating your Employee Attribute File matters
 
