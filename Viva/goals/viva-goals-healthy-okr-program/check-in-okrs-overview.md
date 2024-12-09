@@ -27,7 +27,7 @@ Regular evaluation of your Objectives and Key Results (OKRs) helps you gauge the
 In this article, we'll discuss:
 
 - How to define and describe the two types of check-ins you can do with Viva Goals.
-- Examples of the two types and when to use them.  
+- Examples of the two types, and when to use them.  
 - The benefits of using data integrations for your check-in reviews.
 
 > [!NOTE]  
