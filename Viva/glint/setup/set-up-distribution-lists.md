@@ -50,17 +50,17 @@ Distribution Lists are configured within **Distribution Lists** in the ***Employ
      
    - **Search Members** - Type in individual names and select employees that should be added to the list.
        
-- **Add/Edit Employees**: The **Choose a way to add employees** window opens. Add members to a Distribution List by choosing one of the following options:
+   - **Add/Edit Employees**: The **Choose a way to add employees** window opens. Add members to a Distribution List by choosing one of the following options:
 
-  - **Option 1: Attribute Rules**: Use rules like location or manager level to populate a Distribution List. Follow the instructions in the slider window that opens. Remember, this section is populated from the Employee Data File uploaded to Viva Glint. Choose from these two options:
+     - **Option 1: Attribute Rules**: Use rules like location or manager level to populate a Distribution List. Follow the instructions in the slider window that opens. Remember, this section is populated from the Employee Data File uploaded to Viva Glint. Choose from these two options:
     
-    - **I want to include all active employees only.**
-    - **I want to filter all active employees by these populations:**
-      - Select **+ New Population** and then **+ New Filters**.
-      - From the dropdown filters menu, choose the attributes for employees who are part of this distribution list.
-      - To exclude someone, search for their name and select **Exclude**. Conversely, to remove someone from the **Excluded** list, search their name and select **Remove**.
-      - The new Distribution List, including the number of members, appears under the **Included** section, while excluded employees appear under **Excluded**.
-      - Confirm your list and select **Save Changes**.
+       - **I want to include all active employees only.**
+       - **I want to filter all active employees by these populations:**
+         - Select **+ New Population** and then **+ New Filters**.
+         - From the dropdown filters menu, choose the attributes for employees who are part of this distribution list.
+         - To exclude someone, search for their name and select **Exclude**. Conversely, to remove someone from the **Excluded** list, search their name and select **Remove**.
+         - The new Distribution List, including the number of members, appears under the **Included** section, while excluded employees appear under **Excluded**.
+         - Confirm your list and select **Save Changes**.
 
   > [!TIP]  
   > For an Exit survey, consider enabling **Include Inactive Employees**. To include inactive employees, contact them via their personal email.
