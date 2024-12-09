@@ -1,6 +1,6 @@
 ---
 title: Communications setup in Program Summary
-description: Learn how to notify employees about upcoming surveys and the windows for taking surveys and having feedback conversations.
+description: Notifying employees about a survey's start and sending reminders throughout the survey window are essential for improving survey participation.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -51,7 +51,7 @@ Use the Email Settings section to determine email addresses used to contact user
 
 When [personal email](send-employee-attributes.md#optional-system-attributes) is set up as an optional system attribute, this email option becomes visible. Select **Company email and personal email** to better contact existing employees.
 
-### Send survey notifications in multiple language in a single email
+### Send survey notifications in multiple languages in a single email
 
 If your organization has employees in areas where local guidelines require you to communicate in multiple languages, consider switching this toggle On and [setting up emails in multiple languages](multi-lang-emails.md).
 
