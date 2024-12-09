@@ -85,7 +85,7 @@ For companies that integrate their HRIS files automatically, this works well.
 
 For companies that manually update employee files, make sure that the window set is wide enough to include the frequency with which employee data is refreshed. 
 
-> For example, if a window is set to 15 days but employee files are only updated every 30 days, the survey likely misses new employees who should get the survey, since the date range is only set to the file uploaded 30-45 days earlier. Instead, set the window for at least 30 days so you're sure to include everyone.
+For example, if a window is set to 15 days but employee files are only updated every 30 days, the survey likely misses new employees who should get the survey, since the date range is only set to the file uploaded 30-45 days earlier. Instead, set the window for at least 30 days so you're sure to include everyone.
 
 > [!TIP]
 > Consider using the **blended membership functionality**.
@@ -119,8 +119,9 @@ Guide your decision whether to use manual population or attribute rule populatio
 - If the Distribution List began manually, adding attribute rules changes the list to include both Attribute Rules and Manual.
 - If a member is deleted manually and they match the filter criteria, they still appear in the Distribution List. The **Added by** method changes from Manual to Attribute Rules.
 
-> [!IMPORTANT]
-> Importing users to an Attribute Rules Distribution List removes existing rules.
+  > [!IMPORTANT]
+  > Importing users to an Attribute Rules Distribution List removes existing rules.
+
   - Activate the **Preserve the employees already in this distribution** list functionality to convert membership type to **Manual** for existing users.</li>
   - Uncheck to deactivate and remove the users based on the rules, and only include those in the import file. 
 
