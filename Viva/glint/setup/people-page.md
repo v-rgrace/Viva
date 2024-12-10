@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.date: 12/10/2024
 ---
 
 # Use Viva Glint's People page to view employee information
@@ -91,6 +91,11 @@ The Actions button dropdown menu allows you to send surveys, send user data, and
 ### Send Survey 
 
 You can send a survey to one employee (manually) from the People page. Use the Actions button and then  **Send Survey**. 
+
+>[!IMPORTANT]
+>You'll need to send a survey manually when an employee wasn't part of the Distribution List for that survey during the initial send but should now receive the survey.
+>
+>A Distribution List is a snapshot in time, so any employee who becomes eligible for a survey after its initial send requires a manual invite. Add them to the Distribution List thereafter, and upload the new Employee Attribute File to Viva Glint.
 
 - Enabled and live surveys are displayed. Select the survey to send.  
 
