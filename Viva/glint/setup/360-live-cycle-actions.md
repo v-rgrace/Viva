@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 8/23/2024
+ms.date: 12/10/2024
 ---
 
 # Viva Glint 360 admin live cycle management 
@@ -42,7 +42,31 @@ When an admin filters to a subject with a live 360 cycle, they see:
 - How many feedback providers meet the confidentiality threshold
 - The cycle end date
 
-## 360 setup areas that can be edited during a live cycle
+### Self-assessment and feedback provider response rate
+
+During a live 360 cycle, an admin can check on the self-assessment and feeedback provide response rate for participants and download this information to a CSV file.
+
+1. From the **All 360 Programs** page, select **Live Cycles**
+
+   :::image type="content" source="../../media/glint/setup/live-cycles.png" alt-text="Screenshot of the All 360 Programs page.":::
+
+1. Hover over and select the live cycle under the Cycle Name column.
+
+   :::image type="content" source="../../media/glint/setup/360-cycle-name.png" alt-text="Screenshot of where to access a 360 live cycle":::
+
+1. In the **Live Subjects** section, select **Export Subjects**.
+
+  :::image type="content" source="../../media/glint/setup/360-export-subjects.png" alt-text="Screenshot of the 360 Export Subjects button.":::
+
+1.  Select the **Self0assessment and feedback provider response info** option from the **Select the Information You Want** dialog box. Select **Generate CSV.**
+
+  :::image type="content" source="../../media/glint/setup/select-csv.png" alt-text="Screenshot of the **Select the Information You Want** dialog box. ":::
+
+
+
+
+
+## 360 fields that can be edited during a live cycle
 
 During a live cycle, 360 admins can view and edit feedback providers and edit some 360 setup areas including:
 
