@@ -2232,6 +2232,26 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "viva/goals/viva-goals-trials.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/it-admin-trials.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/self-service-trials.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
+    "source_path": "viva/goals/trials-checklist.md",
+    "redirect_url": "/viva/goals/goals-retirement",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "viva/copilot/deployment-permissions.md",
     "redirect_url": "/viva/glint/introduction-viva-glint",
     "redirect_document_id": false
