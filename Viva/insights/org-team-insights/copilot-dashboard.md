@@ -54,7 +54,7 @@ If you have access to the Copilot Dashboard, you can find it in the [Teams or we
 
 1. Open the Teams app on desktop or the web. If you have the Viva Insights app pinned, select it from the left bar.
 
-   If you don’t have the Viva Insight app pinned, select the ellipses on the left. Then in the search field, enter **Microsoft Viva Insights**, and select it.
+   If you don’t have the Viva Insights app pinned, select the ellipses on the left. Then in the search field, enter **Microsoft Viva Insights**, and select it.
 
 2. On the left navigation panel, select **Copilot Dashboard**.
 
@@ -235,7 +235,7 @@ Group totals reflect all users based on the filtered group, including groups tha
 |---|---|
 | Copilot licensed employees | The number of users who have a Copilot license in the past 28 days. |
 | Percentage of Copilot licensed employees | The percentage of Copilot licensed users out of the total measured population in that group (Copilot and non-Copilot users). |
-| Active Copilot users | The number of users who used Copilot at least once in any of the following Microsoft 365 apps during the last 28 days: Microsoft Teams, Microsoft Outlook, Business Chat, and Microsoft Office apps including PowerPoint, Excel, Wod, OneNote, and Loop. |
+| Active Copilot users | The number of users who used Copilot at least once in any of the following Microsoft 365 apps during the last 28 days: Microsoft Teams, Microsoft Outlook, Business Chat, and Microsoft Office apps including PowerPoint, Excel, Word, OneNote, and Loop. |
 | Percentage of active Copilot users | The percentage of active Copilot users out of the number of Copilot licensed users for the given time period. |
 | Inactive Copilot users | The number of users who have a Copilot license and haven’t been active in Copilot in the last 28 days. |
 | Non-Copilot users | The number of users who don't have a Copilot license in the last 28 days. |
