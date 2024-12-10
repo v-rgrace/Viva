@@ -98,15 +98,18 @@ After your reflection meeting:
 
 Now that you understand why it's important to reflect on, and close, your OKRs, refer to the step-by-step process for closing and scoring your OKRs in Viva Goals: [Close OKRs with Viva Goals.](https://support.microsoft.com/en-us/topic/close-okrs-with-viva-goals-c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8)
 
-## Recommendations and best practices
+## Recommendations and Best Practices
 
-Looking to improve your healthy OKR program? Here are recommendations you can perform within Viva Goals:
+Looking to improve your effective OKR program? Here are recommendations you can perform within Viva Goals:
 
 1. **Close and score your OKRs at the end of each time period**
-    1. As you approach the end of a time period, encourage all OKR owners to close out their OKRs and initiatives, including a brief summary. Create and send calendar reminders at the beginning of the year as part of your rhythm of business so you don’t forget.  
+
+   As you approach the end of a time period, encourage all OKR owners to close out their OKRs and initiatives, including a brief summary. Create and send calendar reminders at the beginning of the year as part of your rhythm of business so you don’t forget.
 
 2. **Hold an OKR reflection meeting**
-    1. Groups should set aside time to reflect on their OKRs, which will allow them to write better and better goals moving forward.
 
-1. **Review your OKR analytics**
-    1. Analytics are available at the organization and team level within Viva Goals, and display metrics such as number of OKRs closed, OKR efficiency, and OKR focus. Use these analytics to track the success of your program over time.
+   Groups should set aside time to reflect on their OKRs, which will allow them to write better and better goals moving forward.
+
+3. **Review your OKR analytics**
+
+   Analytics are available at the organization and team level within Viva Goals, and display metrics such as number of OKRs closed, OKR efficiency, and OKR focus. Use these analytics to track the success of your program over time.
