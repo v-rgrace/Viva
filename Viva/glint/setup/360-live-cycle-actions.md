@@ -52,15 +52,15 @@ During a live 360 cycle, an admin can check on the self-assessment and feeedback
 
 1. Hover over and select the live cycle under the **Cycle Name** column.
 
-   :::image type="content" source="../../media/glint/setup/360-cycle-name.png" alt-text="Screenshot of where to access a 360 live cycle":::
+   :::image type="content" source="../../media/glint/setup/360-cycle-name.png" alt-text="Screenshot of where to access a 360 live cycle.":::
 
 1. In the **Live Subjects** section, select **Export Subjects**.
 
    :::image type="content" source="../../media/glint/setup/360-export-subjects.png" alt-text="Screenshot of the 360 Export Subjects button.":::
 
-1. Select the **Self-assessment and feedback provider response info** option from the **Select the Information You Want** dialog box. Select **Generate CSV.**
+1. Select the **Self-assessment and feedback provider response info** option from the **Select the Information You Want** dialog box. Select **Generate CSV**.
 
-   :::image type="content" source="../../media/glint/setup/360-select-csv.png" alt-text="Screenshot of the **Select the Information You Want** dialog box. ":::
+   :::image type="content" source="../../media/glint/setup/360-select-csv.png" alt-text="Screenshot of the Select the Information You Want dialog box.":::
 
 ## Bulk release reports for completed subjects
 
@@ -91,13 +91,13 @@ When multiple 360 subjects meet the criteria to have their report released - ava
 4. Choose a cycle.
 5. In the **Completed Subjects** section, select the **Export Subjects** button.
 
-   :::image type="content" source="../../media/glint/setup/360-export-completed-subjects.png" alt-text="Screenshot of the 360 Export Subjects button for completed or live cycles..":::
+   :::image type="content" source="../../media/glint/setup/360-export-completed-subjects.png" alt-text="Screenshot of the 360 Export Subjects button for completed or live cycles.":::
 
-6. Choose the option you want from the **Selet the Information You WantII dialog box.
+6. Choose the option you want from the **Select The Information You Want** dialog box.
 
    :::image type="content" source="../../media/glint/setup/360-select-info-csv.png" alt-text="Screenshot of the Select The Information You Want dialog box.":::
 
-7. Select **Generate CSV.**
+7. Select **Generate CSV**.
 
 ## 360 fields that can be edited during a live cycle
 
