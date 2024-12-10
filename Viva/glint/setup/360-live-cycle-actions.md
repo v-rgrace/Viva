@@ -6,7 +6,7 @@ author: AliciaWeixelman
 manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 360 live cycle, live survey changes, live edits, live cycle actions
+keywords: 360 live cycle, live survey changes, live edits, live cycle actions, 360 response rates, 360 self-assessment rates, 360 CSV reports, 360 bulk release reports, 360 subject informaiton reports
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -42,7 +42,7 @@ When an admin filters to a subject with a live 360 cycle, they see:
 - How many feedback providers meet the confidentiality threshold
 - The cycle end date
 
-### Self-assessment and feedback provider response rate
+## Download self-assessment and feedback provider response rate 
 
 During a live 360 cycle, an admin can check on the self-assessment and feeedback provide response rate for participants and download this information to a CSV file.
 
@@ -50,7 +50,7 @@ During a live 360 cycle, an admin can check on the self-assessment and feeedback
 
    :::image type="content" source="../../media/glint/setup/live-cycles.png" alt-text="Screenshot of the All 360 Programs page.":::
 
-1. Hover over and select the live cycle under the Cycle Name column.
+1. Hover over and select the live cycle under the **Cycle Name** column.
 
    :::image type="content" source="../../media/glint/setup/360-cycle-name.png" alt-text="Screenshot of where to access a 360 live cycle":::
 
@@ -62,9 +62,42 @@ During a live 360 cycle, an admin can check on the self-assessment and feeedback
 
    :::image type="content" source="../../media/glint/setup/select-csv.png" alt-text="Screenshot of the **Select the Information You Want** dialog box. ":::
 
+## Bulk release reports for completed subjects
 
+When multiple 360 subjects have met the criteria to have their report released - available when a 360 cycle is Live or Completed, follow this process to generate bulk reports:
 
+1. From the **All 360 Programs** page, select **Live Cycles**.
+2. Hover over and select the live cycle under the **Cycle Name** column.
+3. In the **All Cycles** section, select **Live** or **Completed**.
 
+   :::image type="content" source="../../media/glint/setup/360-all-column.png" alt-text="Screenshot of the All Cycles column in a 360 program.":::
+
+4. Choose a cycle.
+5. In the **Completed Subjects** section, select the **Bulk Release Reports** button.
+
+   :::image type="content" source="../../media/glint/setup/360-bulk-release.png" alt-text="Screenshot of the 360 Bulk Release Reports button.":::
+
+6. Choose the group of subjects for which you'd like to release reports in the **Bulk Release Reports** dialog box. 
+
+   :::image type="content" source="../../media/glint/setup/360-bulk-dialog-box.png" alt-text="Screenshot of the Bulk Release Reports dialog box.":::
+
+7. Select **Next.**
+
+## Export Subject information for completed or live cycles
+
+1. From the **All 360 Programs** page, select **Live Cycles**.
+2. Hover over and select the live cycle under the **Cycle Name** column.
+3. In the **All Cycles** section, select **Live** or **Completed**.
+4. Choose a cycle.
+5. In the **Completed Subjects** section, select the **Export Subjects** button.
+
+   :::image type="content" source="../../media/glint/setup/360-export-completed-subjects.png" alt-text="Screenshot of the 360 Export Subjects button.":::
+
+6. Choose the option you want from the **Selet the Information You WantII dialog box.
+
+   :::image type="content" source="../../media/glint/setup/360-select-info-csv.png" alt-text="Screenshot of the Select The Information You Want dialog box.":::
+
+7. Select **Generate CSV.**
 
 ## 360 fields that can be edited during a live cycle
 
