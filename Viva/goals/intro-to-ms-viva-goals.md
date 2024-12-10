@@ -57,7 +57,7 @@ The following resources can help you and your organization's administrators impl
 
 ## Other product features in Viva Goals
 
-The following resources detail features of Viva Goals beyond the basics of OKRs and administratrative tools.
+The following resources detail features of Viva Goals beyond the basics of OKRs and administrative tools.
 
 |What do you want to do?  |Go to...  |
 |---------|---------|
