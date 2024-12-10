@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/06/2024
+ms.date: 12/10/2024
 ---
 
 # Make changes to a live Viva Glint survey
@@ -38,19 +38,7 @@ Preview your survey before launching. Then follow these practices:
 
 :::image type="content" source="../../media/glint/setup/live-survey-alert.png" alt-text="Screenshot of alert in Program Summary." lightbox="../../media/glint/setup/live-survey-alert.png":::
 
-## Process to edit a survey item
-
-There are three entry points to choose from:
--	From the **Question Library** on your admin dashboard; doesn't require the survey to go into unapproved state
--	From **Survey Programs, Live** 
--	From **Upcoming Surveys**
-
-**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
-If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happens automatically when edits are saved.
-
-:::image type="content" source="../../media/glint/setup/before-question-edit-2.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit-2.png":::
-
-### Scenarios and considerations for live survey changes 
+## Scenarios and considerations for live survey changes 
 
 Sometimes changing a live survey may be beneficial. 
 
