@@ -4,7 +4,7 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 11/25/2024
+ms.date: 11/27/2024
 audience: admin
 ms.topic: article
 ms.service: viva-learning
@@ -35,11 +35,12 @@ Learning management systems aren't enabled by default. To enable these sources, 
 |---------|---------|
 |Cornerstone OnDemand |[Configure Cornerstone OnDemand as a content source](configure-cornerstone-content-source.md)         |
 |Saba    |[Configure Saba as a content source](configure-saba-content-source.md)         |
-|SAP SuccessFactors   |[Configure SAP SuccessFactors as a content source](configure-successfactors-content-source.md)         |
+|SAP SuccessFactors   |[Configure SAP SuccessFactors as a content source](sfsf-introduction.md)         |
+|Workday | [Configure Workday as a content source](workday-intro.md)|
 
 
->[!NOTE]
->Available learning management systems are subject to change. Depending on your organization, you may have access to different learning management systems than are listed here.
+> [!NOTE]
+> Available learning management systems are subject to change. Depending on your organization, you may have access to different learning management systems than are listed here.
 
 ## Dataflow architecture
 
