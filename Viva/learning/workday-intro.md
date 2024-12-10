@@ -34,7 +34,7 @@ Integration supports catalog, assignment, and completions data from Workday. Cat
 
 | Scenario  | Supported/Not supported |
 |---|---|
-| Catalog types  | Viva Learning supports all catalog types from Workday. These types include: <ul> <li> Digital courses</li> <li> Blended courses <li> Programs (equivalent to learning paths in Viva Learning) <li>  Lessons <br> In addition to this Viva Learning supports ingestion of content from other learning providers configured in Workday, such as LinkedIn Learning configured in Workday.  | 
+| Catalog types  | Viva Learning supports all catalog types from Workday. These types include: <ul><li>Digital courses</li><li>Blended courses</li><li>Programs (equivalent to learning paths in Viva Learning)</li><li>Lessons</li></ul> <br> In addition to this Viva Learning supports ingestion of content from other learning providers configured in Workday, such as LinkedIn Learning configured in Workday.  | 
 | Assignments on all catalog types from Workday  | Supported  | 
 | Assignment completions  | Supported   |
 | Self-enrollment completions  | Supported for all catalog types except lessons  | 
