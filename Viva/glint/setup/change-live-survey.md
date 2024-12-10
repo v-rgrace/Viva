@@ -143,10 +143,10 @@ After reviewing your edits to an item, select **Save**. The **Confirm your chang
    - If your organization uses Entra ID or personalized links for survey access, you can notify participants who have started or already completed the survey by checking the **Send an email notification about this change to participants who have already started or completed this survey** box.
    - If your organization uses an attribute-based survey access, you must notify participants about these changes and give them the option to retake the survey. **This is mandatory.**
 
-> [!IMPORTANT]
-> - All survey participants must be made aware of the opportunity to retake a survey if a question is changed during a live survey. They must also understand that if they retake their survey, all original answers are replaced.
-> - Survey takers can use the link from their original survey invitation email to retake their survey. [Use this guidance to resend survey invites](/viva/glint/communicate/support-survey-participants#resend-survey-invites)
-> - For participants who haven't started the survey, the survey automatically updates with the new version of all items. No notification is required.
+  > [!IMPORTANT]
+  > - All survey participants must be made aware of the opportunity to retake a survey if a question is changed during a live survey. They must also understand that if they retake their survey, all original answers are replaced.
+  > - Survey takers can use the link from their original survey invitation email to retake their survey. [Use this guidance to resend survey invites](/viva/glint/communicate/support-survey-participants#resend-survey-invites)
+  > - For participants who haven't started the survey, the survey automatically updates with the new version of all items. No notification is required.
 
 2. Select **Confirm** in the dialog box or **Back** if you need to make more edits.
 
