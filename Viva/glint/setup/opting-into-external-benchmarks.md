@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/08/2024
+ms.date: 12/10/2024
 ---
 
 # Opt into external benchmarks
@@ -28,7 +28,7 @@ Viva Glint admins can opt into - *give consent to use* - external benchmarks. Af
 External benchmarks are helpful initially, but as you begin to survey more frequently, trends and internal comparisons become more useful for making incremental improvements. 
 
 > [!TIP]
-> Use [Viva Glint's global benchmark offerings and methodology](https://community.glintinc.com/survey-science-55/benchmarks-glint-s-global-benchmark-offerings-and-methodology-1611) for external benchmarking comparisons.
+> Use [Viva Glint's global benchmark offerings and methodology](/viva/glint/setup/benchmarks) for external benchmarking comparisons.
 
 ## Give consent to external benchmarks so managers can use them to view reports
 
@@ -53,7 +53,7 @@ After the consent toggle is changed to **On**, admins can select one or more ext
 :::image type="content" source="../../media/glint/setup/select-external-benchmarks.png" alt-text="Screenshot of the Select External Benchmarks slider window with consent turned On.":::
 
 >[!IMPORTANT]
->The consent to use external benchmarks agreement reads: "By agreeing to use external benchmarks, you authorize Microsoft to process your organization's Viva Glint survey content - including data collected through your use of Microsoft Viva Gint - for the purpose of providing aggregated survey benchmarks to participating Viva Glint customers, including your organization." 
+>The consent to use external benchmarks agreement reads: "By agreeing to use external benchmarks, you authorize Microsoft to process your organization's Viva Glint survey content - including data collected through your use of Microsoft Viva Glint - for the purpose of providing aggregated survey benchmarks to participating Viva Glint customers, including your organization." 
 
 
 
