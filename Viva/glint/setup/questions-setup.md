@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 12/10/2024
 ---
 
-# Questions setup in Program Summary
+# Questions set up in Program Summary
 
 The Questions page allows you to add or modify the items included in a survey. Refer to the [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design) module to learn how to implement your organization's listening strategy in your survey program question setup.
 
