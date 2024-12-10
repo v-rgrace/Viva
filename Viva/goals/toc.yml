@@ -5,17 +5,6 @@ items:
       href: intro-to-ms-viva-goals.md
     - name: Get to know OKRs
       href: get-to-know-okrs.md
-  
-    - name: Viva Goals trials
-      items:
-      - name: Trials overview
-        href: viva-goals-trials.md
-      - name: IT admin-led trials
-        href: it-admin-trials.md
-      - name: Self-service trials
-        href: self-service-trials.md
-      - name: Trial checklist
-        href: trials-checklist.md
 
 - name: Retirement
   items:
