@@ -1,5 +1,5 @@
 ---
-ms.date: 12/04/2024
+ms.date: 12/10/2024
 title: Connect to the Microsoft Copilot Dashboard for Microsoft 365 customers
 description: Explains how to set up and use the Microsoft Copilot Dashboard, which provides various metrics to help you see how employees are using Copilot and the impact it could have on your organization.
 author: zachminers
@@ -523,7 +523,10 @@ No. However, if you’d like to upload more recent data for additional employees
 
 ### Setup and licenses
 
-**Q1. How does data in the Copilot Dashboard compare to usage reports in the admin center?**
+**Q1. I’m getting a connection error when I try to access the Copilot Dashboard. What should I do?**
+Try reassigning your employees' Copilot licenses, then wait at least 24 hours and try again. If you're still having issues, [file a support ticket](..//get-insights-support.md).
+
+**Q2. How does data in the Copilot Dashboard compare to usage reports in the admin center?**
 Both the Microsoft Copilot Dashboard and the admin center usage reports leverage the same underlying data set, but they're intended for different audiences. The Copilot Dashboard is intended for organizational leaders and technology decision makers, while the admin center report is intended for IT admins. Also, differences in each report’s prerequisites and time periods might cause data discrepancies.
 
 Differences in the data are often caused by at least one of the following:
@@ -531,17 +534,17 @@ Differences in the data are often caused by at least one of the following:
 * The time frame for which the analysis is being applied may be different. Refer to the time frame provided on each report’s dashboard. The Copilot Dashboard represents data over the previous 28 days. The admin center, however, uses a rolling window for its reports, for the last 7, 30, 90, or 180 days. There might also be differences in data delays. The admin center report is produced within 72 hours, while the Copilot Dashboard might have an additional delay of one to two days.
 * Data in the Copilot Dashboard is aggregated to meet a minimum privacy threshold.
 
-**Q2. Where can users access the Microsoft Copilot Dashboard?**
+**Q3. Where can users access the Microsoft Copilot Dashboard?**
 Employees can view the dashboard in the Viva Insights Teams or web app.
 
-**Q3. How long after enablement can users access the Copilot Dashboard?**
+**Q4. How long after enablement can users access the Copilot Dashboard?**
 Users can access the dashboard less than 24 hours after being enabled.
 
-**Q4. Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level, or group-level insights?**
+**Q5. Do I need a paid Viva Insights subscription in order to access the report's aggregated, tenant-level, or group-level insights?**
 
 No, a Viva Insights subscription is not required to access Copilot Dashboard. Your ability to view tenant-level or group-level insights depends on the number of assigned Copilot licenses within your tenants. [Learn more here](#feature-availability-based-on-licenses). 
 
-**Q5. In the Sentiment section I don’t see any survey responses. Why?** 
+**Q6. In the Sentiment section I don’t see any survey responses. Why?** 
 
 Either survey data is not uploaded for your organization, or the minimum privacy threshold is not met. The privacy threshold is not met if any of the following apply: 
 
@@ -551,7 +554,7 @@ Either survey data is not uploaded for your organization, or the minimum privacy
 
 * The number of responses classified as favorable, neutral, or unfavorable for any given question is less than the minimum group size. 
 
-**Q6. Who is considered a Copilot licensed employee?**
+**Q7. Who is considered a Copilot licensed employee?**
 Any employee who has been assigned a Copilot license, including the following service plans:
 
 * Microsoft 365 Copilot in Productivity Apps
@@ -560,28 +563,28 @@ Any employee who has been assigned a Copilot license, including the following se
 * Business Chat (work)
 * Intelligent Search
 
-**Q7. After I assign new Viva Insights or Copilot licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
+**Q8. After I assign new Viva Insights or Copilot licenses for the first time, how long will it take for the Copilot Dashboard to turn on with the data?**
 To start data processing, you'll need to assign at least 10 Viva Insights licenses or at least 50 Copilot licenses. Once you do that, the process could take up to a week.
 
-**Q8. After the dashboard is turned on with the data, if I subsequently assign *new* Copilot licenses, how long will it take for the new data to reflect in the dashboard?**
+**Q9. After the dashboard is turned on with the data, if I subsequently assign *new* Copilot licenses, how long will it take for the new data to reflect in the dashboard?**
 Once you assign a new Copilot license to your employees, it will take up to two weeks to update and include the employees with the new assigned license.
 
-**Q9. If I assign new Copilot licenses to people, when will I see their data in the dashboard?**
+**Q10. If I assign new Copilot licenses to people, when will I see their data in the dashboard?**
 Once you assign a new Copilot license to your employees, it will take up to one week to update and include the employees with the new assigned license.
 
-**Q10. If I reassign Copilot licenses to different employees who did not previously have Copilot licenses, how does that impact the measured group on each page of the dashboard?**
+**Q11. If I reassign Copilot licenses to different employees who did not previously have Copilot licenses, how does that impact the measured group on each page of the dashboard?**
 The measured period includes all employees who were enabled for Copilot at any point during that time period. This means that employees who had a license that was reassigned will still be included in the metrics. 
 
-**Q11. If I don’t assign any new licenses, when and how often does the dashboard data update?**
+**Q12. If I don’t assign any new licenses, when and how often does the dashboard data update?**
 The dashboard refreshes with updated data every Tuesday.
 
-**Q12. What can enabled users see in the dashboard?**
+**Q13. What can enabled users see in the dashboard?**
 The dashboard’s advanced features provide more granular views of Copilot adoption, usage patterns, user sentiment, and return on investment across groups, functional roles, and more. Business leaders who have a Viva Insights license and access to the dashboard can apply filters and group the Copilot adoption and impact metrics by organizational attributes such as organization and job function. And, Viva Insights analysts can create custom reports based on these metrics.
 
-**Q13. How often is the default-on enablement updated?**
+**Q14. How often is the default-on enablement updated?**
 To capture organizational changes, we refresh the default-on enablement on a weekly basis.
 
-**Q14. If a user is removed, will the default-on enablement refresh impact their access settings?**
+**Q15. If a user is removed, will the default-on enablement refresh impact their access settings?**
 No. Once an admin disables a user, that setting is permanent until the admin adds the user back. In the Microsoft 365 admin center, the admin can view a list of who has been disabled in the Deleted tab.
 
 ### Missing data
