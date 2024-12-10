@@ -44,10 +44,11 @@ This brings you to the [Microsoft Viva admin page](https://admin.microsoft.com/A
 Things you can do on this page:
 
 - **Licenses and roles**:  You can select **Manage licenses** or **Manage roles** to go directly to the Microsoft 365 Licenses page or to the Microsoft 365 Role assignments page. On the Role assignments page, you can search for Viva in the search box to narrow the roles to those specific to Viva.
+- **Data management**: You can navigate to Organizational data settings and set up your Skills library from the Data management tab.  
+- **Settings**: You can manage access to specific features in Viva apps from this tab. Feature access management allows admins to use access policies to manage which users can access specific features in Viva apps, so you can tailor your deployments to meet your local regulatory or business requirements. See [Feature access management](/Viva/feature-access-management) for more information.
 - **Plan types**:  You can see the type of Viva plan purchased or included with Microsoft 365 in the **Plan type** column.
 - **Assigned admins**:  You can see quickly whether admin roles have been assigned for each app, and who the roles are assigned to in the **Admins** column. Hover over the profile circles to get the names of people who are assigned roles
 - **App pages**:  You can select an app to go to that app's settings page.
-- **Briefing email**: Select the **Manage briefing email in Viva** to select whether people in your organization should receive [briefing emails](/viva/insights/personal/Briefing/be-overview?WT.mc_id=365AdminCSH_inproduct).
 
 ## App settings pages
 
