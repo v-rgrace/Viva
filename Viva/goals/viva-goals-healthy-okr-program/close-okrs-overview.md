@@ -1,6 +1,6 @@
 ---
 ms.date: 11/20/2024
-title: "Close OKRs Overview"
+title: "Close, score, and reflect on OKRS with Viva Goals"
 ms.reviewer: 
 ms.author: daisyfeller
 author: daisyfell
@@ -24,18 +24,18 @@ description: "Learn how to close Objectives and Key Results (OKRs) and Initiativ
 
 Are you ready to close out your Objectives and Key Results (OKRs)? When the time comes to close them, you must evaluate the progress you made towards achieving your goals, determine whether you accomplished them, and decide on areas for improvement. When you close out OKRs, you're opening the door to future education and goal setting.
 
-In this article, we'll discuss: 
+In this article, we'll discuss:
 
 - When and how to close your OKRs.  
 - How to properly score your OKRs.
 - The importance of a reflection meeting.
 
 > [!NOTE]
-> Creating, tracking, and closing OKRs is an iterative, organic process. Every quarter that you do this process, you'll become better at it. Always remember to focus on progress, not perfection. It’s more important to reflect on what went right, what didn't go as planned, and what you learned. But then it's time to move on. Don't obsess over a missed goal that didn't go the way you anticipated.   
+> Creating, tracking, and closing OKRs is an iterative, organic process. Every quarter that you do this process, you'll become better at it. Always remember to focus on progress, not perfection. It’s more important to reflect on what went right, what didn't go as planned, and what you learned. But then it's time to move on. Don't obsess over a missed goal that didn't go the way you anticipated.
 
 ## When to close your OKRs and initiatives
 
-In general, you should close OKRs within the last one or two weeks of a time period, such as every quarter. If you’re a team leader or program lead, we recommend that you send a message to remind users to close their OKRs during the last week of the quarter. However, you might wonder, “Is it ok to close out a key result or initiative before the end of a quarter?” The answer is yes. 
+In general, you should close OKRs within the last one or two weeks of a time period, such as every quarter. If you’re a team leader or program lead, we recommend that you send a message to remind users to close their OKRs during the last week of the quarter. However, you might wonder, “Is it ok to close out a key result or initiative before the end of a quarter?” The answer is yes.
 
 For example, perhaps you have an initiative to create and share your marketing strategy for an upcoming product launch by the quarter's end. However, in a flash of productivity, you completed it in the first three weeks of the quarter. In that case, it's fine to close that initiative right then, and mark it complete. On the other hand, you might have situations where metrics such as sales figures or website traffic aren't finalized until the last day of the month. For those scenarios, conduct a check at the end of the time period, and then revisit it as soon as the final metrics are available, so you can close the OKR.
 
@@ -98,4 +98,15 @@ After your reflection meeting:
 
 Now that you understand why it's important to reflect on, and close, your OKRs, refer to the step-by-step process for closing and scoring your OKRs in Viva Goals: [Close OKRs with Viva Goals.](https://support.microsoft.com/en-us/topic/close-okrs-with-viva-goals-c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8)
 
+## Recommendations and best practices
 
+Looking to improve your healthy OKR program? Here are recommendations you can perform within Viva Goals:
+
+1. **Close and score your OKRs at the end of each time period**
+    1. As you approach the end of a time period, encourage all OKR owners to close out their OKRs and initiatives, including a brief summary. Create and send calendar reminders at the beginning of the year as part of your rhythm of business so you don’t forget.  
+
+2. **Hold an OKR reflection meeting**
+    1. Groups should set aside time to reflect on their OKRs, which will allow them to write better and better goals moving forward.
+
+1. **Review your OKR analytics**
+    1. Analytics are available at the organization and team level within Viva Goals, and display metrics such as number of OKRs closed, OKR efficiency, and OKR focus. Use these analytics to track the success of your program over time.
