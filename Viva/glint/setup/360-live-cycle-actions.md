@@ -56,11 +56,11 @@ During a live 360 cycle, an admin can check on the self-assessment and feeedback
 
 1. In the **Live Subjects** section, select **Export Subjects**.
 
-  :::image type="content" source="../../media/glint/setup/360-export-subjects.png" alt-text="Screenshot of the 360 Export Subjects button.":::
+   :::image type="content" source="../../media/glint/setup/360-export-subjects.png" alt-text="Screenshot of the 360 Export Subjects button.":::
 
-1.  Select the **Self0assessment and feedback provider response info** option from the **Select the Information You Want** dialog box. Select **Generate CSV.**
+1. Select the **Self-assessment and feedback provider response info** option from the **Select the Information You Want** dialog box. Select **Generate CSV.**
 
-  :::image type="content" source="../../media/glint/setup/select-csv.png" alt-text="Screenshot of the **Select the Information You Want** dialog box. ":::
+   :::image type="content" source="../../media/glint/setup/select-csv.png" alt-text="Screenshot of the **Select the Information You Want** dialog box. ":::
 
 
 
