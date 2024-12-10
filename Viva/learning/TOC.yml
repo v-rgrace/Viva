@@ -31,7 +31,7 @@
           href: delete-content-source.md
         - name: SAP SuccessFactors
           items:
-          - name: Overview of SAP SuccessFactors
+          - name: Overview of SAP SuccessFactors integration
             href: sfsf-introduction.md
           - name: Add SAP SuccessFactors as a content source 
             href: successfactors-integration-add-as-content-source.md
@@ -51,8 +51,18 @@
               href: sharepoint-faq.md
         - name: Workday
           items:
-            - name: Workday
-              href: workday-integration.md
+            - name: Overview of Workday integration
+              href: workday-intro.md
+            - name: Create an integration system user (ISU)
+              href: workday-create-ISU.md
+            - name: Create RaaS reports 
+              href: workday-create-raas-report.md
+            - name: Generate connection parameters
+              href: workday-generate-connection-parameters.md
+            - name: Configure Workday on Viva Learning 
+              href: workday-configure-on-vl.md
+            - name: Enable SSO in Workday  
+              href: workday-enable-sso.md
             - name: Workday FAQs
               href: workday-integration-faqs.md
         - name: Cornerstone OnDemand
