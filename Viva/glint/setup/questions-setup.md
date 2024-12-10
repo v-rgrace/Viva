@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 10/09/2024
+ms.date: 12/10/2024
 ---
 
 # Questions setup in Program Summary
@@ -70,9 +70,20 @@ To add your organization's logo to the survey introduction:
 
 ## Edit survey items
 
-This important topic has its own guidance page! [Read about survey item editing](/viva/glint/setup/question-edit).
 > [!NOTE]
-> Survey items can be edited during the initial survey configuration *and* sometimes during a live survey, as needed.
+> Survey items can be edited during the initial survey configuration *and* sometimes during a live survey, as needed. [Read about survey item editing](/viva/glint/setup/question-edit).
+
+## Process to edit a survey item
+
+There are three entry points to choose from:
+-	From the **Question Library** on your admin dashboard; doesn't require the survey to go into unapproved state
+-	From **Survey Programs, Live** 
+-	From **Upcoming Surveys**
+
+**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
+If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happens automatically when edits are saved.
+
+:::image type="content" source="../../media/glint/setup/before-question-edit-2.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit-2.png":::
 
 ## Survey item targeting
 
