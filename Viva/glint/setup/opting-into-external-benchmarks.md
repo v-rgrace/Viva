@@ -53,7 +53,7 @@ After the consent toggle is changed to **On**, admins can select one or more ext
 :::image type="content" source="../../media/glint/setup/select-external-benchmarks.png" alt-text="Screenshot of the Select External Benchmarks slider window with consent turned On.":::
 
 >[!IMPORTANT]
->The consent to use external benchmarks agreement reads: "By agreeing to use external benchmarks, you authorize Microsoft to process your organization's Viva Glint survey content - including data collected through your use of Microsoft Viva Gint - for the purpose of providing aggregated survey benchmarks to participating Viva Glint customers, including your organization." 
+>The consent to use external benchmarks agreement reads: "By agreeing to use external benchmarks, you authorize Microsoft to process your organization's Viva Glint survey content - including data collected through your use of Microsoft Viva Glint - for the purpose of providing aggregated survey benchmarks to participating Viva Glint customers, including your organization." 
 
 
 
