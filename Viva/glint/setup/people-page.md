@@ -31,7 +31,7 @@ The  **People** section is accessed from the  **Employees** section on the admin
 
 ## Use the filter feature   
 
-Employees are filtered by active/inactive status and User Role. 
+Employees are filtered according to active or inactive status and User Role. 
 
 ### All People  
 
@@ -39,7 +39,7 @@ A count of present and past employees, listed by:
 
 - Active: Working within your organization presently 
 - Inactive: No longer work within your organization or are currently on leave
-- Support Users: External users that have been added by your organization to provide assistance
+- Support Users: External users added by your organization to provide assistance
 - Advanced Configuration Access: Company Admin users with access to Advanced Configuration
 
 ### User Roles 
@@ -51,7 +51,7 @@ A count of company admins, managers, Human Resource Business Partners (HRBPs), a
 Use one of the two following methods: 
 
 - Begin to type the name of the employee in the search bar. When the name appears, select the name.   
-- Scroll down the alphabetized list of names. With hundreds or thousands of employees, this method won't be as efficient! 
+- Scroll down the alphabetized list of names. With hundreds or thousands of employees, this method isn't as efficient! 
 
 For each employee, the following information is visible: 
 
@@ -60,7 +60,7 @@ For each employee, the following information is visible:
 - **Employee ID**: Not editable. 
 - **Manager Hierarchy**: The organization’s highest-ranking employee (generally the CEO) is listed first. The hierarchy progresses downward, following the organizational chart flow, ending with the employee’s immediate manager. Not editable. 
 - **User Role**: Determines what data and people for whom this user has visibility. Editable by selecting the **pencil** symbol. 
-- **Attributes and hierarchies** (aside from the primary hierarchy, usually Manager): As defined in your organization’s latest Employee Data File. The Attributes section of an individual’s People page will always include required attributes (like Employee ID) and then customized attributes, as defined in your Employee Data File. 
+- **Attributes and hierarchies** (aside from the primary hierarchy, usually Manager): As defined in your organization’s latest Employee Data File. The Attributes section of an individual’s People page always includes required attributes (like Employee ID) and then customized attributes, as defined in your Employee Data File. 
 
 For employees with User Roles in addition to Active Employees, this editable information shows: 
 
