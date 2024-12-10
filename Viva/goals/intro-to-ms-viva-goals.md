@@ -2,9 +2,9 @@
 ms.date: 02/07/2024
 title: Introduction to Microsoft Viva Goals
 ms.reviewer: 
-ms.author: rasanders
-author: RaSanders-MSFT
-manager: Liz.Pierce
+ms.author: daisyfeller
+author: daisyfell
+manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
@@ -18,32 +18,36 @@ ms.collection:
 - essentials-overview
 search.appverid:
 - MET150
-description: "Learn about Microsoft Viva Goals and how it can help you organize and track both individual and organizational goals."
+description: "Learn about Microsoft Viva Goals and how it can help you organize and track individual and organizational goals."
 ---
-# Introduction to Microsoft Viva Goals
+# Microsoft Viva Goals: An introduction
 
-Microsoft Viva Goals is a goal alignment solution that uses the [objectives and key results (OKR)](/viva/goals/get-to-know-okrs) framework to connect teams to your organization’s strategic priorities, unite them around your mission and purpose, and drive business results.
+Microsoft Viva Goals helps you align your goals using an  [Objectives and Key Results (OKR)](/viva/goals/get-to-know-okrs) framework that streamlines efforts by:
 
-Because Viva Goals is part of Microsoft Viva, it integrates into the employee experience, empowering teams to be their best from anywhere.
+- Connecting teams to your organization’s strategic priorities, timelines, and goals.
+- Uniting people around your mission and purpose to help coordinate the work needed to reach those goals.
+- Driving business results using regular check-ins on the status of your OKRs and progress made toward achieving your goals.
 
-To log in to Viva Goals, visit [goals.microsoft.com](https://goals.microsoft.com/).
+Viva Goals is part of Microsoft Viva, which provides an integrated platform to enhance the experience of employees and empower them to be their best from anywhere.
+
+To sign in to Viva Goals, go to [goals.microsoft.com](https://goals.microsoft.com/).
 
 ## Work with OKRs in Viva Goals
 
-These resources teach the basics of using OKRs in Viva Goals.
+The following resources detail the basics of using OKRs in Viva Goals.
 
-|Thing you want to do  |Useful resource  |
+|What do you want to do?  |Go to...   |
 |---------|---------|
 |Create an OKR     |[Create OKRs](/viva/goals/creating-okrs)         |
 |Check in an OKR| [Check in OKRs](/viva/goals/okr-check-ins)        |
 |Track progress on an OKR| [Track progress on OKRs](/viva/goals/track-okr-progress-status)        |
 |Score and close an OKR|[Close and score OKRs](/viva/goals/closing-and-scoring)       |
 
-## Setup and administration
+## Set up and configure Viva Goals
 
-These resources can help organization administrators set up and configure Viva Goals in Microsoft 365 environments.
+The following resources can help you and your organization's administrators implement Viva Goals in Microsoft 365 environments.
 
-|Thing you want to learn about  |Useful resource  |
+|What do you want to learn about? |Go to...  |
 |---------|---------|
 |Roles and permissions     |[Roles and permissions](/viva/goals/roles-permissions-in-viva-goals)         |
 |Creating and editing teams     |[Create and edit teams](/viva/goals/create-and-edit-teams-and-subteams)         |
@@ -53,9 +57,9 @@ These resources can help organization administrators set up and configure Viva G
 
 ## Other product features in Viva Goals
 
-These resources contain information on features of Viva Goals beyond the basics of OKRs and administrator tools.
+The following resources detail features of Viva Goals beyond the basics of OKRs and administratrative tools.
 
-|Thing you want to do  |Useful resource  |
+|What do you want to do?  |Go to...  |
 |---------|---------|
 |Use review dashboards     |[Review dashboard](/viva/goals/review-dashboard)         |
 |Use initiatives|[Initiatives](https://support.microsoft.com/topic/create-objectives-key-results-and-initiatives-with-viva-goals-0587147d-84ed-438f-8a24-5c75f539814c#bkmk_createprojec)         |
@@ -63,9 +67,9 @@ These resources contain information on features of Viva Goals beyond the basics 
 
 ## The OKR framework
 
-These resources can help you learn more about the OKR framework that Viva Goals is based on.
+The following resources provide more information about the OKR framework on which Viva Goals is based.
 
-|Thing you want to learn about  |Useful resource  |
+|What do you want to learn?  |Go to...  |
 |---------|---------|
 |OKRs     |[Get to know OKRs](/viva/goals/get-to-know-okrs)        |
 |Defining your team |[Define your team](/viva/goals/define-your-team) |
