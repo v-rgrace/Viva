@@ -26,7 +26,7 @@ The Executive Summary is a group of reports useful to admins for presenting high
 There are many reports that you be part of this dashboard view. The descriptor table provides you with instructions on how to add reports or sections. Some items appear separately, and others may group as part of a related section.
 
 > [!NOTE]
-> **For the Executive Summary Report:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
+> **For the Executive Summary Report in Employee Lifecycle Programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
 
 | Report or section  | Description |
 | -------------- | ----------------- |
