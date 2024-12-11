@@ -44,7 +44,7 @@ From the admin dashboard, follow this procedure:
 1. From the top menu bar, select the **Reports** tab. 
 1. In the left-most column of the *Reports* page, select **Focus Area Overview**.  
 
-:::image type="content" source="../../media/glint/reports/focus-areas-from-reports.png" alt-text="Screenshot of the Reports tab from the admin dashboard.":::
+   :::image type="content" source="../../media/glint/reports/focus-areas-from-reports.png" alt-text="Screenshot showing the Reports tab in the admin dashboard, highlighting the Focus Area Overview option.":::
 
 ## How leaders use the Focus Area Overview report 
 
@@ -81,14 +81,14 @@ Use the **Export** menu to choose your export option.
 - **Export Focus Areas Usage to Spreadsheet**, or
 - **Export All Action Items to Spreadsheet**.
 
-:::image type="content" source="../../media/glint/reports/focus-areas-overview-export.png" alt-text="Screenshot of the download options or exporting the Focus Area report.":::
+   :::image type="content" source="../../media/glint/reports/focus-areas-overview-export.png" alt-text="Screenshot of the download options or exporting the Focus Area report.":::
 
 ### Export data from the admin dashboard 
 
 1. In the Action Taking section, select **All Action Items Report**.
 1. The report automatically generates as a CSV file.
 
-:::image type="content" source="../../media/glint/reports/focus-area-export-csv.png" alt-text="Screenshot of the verification dialog box indicating that your csv report downloaded.":::
+   :::image type="content" source="../../media/glint/reports/focus-area-export-csv.png" alt-text="Screenshot of the verification dialog box indicating that your csv report downloaded.":::
 
 ## Items the Focus Area Overview report includes 
 
