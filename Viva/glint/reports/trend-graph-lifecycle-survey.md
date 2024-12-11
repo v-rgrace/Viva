@@ -26,7 +26,7 @@ The Trend Graph for an *Employee Lifecycle (ELC)* survey behaves differently tha
 - ELC responses appear on the dashboard in real time. A manager sees responses on their dashboard after the program thresholds are met and according to their user permissions.
 
 > [!NOTE]
-> **For the Executive Summary Report in Employee Lifecycle programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
+> **For the Executive Summary Report in Employee Lifecycle programs:** If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once**.
 
 ## When the default period is used 
 
@@ -34,7 +34,7 @@ The Trend Graph for an *Employee Lifecycle (ELC)* survey behaves differently tha
 - The next point is the 90 days before the first data point (180 days - 91 days before today). 
 - The point on the graph before that date is 90 days before the second data point (270 days - 181 days before today), and so on.  
 
-The date displayed when you hover over data points is Day 1 of that range - meaning that *the most recent* data point is 90 days before today's date (the date being studied). The survey launch date is not dependent on this date. A date earlier than the survey launch date can be displayed on one of these data points. 
+The date displayed when you hover over data points is Day 1 of that range - meaning that *the most recent* data point is 90 days before today's date (the date being studied). The survey launch date isn't dependent on this date. A date earlier than the survey launch date can be displayed on one of these data points. 
 
   >**Example**: 
    > - Today's date is May 21, 2022. 
@@ -43,4 +43,4 @@ The date displayed when you hover over data points is Day 1 of that range - mean
    > - The second data point on the trend graph shows November 23, 2021 - 180 days before today's date.   
 
 >[!NOTE]
- The trend graph doesn't reference the actual survey launch date when determining the date to display. It uses 90-day intervals. In this scenario, no responses were     received from November 23 - January 8th as the program did not open until January 9th
+ The trend graph doesn't reference the actual survey launch date when determining the date to display. It uses 90-day intervals. In this scenario, no responses were received from November 23 - January 8th as the program didn't open until January 9th.
