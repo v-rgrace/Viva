@@ -14,7 +14,7 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 08/28/2024
+ms.date: 12/11/2024
 ---
 
 # Use Viva Glint’s Executive Summary report
@@ -24,6 +24,9 @@ The Executive Summary is a group of reports useful to admins for presenting high
 ## Choose reports to share on your Executive Summary 
 
 There are many reports that you be part of this dashboard view. The descriptor table provides you with instructions on how to add reports or sections. Some items appear separately, and others may group as part of a related section.
+
+> [!NOTE]
+> **For the Executive Summary Report:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
 
 | Report or section  | Description |
 | -------------- | ----------------- |
