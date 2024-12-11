@@ -74,8 +74,6 @@ There are three entry points where survey items can be edited:
 > [!IMPORTANT]
 > **Allow Survey Resubmission** in the **Program Setup** must be toggled to **Yes.** If not, an alert informs you that the change to **Yes** happens automatically when edits are saved. Select **Edit** to continue.
 
-:::image type="content" source="../../media/glint/setup/before-question-edit-2.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit-2.png":::
-
 ### Edit a survey item from the Questions page
 
 Hover over the item to display the horizontal ellipses. Select **Edit Question** from the dropdown menu.
