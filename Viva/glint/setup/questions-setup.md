@@ -28,7 +28,7 @@ Admins can add or modify survey items on the Questions page.
 
  Refer to the [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design) module to learn how to implement your organization's listening strategy in your survey program question setup.
 
-## Use Glint's prepopulated survey templates
+## Use Glint's survey templates
 
 Standard templates provide prepopulated survey items, along with customizeable introductory and concluding text. The Viva Glint People Science Team researches and substantiates prepopulated survey items.
 
@@ -44,8 +44,6 @@ Customize the introduction message for the survey by hovering over the box with 
 :::image type="content" source="../../media/glint/setup/questions-hello-text.png" alt-text="Screenshot of where to customize introductory text." lightbox="../../media/glint/setup/questions-hello-text.png":::
 
 ### Add a logo to the survey intro
-
-To add your organization's logo to the survey introduction:
 
 > [!TIP]
 > Ensure that logos are horizontally oriented, have a transparent background, and 16MB or smaller in file size.
@@ -66,44 +64,69 @@ To add your organization's logo to the survey introduction:
 ## Edit survey items
 
 > [!NOTE]
-> Survey items can be edited during the initial survey configuration *and* sometimes during a live survey, as needed. [Read about survey item editing](/viva/glint/setup/question-edit).
+> Survey items can be edited during the initial survey configuration *and* sometimes during a live survey. [Read about survey item editing](/viva/glint/setup/question-edit).
 
-## Process to edit a survey item
+There are three entry points where survey items can be edited:
+-	In the **Question Library** on your admin dashboard; doesn't require the survey to go into unapproved state
+-	In **Survey Programs, Live** 
+-	In **Upcoming Surveys**
 
-There are three entry points to choose from:
--	From the **Question Library** on your admin dashboard; doesn't require the survey to go into unapproved state
--	From **Survey Programs, Live** 
--	From **Upcoming Surveys**
-
-**Allow Survey Resubmission** in the **Program Setup** section of **Program Summary** must be toggled to **Yes.** <br>
-If not toggled to **Yes**, a pop-up informs you that the change to **Yes** happens automatically when edits are saved.
+> [!IMPORTANT]
+> **Allow Survey Resubmission** in the **Program Setup** must be toggled to **Yes.** If not, an alert informs you that the change to **Yes** happens automatically when edits are saved. Select **Edit** to continue.
 
 :::image type="content" source="../../media/glint/setup/before-question-edit-2.png" alt-text="Screenshot of alert box for live item editing." lightbox="../../media/glint/setup/before-question-edit-2.png":::
 
+### Edit a survey item from the Questions page
+
+Hover over the item to display the horizontal ellipses. Select **Edit Question** from the dropdown menu.
+   
+   :::image type="content" source="../../media/glint/setup/questions-dropdown.png" alt-text="Screenshot of the dropdown menu next to survey items." lightbox="../../media/glint/setup/questions-  
+   dropdown.png":::
+
+In the **Edit Question** panel that opens, there are two tabs to consider:
+   - Question configuration
+   - Associated Programs
+
+#### Question Configuration tab 
+
+:::image type="content" source="../../media/glint/setup/question-panel.png" alt-text="Screenshot of the Edit Question panel." lightbox="../../media/glint/setup/question-panel.png":::
+
+Follow the in-platform guidance for edits to your chosen item. Select **Save Changes** when you're finished.
+
+#### Associated Programs tab 
+
+On this page. you see a list of the name of each program your edited survey item appears in. The example image shows just a portion of the list of 161 associated programs for the chosen item.
+
+Be sure you are comfortable changing the item for each program. 
+
+:::image type="content" source="../../media/glint/setup/questions-associated-programs.png" alt-text="Screenshot of the Associated Programs tab." 
+
+:::image type="content" source="../../media/glint/setup/questions-program-list.png" alt-text="Screenshot of a portion of an Associated Program list." 
+
 ## Survey item targeting
 
-Add a target to a specific item to ensure that only the population targeted sees it in the survey. Using the search box, select one or more **User Role** to include or exclude. 
-When finished, select **Save Changes**.
+Add a target to a specific item to ensure that only the population selected sees it in the survey. 
+Using the search box, select one or more **User Roles** to include or exclude. 
+Select **Save Changes**.
 
 ## Delete survey items
 
 Remove an item from the program by selecting **Yes, delete it** in the box that displays. If you don't want to delete, select **No, I changed my mind.**
 
-## Edit the "Thank You!" message people see when submitting their survey
+## Edit the "Thank You!" message 
 
-Customize the 'Thank You!' message for the survey by hovering over the box and selecting it. In the window that opens you can:
+Customize the **Thank You!** concluding message for the survey by hovering over the box and selecting it. In the window that opens:
 
-- Select languages from the **Language** dropdown menu. Languages already permissioned for your organization in General Settings are available here.
-- Edit **Greeting** - "Thank you!" is prepopulated, but customize the greeting in a way that's comfortable for you. 
-- Edit **Text** - You see dummy text in the **Text** box.
-  - All dummy text can be edited.
-  - The Text field also includes placeholders, called macros, that pull in values based on your employee data or Glint-generated items. Delete macros or add new macros by selecting the blue plus sign (+) in the Text box.
-
-When finished, select **Save Changes**.
+1. Select languages from the **Language** dropdown menu. Languages permissioned for your organization in General Settings are available.
+1. Edit **Greeting** - "Thank you!" is prepopulated, but customize the greeting in a way that's comfortable for you. 
+1. Edit **Text** - You see dummy text in the **Text** box.
+   - All dummy text can be edited.
+   - The Text field also includes placeholders, called macros, that pull in values based on your employee data or Glint-generated items. Delete macros or add new macros by selecting the blue plus sign (+) in the Text box.
+1. Select **Save Changes**.
 
 ## Edit Question cycles
 
-You don't have to use all of the items programmed for a survey during each survey cycle. Choose survey items per program cycle by selecting the corresponding cycle number next to the item. For example, if you only want a certain item asked on the first survey, deselect all numbers except for the number 1.
+You don't have to use all of the items selected for a survey in each cycle. Choose survey items per program cycle by selecting the corresponding cycle number next to the item. For example, if you only want a certain item asked on the first survey, deselect all numbers except for the number 1.
 
 ## Add new items and section breaks to a program
 
@@ -114,11 +137,10 @@ To add rating questions, multiple choice questions, open-ended questions, or sec
 >[!TIP]
 > Wait to add display logic until after you've arranged your sections and items in the order you want.
 
-In the Display Logic window, set the following fields:
-- The **Overall logic for conditions** and subsequent **Conditions** or **Subconditions**. Select **+ Add new condition** to add more.
+In the Display Logic window, set the **Overall logic for conditions** and **Conditions** or **Subconditions**. 
+Select **+ Add new condition** to add more.
 
 **[Use this guidance to manage display logic](/../../viva/glint/setup/viva-glint-display-logic)**
-
 
 ## Next Step
 > [!div class="nextstepaction"]
