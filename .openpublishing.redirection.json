@@ -2232,6 +2232,11 @@
     "redirect_document_id": false
   },
   {
+    "source_path": "viva/goals/viva-goals-healthy-okr-program/rob-recommendations.md",
+    "redirect_url": "/viva/goals/viva-goals-healthy-okr-program/rhythm-of-business-overview",
+    "redirect_document_id": false
+  },
+  {
     "source_path": "viva/goals/viva-goals-trials.md",
     "redirect_url": "/viva/goals/goals-retirement",
     "redirect_document_id": false
