@@ -15,30 +15,32 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/28/2024
+ms.date: 12/11/2024
 ---
 
 # Microsoft Copilot Impact Survey template in Viva Glint
 
-AI tools, in general, are increasingly integrated into the workplace to enhance workforce productivity and the employee experience. With this transformational shift in how employees work, leaders need to understand their early investments in Microsoft Copilot and the workforce adoption. 
+AI tools are increasingly integrated into the workplace to enhance workforce productivity and the employee experience. With this transformational shift in how employees work, leaders need to understand their early investments in Microsoft Copilot and the workforce adoption. 
 
 With the Copilot Impact Survey in Viva Glint, organizations can measure the impact of Microsoft Copilot through sentiment data. This information enables IT and business leaders to plan their AI readiness, drive adoption, and measure their ROI. The Microsoft Copilot Impact Survey is also available in Microsoft Viva Pulse.
 
 ## Read the Viva People Science blog
 
-Take a few minutes to read Viva People Science insights in the Viva Glint Community.
+Read Viva People Science insights in the Viva Glint Community.
 
 > [!div class="nextstepaction"]
 > [Microsoft Copilot in Viva Glint: Bringing AI to Comment Analysis](https://techcommunity.microsoft.com/t5/viva-glint-blog/microsoft-copilot-in-viva-glint-bringing-ai-to-comment-analysis/ba-p/4003914) 
 
 ## Use cases for the Microsoft Copilot Impact Survey
 
-Use this survey program when deploying Microsoft Copilot to better understand its impact and adoption. Consider deploying multiple times during rollout to see trends,  changes, and sentiment over time. 
+Use this survey program when deploying Microsoft Copilot to better understand its impact and adoption. Consider deploying multiple times during rollout to see trends, changes, and sentiment over time. 
 
-While this Viva Glint survey template can be used on its own, if you have Viva Insights, you can see the sentiment results of the four core items from the Copilot Dashboard. Results from this survey are visible in the standard reporting already available in Viva Glint. 
-Note: if you're looking to assess impact of AI beyond or outside of Microsoft Copilot, consider our AI Impact set of items: 
+While this Glint survey template can be used on its own, if you have Viva Insights, you can see the sentiment results of the four core items from the Copilot Dashboard. Results from this survey are visible in the standard reporting already available in Glint. 
 
-Copilot Impact survey helps to uncover:
+> [!NOTE]
+> If you're looking to assess impact of AI beyond or outside of Microsoft Copilot, consider our AI Impact set of items.
+
+### What the Copilot Impact survey uncovers
 
 When leaders seek feedback, organizations can proactively highlight the value of a new tool and address challenges that might otherwise go unnoticed. The Copilot Impact survey can help organizations better understand: 
 - **User insights**: Copilot will likely be used differently across employee roles. Gathering user feedback helps to refine implementations and ensure enablement efforts are aligned with the real-world needs of your workforce.  
@@ -48,10 +50,10 @@ When leaders seek feedback, organizations can proactively highlight the value of
 
 ## Microsoft Copilot Impact Survey content
 
-Viva Glint recommended items fall into two categories:
+Glint recommended items fall into two categories:
 
-1.	Core items: These survey items ask employees to reflect on the task- or work-oriented benefits they experience as a result of using Copilot. They help establish the productivity and employee experience return-on-investment (ROI) that Copilot has. 
-1.	Additional items: These survey items ask employees to evaluate the utility of Copilot, their organization's process, and enablement practices. They are designed to support organizations in understanding "how well it's going" with a Copilot roll-out and give more context to where employees may need more support to adopt Copilot most effectively.
+1.	**Core items:** These survey items ask employees to reflect on the task- or work-oriented benefits they experience as a result of using Copilot. They help establish the productivity and employee experience return-on-investment (ROI) that Copilot has. 
+1.	**Additional items:** These survey items ask employees to evaluate the utility of Copilot, their organization's process, and enablement practices. They are designed to support organizations in understanding "how well it's going" with a Copilot roll-out and give more context to where employees may need more support to adopt Copilot most effectively.
 
 ### Core survey items
 
@@ -77,7 +79,7 @@ Viva Glint recommended items fall into two categories:
 
 ## Admin setup for the Microsoft Copilot Impact survey template
 
-The Copilot Impact Survey template is found in the *Recurring* section on the *Create a Program* page.
+The Copilot Impact Survey template is found in the **Recurring** section on the **Create a Program** page.
 
 :::image type="content" source="../../media/glint/setup/copilot-impact-template-card.png" alt-text="Screenshot of the Recurring program templates available in Viva Glint.":::
 
