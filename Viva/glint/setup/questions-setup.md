@@ -17,7 +17,7 @@ ms.localizationpriority: high
 ms.date: 12/11/2024
 ---
 
-# Questions setup in Program Summary
+# Questions set up in Program Summary
 
 > [!IMPORTANT]
 > The term **item** refers to any *question or statement* posed to a survey taker.
@@ -30,7 +30,7 @@ Admins can add or modify survey items on the Questions page.
 
 ## Use Glint's survey templates
 
-Standard templates provide prepopulated survey items, along with customizeable introductory and concluding text. The Viva Glint People Science Team researches and substantiates prepopulated survey items.
+Standard templates provide prepopulated survey items, along with customizable introductory and concluding text. The Viva Glint People Science Team researches and substantiates prepopulated survey items.
 
 ## Edit the survey introduction message
 
@@ -67,7 +67,7 @@ Customize the introduction message for the survey by hovering over the box with 
 > Survey items can be edited during the initial survey configuration *and* sometimes during a live survey. [Read about survey item editing](/viva/glint/setup/question-edit).
 
 There are three entry points where survey items can be edited:
--	In the **Question Library** on your admin dashboard; doesn't require the survey to go into unapproved state
+-	In the **Question Library** on your admin dashboard,s doesn't require the survey to go into unapproved state
 -	In **Survey Programs, Live** 
 -	In **Upcoming Surveys**
 
@@ -95,9 +95,9 @@ Follow the in-platform guidance for edits to your chosen item. Select **Save Cha
 
 #### Associated Programs tab 
 
-On this page. you see a list of the name of each program your edited survey item appears in. The example image shows just a portion of the list of 161 associated programs for the chosen item.
+On this page, you see a list of each program your edited survey item appears in. The example image shows just a portion of the list of 161 associated programs for the chosen item.
 
-Be sure you are comfortable changing the item for each program. 
+Be sure you're comfortable changing the item for each program. 
 
 :::image type="content" source="../../media/glint/setup/questions-associated-programs.png" alt-text="Screenshot of the Associated Programs tab." 
 
@@ -115,7 +115,7 @@ Remove an item from the program by selecting **Yes, delete it** in the box that 
 
 ## Edit the "Thank You!" message 
 
-Customize the **Thank You!** concluding message for the survey by hovering over the box and selecting it. In the window that opens:
+Customize the **Thank You** concluding message for the survey by hovering over the box and selecting it. In the window that opens:
 
 1. Select languages from the **Language** dropdown menu. Languages permissioned for your organization in General Settings are available.
 1. Edit **Greeting** - "Thank you!" is prepopulated, but customize the greeting in a way that's comfortable for you. 
