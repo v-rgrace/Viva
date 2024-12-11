@@ -98,9 +98,9 @@ After your reflection meeting:
 
 Now that you understand why it's important to reflect on, and close, your OKRs, refer to the step-by-step process for closing and scoring your OKRs in Viva Goals: [Close OKRs with Viva Goals.](https://support.microsoft.com/en-us/topic/close-okrs-with-viva-goals-c0d9f91e-22e6-48ea-ba3a-23ebe7f059d8)
 
-## Recommendations and Best Practices
+## Recommendations and best practices
 
-Looking to improve your effective OKR program? Here are recommendations you can perform within Viva Goals:
+Looking to improve your healthy OKR program? Here are recommendations you can perform within Viva Goals:
 
 1. **Close and score your OKRs at the end of each time period**
 
