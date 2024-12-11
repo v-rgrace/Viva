@@ -1,6 +1,6 @@
 ---
 title: Set up Program Summary pages for a Viva Glint recurring surveys
-description: Once you have chosen a survey template, set up your survey in the seven pages of Program Summary.
+description: Once you choose a survey template, set up your survey in the seven pages of Program Summary.
 ms.author: JudithWeiner
 author: JudyWeiner
 manager: MelissaBarry
@@ -44,4 +44,4 @@ In Program Summary, there are up to seven pages to be set up. Not all pages are 
 
 A checkmark indicates that the page is set up correctly and allows you to move to the next Program Summary setup page. To move ahead before finishing a page, add dummy data to the page. Don't forget to come back and change that dummy data to accurate information!
 
-:::image type="content" source="../../media/glint/setup/program-summary-checkmarks.png" alt-text="Screenshot of the Program Summary when all pages have been set up. A checkmark appears on the right of each row.":::
+:::image type="content" source="../../media/glint/setup/program-summary-checkmarks.png" alt-text="Screenshot of a completed Program Summary. A checkmark appears on the right of each row.":::
