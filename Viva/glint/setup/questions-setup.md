@@ -125,7 +125,7 @@ Customize the **Thank You** concluding message for the survey by hovering over t
 
 You don't have to use all of the items selected for a survey in each cycle. Choose survey items per program cycle by selecting the corresponding cycle number next to the item. For example, if you only want a certain item asked on the first survey, deselect all numbers except for the number 1.
 
-## Add new items and section breaks to a program
+## Add new items and section breaks
 
 To add rating questions, multiple choice questions, open-ended questions, or section breaks (to give your people time to take a natural pause), follow this guidance: [Adding items to a prepopulated survey](/../../viva/glint/setup/add-new-questions).
 
