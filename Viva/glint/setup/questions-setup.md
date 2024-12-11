@@ -80,7 +80,7 @@ There are three entry points where survey items can be edited:
 
 Hover over the item to display the horizontal ellipses. Select **Edit Question** from the dropdown menu.
    
-:::image type="content" source="../../media/glint/setup/questions-dropdown.png" alt-text="Screenshot of the dropdown menu next to survey items." lightbox="../../media/glint/setup/questions- dropdown.png":::
+:::image type="content" source="../../media/glint/setup/questions-dropdown.png" alt-text="Screenshot of the dropdown menu next to survey items." lightbox="../../media/glint/setup/questions-dropdown.png":::
 
 In the **Edit Question** panel that opens, there are two tabs to consider:
    - Question configuration
