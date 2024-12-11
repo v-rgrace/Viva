@@ -21,7 +21,7 @@ ms.date: 12/11/2024
 
 :::image type="content" source="../../media/glint/reports/overall-results.png" alt-text="Screenshot of the Overall Results Report in the Reports tab.":::
 
-As the name implies, this report shows the overall results for your survey. Drilling down, you can focus on a specific question. You can also go back to previous survey data or filter by demographic data, hierarchy data, or other attributes to gain insights about a specific group.
+As the name implies, this report shows the overall results for your survey. Drilling down, you can focus on a specific question. You can also go back to the previous survey data or filter by demographic data, hierarchy data, or other attributes to gain insights about a specific group.
 
 :::image type="content" source="../../media/glint/reports/overall-results-example.png" alt-text="Screenshot of an Overall Results report.":::
 
@@ -34,7 +34,7 @@ Filters depend on the employee data your company sends to Glint, and confidentia
 
 ### Use the More dropdown menu
 
-Selecting the **More** dropdown menu gives you the option to add sections to your report and search comments. Each option opens a new window Follow on-screen guidance.
+Selecting the **More** dropdown menu gives you the option to add sections to your report and search comments. Each option opens a new window. Follow the on-screen guidance.
 
 ### Use the Settings button to select your internal benchmark
 
