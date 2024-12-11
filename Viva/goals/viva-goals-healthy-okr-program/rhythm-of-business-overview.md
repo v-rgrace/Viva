@@ -1,5 +1,5 @@
 ---
-ms.date: 04/18/2024
+ms.date: 12/11/2024
 title: Incorporate OKRs into your business rhythm
 ms.reviewer: 
 ms.author: daisyfeller
@@ -22,9 +22,9 @@ description: "Learn how to incorporate OKRs into your business rhythms for a hea
 
 # Incorporate OKRs into your business rhythm
 
-We know that every company has its own unique *rhythm of business*: an ebb and flow of everything from strategic planning by senior leaders to the way team managers hold weekly update meetings or one-on-one sessions with their direct reports.
+Every company has its own unique *rhythm of business*: an ebb and flow of everything from strategic planning by senior leaders to the way team managers hold weekly update meetings or one-on-one sessions with their direct reports.
 
-We also know that the OKR framework is an effective way to align teams to strategic priorities, drive results, and create a culture of engaged employees focused on achieving common goals.
+The OKR framework is an effective way to align teams to strategic priorities, drive results, and create a culture of engaged employees focused on achieving common goals.
 
 A common question when adopting OKRs is around the marriage of these two topics:
 
@@ -38,13 +38,13 @@ In this article, you'll
 - Describe in-app tools such as dashboards that integrate OKRs into your ROB.
 
 > [!NOTE]
-> **Mindset:** Before we get started, a quick reminder that incorporating OKRs into your organization’s rhythm of business is an iterative process. The more you work to see opportunities to use OKRs in your day-to-day processes, the more streamlined your workflow becomes. That’s why we strongly urge focusing on progress over perfection.
+> Incorporating OKRs into your organization’s rhythm of business is an iterative process. The more you work to see opportunities to use OKRs in your day-to-day processes, the more streamlined your workflow becomes.
 >
-> It’s far more important to make initial progress and start finding individual areas to integrate OKRs than get hung up trying to craft the perfect workflow for every single team. So for now, keep it simple and have some fun.
+> It’s more important to make initial progress and start finding individual areas to integrate OKRs than get hung up trying to craft the perfect workflow for every single team.
 
 ## What is a rhythm of business and why is it important to successful OKR adoption?
 
-Every company has a rhythm of business (sometimes abbreviated to ROB), the workflow of planning and meetings and execution, but they can vary dramatically depending on the organization. Take the example of two companies getting started with OKRs:
+Every company has a rhythm of business (ROB), the workflow of planning and meetings and execution, but they can vary dramatically depending on the organization. Take the example of two companies getting started with OKRs:
 
 - A small startup with 20 employees might have a loose and flexible ROB. There might be two nimble co-founders who make fast strategic planning decisions based on market feedback, share company progress through impromptu after-work meetings in a conference room, and receive team status updates on individual projects via a few bullet points in a chat conversation when there's something new to report.
 - Conversely, a large enterprise with 20,000 employees might have a mature and structured ROB. The senior leadership team might hold deliberate strategic planning sessions over a period of weeks, sharing company progress might entail a monthly all-hands video meeting across multiple time zones, and status updates on individual projects could be a detailed report following a specific template that is given to multiple stakeholders at a specific day and time each week.
@@ -58,12 +58,9 @@ While it’s true that both of these organizations approach their ROB differentl
 
 With these rhythms in place, organizations can ensure that their OKR adoption process is successful and that their objectives are being achieved.
 
-> [!TIP]
-> Find your "center of gravity."
-
 One of the biggest initial hurdles to incorporating OKRs into the rhythm of business is simply getting started. New users want to know: Where should I begin? How does it tie into planning? What kind of meetings will I need?
 
-It can seem intimidating, but we’ve found that organizations are most successful when they start by meeting their team where they're today instead of reinventing the wheel. We like to call this the "center of gravity" ... existing people and processes that are already in place and working, so that infusing OKRs can be additive, not constraining.
+Organizations are most successful when they start by meeting their team where they're today instead of reinventing the wheel. Identify existing people and processes that are already in place and working so that infusing OKRs can be additive, not constraining.
 
 So begin by asking yourself:
 
@@ -109,8 +106,21 @@ There are four key meeting categories and activities to focus on. Each one has i
 
 Now that you've seen the “why” around using OKR dashboards in your business rhythms, see the step-by-step process “how” to create a dashboard, add panels, customize widgets, and present your data in the Microsoft Viva Goals software platform: [Review Dashboard with Viva Goals](https://support.microsoft.com/en-us/topic/review-dashboard-with-viva-goals-d195c526-1b6b-45e1-82fd-8daa21dd84a4).
 
-## Summary
+## Recommendations
 
-Every company has its own unique “rhythm of business,” and the OKR framework is an effective way to align teams to strategic priorities, drive results, and create a culture of engaged employees focused on achieving common goals.  
+1. Recognize that organizations are most successful when incorporating OKRs into existing, successful processes. Don't force a new process. Rather, investigate ways in which you can infuse your OKRs with positive steps that add value to your existing ROB.
+2. Understand the four parts of the OKR cadence, known as the *four Cs*: Collaborate (working together to create shared OKRs), Create (finalize OKRs and add them to Viva Goals), Check-in (track progress periodically toward goal attainment), and Close (reflect on goal attainment and close and score OKRs). At each stage, it's important to take steps to help reduce friction by:
+   - Blocking out calendar time for strategic planning, monthly OKR reviews, and end-of-quarter reflection sessions so these processes become embedded in the team workflow and culture.
+   - Using data integrations where applicable to automate check-ins from a single source of truth.
+   - Setting reminder notifications to help support users with performing check-ins. This builds good habits and helps avoid a *set it and forget it* mentality. 
+3. Create and use OKR dashboards to help drive toward meeting goals in each of the following four categories:
+   - Leadership strategy: Refers to establishing organizational goals. 
+   - Organizational visibility: Refers to communicating your goals with an organization, so everyone understands what you're working toward.
+   - Departmental alignment: Refers to providing clarity to all groups so, again, there's understand of what you're working toward.
+   - Team execution: Refers to driving toward goals, making progress, and ensuring accountability. 
 
-Incorporating OKRs and dashboards across key meetings and activities helps build a healthy OKR program.
+If you need more clarity about how to incorporate OKRs into your business rhythm, ask yourself, and your team if applicable, these questions: 
+
+1. What business rituals do you use that evolve to incorporate OKRs? 
+1. Where are there manual data-collection and reporting processes that you could automate? 
+1. In which meeting category does your organization have room to improve? 
