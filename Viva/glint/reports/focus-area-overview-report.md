@@ -14,24 +14,24 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/16/2024
+ms.date: 12/11/2024
 ---
 
 # Use Viva Glint's Focus Area Overview report
 
-The Microsoft Viva Glint Focus Areas Overview report provides a status of the completion of Focus Areas across teams. The report provides critical insights immediately with easy access to other details.  
+The Microsoft Viva Glint Focus Areas Overview report provides a completion status for Focus Areas across teams. The report provides critical insights and easy access to other details.  
 
 >[!IMPORTANT]
->Your organization may use the word "goal" rather than our standard term "focus areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard.
+>Your organization may use the word "goal" rather than our standard term "Focus Areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard.
 
 ## Learn from Viva People Science methodology
 
-Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience and engagement in their work, on your team, and within the company. 
+Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience. 
 
 > [!div class="nextstepaction"]
 > [Viva People Science explains focus areas and action planning](../people-science/people-science-explains-focus-areas.md)
 
-## Admins granting permission for managers to view the Focus Area report 
+## Grant permission for managers to view the Focus Area Overview report 
 
 Access is approved to the roles with **View Focus Areas Reports** within the *Reporting* section of *Manager Permissions and Access* in **User Roles** on the admin dashboard. The scope of the report respects access at a per-person level. 
 
@@ -46,7 +46,7 @@ From the admin dashboard, follow this procedure:
 
 :::image type="content" source="../../media/glint/reports/focus-areas-from-reports.png" alt-text="Screenshot of the Reports tab from the admin dashboard.":::
 
-## How leaders use this report 
+## How leaders use the Focus Area Overview report 
 
 Leaders and admins use this report to: 
 
@@ -55,7 +55,7 @@ Leaders and admins use this report to:
 
 ### Report section summary 
 
-This table helps you to understand the report sections and descriptions.
+Use this table to understand report sections and descriptions.
 
 | Term | Description | 
 |---|---|
@@ -73,6 +73,8 @@ This table helps you to understand the report sections and descriptions.
 ## Exporting Focus Area data  
 
 You can export Focus Area data from two different paths: 
+- From the Focus Area Overview report
+- From the admin dashboard
 
 ### Export data from the Focus Area Overview report 
 
