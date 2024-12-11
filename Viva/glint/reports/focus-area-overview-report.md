@@ -49,7 +49,6 @@ From the admin dashboard, follow this procedure:
 ## How leaders use the Focus Area Overview report 
 
 Leaders and admins use this report to: 
-
 - Connect managers working on similar Focus Areas. 
 - View feedback comments to provide context for what their managers are working on. 
 
@@ -59,7 +58,7 @@ Use this table to understand report sections and descriptions.
 
 | Term | Description | 
 |---|---|
-| **Summary** | Provides a sense of Focus Area completion across teams and answers the following: <br> - How close are we to Focus Area completion?<br>- What’s the status of the Focus Areas? <br>- What percent of the population makes up each status?<br>- How many managers created Focus Areas?|
+| **Summary** | Provides a sense of Focus Area completion across teams <br> - How close are we to Focus Area completion?<br>- What’s the status of the Focus Areas? <br>- What percent of the population makes up each status?<br>- How many managers created Focus Areas?|
 | **Overall Focus Area Completion** | Shows progress toward 100% Focus Area completion. View the count of Focus Areas completed and the number of employees who completed them |
 | **Focus Area Status** | Illustrates each Focus Area status and the populations they cover; hover over each status to see a deeper dive into the information|
 | **% of Employees with Focus Areas** | Displays the overall percent of managers and others with Focus Areas; hover over the number for a deeper dive into the information | 
@@ -70,7 +69,7 @@ Use this table to understand report sections and descriptions.
 | **Percentages** | To see detailed information, hover over the percentages|
 | **Filter** | Located in the header menu at the top of the page and indicated by an arrow and any selected filters, when collapsed. <br> The selections you chose are automatically added to the filter. Select the arrow to expand the menu to view past reports or modify filters. The current Focus Area period appears by default, but you can look back at previous periods.|
 
-## Exporting Focus Area data  
+## Exporting Focus Area report data  
 
 You can export Focus Area data from two different paths: 
 - From the Focus Area Overview report
@@ -87,7 +86,7 @@ Use the **Export** menu to choose your export option.
 ### Export data from the admin dashboard 
 
 1. In the Action Taking section, select **All Action Items Report**.
-1. The report automatically generates as a .csv file.
+1. The report automatically generates as a CSV file.
 
 :::image type="content" source="../../media/glint/reports/focus-area-export-csv.png" alt-text="Screenshot of the verification dialog box indicating that your csv report downloaded.":::
 
