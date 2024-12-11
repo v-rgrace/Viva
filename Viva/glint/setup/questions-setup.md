@@ -41,7 +41,7 @@ Customize the introduction message for the survey by hovering over the box with 
 3. Edit **Text** - You see default text in the **Text** box. All default text can be edited. Delete macros or add macros by selecting the **blue plus sign (+)** in the Text box.
 4. Select **Save Changes**.
 
-:::image type="content" source="../../media/glint/setup/questions-hello-text.png" alt-text="Screenshot of where to customize introductory text." lightbox="../../media/glint/setup/questions-hello-text.png":::
+   :::image type="content" source="../../media/glint/setup/questions-hello-text.png" alt-text="Screenshot of where to customize introductory text." lightbox="../../media/glint/setup/questions-hello-text.png":::
 
 ### Add a logo to the survey intro
 
@@ -134,8 +134,8 @@ To add rating questions, multiple choice questions, open-ended questions, or sec
 >[!TIP]
 > Wait to add display logic until after you've arranged your sections and items in the order you want.
 
-In the Display Logic window, set the **Overall logic for conditions** and **Conditions** or **Subconditions**. 
-Select **+ Add new condition** to add more.
+1. In the Display Logic window, set the **Overall logic for conditions** and **Conditions** or **Subconditions**. 
+1. Select **+ Add new condition** to add more.
 
 **[Use this guidance to manage display logic](/../../viva/glint/setup/viva-glint-display-logic)**
 
