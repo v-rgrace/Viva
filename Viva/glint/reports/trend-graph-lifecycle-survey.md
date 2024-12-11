@@ -14,16 +14,19 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 09/03/2024
+ms.date: 12/11/2024
 ---
 
 # Use the trend graph in a Viva Glint Employee Lifecycle program
 
-The Trend Graph for an Employee Lifecycle (ELC) survey behaves differently than the Trend Graph of a Viva Glint *recurring* program. 
+The Trend Graph for an *Employee Lifecycle (ELC)* survey behaves differently than the Trend Graph of a Viva Glint *recurring* program. 
 
 - ELC surveys, by default, display scores filtered to responses received in the last 90 days. 
 - ELC surveys are always active so reports group based on the date range selected or the default 90 days.  
-- ELC responses appear on the dashboard in real time. A manager sees responses on their dashboard after the program thresholds are met and according to their user permissions. 
+- ELC responses appear on the dashboard in real time. A manager sees responses on their dashboard after the program thresholds are met and according to their user permissions.
+
+> [!NOTE]
+> **For the Executive Summary Report in Employee Lifecycle programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
 
 ## When the default period is used 
 
