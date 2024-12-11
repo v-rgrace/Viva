@@ -36,7 +36,9 @@ Read Viva People Science insights in the Viva Glint Community.
 Use this survey program when deploying Microsoft Copilot to better understand its impact and adoption. Consider deploying multiple times during rollout to see trends, changes, and sentiment over time. 
 
 While this Glint survey template can be used on its own, if you have Viva Insights, you can see the sentiment results of the four core items from the Copilot Dashboard. Results from this survey are visible in the standard reporting already available in Glint. 
-Note: if you're looking to assess impact of AI beyond or outside of Microsoft Copilot, consider our AI Impact set of items.
+
+> [!NOTE]
+> If you're looking to assess impact of AI beyond or outside of Microsoft Copilot, consider our AI Impact set of items.
 
 ### What the Copilot Impact survey uncovers
 
