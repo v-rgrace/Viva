@@ -14,24 +14,24 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 02/16/2024
+ms.date: 12/11/2024
 ---
 
 # Use Viva Glint's Focus Area Overview report
 
-The Microsoft Viva Glint Focus Areas Overview report provides a status of the completion of Focus Areas across teams. The report provides critical insights immediately with easy access to other details.  
+The Microsoft Viva Glint Focus Areas Overview report provides a completion status for Focus Areas across teams. The report provides critical insights and easy access to other details.  
 
 >[!IMPORTANT]
->Your organization may use the word "goal" rather than our standard term "focus areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard.
+>Your organization may use the word "goal" rather than our standard term "Focus Areas." For this reason, the verbiage and images on this guidance may not match exactly with your dashboard.
 
 ## Learn from Viva People Science methodology
 
-Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience and engagement in their work, on your team, and within the company. 
+Initiating and managing action after a survey can be an unclear process. Focused and streamlined action planning is essential. An action plan is a written commitment to make incremental improvements to the employee experience. 
 
 > [!div class="nextstepaction"]
 > [Viva People Science explains focus areas and action planning](../people-science/people-science-explains-focus-areas.md)
 
-## Admins granting permission for managers to view the Focus Area report 
+## Grant permission for managers to view the Focus Area Overview report 
 
 Access is approved to the roles with **View Focus Areas Reports** within the *Reporting* section of *Manager Permissions and Access* in **User Roles** on the admin dashboard. The scope of the report respects access at a per-person level. 
 
@@ -44,22 +44,21 @@ From the admin dashboard, follow this procedure:
 1. From the top menu bar, select the **Reports** tab. 
 1. In the left-most column of the *Reports* page, select **Focus Area Overview**.  
 
-:::image type="content" source="../../media/glint/reports/focus-areas-from-reports.png" alt-text="Screenshot of the Reports tab from the admin dashboard.":::
+   :::image type="content" source="../../media/glint/reports/focus-areas-from-reports.png" alt-text="Screenshot showing the Reports tab in the admin dashboard, highlighting the Focus Area Overview option.":::
 
-## How leaders use this report 
+## How leaders use the Focus Area Overview report 
 
 Leaders and admins use this report to: 
-
 - Connect managers working on similar Focus Areas. 
 - View feedback comments to provide context for what their managers are working on. 
 
 ### Report section summary 
 
-This table helps you to understand the report sections and descriptions.
+Use this table to understand report sections and descriptions.
 
 | Term | Description | 
 |---|---|
-| **Summary** | Provides a sense of Focus Area completion across teams and answers the following: <br> - How close are we to Focus Area completion?<br>- What’s the status of the Focus Areas? <br>- What percent of the population makes up each status?<br>- How many managers created Focus Areas?|
+| **Summary** | Provides a sense of Focus Area completion across teams <br> - How close are we to Focus Area completion?<br>- What’s the status of the Focus Areas? <br>- What percent of the population makes up each status?<br>- How many managers created Focus Areas?|
 | **Overall Focus Area Completion** | Shows progress toward 100% Focus Area completion. View the count of Focus Areas completed and the number of employees who completed them |
 | **Focus Area Status** | Illustrates each Focus Area status and the populations they cover; hover over each status to see a deeper dive into the information|
 | **% of Employees with Focus Areas** | Displays the overall percent of managers and others with Focus Areas; hover over the number for a deeper dive into the information | 
@@ -70,9 +69,11 @@ This table helps you to understand the report sections and descriptions.
 | **Percentages** | To see detailed information, hover over the percentages|
 | **Filter** | Located in the header menu at the top of the page and indicated by an arrow and any selected filters, when collapsed. <br> The selections you chose are automatically added to the filter. Select the arrow to expand the menu to view past reports or modify filters. The current Focus Area period appears by default, but you can look back at previous periods.|
 
-## Exporting Focus Area data  
+## Exporting Focus Area report data  
 
 You can export Focus Area data from two different paths: 
+- From the Focus Area Overview report
+- From the admin dashboard
 
 ### Export data from the Focus Area Overview report 
 
@@ -80,14 +81,14 @@ Use the **Export** menu to choose your export option.
 - **Export Focus Areas Usage to Spreadsheet**, or
 - **Export All Action Items to Spreadsheet**.
 
-:::image type="content" source="../../media/glint/reports/focus-areas-overview-export.png" alt-text="Screenshot of the download options or exporting the Focus Area report.":::
+   :::image type="content" source="../../media/glint/reports/focus-areas-overview-export.png" alt-text="Screenshot of the download options or exporting the Focus Area report.":::
 
 ### Export data from the admin dashboard 
 
 1. In the Action Taking section, select **All Action Items Report**.
-1. The report automatically generates as a .csv file.
+1. The report automatically generates as a CSV file.
 
-:::image type="content" source="../../media/glint/reports/focus-area-export-csv.png" alt-text="Screenshot of the verification dialog box indicating that your csv report downloaded.":::
+   :::image type="content" source="../../media/glint/reports/focus-area-export-csv.png" alt-text="Screenshot of the verification dialog box indicating that your csv report downloaded.":::
 
 ## Items the Focus Area Overview report includes 
 

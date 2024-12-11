@@ -261,8 +261,6 @@ items:
      items:
       - name: Business rhythms overview
         href: ./viva-goals-healthy-okr-program/rhythm-of-business-overview.md
-      - name: Business rhythms recommendations
-        href: ./viva-goals-healthy-okr-program/rob-recommendations.md
       - name: Review dashboard templates
         items:
         - name: Leadership strategy dashboard
