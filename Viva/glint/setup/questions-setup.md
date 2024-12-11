@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: edit questions, survey items, question targeting, item targeting
+keywords: edit questions, survey items, question targeting, item targeting, add logo
 ms.collection: 
  - m365initiative-viva
  - selfserve
@@ -14,59 +14,54 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/10/2024
+ms.date: 12/11/2024
 ---
 
 # Questions setup in Program Summary
 
-The Questions page allows you to add or modify the items included in a survey. Refer to the [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design) module to learn how to implement your organization's listening strategy in your survey program question setup.
-
-:::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary." lightbox="../../media/glint/setup/program-summary-questions.png":::
-
 > [!IMPORTANT]
 > The term **item** refers to any *question or statement* posed to a survey taker.
 
-## Use Viva Glint's prepopulated survey templates
+Admins can add or modify survey items on the Questions page.
 
-Standard templates provide prepopulated questions and survey items, along with introductory and "thank you" text that admins can customize. The Viva Glint People Science Team researches and substantiates prepopulated survey items.
+:::image type="content" source="../../media/glint/setup/program-summary-questions.png" alt-text="Screenshot of where to access Questions setup from Program Summary." lightbox="../../media/glint/setup/program-summary-questions.png":::
 
-:::image type="content" source="../../media/glint/setup/program-summary-questions-text.png" alt-text="Screenshot of where to customize introductory and thank you text for survey takers." lightbox="../../media/glint/setup/program-summary-questions-text.png":::
+ Refer to the [Learn about Viva Glint program design](/training/modules/viva-glint-learn-about-viva-glint-program-design) module to learn how to implement your organization's listening strategy in your survey program question setup.
+
+## Use Glint's prepopulated survey templates
+
+Standard templates provide prepopulated survey items, along with customizeable introductory and concluding text. The Viva Glint People Science Team researches and substantiates prepopulated survey items.
 
 ## Edit the survey introduction message
 
-Customize the introduction message for the survey by hovering over the box with the "Hello" message and select it. 
+Customize the introduction message for the survey by hovering over the box with the **Hello** message and select it. In the **Edit Survey Intro** slider panel:
 
-In the window that opens:
-- Select languages from the **Language** dropdown menu. Languages selected in General Settings are available here.
-- Edit **Greeting** - "Hello" is prepopulated, but can be customized for your organization.
-- Edit **Text** - You see default text in the **Text** box.
-  - All default text can be edited.
-  - The Text field also includes placeholders, called macros, that pull in values based on your employee data or Glint-generated items. Delete macros or add new macros by selecting the blue plus sign (+) in the Text box.
+1. Select languages from the **Language** dropdown menu. Languages selected in General Settings are available.
+2.  Edit **Greeting** - "Hello" is prepopulated, but can be customized for your organization.
+3. Edit **Text** - You see default text in the **Text** box. All default text can be edited. Delete macros or add macros by selecting the **blue plus sign (+)** in the Text box.
+4. Select **Save Changes**.
 
-When finished, select **Save Changes**.
+:::image type="content" source="../../media/glint/setup/questions-hello-text.png" alt-text="Screenshot of where to customize introductory text." lightbox="../../media/glint/setup/questions-hello-text.png":::
 
-## Add a logo to the survey introduction
+### Add a logo to the survey intro
 
 To add your organization's logo to the survey introduction:
 
 > [!TIP]
 > Ensure that logos are horizontally oriented, have a transparent background, and 16MB or smaller in file size.
 
-1. Go to **Configuration** and in the **Action Taking** section, select **Content Resources**.
-1. Select **+ New** to add a new resource and select **OK** in the languages message that appears.
-1. Add a new title in the **Untitled Resource** and **Title** fields.
-
-   Survey intro logos can be unique to each survey program. Include the survey name in the title if needed.
-
+1. From the admin dashboard, select **Configuration**. In the **Action Taking** section, select **Content Resources**.
+1. Select **+ New** to add a new resource and **OK** in the languages message that appears.
+1. Add a new title in the **Untitled Resource** and **Title** fields. Survey intro logos can be unique to each survey program. Include the survey name in the title if needed.
 1. In the **Type** field, select **Image**.
 1. Optionally, add a **Description**.
-1. In the File field, select **Choose File** and browse to choose the image file on your device.
-1. When selected, a preview of the image appears. If the image appears as expected, select **Save**.
-1. Select **Publish** in the top right of the screen and then select **Publish** again in the **Publish Resource** dialog that appears.
-1. On the **Resources** page, filter to Image in the left menu and copy the text of the recently added image name from the **Name** column.
-1. Replace "logo-name" in this text with the exact name of your uploaded logo: `![logo-name](logo-name "logo-name")`
-1. Copy and paste the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message and **Save Changes**.
-1. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that the logo appears as expected.
+1. In the **File** field, select **Choose File**. Choose the image file on your device. A preview of the image appears. If the image is as you'd like, select **Save**.
+1. Select **Publish** and then select **Publish** again in the **Publish Resource** dialog box that appears.
+1. On the **Resources** page, filter to **Image** and copy the text of the recently added image from the **Name** column.
+1. Replace "logo-name" in this text with the name of your uploaded logo: `![logo-name](logo-name "logo-name")`
+1. Copy and paste the `![logo-name](logo-name "logo-name")` text (with your logo name added) and paste into the end of the Text field in the survey introduction message.
+1. Select **Save Changes**.
+1. [Preview your survey](/viva/glint/setup/preview-manage-enable-engage-programs) to confirm that this process is successful.
 
 ## Edit survey items
 
