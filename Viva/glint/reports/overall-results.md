@@ -6,7 +6,7 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: internal benchmarks, exporting survey results
+keywords: internal benchmarks, exporting survey results, employee lifecycle executive summary report
 ms.collection:  
 - m365initiative-viva
 - selfserve 
@@ -14,26 +14,29 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/06/2024
+ms.date: 12/11/2024
 ---
 
 # Viva Glint's Overall Results Report
 
 :::image type="content" source="../../media/glint/reports/overall-results.png" alt-text="Screenshot of the Overall Results Report in the Reports tab.":::
 
-As the name implies, this report shows the overall results for your survey. Drilling down, you can focus on a specific question. You can also go back to previous survey data or filter by demographic data, hierarchy data, or other attributes to gain insights about a specific group.
+As the name implies, this report shows the overall results for your survey. Drilling down, you can focus on a specific question. You can also go back to the previous survey data or filter by demographic data, hierarchy data, or other attributes to gain insights about a specific group.
 
 :::image type="content" source="../../media/glint/reports/overall-results-example.png" alt-text="Screenshot of an Overall Results report.":::
 
+> [!NOTE]
+> **For the Executive Summary Report in Employee Lifecycle programs:**  If program settings allow, and a unique user submits more than one survey response, an entry row is included in the raw data export representing each of the unique user's submissions. **However, the UI counts them only once.**
+
 ## Change your report settings
 
-Filters depend on the employee data your company sends to Viva Glint and confidentiality requirements must be met to display data. 
+Filters depend on the employee data your company sends to Glint, and confidentiality requirements must be met to display data. 
 
 ### Use the More dropdown menu
 
-Selecting the **More** dropdown menu gives you the option to add sections to your report and to search comments. Each option opens a new window; follow on-screen guidance.
+Selecting the **More** dropdown menu gives you the option to add sections to your report and search comments. Each option opens a new window. Follow the on-screen guidance.
 
-### Use the Settings button
+### Use the Settings button to select your internal benchmark
 
 Choosing the **Settings** button opens the Report Settings window where you can select your internal benchmark from:
 
