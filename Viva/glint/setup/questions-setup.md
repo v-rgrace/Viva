@@ -67,7 +67,7 @@ Customize the introduction message for the survey by hovering over the box with 
 > Survey items can be edited during the initial survey configuration *and* sometimes during a live survey. [Read about editing live survey items](/viva/glint/setup/question-edit).
 
 There are three entry points where survey items can be edited:
--	In the **Question Library** on your admin dashboard,s doesn't require the survey to go into unapproved state
+-	In the **Question Library** on your admin dashboard. This entry point doesn't require that the survey is changed to an unapproved state.
 -	In **Survey Programs, Live** 
 -	In **Upcoming Surveys**
 
