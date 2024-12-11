@@ -50,8 +50,8 @@ When leaders seek feedback, organizations can proactively highlight the value of
 
 Glint recommended items fall into two categories:
 
-1.	Core items: These survey items ask employees to reflect on the task- or work-oriented benefits they experience as a result of using Copilot. They help establish the productivity and employee experience return-on-investment (ROI) that Copilot has. 
-1.	Additional items: These survey items ask employees to evaluate the utility of Copilot, their organization's process, and enablement practices. They are designed to support organizations in understanding "how well it's going" with a Copilot roll-out and give more context to where employees may need more support to adopt Copilot most effectively.
+1.	**Core items:** These survey items ask employees to reflect on the task- or work-oriented benefits they experience as a result of using Copilot. They help establish the productivity and employee experience return-on-investment (ROI) that Copilot has. 
+1.	**Additional items:** These survey items ask employees to evaluate the utility of Copilot, their organization's process, and enablement practices. They are designed to support organizations in understanding "how well it's going" with a Copilot roll-out and give more context to where employees may need more support to adopt Copilot most effectively.
 
 ### Core survey items
 
