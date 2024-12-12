@@ -58,7 +58,7 @@ Learn more about how to set up Display Logic with this video and the guidance in
 1. Select an item from the **Question** dropdown menu. All items that come before the item with display logic rules are available in this menu.
 2. Select an operator in the **Operator** dropdown menu to determine how response values to previous questions should be evaluated. For example, "is equal to" or "is smaller than."
 3. Select a response value from the **Answer** dropdown.
-4. Add additional conditions as needed by selecting **+ Add new condition**.
+4. Add more conditions as needed by selecting **+ Add new condition**.
 5. Select **Save Changes** in the slider window.
 6. Select **Save Changes** in the top right of the Questions section in your survey program.
 7. [Preview your survey](preview-manage-enable-engage-programs.md) to see how different responses hide or display the item with Display Logic.
