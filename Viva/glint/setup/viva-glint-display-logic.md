@@ -14,12 +14,12 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 01/18/2024
+ms.date: 12/12/2024
 ---
 
 # Tailor users' survey experience with Viva Glint Display Logic
 
-Microsoft Viva Glint admins can set up survey items with conditions that personalize surveys for users by applying display rules. Display logic rules allow you to show or hide survey items depending on the survey taker’s responses to previous questions in a survey.
+Microsoft Viva Glint Administrators can set up survey items with conditions that personalize surveys for users by applying display rules. Display logic rules allow you to show or hide survey items depending on the survey taker’s responses to previous questions in a survey.
 
 ## Display Logic options
 
@@ -30,11 +30,11 @@ Display Logic can be applied based on:
 - Whether a user skipped an optional question
 
 > [!IMPORTANT]
-> A question will always display unless it has display logic defined, in which case it displays only when display logic rules are met.
+> A question always displays unless it has display logic set up, which causes the question to show only when display logic rules are met.
 
-## Set up Display Logic in your survey program
+## Set up Display Logic
 
-From the admin dashboard, go to the survey you want to edit. Display logic can be set up in the **Questions** section in **Program Summary**.
+From the admin dashboard, go to the survey you want to edit. Set up Display Logic in the **Questions** section in **Program Summary**.
 
 Learn more about how to set up Display Logic with this video and the guidance in this article:
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1jZyp]
@@ -44,8 +44,8 @@ Learn more about how to set up Display Logic with this video and the guidance in
    > [!CAUTION]
    > Display Logic only works correctly when all survey items are added to your program in the exact order that should appear for survey takers.
 
-1. Select the **horizontal ellipses** next to a survey item to display the dropdown menu.
-1. Select **Edit Display Logic** to open the Display Logic slider window.
+1. Select the **ellipsis** next to a survey item to display the dropdown menu.
+1. Select **Edit Display Logic** to open the Display Logic edit pane.
 
    :::image type="content" source="../../media/glint/setup/glint-dropdown-display-logic-2.png" alt-text="Screenshot of question setup display logic dropdown menu item.":::
 
@@ -58,30 +58,27 @@ Learn more about how to set up Display Logic with this video and the guidance in
 1. Select an item from the **Question** dropdown menu. All items that come before the item with display logic rules are available in this menu.
 2. Select an operator in the **Operator** dropdown menu to determine how response values to previous questions should be evaluated. For example, "is equal to" or "is smaller than."
 3. Select a response value from the **Answer** dropdown.
-4. Add additional conditions as needed by selecting **+ Add new condition**.
+4. Add more conditions as needed by selecting **+ Add new condition**.
 5. Select **Save Changes** in the slider window.
 6. Select **Save Changes** in the top right of the Questions section in your survey program.
-7. [Preview your survey](https://go.microsoft.com/fwlink/?linkid=2230749) to see how different responses hide or display the item with Display Logic.
+7. [Preview your survey](preview-manage-enable-engage-programs.md) to see how different responses hide or display the item with Display Logic.
 
-   :::image type="content" source="../../media/glint/setup/glint-display-logic-pane-2.png" alt-text="Screenshot of display logic setup pane.":::
+   :::image type="content" source="../../media/glint/setup/edit-display-logic.png" alt-text="Screenshot of display logic setup pane.":::
 
    > [!IMPORTANT]
-   > The first item in your survey can’t have display logic, which is based on responses to previous survey items.
+   > The first item in your survey can’t have display logic because logic is based on responses to previous survey items.
 
-## Scenario
+## Example
 
-Contoso includes the following questions in their employee survey, but only want survey takers to see Job Feedback if they select Agree or Strongly Agree for the Coaching item:
+Contoso includes the following questions in their employee survey, but only want survey takers to see **Job Feedback** if they select **Agree** or **Strongly Agree** for the **Coaching** item:
 
 - **Coaching**: I have ongoing conversations with my manager about my performance.
 - **Job Feedback**: My manager provides me with feedback about my performance to help me do my job better.
 
-To hide Job Feedback from users who disagree with or select a neutral response for the Coaching item, create a condition that only displays Job Feedback when the response value to Coaching is bigger than 3 (responses 1, 2, and 3 are equal to Strongly Disagree, Disagree, and Neither).
+To hide **Job Feedback** from users who disagree with or select a neutral response for the **Coaching** item, create a condition that only displays **Job Feedback** when the response value to **Coaching** is bigger than 3 (responses 1, 2, and 3 are equal to Strongly Disagree, Disagree, and Neither).
 
 :::image type="content" source="../../media/glint/setup/display-logic-example-setup.png" alt-text="Screenshot of display logic setup pane for Coaching and Job Feedback.":::
 
-After adding Display Logic to Job Feedback, a symbol will appear on the item in your survey program:
+After adding Display Logic to **Job Feedback**, a symbol appears on the item in your survey program:
 
 :::image type="content" source="../../media/glint/setup/display-logic-example-items.png" alt-text="Screenshot of display logic symbol on Job Feedback.":::
-
-
-
