@@ -29,14 +29,14 @@ This report is available to anyone with program access. It can be exported when 
 
 ## Export the Response Rates & Access report
 
-Access the report from the **Program Summary** page of a Live or Completed survey cycle. Hover over the program cycle to display the **horizontal ellipsis.** Select **Export Response Rates & Access.**
+Access the report from the **Program Summary** page of a Live or Completed survey cycle. Hover over the program cycle to display the **horizontal ellipsis**. Select **Export Response Rates & Access**.
 
 :::image type="content" source="../../media/glint/reports/export-response-rates-elipses-v2.png" alt-text="Screenshot of where to access the Response Rates & Access report.":::
 
 From these options, choose which managers to include:
-- Option 1: Managers who met confidentiality threshold to see results
-- Option 2: Managers who have not met confidentiality thresholds to see results
-- Option 3: Managers who have or have not met confidentiality thresholds
+- Option 1: Managers who met confidentiality threshold to see results.
+- Option 2: Managers who have not met confidentiality thresholds to see results.
+- Option 3: Managers who have or have not met confidentiality thresholds.
 
 >[!TIP]
 >The third option - **Have or have not met confidentiality thresholds** - is a combination of both options so it's always a safe choice!
