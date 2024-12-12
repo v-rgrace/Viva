@@ -35,8 +35,8 @@ Access the report from the **Program Summary** page of a Live or Completed surve
 
 From these options, choose which managers to include:
 - Option 1: Managers who met confidentiality threshold to see results
-- Option 2: Managers who haven't met confidentiality thresholds to see results
-- Option 3: Managers who have or haven't met confidentiality thresholds
+- Option 2: Managers who have not met confidentiality thresholds to see results
+- Option 3: Managers who have or have not met confidentiality thresholds
 
 >[!TIP]
 >The third option - **Have or have not met confidentiality thresholds** - is a combination of both options so it's always a safe choice!
