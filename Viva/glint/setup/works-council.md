@@ -46,7 +46,7 @@ Commonly asked questions from Works Councils:
 |:---:|----|------|
 |1| **Do you and your third-party providers demonstrate compliance with GDPR and local implementing law?**| Explain the overarching [data security and privacy strategy](add-privacy-policy.md).|
 |2| **How do you and your third-party providers protect your data?** |Explain and ensure the confidentiality, availability, and security of your data. |
-|3| **How do you and your third-party providers store your data?**| Provide information on [privacy](../../viva/viva-privacy) - what is stored, where, and for how long.  |
+|3| **How do you and your third-party providers store your data?**| Provide information on [privacy](/../../viva/viva-privacy) - what is stored, where, and for how long.  |
 |4| **How do you control access to your data?**| Explain access rights and access controls (manager/employee access, passwords, SSO, etc.).|
 |5| **What system audits and certifications do you and your third-party providers have?** |Show evidence of an industry-standard audit (likely an annual SOC 2 Type II) and various Privacy-Shield certifications. |
 
