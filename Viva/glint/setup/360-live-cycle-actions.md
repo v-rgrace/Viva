@@ -14,7 +14,7 @@ search.appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/10/2024
+ms.date: 12/12/2024
 ---
 
 # Viva Glint 360 admin live cycle management 
@@ -44,9 +44,9 @@ When an admin filters to a subject with a live 360 cycle, they see:
 
 ## Download self-assessment and feedback provider response rate 
 
-During a live 360 cycle, an admin can check on the self-assessment and feeedback provide response rate for participants and download this information to a CSV file.
+During a live 360 cycle, an admin can check on the self-assessment and feedback provide response rate for participants and download this information to a CSV file.
 
-1. From the **All 360 Programs** page, select **Live Cycles**
+1. From the **All 360 Programs** page, select **Live Cycles**. 
 
    :::image type="content" source="../../media/glint/setup/live-cycles.png" alt-text="Screenshot of the All 360 Programs page.":::
 
@@ -143,3 +143,27 @@ For opted out subjects, the admin can:
 - See the opt-out date
 - Reopen and extend the 360 due date
 - Delete the subject from the cycle
+
+## Reset 360 feedback surveys
+
+While a 360 cycle is **live**, admins can reset surveys for subjects and feedback providers.
+
+> [!IMPORTANT]
+> The **Reset Survey** option removes all responses to a 360 feedback cycle for a subject or feedback provider and can't remove responses for only specific questions.
+
+### Subjects
+
+To reset a survey for a subject:
+
+1. Go to **Configuration** and select **360 Feedback Programs**.
+2. Select the 360 program and then choose the live cycle.
+3. Find the subject in the list of **Live Subjects**, select the ellipsis, and choose **Reset Survey** from the dropdown menu.
+
+### Feedback providers
+
+To reset a survey for a feedback provider:
+
+1. Go to **Configuration** and select **360 Feedback Programs**.
+2. Select the 360 program and then choose the live cycle.
+3. Find the subject in the list of **Live Subjects**, select the ellipsis, and choose **View/Edit Feedback Providers** from the dropdown menu.
+4. Find the feedback provider, select the ellipsis on the far right of their record, and choose **Reset Survey** from the menu.
