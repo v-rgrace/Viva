@@ -1,5 +1,5 @@
 ---
-title: Opt into external benchmarks
+title: Opt into Viva Glint external benchmarks
 description: Use Viva Glint external benchmarks to compare your feedback scores to other similar industry scores.
 ms.author: JudithWeiner
 author: JudyWeiner
@@ -14,10 +14,10 @@ search-appverid: MET150
 ms.topic: article
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 12/10/2024
+ms.date: 12/12/2024
 ---
 
-# Opt into external benchmarks
+# Opt into Viva Glint external benchmarks
 
 Viva Glint admins can opt into - *give consent to use* - external benchmarks. After doing so, they can select one or more of these benchmarks for managers to use when viewing reports.
 
