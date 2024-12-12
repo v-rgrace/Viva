@@ -24,7 +24,7 @@ search.appverid:
 
 Advanced analytics capabilities in Viva Engage enable the following scenarios:
 
-- Users can monitor their own engagement metrics through _personal_ and _Answers analytics_
+- All users can monitor their own engagement metrics through _personal_, _Answers_, and _Community analytics_
 - Leaders and their delegates can monitor engagement for their audiences through _audience analytics_
 - Corporate communicators and campaign coorganizers can manage campaign engagement through _campaign analytics_
 - Knowledge admins can monitor Answer engagement through global _Answers analytics_
@@ -57,6 +57,11 @@ Only users assigned the Network admin role can turn analytics features on or off
 
    [![Screenshot of settings to manage Analytics.](/Viva/media/engage/admin/analytics-admin-settings.png)](/Viva/media/engage/admin/analytics-admin-settings.png#lightbox)
 
+## Community analytics
+
+All licensed users have access to public community analytics, while only community members can see analytics for their private communities. Community admins and corporate communicators can view some advanced metrics, including time saved, people helped, and community optimizer tips.
+
+Engage network admins can adjust feature settings for community analytics by visiting the **Analytics and AI** page in the Engage admin center. 
 
 ## Manage AI Summarization in Microsoft 365
 
