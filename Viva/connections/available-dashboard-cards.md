@@ -45,6 +45,7 @@ Select a dashboard icon for more information.
 | [![Screenshots of the News card icon with a link to more information.](../media/connections/news-card-icon-no-border.png)](#add-the-news-card) |   Promote news from various sources that you wish to prominently display, including [boosted news from SharePoint.](https://support.microsoft.com/office/boost-news-from-organization-news-sites-46ad8dc5-8f3b-4d81-853d-8bbbdd0f9c83)     |
 | [![Screenshot of the OneDrive card icon with a link to more information.](../media/connections/create-dashboard/onedrive-card-icon-no-border.png)](#add-the-onedrive-card) |   View and access recent, shared, and favorite files from your OneDrive account. |
 | [![Screenshot of the People card icon with a link to more information.](../media/connections/people-card-icon-no-border.png)](#add-the-people-card) |   Provide an option to look up contact information and directly chat, email, or call with others in your organization. |
+| [![Screenshot of the Power apps icon with a link to more information.](../media/connections/available-dashboard-cards/powerapp-card-icon-no-border.png)](#add-the-power-apps-card) |   Design a lightweight card using your power apps account for simple tasks like checking sales requests, vacation requests, and more. |
 | [![Screenshot of the Quick links card icon with a link to more information.](../media/connections/create-dashboard/quick-links-card-icon-nb.png)](#add-the-quick-links-card) |   Provide list of relevant links or files to users selected by admins. |
 | [![Screenshot of the shifts card icon with a link to more information.](../media/connections/shifts-card-icon.png)](#add-the-shifts-card) | Display information about the next or current shift from the Shifts app in Teams. |
 | [![Screenshot of the Stream play list card icon with a link to more information.](../media/connections/create-dashboard/stream-playlist-card-icon-nb.png)](#add-the-stream-playlist-card) |   Display a list of videos to users that can be viewed in Microsoft Stream. |
@@ -283,6 +284,59 @@ The People Search card automatically retrieves contact information from members 
 5. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](create-dashboard.md#apply-audience-targeting-to-cards).
 
    :::image type="content" source="../media/connections/people-card-properties.png" alt-text="Screenshot of the People card properties pane.":::
+
+### Add the Power Apps card
+
+You can create a dashboard card using Power Apps for use in Viva Connections. Design a lightweight power app to check daily sales numbers, shipment requests, vacation requests then bring it into Viva Connections by pasting a URL.
+
+:::image type="content" source="../media/connections/available-dashboard-cards/powerapp-card-demo.png" alt-text="Screenshot showing the Power Apps card in action on the dashboard.":::
+
+> [!NOTE]
+>
+> - You will need a [Power Apps](/power-apps/powerapps-overview) account and have [created a card in Power Apps](/power-apps/cards/tutorials/hello-world-card) in order to bring one into Viva Connections.
+> - Only cards based on the [Dataverse connector](/power-apps/cards/make-a-card/connectors/connector-intro) are supported
+
+1. Access your [Power Apps account](https://make.powerapps.com/) to create your card. For more information about cards for Power Apps, see  [the overview documentation](/power-apps/cards/overview).
+
+2. After creating your Power App, select **Send** and choose **Enable card in Viva Connections**.
+
+   :::image type="content" source="../media/connections/available-dashboard-cards/enable-powerapp.png" alt-text="Screenshot highlighting the options to send and enable card in Viva Connections from your Power Apps account.":::
+
+3. When asked to Enable as a card in Viva Connections, select **Enable**.
+
+   > [!NOTE]
+   >
+   > If you are updating a Power App card that was previously enabled and added to Viva Connections, the new version will be auto updated in Viva Connections once enabled.
+
+4. Copy the **URL** for your card.
+
+5. Access your Viva Connections instance.
+
+6. While in edit mode, select **+ Add a card** from the dashboard.
+
+7. Select **Power Apps** from the dashboard toolbox.
+
+    :::image type="content" source="../media/connections/available-dashboard-cards/powerapp-card-icon-border.png" alt-text="Screenshot of the Power App card icon in the toolbox.":::
+
+8. Select the **edit pencil** to the left of the card to open the properties pane for the Power Apps card.
+
+9. In the property pane on the right, paste the URL from your created Power Apps card in the **Address** field.
+
+10. Enter a **Title** for the event card.
+
+11. Choose your card size from the **Card size** drop-down list.
+
+    :::image type="content" source="../media/connections/available-dashboard-cards/powerapp-card-properties-1.png" alt-text="Screenshot showing the top-half of the Power Apps properties pane.":::
+
+12. Enter a **Description** for your card.
+
+13. The **Button** can be toggled on and off. If enabled, enter a name in the **Label** field.
+
+14. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](create-dashboard#apply-audience-targeting-to-cards).
+
+    :::image type="content" source="../media/connections/available-dashboard-cards/powerapp-card-properties-2.png" alt-text="Screenshot showing the lower-half of the Power Apps properties pane.":::
+
+For more information, see the documentation on using [Power Apps](/power-apps/cards/tutorials/hello-world-card).
 
 ### Add the Quick links card
 
