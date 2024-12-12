@@ -44,7 +44,7 @@ Additionally, see the following GDPR information for specific apps:
 
 - Viva Connections and Viva Learning (SharePoint): [Safeguarding your SharePoint data](/sharepoint/safeguarding-your-data)
 - Viva Engage: [Manage GDPR data subject requests in Viva Engage](/viva/engage/manage-security-and-compliance/gdpr-requests-in-viva-engage-enterprise)
-- Viva Glint: [Set up a successfuly Works Council program](/viva/glint/setup/works-council
+- Viva Glint: [Set up a successful Works Council program](/viva/glint/setup/works-council)
 - Viva Goals: [Viva Goals security, privacy, and compliance](./goals/vg-privacy-and-security.md#viva-goals-gdpr-requests)
 - Viva Insights: [Personal Insights privacy guide](insights/personal/overview/privacy-guide-admins.md#gdpr-compliance)
 
