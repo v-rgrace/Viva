@@ -332,7 +332,7 @@ You can create a dashboard card using Power Apps for use in Viva Connections. De
 
 13. The **Button** can be toggled on and off. If enabled, enter a name in the **Label** field.
 
-14. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](create-dashboard#apply-audience-targeting-to-cards).
+14. To target your card to specific audiences (that is, the card only displays in the dashboard to the audience you specify), select one or more groups to target. For more information on audience targeting, see [Audience targeting](create-dashboard.md#apply-audience-targeting-to-cards).
 
     :::image type="content" source="../media/connections/available-dashboard-cards/powerapp-card-properties-2.png" alt-text="Screenshot showing the lower-half of the Power Apps properties pane.":::
 
