@@ -22,7 +22,7 @@ ms.date: 12/12/2024
 The Microsoft Viva Glint Response Rate report provides a deep dive into survey response rate trends and comparisons across hierarchies and key demographics. The report is available to anyone with Program Access and is viewable by admins after the survey launches. The Response Rate report is accessible through the Reports tab on the Viva Glint dashboard. 
 
   > [!NOTE]
-  > Viva Glint’s global industry average response rate is 75% and was last updated June 2022. 
+  > Viva Glint's global industry average response rate is 75% and was last updated June 2022. 
 
 ## Customize your report settings 
 
@@ -30,7 +30,7 @@ The Response Rate Historical Trend section shows the average response rate, the 
 
 - **Benchmark**: Provides a comparison point for feedback based on survey data compiled from all Viva Glint customers. Helpful for admins and first-time survey results analysis 
 - **Company**: Displays team scores in comparison to company-wide scores for the same questions. Helpful for users with more than one area of responsibility. 
-- **My Teams**: Compares a manager’s team score to an overall score derived from a filter. This data is the superset of access and is best used with custom access or managers with large organizations. 
+- **My Teams**: Compares a manager's team score to an overall score derived from a filter. This data is the superset of access and is best used with custom access or managers with large organizations. 
 - **Average Question**: Presents a single, overall score for all questions and respondents within your access. Helpful for users looking for some level of variance in their score. 
 
 ### Filter report settings 
@@ -77,7 +77,7 @@ The report can be exported as a PowerPoint, PDF, report to Images, or a spreadsh
 
 ### Share the Response Rate report with managers 
 
-1. Select **Share** from the Export dropdown menu. 
+1. Select **Share** from the **Export** dropdown menu. 
 2. Name the report in the window that displays. 
 3. Choose whether to use the latest data. 
 4. Select **Save**. 
