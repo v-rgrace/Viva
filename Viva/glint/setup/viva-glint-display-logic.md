@@ -63,7 +63,7 @@ Learn more about how to set up Display Logic with this video and the guidance in
 6. Select **Save Changes** in the top right of the Questions section in your survey program.
 7. [Preview your survey](preview-manage-enable-engage-programs.md) to see how different responses hide or display the item with Display Logic.
 
-   :::image type="content" source="../../media/glint/setup/glint-display-logic-pane-2.png" alt-text="Screenshot of display logic setup pane.":::
+   :::image type="content" source="../../media/glint/setup/edit-display-logic.png" alt-text="Screenshot of display logic setup pane.":::
 
    > [!IMPORTANT]
    > The first item in your survey can’t have display logic because logic is based on responses to previous survey items.
